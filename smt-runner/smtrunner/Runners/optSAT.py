@@ -6,35 +6,37 @@ from . RunnerBase import RunnerBaseClass
 _logger = logging.getLogger(__name__)
 
 
-class CVC4RunnerException(Exception):
+class goSATException(Exception):
 
     def __init__(self, msg):
         # pylint: disable=super-init-not-called
         self.msg = msg
 
 
-class CVC4Runner(RunnerBaseClass):
+class goSAT(RunnerBaseClass):
     def __init__(self, invocationInfo, workingDirectory, rc, ctx):
         # pylint: disable=too-many-branches
         _logger.debug('Initialising {}'.format(invocationInfo['benchmark']))
-        super(CVC4Runner, self).__init__(invocationInfo, workingDirectory, rc, ctx)
+        super(goSAT, self).__init__(invocationInfo, workingDirectory, rc, ctx)
 
     @property
     def name(self):
-        return "CVC4"
+        return "goSAT"
 
     def getResults(self):
-        r = super(CVC4Runner, self).getResults()
+        r = super(goSAT, self).getResults()
         return r
 
     def run(self):
         # Build the command line
         cmdLine = [self.toolPath] + self.additionalArgs
 
+        # Add the benchmark
+        cmdLine.append('-f')
         cmdLine.append(self.programPathArgument)
 
         backendResult = self.runTool(cmdLine)
         if backendResult.outOfTime:
             _logger.warning('Hard timeout hit')
 def get():
-    return CVC4Runner
+    return goSAT

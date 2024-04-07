@@ -21,14 +21,16 @@ def get_event_analyser_from_runner_name(name, *nargs, **kwargs):
          return ColibriRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'goSAT':
         return goSATRunnerEventAnalyser(*nargs, **kwargs)
+    if name == 'optSAT':
+        return optSATRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'XSat':
         return XSatRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'Coral':
         return CoralRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'JFS':
         return JFSRunnerEventAnalyser(*nargs, **kwargs)
-    if name == 'CVC4':
-        return CVC4RunnerEventAnalyser(*nargs, **kwargs)
+    if name == 'CVC5':
+        return CVC5RunnerEventAnalyser(*nargs, **kwargs)
     
     raise Exception('not implemented')
 
@@ -82,6 +84,10 @@ def merge_aggregate_events(events):
     # Handle mix of sat and gosat_unknown
     gosat_unknown_count = len(list(filter(lambda tag: tag == 'gosat_unknown', events)))
     if (gosat_unknown_count + sat_count) == len(events):
+        return ('sat', True)
+
+    optsat_unknown_count = len(list(filter(lambda tag: tag == 'optsat_unknown', events)))
+    if (optsat_unknown_count + sat_count) == len(events):
         return ('sat', True)
 
     # Handle mix of timeout and soft_timeout
@@ -697,6 +703,88 @@ class goSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
             self.error_unsupported_expression,
         ]
 
+class optSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
+    def __init__(self, *nargs, **kwargs):
+        super().__init__("optSAT", *nargs, **kwargs)
+
+    def error_generic_crash(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        # FIXME: The exit code is different depending on the backend
+        if ri['exit_code'] != 255 and geti.backend != 'Docker':
+            return None
+        if os.path.getsize(self.get_stdout_log_path(ri, wd_base)) == 0:
+            if os.path.getsize(self.get_stderr_log_path(ri, wd_base)) == 0:
+                return 'optsat_generic_crash'
+        return None
+
+    _RE_ASSERT_FAIL = re.compile(r'Assertion.+failed')
+
+    def error_assert_failed(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_ASSERT_FAIL.search(l)
+                if m:
+                    return 'optsat_assert_fail'
+        return None
+
+    _RE_UNCAUGHT_EXCEPTION = re.compile(r"terminate called after throwing an instance of")
+
+    def error_uncaught_exception(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_UNCAUGHT_EXCEPTION.search(l)
+                if m:
+                    return 'optsat_uncaught_exception'
+        return None
+
+    def result_unknown(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] != 0:
+            return None
+        # Check stderr is empty
+        stderr_path = self.get_stderr_log_path(ri, wd_base)
+        if os.path.getsize(stderr_path) != 0:
+            return None
+        if ri['sat'] == 'unknown':
+            return 'optsat_unknown'
+
+    _RE_UNSUPPORTED_EXPR = re.compile(r'^Unsupported expression')
+    def error_unsupported_expression(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_UNSUPPORTED_EXPR.match(l)
+                if m:
+                    return 'optsat_unsupported_expr'
+        return None
+
+
+    def get_solver_end_state_checker_fns(self):
+        # Child classes should override this
+        return [
+            self.error_generic_crash,
+            self.error_assert_failed,
+            self.error_uncaught_exception,
+            self.result_unknown,
+            self.error_unsupported_expression,
+        ]
+
 class ColibriRunnerEventAnalyser(GenericRunnerEventAnalyser):
     def __init__(self, *nargs, **kwargs):
         super().__init__("Colibri", *nargs, **kwargs)
@@ -945,9 +1033,9 @@ class XSatRunnerEventAnalyser(GenericRunnerEventAnalyser):
         ]
 
 
-class CVC4RunnerEventAnalyser(GenericRunnerEventAnalyser):
+class CVC5RunnerEventAnalyser(GenericRunnerEventAnalyser):
     def __init__(self, *nargs, **kwargs):
-        super().__init__("CVC4", *nargs, **kwargs)
+        super().__init__("CVC5", *nargs, **kwargs)
 
     _RE_UNIMP_FP_LIT = re.compile(r'Floating-point literals not yet implemented')
     def _error_unimplement_fp_literals(self, geti):
@@ -959,7 +1047,7 @@ class CVC4RunnerEventAnalyser(GenericRunnerEventAnalyser):
             for l in f.readlines():
                 m = self._RE_UNIMP_FP_LIT.search(l)
                 if m:
-                    return 'cvc4_not_implemented_fp_literal'
+                    return 'cvc5_not_implemented_fp_literal'
 
     _RE_FREE_SORT_SYM_NOT_ALLOWED = re.compile(r'Free sort symbols not allowed in QF_FP')
 
@@ -967,7 +1055,7 @@ class CVC4RunnerEventAnalyser(GenericRunnerEventAnalyser):
         return self._exit_and_search_stdout_regex(
             geti,
             self._RE_FREE_SORT_SYM_NOT_ALLOWED,
-            'cvc4_free_sort_sym_not_allowed_in_qf_fp',
+            'cvc5_free_sort_sym_not_allowed_in_qf_fp',
             search=True,
             exit_code_neq=0
         )
@@ -977,17 +1065,17 @@ class CVC4RunnerEventAnalyser(GenericRunnerEventAnalyser):
         return self._exit_and_search_stdout_regex(
             geti,
             self._RE_BACKSLASH_IN_QUOTED_SYM_NOT_ALLOWED,
-            'cvc4_backlash_in_quoted_symbol_not_allowed',
+            'cvc5_backlash_in_quoted_symbol_not_allowed',
             search=True,
             exit_code_neq=0
         )
 
-    _RE_CVC4_SEGFAULT_HANDLER = re.compile(r'CVC4 suffered a segfault')
-    def _error_cvc4_segfault(self, geti):
+    _RE_CVC5_SEGFAULT_HANDLER = re.compile(r'CVC5 suffered a segfault')
+    def _error_cvc5_segfault(self, geti):
         return self._exit_and_search_stderr_regex(
             geti,
-            self._RE_CVC4_SEGFAULT_HANDLER,
-            'cvc4_segfault',
+            self._RE_CVC5_SEGFAULT_HANDLER,
+            'cvc5_segfault',
             search=True,
             exit_code_neq=0
         )
@@ -998,6 +1086,6 @@ class CVC4RunnerEventAnalyser(GenericRunnerEventAnalyser):
             self._error_unimplement_fp_literals,
             self._error_free_sort_sym_not_allowed,
             self._error_backlash_in_quoted_sym_not_allowed,
-            self._error_cvc4_segfault,
+            self._error_cvc5_segfault,
         ]
 

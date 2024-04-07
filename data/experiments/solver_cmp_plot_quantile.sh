@@ -45,25 +45,26 @@ if [ "${bset}" = "qf_fp" ]; then
     colibri \
     coral_avm \
     coral_pso \
-    cvc4 \
+    cvc5 \
     gosat \
+    optsat \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     xsat \
     z3 \
     portfolio_jfs_mathsat5 \
   )
-  LEGEND_NAMES='["COLIBRI", "CORAL-AVM", "CORAL-PSO", "CVC4", "goSAT", "JFS", "MathSAT5", "XSat", "Z3", "JFS+MathSAT5"]'
+  LEGEND_NAMES='["COLIBRI", "CORAL-AVM", "CORAL-PSO", "CVC5", "goSAT", "optSAT", "JFS", "MathSAT5", "XSat", "Z3", "JFS+MathSAT5"]'
 else
   SOLVER_NAMES=( \
     colibri \
-    cvc4 \
+    cvc5 \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     z3 \
     portfolio_jfs_mathsat5 \
   )
-  LEGEND_NAMES='["COLIBRI", "CVC4",  "JFS", "MathSAT5",  "Z3", "JFS+MathSAT5"]'
+  LEGEND_NAMES='["COLIBRI", "CVC5",  "JFS", "MathSAT5",  "Z3", "JFS+MathSAT5"]'
 fi
 
 SOLVER_FILES=()

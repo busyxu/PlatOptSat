@@ -41,8 +41,9 @@ if [ "${bset}" = "qf_fp" ]; then
     colibri \
     coral_avm \
     coral_pso \
-    cvc4 \
+    cvc5 \
     gosat \
+    optsat \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     xsat \
@@ -52,7 +53,7 @@ if [ "${bset}" = "qf_fp" ]; then
 else
   SOLVER_NAMES=( \
     colibri \
-    cvc4 \
+    cvc5 \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     z3 \

@@ -1,5 +1,5 @@
 misc:
-  runner: CVC4
+  runner: CVC5
 results:
 - backend_timeout:
   - false

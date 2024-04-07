@@ -10,8 +10,9 @@ solvers=( \
   colibri \
   coral_pso \
   coral_avm \
-  cvc4 \
+  cvc5 \
   gosat \
+  optsat \
   jfs_lf_fail_fast \
   jfs_lf_fail_fast_smart_seeds \
   jfs_pf_fail_fast \
@@ -33,11 +34,13 @@ fi
 
 # Benchmark sets to use.
 # See `get_invocation_info()` for valid benchmark sets.
-bsets=(qf_fp qf_bvfp qf_bv)
+#bsets=(qf_fp qf_bvfp qf_bv)
+bsets=(qf_fp)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
-ns=(0 1 2 3)
+#ns=(0 1 2 3)
+ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
@@ -132,8 +135,8 @@ function get_solver_config() {
         ;;
       esac
     ;;
-    cvc4)
-      echo "${CONFIG_ROOT}/cvc4_docker_generic.yml"
+    cvc5)
+      echo "${CONFIG_ROOT}/cvc5_docker_generic.yml"
     ;;
     jfs_validate_lf_fail_fast_smart_seeds)
       echo "${CONFIG_ROOT}/model_validate/jfs_lf_fail_fast_smart_seeds_validate_model_docker_generic.yml"
@@ -179,6 +182,20 @@ function get_solver_config() {
         ;;
         qf_fp)
           echo "${CONFIG_ROOT}/gosat_docker_generic.yml"
+        ;;
+        *)
+          echo "Unrecognised bset \"${bset}\""
+          exit 1
+      esac
+    ;;
+    optsat)
+      case "${bset}" in
+        qf_bv|qf_bvfp)
+          # Not supported by goSAT.
+          echo "SKIP"
+        ;;
+        qf_fp)
+          echo "${CONFIG_ROOT}/optsat_docker_generic.yml"
         ;;
         *)
           echo "Unrecognised bset \"${bset}\""
@@ -240,14 +257,17 @@ function get_solver_name() {
     gosat)
       echo "goSAT"
     ;;
+    optsat)
+      echo "optSAT"
+    ;;
     coral_pso)
       echo "CORAL-PSO"
     ;;
     coral_avm)
       echo "CORAL-AVM"
     ;;
-    cvc4)
-      echo "CVC4"
+    cvc5)
+      echo "CVC5"
     ;;
     portfolio_jfs_mathsat5)
       echo "JFS+MathSAT5"
