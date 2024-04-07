@@ -1,0 +1,29 @@
+FROM jfs_build_base:ubuntu1804
+LABEL maintainer "a@a.com"
+RUN sudo apt-get update
+
+# Install LLVM 6.0
+RUN mkdir -p /home/user/llvm-6
+ADD /llvm-6 /home/user/llvm-6
+ADD /build_llvm-6.sh /home/user
+RUN cd /home/user/ && ./build_llvm-6.sh
+
+# Build Z3 4.6.2
+RUN mkdir -p /home/user/z3-4.6.2
+ADD /z3-4.6.2 /home/user/z3-4.6.2
+ADD /build_z3-4.6.2.sh /home/user
+RUN cd /home/user/ && ./build_z3-4.6.2.sh
+
+# Install NLopt
+RUN mkdir -p /home/user/nlopt2
+ADD /nlopt2 /home/user/nlopt2
+ADD /build_nlopt2.sh /home/user/
+RUN cd /home/user/
+RUN ./build_nlopt2.sh
+
+# Build optsat
+RUN mkdir -p /home/user/optsat
+ADD /optsat /home/user/optsat
+ADD /optsat_build.sh /home/user/
+RUN cd /home/user/
+RUN ./optsat_build.sh

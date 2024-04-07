@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 DEFAULT_VERSION="4.6"
 
-BASE_TAG="jfs_build_base:ubuntu1604"
+BASE_TAG="jfs_build_base:ubuntu1804"
 
 function usage() {
   echo "$0 <version>"
@@ -27,21 +27,21 @@ BUILD_OPTS=()
 case "${version}" in
   4.5)
     # Keep legacy tag name
-    FINAL_TAG="z3_build:ubuntu1604"
+    FINAL_TAG="z3_build:ubuntu1804"
     BUILD_OPTS+=( \
       "--build-arg" \
       "Z3_GIT_REVISION=d57a2a6dce9291acf9c71a561252f3e133f0c894" \
     )
     ;;
   4.6)
-    FINAL_TAG="z3_build:ubuntu1604_4_6_0"
+    FINAL_TAG="z3_build:ubuntu1804_4_6_0"
     BUILD_OPTS+=( \
       "--build-arg" \
       "Z3_GIT_REVISION=z3-4.6.0" \
     )
     ;;
   4.7.1)
-    FINAL_TAG="z3_build:ubuntu1604_4_7_1"
+    FINAL_TAG="z3_build:ubuntu1804_4_7_1"
     BUILD_OPTS+=( \
       "--build-arg" \
       "Z3_GIT_REVISION=z3-4.7.1" \
@@ -59,7 +59,7 @@ set -x
 
 DOCKER_MAJOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\1/')
 DOCKER_MINOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\2/')
-DOCKER_BUILD_FILE="${SCRIPT_DIR}/z3_build_ubuntu_16.04.Dockerfile"
+DOCKER_BUILD_FILE="${SCRIPT_DIR}/z3_build_ubuntu_18.04.Dockerfile"
 
 if [ "${DOCKER_MAJOR_VERSION}${DOCKER_MINOR_VERSION}" -lt 1705 ]; then
   # Workaround limitation in older Docker versions where the FROM

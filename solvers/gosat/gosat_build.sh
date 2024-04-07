@@ -7,6 +7,11 @@ set -e
 : ${GOSAT_SRC_DIR?"GOSAT_SRC_DIR must be specified"}
 : ${GOSAT_BUILD_DIR?"GOSAT_BUILD_DIR must be specified"}
 
+
+# add by yx
+git config --global http.proxy socks5://192.168.57.1:10808
+git config --global https.proxy socks5://192.168.57.1:10808
+
 git clone "${GOSAT_GIT_URL}" "${GOSAT_SRC_DIR}"
 cd "${GOSAT_SRC_DIR}"
 git checkout "${GOSAT_GIT_REVISION}"

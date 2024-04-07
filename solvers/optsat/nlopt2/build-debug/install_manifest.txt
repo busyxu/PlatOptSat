@@ -1,0 +1,14 @@
+/home/aaa/fp-solver/nlopt2/install/lib/pkgconfig/nlopt.pc
+/home/aaa/fp-solver/nlopt2/install/include/nlopt.h
+/home/aaa/fp-solver/nlopt2/install/include/nlopt.hpp
+/home/aaa/fp-solver/nlopt2/install/include/nlopt.f
+/home/aaa/fp-solver/nlopt2/install/lib/libnlopt.so.0.11.1
+/home/aaa/fp-solver/nlopt2/install/lib/libnlopt.so.0
+/home/aaa/fp-solver/nlopt2/install/lib/libnlopt.so
+/home/aaa/fp-solver/nlopt2/install/lib/cmake/nlopt/NLoptLibraryDepends.cmake
+/home/aaa/fp-solver/nlopt2/install/lib/cmake/nlopt/NLoptLibraryDepends-debug.cmake
+/home/aaa/fp-solver/nlopt2/install/lib/cmake/nlopt/NLoptConfig.cmake
+/home/aaa/fp-solver/nlopt2/install/lib/cmake/nlopt/NLoptConfigVersion.cmake
+/home/aaa/fp-solver/nlopt2/install/share/man/man3/nlopt.3
+/home/aaa/fp-solver/nlopt2/install/share/man/man3/nlopt_minimize.3
+/home/aaa/fp-solver/nlopt2/install/share/man/man3/nlopt_minimize_constrained.3
