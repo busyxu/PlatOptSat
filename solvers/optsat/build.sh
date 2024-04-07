@@ -29,8 +29,8 @@ else
   )
 fi
 
-# Urgh: Docker doesn't support symlinks so we have to copy here first
-cp ../z3/build_z3.sh ./
+## Urgh: Docker doesn't support symlinks so we have to copy here first
+#cp ../z3/build_z3.sh ./
 
 docker build \
   -t "${FINAL_TAG}" \
