@@ -25,7 +25,7 @@ for bset in ${bsets[@]}; do
       fi
       echo "Processing ${solver} run ${n} for ${bset}"
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
-        ${SMT_RUNNER_ROOT}/tools/result-info-extract-stat-shim-wallclock.py \
+        python3 ${SMT_RUNNER_ROOT}/tools/result-info-extract-stat-shim-wallclock.py \
           ${RESULT_DIR}/output_with_sat.yml \
           --base "${RESULT_DIR}/wd" \
           -o ${RESULT_DIR}/output_with_sat_dsoes.yml 2>&1 | \

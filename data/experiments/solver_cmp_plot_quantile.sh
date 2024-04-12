@@ -72,7 +72,7 @@ for f in ${SOLVER_NAMES[@]}; do
   SOLVER_FILES+=("${DIR_PREFIX}/${f}/output_merged.yml")
 done
 
-"${TOOL}" \
+python3 "${TOOL}" \
   "${TOOL_OPTS[@]}" \
   --legend-name-map <( echo "${LEGEND_NAMES}" ) \
   "${SOLVER_FILES[@]}"

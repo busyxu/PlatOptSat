@@ -760,7 +760,7 @@ class optSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
         if ri['sat'] == 'unknown':
             return 'optsat_unknown'
 
-    _RE_UNSUPPORTED_EXPR = re.compile(r'^Unsupported expression')
+    _RE_UNSUPPORTED_EXPR = re.compile(r'^(Unsupported expression|unsupported:)')
     def error_unsupported_expression(self, geti):
         ri = geti.ri
         wd_base = geti.wd_base

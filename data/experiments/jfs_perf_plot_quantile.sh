@@ -56,7 +56,7 @@ else
   LEGEND_NAMES='["JFS-NR", "JFS-LF-NS", "JFS-LF-SS"]'
 fi
 
-"${TOOL}" \
+python3 "${TOOL}" \
   "${TOOL_OPTS[@]}" \
   --legend-name-map <( echo "${LEGEND_NAMES}" ) \
   "${DIR_PREFIX}/jfs_pf_fail_fast/output_merged.yml" \

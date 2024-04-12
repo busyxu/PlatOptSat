@@ -51,7 +51,7 @@ solverYName="$(get_solver_name "${solverY}")"
 TOOL_OPTS+=(--xlabel "${solverXName}")
 TOOL_OPTS+=(--ylabel "${solverYName}")
 
-"${TOOL}" \
+python3 "${TOOL}" \
   "${TOOL_OPTS[@]}" \
   "${DIR_PREFIX}/${solverX}/output_merged.yml" \
   "${DIR_PREFIX}/${solverY}/output_merged.yml" \

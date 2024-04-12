@@ -84,7 +84,7 @@ NLoptOptimizer::optimize
     nlopt_set_stopval(opt, 0);
 //    nlopt_set_xtol_rel(opt, Config.RelTolerance);
 //    nlopt_set_maxeval(opt, Config.MaxEvalCount);
-    nlopt_set_maxtime(opt, 30);//60s
+    nlopt_set_maxtime(opt, 60);//60s
     nlopt_set_population(opt, 200);
 //    nlopt_set_maxtime(opt, 90);//30s
 //    nlopt_set_population(opt, 300);

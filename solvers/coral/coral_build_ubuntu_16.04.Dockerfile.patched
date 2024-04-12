@@ -1,5 +1,4 @@
-ARG BASE_IMAGE
-FROM ${BASE_IMAGE}
+FROM coral_build_base:ubuntu1604
 LABEL maintainer "a@a.com"
 RUN sudo apt-get update
 
@@ -20,7 +19,7 @@ RUN cd /home/user/z3 && \
 
 RUN sudo apt-get update && \
   sudo apt-get -y install --no-install-recommends \
-    openjdk-8-jre-headless \
+    default-jre \
     llvm-5.0-tools \
     python3-pip && \
   sudo ln -s /usr/bin/FileCheck-5.0 /usr/bin/FileCheck && \

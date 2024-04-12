@@ -33,7 +33,7 @@ for bset in ${bsets[@]}; do
         continue
       fi
       echo "Processing ${solver} run ${n} for ${bset}"
-      ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-fuzzing-throughput.py  \
+      python3 ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-fuzzing-throughput.py  \
         ${INPUT_FILE} \
         --wd-base "${RESULT_DIR}/wd" \
         --timeout 900 \

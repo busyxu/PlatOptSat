@@ -50,7 +50,7 @@ for other_solver in ${OTHER_SOLVERS[@]}; do
       output_dir="${MERGED_DIR}/${bset}/portfolio_jfs_${other_solver}"
       mkdir -p "${output_dir}"
       output_file="${output_dir}/output_merged.yml"
-      "${TOOL}" \
+      python3 "${TOOL}" \
         "${TOOL_OPTS[@]}" \
         --log-file "${output_dir}/console.log" \
         ${JFS_SOLVER_INPUT} \

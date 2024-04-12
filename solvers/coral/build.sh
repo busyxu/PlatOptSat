@@ -7,6 +7,9 @@ ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 BASE_TAG="jfs_build_base:ubuntu1804"
 FINAL_TAG="coral_build:ubuntu1804"
 
+## Build base that we can use for other tools
+#docker build -t "${BASE_TAG}" - < "${SCRIPT_DIR}/coral_base_ubuntu_16.04.Dockerfile"
+
 DOCKER_MAJOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\1/')
 DOCKER_MINOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\2/')
 DOCKER_BUILD_FILE="${SCRIPT_DIR}/coral_build_ubuntu_18.04.Dockerfile"

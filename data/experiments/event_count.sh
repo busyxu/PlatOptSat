@@ -27,6 +27,6 @@ if [ ! -d "${OUTPUT_DIR}" ]; then
   exit 1
 fi
 
-"${EVENT_COUNT_TOOL}" \
+python3 "${EVENT_COUNT_TOOL}" \
   "${OUTPUT_DIR}/output_with_sat.yml" \
   --wd-base "${OUTPUT_DIR}/wd" "${EVENT_COUNT_EXTRA_ARGS[@]}" "${@}"

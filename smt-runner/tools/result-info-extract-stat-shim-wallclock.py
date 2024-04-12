@@ -42,14 +42,14 @@ def get_satisfiability_result(r, base_path):
         _logger.error('"{}" does not exist'.format(full_path))
         raise Exception('missing file')
     sat = 'unknown'
-    with open(full_path, 'r') as f:
-        first_line = f.readline()
+    with open(full_path, 'r') as f_sat:
+        first_line = f_sat.readline()
         _logger.debug('Got first line \"{}\"'.format(first_line))
         m = _RE_SAT_RESPONCE.match(first_line)
         if m:
             sat = m.group(1)
         else:
-            _logger.warning('Failed to read sat result from "{}"'.format(f.name))
+            _logger.warning('Failed to read sat result from "{}"'.format(f_sat.name))
             _fail_count += 1
     r_copy = r.copy()
     r_copy['sat'] = sat
@@ -69,8 +69,8 @@ def get_dsoes_wallclock_time_result(r, base_path):
         _fail_count += 1
         return r_copy
     try:
-        with open(exit_stats_file_path, 'r') as f:
-            stats = json.load(f)
+        with open(exit_stats_file_path, 'r') as f_time:
+            stats = json.load(f_time)
             dsoes_wallclock_time = stats["wall_time"] / (10**9)
             r_copy['dsoes_wallclock_time'] = dsoes_wallclock_time
     except Exception as e:

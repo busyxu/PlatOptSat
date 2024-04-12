@@ -32,7 +32,7 @@ for bset in ${bsets[@]}; do
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
         mkdir -p "${RESULT_DIR}"
 
-        ${TEST} "${EXTRACT_TOOL}" \
+        ${TEST} python3 "${EXTRACT_TOOL}" \
           -o "${RESULT_DIR}/output_with_sat.yml" \
           --base "${RESULT_DIR}/wd" \
           "${RESULT_DIR}/output.yml" 2>&1 | tee -i "${RESULT_DIR}/extract_sat.console.log"

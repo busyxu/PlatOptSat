@@ -20,7 +20,7 @@ smt-runner also has a bunch of external python dependencies to install
 them run
 
 ```
-pip install --user -r requirements.txt
+pip3 install --user -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
 
 You can also use `virtualenv` to avoid installing globally or in
@@ -29,7 +29,7 @@ your user directory.
 ```
 virtualenv venv
 source venv/bin/activate
-pip install -r requirements.txt
+pip3 install -i https://pypi.tuna.tsinghua.edu.cn/simple -r requirements.txt
 ```
 
 You may need to tweak the dependencies a bit dependening on your

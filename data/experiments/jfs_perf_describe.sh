@@ -46,7 +46,7 @@ else
   echo "Nothing to add"
 fi
 
-"${TOOL}" \
+python3 "${TOOL}" \
   "${TOOL_OPTS[@]}" \
   "${DIR_PREFIX}/jfs_lf_fail_fast_smart_seeds/output_merged.yml" \
   "${DIR_PREFIX}/jfs_pf_fail_fast/output_merged.yml" \

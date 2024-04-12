@@ -24,8 +24,8 @@ BATCH_RUNNER="${SMT_RUNNER_ROOT}/batch-runner.py"
 
 
 # FIXME: Remove the echo
-TEST="echo"
-#TEST=""
+#TEST="echo"
+TEST=""
 START_TIME="$(date +%s)"
 
 TASK_SET_CMD=()
@@ -34,6 +34,8 @@ if [ "${USE_SCRIPT_CPU_PIN}" -eq 1 ]; then
 fi
 
 mkdir -p "${BASE_DIR}"
+
+export PYTHONPATH=/usr/bin/python3.6/site-packages/yaml:$PYTHONPATH
 
 for bset in ${bsets[@]}; do
   for n in ${ns[@]}; do
@@ -68,6 +70,15 @@ for bset in ${bsets[@]}; do
         fi
 
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
+        if [ -d "${RESULT_DIR}" ]; then
+          # 如果结果目录存在，则检查输出文件是否存在
+          if [ -f "${RESULT_DIR}/output.yml" ]; then
+            echo "Output file already exists for ${solver} run ${n} on ${bset}, skipping..."
+            continue
+          fi
+          # 删除结果目录中的所有内容
+          rm -rf "${RESULT_DIR}"
+        fi
         mkdir -p "${RESULT_DIR}"
         if [ "${USE_DISK_CACHE_FLUSH}" -eq 1 ]; then
           # To try to prevent disk cache from skewing execution times clear disk cache
@@ -82,7 +93,7 @@ for bset in ${bsets[@]}; do
         # but that's removed for the artifact so that its
         # easier to reproduce experiments.
         # ${TEST} taskset --cpu-list 0-2 "${BATCH_RUNNER}" \
-        ${TEST} "${BATCH_RUNNER}" \
+        ${TEST} python3 "${BATCH_RUNNER}" \
           -j${JOBS} \
           --benchmark-base "${BENCHMARK_BASE}" \
           --log-show-src-locs \
@@ -96,4 +107,4 @@ done
 
 END_TIME="$(date +%s)"
 echo "Total time to run"
-python -c "import datetime; print(datetime.timedelta(seconds=(${END_TIME} - ${START_TIME})))"
+python3 -c "import datetime; print(datetime.timedelta(seconds=(${END_TIME} - ${START_TIME})))"

@@ -40,7 +40,7 @@ bsets=(qf_fp)
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
 #ns=(0 1 2 3)
-ns=(0)
+ns=(0 1)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"

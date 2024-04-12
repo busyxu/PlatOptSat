@@ -45,12 +45,12 @@ mkdir -p "${Z3_SRC_DIR}"
 # add by yx
 git config --global http.proxy socks5://192.168.57.1:10808
 git config --global https.proxy socks5://192.168.57.1:10808
-#git config --global user.email "you@example.com"
-#git config --global user.name "yangxu"
+git config --global user.email "you@example.com"
+git config --global user.name "yangxu"
 
 git clone "${Z3_GIT_URL}" "${Z3_SRC_DIR}"
 cd "${Z3_SRC_DIR}"
-# add by yx
+## add by yx
 #git add .
 #git commit -m "Committing changes before switching branches"
 git checkout "${Z3_GIT_REVISION}"

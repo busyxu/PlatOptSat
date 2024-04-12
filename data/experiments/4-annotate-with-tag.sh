@@ -24,7 +24,7 @@ for bset in ${bsets[@]}; do
       fi
       echo "Processing ${solver} run ${n} for ${bset}"
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
-        ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-event.py  \
+        python3 ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-event.py  \
           ${RESULT_DIR}/output_with_sat_dsoes.yml \
           --timeout 900 \
           --use-dsoes-wallclock-time \

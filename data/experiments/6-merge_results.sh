@@ -42,7 +42,7 @@ for bset in ${bsets[@]}; do
     done
     MERGE_OUTPUT_DIR="${MERGED_DIR}/${bset}/${solver}"
     mkdir -p "${MERGE_OUTPUT_DIR}"
-    ${SMT_RUNNER_ROOT}/tools/result-info-merge.py \
+    python3 ${SMT_RUNNER_ROOT}/tools/result-info-merge.py \
       "${yaml_output_files[@]}" \
       -o "${MERGE_OUTPUT_DIR}/output_merged.yml" \
       --wd-bases "${wd_base_dirs[@]}" \
