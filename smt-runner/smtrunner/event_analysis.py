@@ -31,6 +31,8 @@ def get_event_analyser_from_runner_name(name, *nargs, **kwargs):
         return JFSRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'CVC5':
         return CVC5RunnerEventAnalyser(*nargs, **kwargs)
+    if name == 'Bitwuzla':
+        return BitwuzlaRunnerEventAnalyser(*nargs, **kwargs)
     
     raise Exception('not implemented')
 
@@ -1087,5 +1089,34 @@ class CVC5RunnerEventAnalyser(GenericRunnerEventAnalyser):
             self._error_free_sort_sym_not_allowed,
             self._error_backlash_in_quoted_sym_not_allowed,
             self._error_cvc5_segfault,
+        ]
+
+
+class BitwuzlaRunnerEventAnalyser(GenericRunnerEventAnalyser):
+    def __init__(self, *nargs, **kwargs):
+        super().__init__("Bitwuzla", *nargs, **kwargs)
+
+    _RE_UNIMP_FP_LIT = re.compile(r'Floating-point literals not yet implemented')
+    def _error_unimplement_fp_literals(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 10:
+            if ri['sat'] == 'sat':
+                if ri['expected_sat'] == 'unsat':
+                    return 'sat_but_expected_unsat'
+                return 'sat'
+            if ri['sat'] == 'unsat':
+                if ri['expected_sat'] == 'sat':
+                    return 'unsat_but_expected_sat'
+                return 'unsat'
+        if ri['exit_code'] == 1:
+            return "unknown"
+        if ri['exit_code'] == 'null':
+            return "time_out"
+
+    def get_solver_end_state_checker_fns(self):
+        # Child classes should override this
+        return [
+            self._error_unimplement_fp_literals,
         ]
 

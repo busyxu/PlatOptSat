@@ -36,7 +36,7 @@ for bset in ${bsets[@]}; do
       python3 ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-fuzzing-throughput.py  \
         ${INPUT_FILE} \
         --wd-base "${RESULT_DIR}/wd" \
-        --timeout 900 \
+        --timeout 60 \
         --use-dsoes-wallclock-time \
         --output ${OUTPUT_FILE}  2>&1 | \
           tee -i ${RESULT_DIR}/console_annotate_with_fuzzing_throughtput.log

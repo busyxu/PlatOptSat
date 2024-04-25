@@ -42,6 +42,7 @@ if [ "${bset}" = "qf_fp" ]; then
     coral_avm \
     coral_pso \
     cvc5 \
+    bitwuzla \
     gosat \
     optsat \
     jfs_lf_fail_fast_smart_seeds \
@@ -49,16 +50,17 @@ if [ "${bset}" = "qf_fp" ]; then
     xsat \
     z3 \
   )
-  TOOL_OPTS+=(--index-for-compute-sets 5)
+  TOOL_OPTS+=(--index-for-compute-sets 7)
 else
   SOLVER_NAMES=( \
     colibri \
     cvc5 \
+    bitwuzla \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     z3 \
   )
-  TOOL_OPTS+=(--index-for-compute-sets 2)
+  TOOL_OPTS+=(--index-for-compute-sets 3)
 fi
 
 SOLVER_FILES=()

@@ -148,7 +148,7 @@ def main(args):
 
     # Generate scatter points
     x_scatter_points = []
-    x_scatter_errors = [[], [] ]
+    x_scatter_errors = [[], []]
     y_scatter_points = []
     y_scatter_errors = [[], []]
     count_dual_timeout = 0
@@ -289,8 +289,8 @@ def main(args):
     print("# of x = y and is timeout: {}".format(len(x_eq_y_and_is_timeout_keys)))
 
     # Now plot
-    extend = 100
-    tickFreq = 100
+    extend = 5 # modify yangxu
+    tickFreq = 5 # modify yangxu
     assert len(x_scatter_points) == len(y_scatter_points)
     fig, ax = plt.subplots()
     fig.patch.set_alpha(0.0) # Transparent
@@ -350,12 +350,12 @@ def main(args):
 
         ax.annotate(
             '{}'.format(x_lt_value_to_display),
-            xy=(200,550),
+            xy=(20,40),
             fontsize=40
         )
         ax.annotate(
             '{}'.format(x_gt_value_to_display),
-            xy=(550,200),
+            xy=(40,20),
             fontsize=40
         )
 

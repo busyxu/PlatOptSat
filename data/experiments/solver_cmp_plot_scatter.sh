@@ -35,7 +35,7 @@ solverY="${1}"
 shift
 
 TOOL_OPTS=( \
-  --max-exec-time 900 \
+  --max-exec-time 60 \
   --annotate \
   --true-type-fonts \
 )

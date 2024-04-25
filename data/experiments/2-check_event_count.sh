@@ -31,7 +31,7 @@ for bset in ${bsets[@]}; do
         set +e
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
         RESULT_NAME="${bset}/${solver}/${n}"
-        ${SCRIPT_DIR}/event_count.sh "${RESULT_DIR}" --timeout 900
+        ${SCRIPT_DIR}/event_count.sh "${RESULT_DIR}" --timeout 60
         if [ $? -ne 0 ]; then
           FAILS+=("${RESULT_NAME}")
         fi

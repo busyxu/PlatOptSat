@@ -26,7 +26,7 @@ for bset in ${bsets[@]}; do
         RESULT_DIR="${BASE_DIR}/${bset}/${solver}/${n}"
         python3 ${SMT_RUNNER_ROOT}/tools/result-info-annotate-with-event.py  \
           ${RESULT_DIR}/output_with_sat_dsoes.yml \
-          --timeout 900 \
+          --timeout 60 \
           --use-dsoes-wallclock-time \
           --wd-base "${RESULT_DIR}/wd" \
           --output ${RESULT_DIR}/output_with_sat_dsoes_tag.yml 2>&1 | \

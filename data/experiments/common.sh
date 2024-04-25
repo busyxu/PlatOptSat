@@ -7,17 +7,18 @@
 # List of solvers to use.
 # Look at `get_solver_config()` for the valid solver names.
 solvers=( \
-  colibri \
-  coral_pso \
-  coral_avm \
-  cvc5 \
-  gosat \
-  optsat \
-  jfs_lf_fail_fast \
-  jfs_lf_fail_fast_smart_seeds \
-  jfs_pf_fail_fast \
-  mathsat5 \
-  xsat \
+#  colibri \
+#  coral_pso \
+#  coral_avm \
+#  cvc5 \
+#  bitwuzla \
+#  gosat \
+#  optsat \
+#  jfs_lf_fail_fast \
+#  jfs_lf_fail_fast_smart_seeds \
+#  jfs_pf_fail_fast \
+#  mathsat5 \
+#  xsat \
   z3 \
 )
 
@@ -35,12 +36,12 @@ fi
 # Benchmark sets to use.
 # See `get_invocation_info()` for valid benchmark sets.
 #bsets=(qf_fp qf_bvfp qf_bv)
-bsets=(qf_fp)
+bsets=(qf_program_bfs)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
 #ns=(0 1 2 3)
-ns=(0 1)
+ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
@@ -68,7 +69,7 @@ function get_benchmark_base() {
   bset="$1"
   base_dir="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling/benchmarks/"
    case "${bset}" in
-     qf_fp|qf_bv)
+     qf_fp|qf_bv|qf_program_bfs)
        echo "${base_dir}"
      ;;
      qf_bvfp)
@@ -94,6 +95,9 @@ function get_invocation_info() {
     ;;
     qf_bv)
       echo "${INVOCATIONS_DIR}/qf_bv_filtered_final_ii.yml"
+    ;;
+    qf_program_bfs)
+      echo "${INVOCATIONS_DIR}/qf_program_bfs.yml"
     ;;
   *)
     echo "Unrecognised bset \"${bset}\""
@@ -137,6 +141,9 @@ function get_solver_config() {
     ;;
     cvc5)
       echo "${CONFIG_ROOT}/cvc5_docker_generic.yml"
+    ;;
+    bitwuzla)
+      echo "${CONFIG_ROOT}/bitwuzla_docker_generic.yml"
     ;;
     jfs_validate_lf_fail_fast_smart_seeds)
       echo "${CONFIG_ROOT}/model_validate/jfs_lf_fail_fast_smart_seeds_validate_model_docker_generic.yml"
@@ -268,6 +275,9 @@ function get_solver_name() {
     ;;
     cvc5)
       echo "CVC5"
+    ;;
+    bitwuzla)
+      echo "Bitwuzla"
     ;;
     portfolio_jfs_mathsat5)
       echo "JFS+MathSAT5"
