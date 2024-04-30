@@ -1,6 +1,5 @@
 CMakeFiles/nlopt2.dir/src/algs/luksan/pnet.c.o: \
- /home/aaa/fp-solver/nlopt2/src/algs/luksan/pnet.c \
- /usr/include/stdc-predef.h \
+ /home/aaa/nlopt2/src/algs/luksan/pnet.c /usr/include/stdc-predef.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/limits.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include-fixed/syslimits.h \
  /usr/include/limits.h \
@@ -52,9 +51,7 @@ CMakeFiles/nlopt2.dir/src/algs/luksan/pnet.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/aaa/fp-solver/nlopt2/src/algs/luksan/luksan.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
+ /usr/include/strings.h /home/aaa/nlopt2/src/algs/luksan/luksan.h \
+ /home/aaa/nlopt2/src/api/nlopt.h /home/aaa/nlopt2/src/util/nlopt-util.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h
+ /home/aaa/nlopt2/build-debug/nlopt_config.h

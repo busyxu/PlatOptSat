@@ -11,15 +11,15 @@ solvers=( \
 #  coral_pso \
 #  coral_avm \
 #  cvc5 \
-#  bitwuzla \
-#  gosat \
-#  optsat \
-#  jfs_lf_fail_fast \
+  bitwuzla \
+  gosat \
+  optsat \
+  jfs_lf_fail_fast \
 #  jfs_lf_fail_fast_smart_seeds \
 #  jfs_pf_fail_fast \
 #  mathsat5 \
 #  xsat \
-  z3 \
+#  z3 \
 )
 
 JFS_ENABLE_VALIDATION_VARIANTS="${JFS_ENABLE_VALIDATION_VARIANTS:-0}"
@@ -36,11 +36,12 @@ fi
 # Benchmark sets to use.
 # See `get_invocation_info()` for valid benchmark sets.
 #bsets=(qf_fp qf_bvfp qf_bv)
-bsets=(qf_program_bfs)
+bsets=(qf_fp qf_bvfp qf_program_bfs)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
 #ns=(0 1 2 3)
+#ns=(0 1)
 ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
@@ -88,7 +89,7 @@ function get_invocation_info() {
   bset="$1"
   case "${bset}" in
     qf_fp)
-      echo "${INVOCATIONS_DIR}/qf_fp_filtered_final_ii.yml"
+      echo "${INVOCATIONS_DIR}/qf_fp_filtered_final_3.yml"
     ;;
     qf_bvfp)
       echo "${INVOCATIONS_DIR}/qf_bvfp_filtered_final_ii.yml"
@@ -97,7 +98,7 @@ function get_invocation_info() {
       echo "${INVOCATIONS_DIR}/qf_bv_filtered_final_ii.yml"
     ;;
     qf_program_bfs)
-      echo "${INVOCATIONS_DIR}/qf_program_bfs.yml"
+      echo "${INVOCATIONS_DIR}/qf_program_filtered_1.yml"
     ;;
   *)
     echo "Unrecognised bset \"${bset}\""
@@ -130,7 +131,7 @@ function get_solver_config() {
         qf_bv)
           echo "${CONFIG_ROOT}/mathsat5_qf_bv_docker_generic.yml"
         ;;
-        qf_bvfp|qf_fp)
+        qf_bvfp|qf_fp|qf_program_bfs)
           echo "${CONFIG_ROOT}/mathsat5_qf_fp_qf_bvfp_docker_generic.yml"
         ;;
         *)
@@ -169,7 +170,7 @@ function get_solver_config() {
     ;;
     xsat)
       case "${bset}" in
-        qf_bv|qf_bvfp)
+        qf_bv|qf_bvfp|qf_program_bfs)
           # Not supported by XSat.
           echo "SKIP"
         ;;
@@ -183,11 +184,11 @@ function get_solver_config() {
     ;;
     gosat)
       case "${bset}" in
-        qf_bv|qf_bvfp)
+        qf_bv)
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp)
+        qf_fp|qf_bvfp|qf_program_bfs)
           echo "${CONFIG_ROOT}/gosat_docker_generic.yml"
         ;;
         *)
@@ -197,11 +198,11 @@ function get_solver_config() {
     ;;
     optsat)
       case "${bset}" in
-        qf_bv|qf_bvfp)
+        qf_bv)
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp)
+        qf_fp|qf_bvfp|qf_program_bfs)
           echo "${CONFIG_ROOT}/optsat_docker_generic.yml"
         ;;
         *)
@@ -211,7 +212,7 @@ function get_solver_config() {
     ;;
     coral_pso)
       case "${bset}" in
-        qf_bv|qf_bvfp)
+        qf_bv|qf_bvfp|qf_program_bfs)
           # Not supported by Coral.
           echo "SKIP"
         ;;
@@ -225,7 +226,7 @@ function get_solver_config() {
     ;;
     coral_avm)
       case "${bset}" in
-        qf_bv|qf_bvfp)
+        qf_bv|qf_bvfp|qf_program_bfs)
           # Not supported by Coral.
           echo "SKIP"
         ;;

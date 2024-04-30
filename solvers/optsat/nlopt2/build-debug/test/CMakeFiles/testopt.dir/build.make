@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaa/fp-solver/nlopt2
+CMAKE_SOURCE_DIR = /home/aaa/nlopt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaa/fp-solver/nlopt2/build-debug
+CMAKE_BINARY_DIR = /home/aaa/nlopt2/build-debug
 
 # Include any dependencies generated for this target.
 include test/CMakeFiles/testopt.dir/depend.make
@@ -72,58 +72,58 @@ include test/CMakeFiles/testopt.dir/flags.make
 test/CMakeFiles/testopt.dir/testfuncs.c.o: test/CMakeFiles/testopt.dir/flags.make
 test/CMakeFiles/testopt.dir/testfuncs.c.o: ../test/testfuncs.c
 test/CMakeFiles/testopt.dir/testfuncs.c.o: test/CMakeFiles/testopt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/testopt.dir/testfuncs.c.o"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/testfuncs.c.o -MF CMakeFiles/testopt.dir/testfuncs.c.o.d -o CMakeFiles/testopt.dir/testfuncs.c.o -c /home/aaa/fp-solver/nlopt2/test/testfuncs.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object test/CMakeFiles/testopt.dir/testfuncs.c.o"
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/testfuncs.c.o -MF CMakeFiles/testopt.dir/testfuncs.c.o.d -o CMakeFiles/testopt.dir/testfuncs.c.o -c /home/aaa/nlopt2/test/testfuncs.c
 
 test/CMakeFiles/testopt.dir/testfuncs.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testopt.dir/testfuncs.c.i"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/fp-solver/nlopt2/test/testfuncs.c > CMakeFiles/testopt.dir/testfuncs.c.i
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/nlopt2/test/testfuncs.c > CMakeFiles/testopt.dir/testfuncs.c.i
 
 test/CMakeFiles/testopt.dir/testfuncs.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testopt.dir/testfuncs.c.s"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/fp-solver/nlopt2/test/testfuncs.c -o CMakeFiles/testopt.dir/testfuncs.c.s
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/nlopt2/test/testfuncs.c -o CMakeFiles/testopt.dir/testfuncs.c.s
 
 test/CMakeFiles/testopt.dir/testopt.c.o: test/CMakeFiles/testopt.dir/flags.make
 test/CMakeFiles/testopt.dir/testopt.c.o: ../test/testopt.c
 test/CMakeFiles/testopt.dir/testopt.c.o: test/CMakeFiles/testopt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object test/CMakeFiles/testopt.dir/testopt.c.o"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/testopt.c.o -MF CMakeFiles/testopt.dir/testopt.c.o.d -o CMakeFiles/testopt.dir/testopt.c.o -c /home/aaa/fp-solver/nlopt2/test/testopt.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object test/CMakeFiles/testopt.dir/testopt.c.o"
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/testopt.c.o -MF CMakeFiles/testopt.dir/testopt.c.o.d -o CMakeFiles/testopt.dir/testopt.c.o -c /home/aaa/nlopt2/test/testopt.c
 
 test/CMakeFiles/testopt.dir/testopt.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testopt.dir/testopt.c.i"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/fp-solver/nlopt2/test/testopt.c > CMakeFiles/testopt.dir/testopt.c.i
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/nlopt2/test/testopt.c > CMakeFiles/testopt.dir/testopt.c.i
 
 test/CMakeFiles/testopt.dir/testopt.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testopt.dir/testopt.c.s"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/fp-solver/nlopt2/test/testopt.c -o CMakeFiles/testopt.dir/testopt.c.s
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/nlopt2/test/testopt.c -o CMakeFiles/testopt.dir/testopt.c.s
 
 test/CMakeFiles/testopt.dir/__/src/util/timer.c.o: test/CMakeFiles/testopt.dir/flags.make
 test/CMakeFiles/testopt.dir/__/src/util/timer.c.o: ../src/util/timer.c
 test/CMakeFiles/testopt.dir/__/src/util/timer.c.o: test/CMakeFiles/testopt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object test/CMakeFiles/testopt.dir/__/src/util/timer.c.o"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/__/src/util/timer.c.o -MF CMakeFiles/testopt.dir/__/src/util/timer.c.o.d -o CMakeFiles/testopt.dir/__/src/util/timer.c.o -c /home/aaa/fp-solver/nlopt2/src/util/timer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object test/CMakeFiles/testopt.dir/__/src/util/timer.c.o"
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/__/src/util/timer.c.o -MF CMakeFiles/testopt.dir/__/src/util/timer.c.o.d -o CMakeFiles/testopt.dir/__/src/util/timer.c.o -c /home/aaa/nlopt2/src/util/timer.c
 
 test/CMakeFiles/testopt.dir/__/src/util/timer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testopt.dir/__/src/util/timer.c.i"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/fp-solver/nlopt2/src/util/timer.c > CMakeFiles/testopt.dir/__/src/util/timer.c.i
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/nlopt2/src/util/timer.c > CMakeFiles/testopt.dir/__/src/util/timer.c.i
 
 test/CMakeFiles/testopt.dir/__/src/util/timer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testopt.dir/__/src/util/timer.c.s"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/fp-solver/nlopt2/src/util/timer.c -o CMakeFiles/testopt.dir/__/src/util/timer.c.s
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/nlopt2/src/util/timer.c -o CMakeFiles/testopt.dir/__/src/util/timer.c.s
 
 test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o: test/CMakeFiles/testopt.dir/flags.make
 test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o: ../src/util/mt19937ar.c
 test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o: test/CMakeFiles/testopt.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o -MF CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o.d -o CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o -c /home/aaa/fp-solver/nlopt2/src/util/mt19937ar.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o"
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o -MF CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o.d -o CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o -c /home/aaa/nlopt2/src/util/mt19937ar.c
 
 test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.i"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/fp-solver/nlopt2/src/util/mt19937ar.c > CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.i
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/aaa/nlopt2/src/util/mt19937ar.c > CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.i
 
 test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.s"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/fp-solver/nlopt2/src/util/mt19937ar.c -o CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.s
+	cd /home/aaa/nlopt2/build-debug/test && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/aaa/nlopt2/src/util/mt19937ar.c -o CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.s
 
 # Object files for target testopt
 testopt_OBJECTS = \
@@ -142,18 +142,18 @@ test/testopt: test/CMakeFiles/testopt.dir/__/src/util/mt19937ar.c.o
 test/testopt: test/CMakeFiles/testopt.dir/build.make
 test/testopt: libnlopt2.so.0.11.1
 test/testopt: test/CMakeFiles/testopt.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable testopt"
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testopt.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable testopt"
+	cd /home/aaa/nlopt2/build-debug/test && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testopt.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 test/CMakeFiles/testopt.dir/build: test/testopt
 .PHONY : test/CMakeFiles/testopt.dir/build
 
 test/CMakeFiles/testopt.dir/clean:
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/testopt.dir/cmake_clean.cmake
+	cd /home/aaa/nlopt2/build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/testopt.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/testopt.dir/clean
 
 test/CMakeFiles/testopt.dir/depend:
-	cd /home/aaa/fp-solver/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2/test /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug/test /home/aaa/fp-solver/nlopt2/build-debug/test/CMakeFiles/testopt.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaa/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/nlopt2 /home/aaa/nlopt2/test /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug/test /home/aaa/nlopt2/build-debug/test/CMakeFiles/testopt.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/testopt.dir/depend
 

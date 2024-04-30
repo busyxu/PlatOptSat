@@ -1,6 +1,6 @@
 test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o: \
- /home/aaa/fp-solver/nlopt2/test/t_tutorial.cxx \
- /usr/include/stdc-predef.h /usr/include/c++/7/iostream \
+ /home/aaa/nlopt2/test/t_tutorial.cxx /usr/include/stdc-predef.h \
+ /usr/include/c++/7/iostream \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -156,7 +156,6 @@ test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o: \
  /usr/include/c++/7/utility /usr/include/c++/7/bits/stl_relops.h \
  /usr/include/c++/7/tuple /usr/include/c++/7/array \
  /usr/include/c++/7/bits/uses_allocator.h \
- /usr/include/c++/7/bits/invoke.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt.hpp \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h /usr/include/c++/7/cstring \
+ /usr/include/c++/7/bits/invoke.h /home/aaa/nlopt2/build-debug/nlopt.hpp \
+ /home/aaa/nlopt2/src/api/nlopt.h /usr/include/c++/7/cstring \
  /usr/include/string.h /usr/include/strings.h

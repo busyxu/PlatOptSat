@@ -5,7 +5,7 @@ SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 
 BASE_TAG="jfs_build_base:ubuntu1804"
-FINAL_TAG="optsat_new_build:ubuntu1804"
+FINAL_TAG="optsat_build:ubuntu1804"
 
 DOCKER_MAJOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\1/')
 DOCKER_MINOR_VERSION=$(docker --version | sed 's/^Docker version \([0-9]\+\)\.\([0-9]\+\).*$/\2/')

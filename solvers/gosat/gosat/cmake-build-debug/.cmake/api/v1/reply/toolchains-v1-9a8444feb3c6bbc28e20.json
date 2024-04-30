@@ -1,0 +1,72 @@
+{
+	"kind" : "toolchains",
+	"toolchains" : 
+	[
+		{
+			"compiler" : 
+			{
+				"id" : "Clang",
+				"implicit" : 
+				{
+					"includeDirectories" : 
+					[
+						"/usr/include/c++/7.5.0",
+						"/usr/include/x86_64-linux-gnu/c++/7.5.0",
+						"/usr/include/c++/7.5.0/backward",
+						"/usr/local/include",
+						"/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include",
+						"/usr/include/x86_64-linux-gnu",
+						"/usr/include"
+					],
+					"linkDirectories" : 
+					[
+						"/usr/lib/gcc/x86_64-linux-gnu/7.5.0",
+						"/usr/lib/x86_64-linux-gnu",
+						"/lib/x86_64-linux-gnu",
+						"/lib64",
+						"/usr/lib",
+						"/home/aaa/fp-solver/llvm-6/build/lib",
+						"/lib"
+					],
+					"linkFrameworkDirectories" : [],
+					"linkLibraries" : 
+					[
+						"stdc++",
+						"m",
+						"gcc_s",
+						"gcc",
+						"c",
+						"gcc_s",
+						"gcc"
+					]
+				},
+				"path" : "/home/aaa/jfs/cmake-build-debug/runtime/bin/clang++",
+				"version" : "6.0.0"
+			},
+			"language" : "CXX",
+			"sourceFileExtensions" : 
+			[
+				"C",
+				"M",
+				"c++",
+				"cc",
+				"cpp",
+				"cxx",
+				"m",
+				"mm",
+				"mpp",
+				"CPP",
+				"ixx",
+				"cppm",
+				"ccm",
+				"cxxm",
+				"c++m"
+			]
+		}
+	],
+	"version" : 
+	{
+		"major" : 1,
+		"minor" : 0
+	}
+}

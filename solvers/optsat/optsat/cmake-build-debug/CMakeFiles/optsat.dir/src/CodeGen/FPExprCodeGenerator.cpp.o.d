@@ -1,8 +1,8 @@
 CMakeFiles/optsat.dir/src/CodeGen/FPExprCodeGenerator.cpp.o: \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprCodeGenerator.cpp \
+ /home/aaa/optsat/src/CodeGen/FPExprCodeGenerator.cpp \
  /usr/include/stdc-predef.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprCodeGenerator.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/CodeGen.h \
+ /home/aaa/optsat/src/CodeGen/FPExprCodeGenerator.h \
+ /home/aaa/optsat/src/CodeGen/CodeGen.h \
  /home/aaa/fp-solver/z3-4.6.2/install/include/z3++.h \
  /usr/include/c++/7/cassert \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -169,8 +169,8 @@ CMakeFiles/optsat.dir/src/CodeGen/FPExprCodeGenerator.cpp.o: \
  /usr/include/c++/7/bits/stl_uninitialized.h \
  /usr/include/c++/7/bits/stl_vector.h \
  /usr/include/c++/7/bits/stl_bvector.h /usr/include/c++/7/bits/vector.tcc \
- /home/aaa/fp-solver/optsat/src/Utils/FPAUtils.h \
- /usr/include/c++/7/algorithm /usr/include/c++/7/bits/stl_algo.h \
+ /home/aaa/optsat/src/Utils/FPAUtils.h /usr/include/c++/7/algorithm \
+ /usr/include/c++/7/bits/stl_algo.h \
  /usr/include/c++/7/bits/algorithmfwd.h \
  /usr/include/c++/7/bits/stl_heap.h /usr/include/c++/7/bits/stl_tempbuf.h \
  /usr/include/c++/7/bits/uniform_int_dist.h /usr/include/c++/7/limits

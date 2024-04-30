@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /home/aaa/fp-solver/nlopt2
-# Build directory: /home/aaa/fp-solver/nlopt2/build-debug
+# Source directory: /home/aaa/nlopt2
+# Build directory: /home/aaa/nlopt2/build-debug
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

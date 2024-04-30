@@ -89,6 +89,7 @@ const IRSymbol* FPIRGenerator::genNumeralIR
 //          init_number.push_back(int_value);
         Value* value = ConstantFP::get(builder.getDoubleTy(), int_value);// to_double, to type consistency
         auto res_pair = insertSymbol(SymbolKind::kFP32Const, expr, value, 0);
+//          llvm::outs()<<*res_pair.first->getValue()<<"\n";
         return res_pair.first;
       }else{
         auto result_iter = findSymbol(SymbolKind::kFP64Const, &expr);
@@ -108,25 +109,26 @@ const IRSymbol* FPIRGenerator::genNumeralIR
 //          init_number.push_back(int_value);
           Value* value = ConstantFP::get(builder.getDoubleTy(), int_value);
           auto res_pair = insertSymbol(SymbolKind::kFP64Const, expr, value, 0);
+//          llvm::outs()<<*res_pair.first->getValue()<<"\n";
         return res_pair.first;
       }
     }
 
-    // add by yx support real const
-    if (expr.get_sort().sort_kind() == Z3_REAL_SORT) {
-        auto result_iter = findSymbol(SymbolKind::kFP64Const, &expr);
-        if (result_iter != m_expr_sym_map.cend())
-            return &(*result_iter).second;
-
-        std::string numeral_str = Z3_ast_to_string(expr.ctx(),static_cast<z3::ast>(expr));
-        double numeral = std::stod(numeral_str);
-        init_number.push_back(numeral);
-//        printf("numeral: str>%s; double>%lf\n",numeral_str.c_str(), numeral);
-
-        Value* value = ConstantFP::get(builder.getDoubleTy(),numeral);
-        auto res_pair = insertSymbol(SymbolKind::kFP64Const, expr, value, 0);
-        return res_pair.first;
-    }
+//    // add by yx support real const
+//    if (expr.get_sort().sort_kind() == Z3_REAL_SORT) {
+//        auto result_iter = findSymbol(SymbolKind::kFP64Const, &expr);
+//        if (result_iter != m_expr_sym_map.cend())
+//            return &(*result_iter).second;
+//
+//        std::string numeral_str = Z3_ast_to_string(expr.ctx(),static_cast<z3::ast>(expr));
+//        double numeral = std::stod(numeral_str);
+//        init_number.push_back(numeral);
+////        printf("numeral: str>%s; double>%lf\n",numeral_str.c_str(), numeral);
+//
+//        Value* value = ConstantFP::get(builder.getDoubleTy(),numeral);
+//        auto res_pair = insertSymbol(SymbolKind::kFP64Const, expr, value, 0);
+//        return res_pair.first;
+//    }
 
     if (expr.decl().decl_kind() == Z3_OP_BNUM) {
         auto result_iter = findSymbol(SymbolKind::kFP64Const, &expr);
@@ -540,21 +542,16 @@ llvm::Function* FPIRGenerator::genFunction
 
     // add by yx
     Argument* grad_arg = &(*(m_gofunc->arg_begin()+2));
-    llvm::Value* loadCover = builder.CreateLoad(cov);
-//    builder.CreateStore(builder.CreateLoad(totalCov),grad_arg);
-//    builder.CreateStore(return_val_sym->getValue(),grad_arg);
+    Argument* data_arg = &(*(m_gofunc->arg_begin()+3));
+    llvm::Value* loadCov = builder.CreateLoad(cov);
+    llvm::Value* loadTotalCov = builder.CreateLoad(totalCov);
 
-//    llvm::Value* denominator = builder.CreateFAdd(builder.CreateLoad(cov), m_const_one); // cov+1
-//    llvm::Value* covObj = builder.CreateFDiv(m_const_one, denominator);  // 1/(cov+1)
-    llvm::Value* covObj = builder.CreateFSub(builder.CreateLoad(totalCov), loadCover); //totalCov - cov
-//    Argument* grad_arg = &(*(m_gofunc->arg_begin()+2));
-//    builder.CreateStore(return_val_sym->getValue(),grad_arg);
-//    llvm::Value* dis_load = builder.CreateLoad(grad_arg);
-//    llvm::Value* funcV = builder.CreateFAdd(covObj, dis_load);
-    llvm::Value* funcV = builder.CreateFAdd(covObj, return_val_sym->getValue());
+//    llvm::Value* covObj = builder.CreateFSub(loadTotalCov, loadCov); //totalCov - cov
+//    llvm::Value* funcV = builder.CreateFAdd(covObj, return_val_sym->getValue()); totalCov - cov + distance
 
-    builder.CreateStore(loadCover,grad_arg); //record the coverage info
-    builder.CreateRet(funcV);
+    builder.CreateStore(loadCov,grad_arg); //cov
+    builder.CreateStore(loadTotalCov, data_arg); //totalcov
+    builder.CreateRet(return_val_sym->getValue());
 
 //    llvm::outs()<<"[add by yx] m_gofunc8:\n";
 //    m_gofunc->print(llvm::outs());
@@ -668,7 +665,7 @@ const IRSymbol* FPIRGenerator::genFuncRecursive
     for (uint i = 0; i < expr.num_args(); ++i) {
 //        llvm::outs()<<"expr>>>\n"<<expr.arg(i).to_string()<<"\n";
 //        if(expr.arg(i).decl().decl_kind() >= Z3_OP_FPA_RM_NEAREST_TIES_TO_EVEN &&
-//            expr.arg(i).decl().decl_kind() <= Z3_OP_FPA_RM_TOWARD_ZERO){
+//            expr.arg(i).decl().decl_kind() <= Z3_OP_FPA_RM_TOWARD_ZERO){p
 //            continue;
 //        }
         auto arg_sym = genFuncRecursive(builder, expr.arg(i), is_negated, cov, totalCov, init_number);
@@ -747,6 +744,8 @@ llvm::Value* FPIRGenerator::genExprIR
 //          llvm::errs()<<"[into case Z3_OP_EQ]\n";
         case Z3_OP_FPA_EQ:
 //            llvm::errs()<<"[into case Z3_OP_FPA_EQ]\n";
+//            llvm::outs()<<*arg_syms[0]->getValue()<<"\n";
+//            llvm::outs()<<*arg_syms[1]->getValue()<<"\n";
             return genEqualityIR(builder, expr_sym, arg_syms);
         case Z3_OP_NOT:
             // Do nothing, negation is handled with de-morgansS
@@ -964,36 +963,41 @@ llvm::Value* FPIRGenerator::genExprIR
 //            return (arg_syms[arg_syms.size() - 1])->getValue();
 //        }
 //            add  by yx
-        case Z3_OP_FPA_TO_FP:{
+        case Z3_OP_FPA_TO_FP: {
 //            llvm::outs()<<"expr>>>"<<arg_syms[arg_syms.size()-1]->expr()->to_string()<<"\n";
-            if(arg_syms[arg_syms.size()-1]->kind()!=SymbolKind::kFP32Const && arg_syms[arg_syms.size()-1]->kind()!=SymbolKind::kFP64Const){
+            if (arg_syms[arg_syms.size() - 1]->kind() != SymbolKind::kFP32Const &&
+                arg_syms[arg_syms.size() - 1]->kind() != SymbolKind::kFP64Const) {
 //                llvm::outs()<<"getValue>>>"<<*arg_syms[arg_syms.size()-1]->getValue()<<"\n";
-                return arg_syms[arg_syms.size()-1]->getValue();
+                return arg_syms[arg_syms.size() - 1]->getValue();
             }
-//            llvm::outs()<<arg_syms[arg_syms.size()-1]->getValue()<<"\n";
-            std::string numeral_str = arg_syms[arg_syms.size()-1]->expr()->to_string();
-            std::string hex_string = numeral_str.substr(2,numeral_str.size()-2);//delete "#x"
-//        char* hex_string = "3fe0000000000000";
-            uint64_t int_value;
-            sscanf(hex_string.c_str(), "%lx", &int_value);
-//            double *numeral = (double*)&int_value;
-            double numeral = 0.0;
-            if(arg_syms[arg_syms.size()-1]->kind()==SymbolKind::kFP32Const){
-                float *numeral32 = (float *)&int_value;
-                numeral = *numeral32;
-            }
-            else if(arg_syms[arg_syms.size()-1]->kind()==SymbolKind::kFP64Const){
-                double *numeral64 = (double*)&int_value;
-                numeral = *numeral64;
-            }
-            else{
-                assert(true && "unsupport SymbolKind!");
-            }
+//            if (arg_syms[arg_syms.size() - 1]->expr()->get_sort().sort_kind() == Z3_REAL_SORT) {
+//                return arg_syms[arg_syms.size() - 1]->getValue();
+//            }
+            if (arg_syms[arg_syms.size() - 1]->expr()->get_sort().sort_kind() == Z3_BV_SORT) {
+    //          llvm::outs()<<arg_syms[arg_syms.size()-1]->getValue()<<"\n";
+                std::string numeral_str = arg_syms[arg_syms.size() - 1]->expr()->to_string();
+                std::string hex_string = numeral_str.substr(2, numeral_str.size() - 2);//delete "#x"
+    //          char* hex_string = "3fe0000000000000";
+                uint64_t int_value;
+                sscanf(hex_string.c_str(), "%lx", &int_value);
+    //          double *numeral = (double*)&int_value;
+                double numeral = 0.0;
+                if (arg_syms[arg_syms.size() - 1]->kind() == SymbolKind::kFP32Const) {
+                    float *numeral32 = (float *) &int_value;
+                    numeral = *numeral32;
+                } else if (arg_syms[arg_syms.size() - 1]->kind() == SymbolKind::kFP64Const) {
+                    double *numeral64 = (double *) &int_value;
+                    numeral = *numeral64;
+                } else {
+                    assert(true && "unsupport SymbolKind!");
+                }
 
-//            llvm::outs()<<"numeral>>>"<<numeral<<"\n";
-            init_number.push_back(numeral);
-            Value* value = ConstantFP::get(builder.getDoubleTy(),numeral);
-            return value;
+    //          llvm::outs()<<"numeral>>>"<<numeral<<"\n";
+                init_number.push_back(numeral);
+                Value *value = ConstantFP::get(builder.getDoubleTy(), numeral);
+                return value;
+            }
+            return arg_syms[arg_syms.size()-1]->getValue();
         }
 
         case Z3_OP_FPA_IS_NAN:

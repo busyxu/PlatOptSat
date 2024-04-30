@@ -1,7 +1,7 @@
 CMakeFiles/optsat.dir/src/CodeGen/FPExprLibGenerator.cpp.o: \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprLibGenerator.cpp \
+ /home/aaa/optsat/src/CodeGen/FPExprLibGenerator.cpp \
  /usr/include/stdc-predef.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprLibGenerator.h \
+ /home/aaa/optsat/src/CodeGen/FPExprLibGenerator.h \
  /usr/include/c++/7/string \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/os_defines.h \

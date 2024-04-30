@@ -171,9 +171,9 @@ nlopt_result byteevolutionarystrategy(
 
       if(id<seed_size){
           for(int j=0; j<nvar; j++){
-              x[j] = seed[id];
+              x_t[j] = seed[id];
           }
-          doubleToBytes(x, nvar, seedParam);
+          doubleToBytes(x_t, nvar, seedParam);
           memcpy(esparents[id].parameters, seedParam, nparameters * sizeof(double));
           for(item=0; item<nparameters; item++)
               esparents[id].parameters[item] = seed[id];
@@ -236,15 +236,15 @@ nlopt_result byteevolutionarystrategy(
 //	       memcpy(x, esparents[id].parameters,
 //		      nparameters * sizeof(double));
 
-//          for(int j=0; j<nparameters; j++){
-//              if(j%8==0) printf("\n");
-//              printf("%f ",esparents[id].parameters[j]);
-//          }
-//          printf("\n");
-//          for(int j=0; j<nvar; j++){
-//              printf("dval: %lf; %e\n",*(dval+j),*(dval+j));
-//          }
-//          printf("fitness: %f; grad: %f\n--------------------\n",esparents[id].fitness, *gradPr);
+          for(int j=0; j<nparameters; j++){
+              if(j%8==0) printf("\n");
+              printf("%f ",esparents[id].parameters[j]);
+          }
+          printf("\n");
+          for(int j=0; j<nvar; j++){
+              printf("dval: %lf; %e\n",*(dval+j),*(dval+j));
+          }
+          printf("fitness: %f; grad: %f\n--------------------\n",esparents[id].fitness, *gradPr);
 
           memcpy(x, dval, nvar * sizeof(double));
 	  }
@@ -308,15 +308,15 @@ nlopt_result byteevolutionarystrategy(
 //		    memcpy(x, esoffsprings[id].parameters,
 //			   nparameters * sizeof(double));
 
-//               for(int j=0; j<nparameters; j++){
-//                   if(j%8==0) printf("\n");
-//                   printf("%f ",esoffsprings[id].parameters[j]);
-//               }
-//               printf("\n");
-//               for(int j=0; j<nvar; j++){
-//                   printf("dval: %lf; %e\n",*(dval+j),*(dval+j));
-//               }
-//               printf("fitness: %f; grad: %f\n--------------------\n",esoffsprings[id].fitness, *gradPr);
+               for(int j=0; j<nparameters; j++){
+                   if(j%8==0) printf("\n");
+                   printf("%f ",esoffsprings[id].parameters[j]);
+               }
+               printf("\n");
+               for(int j=0; j<nvar; j++){
+                   printf("dval: %lf; %e\n",*(dval+j),*(dval+j));
+               }
+               printf("fitness: %f; grad: %f\n--------------------\n",esoffsprings[id].fitness, *gradPr);
 
             memcpy(x, dval, nvar * sizeof(double));
 	       }

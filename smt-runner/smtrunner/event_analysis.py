@@ -1113,6 +1113,8 @@ class BitwuzlaRunnerEventAnalyser(GenericRunnerEventAnalyser):
             return "unknown"
         if ri['exit_code'] == 'null':
             return "time_out"
+        if ri['exit_code'] == 20 and ri['sat'] == 'unsat':
+            return "unsat"
 
     def get_solver_end_state_checker_fns(self):
         # Child classes should override this

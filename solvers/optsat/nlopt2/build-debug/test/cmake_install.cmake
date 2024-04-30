@@ -1,8 +1,8 @@
-# Install script for directory: /home/aaa/fp-solver/nlopt2/test
+# Install script for directory: /home/aaa/nlopt2/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aaa/fp-solver/nlopt2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aaa/fp-solver/nlopt/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

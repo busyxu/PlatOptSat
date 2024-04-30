@@ -1,9 +1,9 @@
 CMakeFiles/optsat.dir/src/Optimizer/ModelValidator.cpp.o: \
- /home/aaa/fp-solver/optsat/src/Optimizer/ModelValidator.cpp \
+ /home/aaa/optsat/src/Optimizer/ModelValidator.cpp \
  /usr/include/stdc-predef.h \
- /home/aaa/fp-solver/optsat/src/Optimizer/ModelValidator.h \
- /home/aaa/fp-solver/optsat/src/IRGen/FPIRGenerator.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/CodeGen.h \
+ /home/aaa/optsat/src/Optimizer/ModelValidator.h \
+ /home/aaa/optsat/src/IRGen/FPIRGenerator.h \
+ /home/aaa/optsat/src/CodeGen/CodeGen.h \
  /home/aaa/fp-solver/z3-4.6.2/install/include/z3++.h \
  /usr/include/c++/7/cassert \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \

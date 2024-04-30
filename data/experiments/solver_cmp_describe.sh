@@ -45,12 +45,13 @@ if [ "${bset}" = "qf_fp" ]; then
     bitwuzla \
     gosat \
     optsat \
+    jfs_lf_fail_fast \
     jfs_lf_fail_fast_smart_seeds \
     mathsat5 \
     xsat \
     z3 \
   )
-  TOOL_OPTS+=(--index-for-compute-sets 7)
+  TOOL_OPTS+=(--index-for-compute-sets 6)
 else
   SOLVER_NAMES=( \
     colibri \

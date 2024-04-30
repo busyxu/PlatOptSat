@@ -52,6 +52,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/nlopt2.dir/src/algs/mma/ccsa_quadratic.c.o.d"
   "CMakeFiles/nlopt2.dir/src/algs/mma/mma.c.o"
   "CMakeFiles/nlopt2.dir/src/algs/mma/mma.c.o.d"
+  "CMakeFiles/nlopt2.dir/src/algs/moea/moea.c.o"
+  "CMakeFiles/nlopt2.dir/src/algs/moea/moea.c.o.d"
   "CMakeFiles/nlopt2.dir/src/algs/neldermead/nldrmd.c.o"
   "CMakeFiles/nlopt2.dir/src/algs/neldermead/nldrmd.c.o.d"
   "CMakeFiles/nlopt2.dir/src/algs/neldermead/sbplx.c.o"

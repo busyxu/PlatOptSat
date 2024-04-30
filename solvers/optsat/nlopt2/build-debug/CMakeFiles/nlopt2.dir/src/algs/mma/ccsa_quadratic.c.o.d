@@ -1,5 +1,5 @@
 CMakeFiles/nlopt2.dir/src/algs/mma/ccsa_quadratic.c.o: \
- /home/aaa/fp-solver/nlopt2/src/algs/mma/ccsa_quadratic.c \
+ /home/aaa/nlopt2/src/algs/mma/ccsa_quadratic.c \
  /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -54,7 +54,6 @@ CMakeFiles/nlopt2.dir/src/algs/mma/ccsa_quadratic.c.o: \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdarg.h \
  /usr/include/x86_64-linux-gnu/bits/stdio_lim.h \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h \
- /home/aaa/fp-solver/nlopt2/src/algs/mma/mma.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h
+ /home/aaa/nlopt2/src/algs/mma/mma.h /home/aaa/nlopt2/src/api/nlopt.h \
+ /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/build-debug/nlopt_config.h

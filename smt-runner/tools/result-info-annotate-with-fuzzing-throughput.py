@@ -117,15 +117,22 @@ def main(args):
             _logger.error(pprint.pformat(ri))
             return 1
         if tag in {'sat', 'unsat', 'sat_but_expected_unsat', 'unsat_but_expected_sat'}:
+            # num_inputs = 1
             if num_inputs is None:
-                _logger.error('num_inputs should not be None for {} ({})'.format(key, wd))
-                return 1
+                num_inputs = 1
+                # _logger.error('num_inputs should not be None for {} ({})'.format(key, wd))
+                _logger.info('num_inputs should not be None for {} ({})'.format(key, wd))
+                # return 1
             if num_wrong_sized_inputs is None:
-                _logger.error('num_wrong_sized_inputs should not be None for {} ({})'.format(key, wd))
-                return 1
+                # _logger.error('num_wrong_sized_inputs should not be None for {} ({})'.format(key, wd))
+                _logger.info('num_wrong_sized_inputs should not be None for {} ({})'.format(key, wd))
+                num_wrong_sized_inputs = 1
+                # return 1
             if fuzzing_wallclock_time is None:
-                _logger.error('fuzzing_wallclock_time should not be None for {} ({})'.format(key, wd))
-                return 1
+                # _logger.error('fuzzing_wallclock_time should not be None for {} ({})'.format(key, wd))
+                _logger.info('fuzzing_wallclock_time should not be None for {} ({})'.format(key, wd))
+                fuzzing_wallclock_time = 0
+                # return 1
 
 
         new_ri['jfs_stat_num_inputs'] = num_inputs

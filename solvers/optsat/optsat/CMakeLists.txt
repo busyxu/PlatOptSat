@@ -20,10 +20,12 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(libz3-path /home/user/z3-4.6.2/install/lib/libz3.so)
 set(Z3_INCLUDE_DIR /home/user/z3-4.6.2/install/include)
 
-set(libnlopt-path /home/user/nlopt2/build/libnlopt2.so)
+#set(libnlopt-path /home/aaa/nlopt2/build/libnlopt2.so)
+set(libnlopt-path /home/user/nlopt2/build-debug/libnlopt2.so)
 set(NLOPT_INCLUDE_DIR /home/user/nlopt2/install/include)
 
 set(LLVM_DIR /home/user/llvm-6/install/lib/cmake/llvm)
+#set(LLVM_DIR /home/aaa/llvm-6/install/lib/cmake/llvm)
 
 # Finds and configures LLVM build directories
 find_package(LLVM REQUIRED CONFIG)
@@ -84,4 +86,18 @@ set(SOURCE_FILES
 add_subdirectory(tools/nl_solver)
 add_executable(optsat ${SOURCE_FILES})
 target_link_libraries(optsat libz3 libnlopt ${llvm_libs_required} gmp gmpxx)
+
+# add by zgf
+add_library(OPTSAT SHARED
+        src/Utils/FPAUtils.cpp
+        src/ExprAnalyzer/FPExprAnalyzer.cpp
+        src/IRGen/FPIRGenerator.cpp
+        src/CodeGen/FPExprCodeGenerator.cpp
+        src/CodeGen/FPExprLibGenerator.cpp
+        src/Optimizer/NLoptOptimizer.cpp
+        src/CodeGen/CodeGen.cpp
+        src/Optimizer/ModelValidator.cpp
+)
+target_include_directories(OPTSAT PRIVATE ${CMAKE_SOURCE_DIR}/include) #指定目标包含的头文件路径
+target_link_libraries(OPTSAT libz3 libnlopt ${llvm_libs_required} gmp gmpxx) #指定目标链接的库
 

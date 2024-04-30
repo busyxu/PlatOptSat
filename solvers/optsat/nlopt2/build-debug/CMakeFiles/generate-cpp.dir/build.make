@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaa/fp-solver/nlopt2
+CMAKE_SOURCE_DIR = /home/aaa/nlopt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaa/fp-solver/nlopt2/build-debug
+CMAKE_BINARY_DIR = /home/aaa/nlopt2/build-debug
 
 # Utility rule file for generate-cpp.
 
@@ -69,8 +69,8 @@ include CMakeFiles/generate-cpp.dir/progress.make
 CMakeFiles/generate-cpp: nlopt.hpp
 
 nlopt.hpp: ../src/api/nlopt-in.hpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nlopt.hpp"
-	/usr/local/bin/cmake -DAPI_SOURCE_DIR=/home/aaa/fp-solver/nlopt2/src/api -P /home/aaa/fp-solver/nlopt2/cmake/generate-cpp.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nlopt.hpp"
+	/usr/local/bin/cmake -DAPI_SOURCE_DIR=/home/aaa/nlopt2/src/api -P /home/aaa/nlopt2/cmake/generate-cpp.cmake
 
 generate-cpp: CMakeFiles/generate-cpp
 generate-cpp: nlopt.hpp
@@ -86,6 +86,6 @@ CMakeFiles/generate-cpp.dir/clean:
 .PHONY : CMakeFiles/generate-cpp.dir/clean
 
 CMakeFiles/generate-cpp.dir/depend:
-	cd /home/aaa/fp-solver/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/generate-cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaa/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/nlopt2 /home/aaa/nlopt2 /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug/CMakeFiles/generate-cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/generate-cpp.dir/depend
 

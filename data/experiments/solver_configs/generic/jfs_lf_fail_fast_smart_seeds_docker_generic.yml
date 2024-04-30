@@ -6,7 +6,7 @@ runner_config:
   max_memory: 10240 # 10 GiB
   max_time: 60 # 15 minutes
   additional_args:
-    - "-max-time=900" # Soft timeout
+    - "-max-time=60" # Soft timeout
     - "-v=1" # We want to see messages written to stderr
     - "-redirect-clang-output=1" # We want Clang output to get redirected
     - "-redirect-libfuzzer-output=1" # We want LibFuzzer output to get redirect

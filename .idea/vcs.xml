@@ -3,6 +3,9 @@
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/solvers/bitwuzla/bitwuzla/deps/symfpu" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solvers/gosat/z3-4.6.2/z3" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solvers/optsat/nlopt2" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/solvers/optsat/optsat" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/solvers/optsat/z3-4.6.2/z3" vcs="Git" />
   </component>
 </project>

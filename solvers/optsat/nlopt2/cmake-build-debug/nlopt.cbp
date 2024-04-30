@@ -4,678 +4,744 @@
 	<Project>
 		<Option title="nlopt"/>
 		<Option makefile_is_custom="1"/>
-		<Option compiler="gcc"/>
+		<Option compiler="clang"/>
 		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\src\;CMake Files\src\api\;CMake Files\test\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate-cpp">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-cpp"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-cpp"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="generate-fortran">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-fortran"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 generate-fortran"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nlopt2">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/libnlopt2.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/libnlopt2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
 					<Add option="-DNLOPT_DLL_EXPORT"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 nlopt2"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 nlopt2"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="nlopt2/fast">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/libnlopt2.so" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/libnlopt2.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="3"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
 					<Add option="-DNLOPT_DLL_EXPORT"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 nlopt2/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 nlopt2/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="package_source">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 package_source"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="test">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 test"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="list_install_components">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/local">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="install/strip">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="tests">
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug/test"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 tests"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="t_tutorial">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/t_tutorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/test/t_tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 t_tutorial"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 t_tutorial"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="t_tutorial/fast">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/t_tutorial" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/test/t_tutorial" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 t_tutorial/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 t_tutorial/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testopt">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/testopt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/test/testopt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 testopt"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 testopt"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testopt/fast">
-				<Option output="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/testopt" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/aaa/fp-solver/nlopt2/cmake-build-debug/test"/>
+				<Option output="/home/aaa/nlopt2/cmake-build-debug/test/testopt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/aaa/nlopt2/cmake-build-debug/test"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
-				<Option compiler="gcc"/>
+				<Option compiler="clang"/>
 				<Compiler>
 					<Add option="-DNLOPT_DLL"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug/src/api"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/cmake-build-debug"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/stogo"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ags"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/util"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/direct"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cdirect"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/praxis"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/luksan"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/crs"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mlsl"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/mma"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/cobyla"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/newuoa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/neldermead"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/auglag"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/isres"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/slsqp"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/esch"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/byteea"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/algs/ga"/>
-					<Add directory="/home/aaa/fp-solver/nlopt2/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug/src/api"/>
+					<Add directory="/home/aaa/nlopt2/cmake-build-debug"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/stogo"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ags"/>
+					<Add directory="/home/aaa/nlopt2/src/util"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/direct"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cdirect"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/praxis"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/luksan"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/crs"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mlsl"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/mma"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/cobyla"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/newuoa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/neldermead"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/auglag"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/bobyqa"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/isres"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/slsqp"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/esch"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/byteea"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/ga"/>
+					<Add directory="/home/aaa/nlopt2/src/algs/moea"/>
+					<Add directory="/home/aaa/nlopt2/src/api"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/x86_64-linux-gnu/c++/7.5.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7.5.0/../../../../include/c++/7.5.0/backward"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/home/aaa/fp-solver/llvm-6/build/lib/clang/6.0.0/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 testopt/fast"/>
-					<CompileFile command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -f &quot;/home/aaa/fp-solver/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 testopt/fast"/>
+					<CompileFile command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j16 -f &quot;/home/aaa/nlopt2/cmake-build-debug/test/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake-build-debug/nlopt.hpp">
+		<Unit filename="/home/aaa/nlopt2/cmake-build-debug/nlopt.hpp">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/ags.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/ags.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/ags.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/ags.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/data_types.hpp">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/data_types.hpp">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/evolvent.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/evolvent.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/evolvent.hpp">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/evolvent.hpp">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/local_optimizer.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/local_optimizer.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/local_optimizer.hpp">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/local_optimizer.hpp">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/solver.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/solver.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ags/solver.hpp">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ags/solver.hpp">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/auglag/auglag.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/auglag/auglag.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/auglag/auglag.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/auglag/auglag.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa/bobyqa.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/bobyqa/bobyqa.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/bobyqa/bobyqa.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/bobyqa/bobyqa.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/byteea/byteea.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/byteea/byteea.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/byteea/byteea.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/byteea/byteea.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/cdirect/cdirect.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/cdirect/cdirect.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/cdirect/cdirect.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/cdirect/cdirect.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/cdirect/hybrid.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/cdirect/hybrid.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/cobyla/cobyla.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/cobyla/cobyla.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/cobyla/cobyla.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/cobyla/cobyla.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/crs/crs.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/crs/crs.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/crs/crs.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/crs/crs.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/DIRect.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/DIRect.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/DIRserial.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/DIRserial.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/DIRsubrout.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/DIRsubrout.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/direct-internal.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/direct-internal.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/direct.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/direct.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/direct/direct_wrap.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/direct/direct_wrap.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/esch/esch.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/esch/esch.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/esch/esch.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/esch/esch.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ga/ga.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ga/ga.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/ga/ga.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/ga/ga.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/isres/isres.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/isres/isres.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/isres/isres.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/isres/isres.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/luksan.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/luksan.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/mssubs.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/mssubs.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/plip.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/plip.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/plis.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/plis.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/pnet.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/pnet.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/luksan/pssubs.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/luksan/pssubs.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/mlsl/mlsl.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/mlsl/mlsl.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/mlsl/mlsl.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/mlsl/mlsl.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/mma/ccsa_quadratic.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/mma/ccsa_quadratic.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/mma/mma.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/mma/mma.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/mma/mma.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/mma/mma.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/neldermead/neldermead.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/moea/moea.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/neldermead/nldrmd.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/moea/moea.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/neldermead/sbplx.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/neldermead/neldermead.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/newuoa/newuoa.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/neldermead/nldrmd.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/newuoa/newuoa.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/neldermead/sbplx.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/praxis/praxis.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/newuoa/newuoa.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/praxis/praxis.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/newuoa/newuoa.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/slsqp/slsqp.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/praxis/praxis.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/slsqp/slsqp.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/praxis/praxis.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/global.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/slsqp/slsqp.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/global.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/slsqp/slsqp.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/linalg.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/global.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/linalg.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/global.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/local.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/linalg.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/local.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/linalg.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/stogo.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/local.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/stogo.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/local.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/stogo_config.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/stogo.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/tools.cc">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/stogo.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/algs/stogo/tools.h">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/stogo_config.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/deprecated.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/tools.cc">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/f77api.c">
+		<Unit filename="/home/aaa/nlopt2/src/algs/stogo/tools.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/f77funcs.h">
+		<Unit filename="/home/aaa/nlopt2/src/api/deprecated.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/f77funcs_.h">
+		<Unit filename="/home/aaa/nlopt2/src/api/f77api.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/general.c">
+		<Unit filename="/home/aaa/nlopt2/src/api/f77funcs.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/nlopt-in.hpp">
+		<Unit filename="/home/aaa/nlopt2/src/api/f77funcs_.h">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/api/general.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/api/nlopt-in.hpp">
 			<Option target="generate-cpp"/>
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/nlopt-internal.h">
+		<Unit filename="/home/aaa/nlopt2/src/api/nlopt-internal.h">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/nlopt.h">
+		<Unit filename="/home/aaa/nlopt2/src/api/nlopt.h">
 			<Option target="generate-fortran"/>
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/optimize.c">
+		<Unit filename="/home/aaa/nlopt2/src/api/optimize.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/options.c">
+		<Unit filename="/home/aaa/nlopt2/src/api/options.c">
 			<Option target="nlopt2"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/mt19937ar.c">
-			<Option target="nlopt2"/>
-			<Option target="testopt"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/qsort_r.c">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/redblack.c">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/redblack.h">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/rescale.c">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/soboldata.h">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/sobolseq.c">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/stop.c">
-			<Option target="nlopt2"/>
-		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/util/timer.c">
+		<Unit filename="/home/aaa/nlopt2/src/util/mt19937ar.c">
 			<Option target="nlopt2"/>
 			<Option target="testopt"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/test/t_tutorial.cxx">
+		<Unit filename="/home/aaa/nlopt2/src/util/nlopt-util.h">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/qsort_r.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/redblack.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/redblack.h">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/rescale.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/soboldata.h">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/sobolseq.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/stop.c">
+			<Option target="nlopt2"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/src/util/timer.c">
+			<Option target="nlopt2"/>
+			<Option target="testopt"/>
+		</Unit>
+		<Unit filename="/home/aaa/nlopt2/test/t_tutorial.cxx">
 			<Option target="t_tutorial"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/test/testfuncs.c">
+		<Unit filename="/home/aaa/nlopt2/test/testfuncs.c">
 			<Option target="testopt"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/test/testfuncs.h">
+		<Unit filename="/home/aaa/nlopt2/test/testfuncs.h">
 			<Option target="testopt"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/test/testopt.c">
+		<Unit filename="/home/aaa/nlopt2/test/testopt.c">
 			<Option target="testopt"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/CMakeLists.txt">
+		<Unit filename="/home/aaa/nlopt2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/nlopt.pc.in">
+		<Unit filename="/home/aaa/nlopt2/nlopt.pc.in">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/nlopt_config.h.in">
+		<Unit filename="/home/aaa/nlopt2/nlopt_config.h.in">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake/FindGuile.cmake">
+		<Unit filename="/home/aaa/nlopt2/cmake/FindGuile.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake/FindNumPy.cmake">
+		<Unit filename="/home/aaa/nlopt2/cmake/FindNumPy.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake/FindOctave.cmake">
+		<Unit filename="/home/aaa/nlopt2/cmake/FindOctave.cmake">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake/NLoptConfig.cmake.in">
+		<Unit filename="/home/aaa/nlopt2/cmake/NLoptConfig.cmake.in">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/cmake/NLoptConfigVersion.cmake.in">
+		<Unit filename="/home/aaa/nlopt2/cmake/NLoptConfigVersion.cmake.in">
 			<Option virtualFolder="CMake Files\cmake\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/src/api/CMakeLists.txt">
+		<Unit filename="/home/aaa/nlopt2/src/api/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\src\api\"/>
 		</Unit>
-		<Unit filename="/home/aaa/fp-solver/nlopt2/test/CMakeLists.txt">
+		<Unit filename="/home/aaa/nlopt2/test/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\test\"/>
 		</Unit>
 	</Project>

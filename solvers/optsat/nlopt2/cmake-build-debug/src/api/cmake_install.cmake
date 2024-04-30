@@ -1,4 +1,4 @@
-# Install script for directory: /home/aaa/fp-solver/nlopt2/src/api
+# Install script for directory: /home/aaa/nlopt2/src/api
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,9 +44,9 @@ endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/man/man3" TYPE FILE FILES
-    "/home/aaa/fp-solver/nlopt2/src/api/nlopt.3"
-    "/home/aaa/fp-solver/nlopt2/src/api/nlopt_minimize.3"
-    "/home/aaa/fp-solver/nlopt2/src/api/nlopt_minimize_constrained.3"
+    "/home/aaa/nlopt2/src/api/nlopt.3"
+    "/home/aaa/nlopt2/src/api/nlopt_minimize.3"
+    "/home/aaa/nlopt2/src/api/nlopt_minimize_constrained.3"
     )
 endif()
 

@@ -1,5 +1,5 @@
-CMakeFiles/optsat.dir/src/main.cpp.o: \
- /home/aaa/fp-solver/optsat/src/main.cpp /usr/include/stdc-predef.h \
+CMakeFiles/optsat.dir/src/main.cpp.o: /home/aaa/optsat/src/main.cpp \
+ /usr/include/stdc-predef.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Support/CommandLine.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/ADT/ArrayRef.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/ADT/Hashing.h \
@@ -208,7 +208,7 @@ CMakeFiles/optsat.dir/src/main.cpp.o: \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/ADT/Twine.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Support/ManagedStatic.h \
  /usr/include/c++/7/atomic \
- /home/aaa/fp-solver/optsat/src/ExprAnalyzer/FPExprAnalyzer.h \
+ /home/aaa/optsat/src/ExprAnalyzer/FPExprAnalyzer.h \
  /home/aaa/fp-solver/z3-4.6.2/install/include/z3++.h \
  /usr/include/c++/7/iostream /usr/include/c++/7/sstream \
  /usr/include/c++/7/bits/sstream.tcc \
@@ -228,14 +228,14 @@ CMakeFiles/optsat.dir/src/main.cpp.o: \
  /usr/include/c++/7/unordered_map /usr/include/c++/7/bits/hashtable.h \
  /usr/include/c++/7/bits/hashtable_policy.h \
  /usr/include/c++/7/bits/unordered_map.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprLibGenerator.h \
+ /home/aaa/optsat/src/CodeGen/FPExprLibGenerator.h \
  /usr/include/c++/7/fstream /usr/include/c++/7/bits/codecvt.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++io.h \
  /usr/include/c++/7/bits/fstream.tcc \
- /home/aaa/fp-solver/optsat/src/CodeGen/FPExprCodeGenerator.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/CodeGen.h \
- /home/aaa/fp-solver/optsat/src/IRGen/FPIRGenerator.h \
+ /home/aaa/optsat/src/CodeGen/FPExprCodeGenerator.h \
+ /home/aaa/optsat/src/CodeGen/CodeGen.h \
+ /home/aaa/optsat/src/IRGen/FPIRGenerator.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/IR/Module.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm-c/Types.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/IR/Attributes.h \
@@ -339,12 +339,12 @@ CMakeFiles/optsat.dir/src/main.cpp.o: \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Target/TargetMachine.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Target/TargetOptions.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/MC/MCTargetOptions.h \
- /home/aaa/fp-solver/optsat/src/Utils/FPAUtils.h \
+ /home/aaa/optsat/src/Utils/FPAUtils.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/ExecutionEngine/MCJIT.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Support/TargetSelect.h \
- /home/aaa/fp-solver/optsat/src/Optimizer/ModelValidator.h \
- /home/aaa/fp-solver/nlopt2/install/include/nlopt.h \
- /home/aaa/fp-solver/optsat/src/Optimizer/NLoptOptimizer.h \
+ /home/aaa/optsat/src/Optimizer/ModelValidator.h \
+ /home/aaa/nlopt2/install/include/nlopt.h \
+ /home/aaa/optsat/src/Optimizer/NLoptOptimizer.h \
  /usr/include/c++/7/iomanip /usr/include/c++/7/locale \
  /usr/include/c++/7/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/7/bits/time_members.h \

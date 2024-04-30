@@ -1,8 +1,7 @@
 CMakeFiles/optsat.dir/src/IRGen/FPIRGenerator.cpp.o: \
- /home/aaa/fp-solver/optsat/src/IRGen/FPIRGenerator.cpp \
- /usr/include/stdc-predef.h \
- /home/aaa/fp-solver/optsat/src/IRGen/FPIRGenerator.h \
- /home/aaa/fp-solver/optsat/src/CodeGen/CodeGen.h \
+ /home/aaa/optsat/src/IRGen/FPIRGenerator.cpp /usr/include/stdc-predef.h \
+ /home/aaa/optsat/src/IRGen/FPIRGenerator.h \
+ /home/aaa/optsat/src/CodeGen/CodeGen.h \
  /home/aaa/fp-solver/z3-4.6.2/install/include/z3++.h \
  /usr/include/c++/7/cassert \
  /usr/include/x86_64-linux-gnu/c++/7/bits/c++config.h \
@@ -331,7 +330,7 @@ CMakeFiles/optsat.dir/src/IRGen/FPIRGenerator.cpp.o: \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Target/TargetMachine.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Target/TargetOptions.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/MC/MCTargetOptions.h \
- /home/aaa/fp-solver/optsat/src/Utils/FPAUtils.h \
+ /home/aaa/optsat/src/Utils/FPAUtils.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/IR/MDBuilder.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/Bitcode/BitcodeWriter.h \
  /home/aaa/fp-solver/llvm-6/install/include/llvm/IR/ModuleSummaryIndex.h \

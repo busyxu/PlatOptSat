@@ -1,6 +1,5 @@
-test/CMakeFiles/testopt.dir/testopt.c.o: \
- /home/aaa/fp-solver/nlopt2/test/testopt.c /usr/include/stdc-predef.h \
- /usr/include/stdlib.h \
+test/CMakeFiles/testopt.dir/testopt.c.o: /home/aaa/nlopt2/test/testopt.c \
+ /usr/include/stdc-predef.h /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -53,14 +52,12 @@ test/CMakeFiles/testopt.dir/testopt.c.o: \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h \
+ /usr/include/strings.h /home/aaa/nlopt2/build-debug/nlopt_config.h \
  /usr/include/unistd.h /usr/include/x86_64-linux-gnu/bits/posix_opt.h \
  /usr/include/x86_64-linux-gnu/bits/environments.h \
  /usr/include/x86_64-linux-gnu/bits/confname.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_posix.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_core.h /usr/include/getopt.h \
  /usr/include/x86_64-linux-gnu/bits/getopt_ext.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/test/testfuncs.h
+ /home/aaa/nlopt2/src/api/nlopt.h /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/test/testfuncs.h

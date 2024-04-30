@@ -1,4 +1,4 @@
-# Install script for directory: /home/aaa/fp-solver/optsat/tools/nl_solver
+# Install script for directory: /home/aaa/optsat/tools/nl_solver
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

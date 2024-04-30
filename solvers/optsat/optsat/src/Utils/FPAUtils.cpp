@@ -40,10 +40,10 @@ double fp64_dis(const double a, const double b)
 //        printf("a: %lf\nb: %lf\n",a,b);
         return 0;
     }
-    if ( std::isnan(a) || std::isnan(b)) {
-        // any non-zero should do
-        return 1024;
-    }
+//    if ( std::isnan(a) || std::isnan(b)) {
+//        // any non-zero should do
+//        return 1024;
+//    }
 //    integer representation of double, the degree of the distance of two integers as some as two integers
     const double scale = pow(2, 54);
     //the double 'a' and 'b' as 'int' dereference
@@ -77,10 +77,10 @@ double fp64_gt_dis(const double a, const double b)
   if (a == b) {
     return DBL_MIN;
   }
-  if ( std::isnan(a) || std::isnan(b)) {
-    // any non-zero should do
-    return 1024;
-  }
+//  if ( std::isnan(a) || std::isnan(b)) {
+//    // any non-zero should do
+//    return 1024;
+//  }
   return fp64_dis(a, b);
 }
 
@@ -93,10 +93,10 @@ double fp64_lt_dis(const double a, const double b)
   if(a==b){
     return DBL_MIN;
   }
-  if ( std::isnan(a) || std::isnan(b)) {
-    // any non-zero should do
-    return 1024;
-  }
+//  if ( std::isnan(a) || std::isnan(b)) {
+//    // any non-zero should do
+//    return 1024;
+//  }
   return fp64_dis(a, b);
 }
 
@@ -105,10 +105,10 @@ double fp64_ge_dis(const double a, const double b)
   if (a >= b) {
     return 0;
   }
-  if ( std::isnan(a) || std::isnan(b)) {
-    // any non-zero should do
-    return 1024;
-  }
+//  if ( std::isnan(a) || std::isnan(b)) {
+//    // any non-zero should do
+//    return 1024;
+//  }
     return fp64_dis(a, b);
 }
 
@@ -117,10 +117,10 @@ double fp64_le_dis(const double a, const double b)
   if (a <= b) {//理论上，进入这个距离函数了，说明a>=b
     return 0;
   }
-  if ( std::isnan(a) || std::isnan(b)) {
-    // any non-zero should do
-    return 1024;
-  }
+//  if ( std::isnan(a) || std::isnan(b)) {
+//    // any non-zero should do
+//    return 1024;
+//  }
   return fp64_dis(a, b);
 }
 
@@ -130,6 +130,11 @@ double fp64_eq_dis(const double a, const double b)
 //        printf("eq: %lf %lf\n",a,b);
       return 0;
     }
+//    if ( std::isnan(a) || std::isnan(b)) {
+//        // any non-zero should do
+//        return 1024;
+//    }
+
     std::bitset<sizeof(double ) * 8> a_binary(*reinterpret_cast<const unsigned long long*>(&a));
     std::bitset<sizeof(double ) * 8> b_binary(*reinterpret_cast<const unsigned long long*>(&b));
     std::bitset<sizeof(double) * 8> result_binary = a_binary ^ b_binary;

@@ -1,5 +1,5 @@
 CMakeFiles/nlopt2.dir/src/api/f77api.c.o: \
- /home/aaa/fp-solver/nlopt2/src/api/f77api.c /usr/include/stdc-predef.h \
+ /home/aaa/nlopt2/src/api/f77api.c /usr/include/stdc-predef.h \
  /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -39,6 +39,5 @@ CMakeFiles/nlopt2.dir/src/api/f77api.c.o: \
  /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/api/f77funcs.h \
- /home/aaa/fp-solver/nlopt2/src/api/f77funcs_.h
+ /usr/include/strings.h /home/aaa/nlopt2/src/api/nlopt.h \
+ /home/aaa/nlopt2/src/api/f77funcs.h /home/aaa/nlopt2/src/api/f77funcs_.h

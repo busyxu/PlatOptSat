@@ -1,0 +1,7 @@
+/home/aaa/fp-solver/optsat/cmake-build-debug/CMakeFiles/intrinsics_gen.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/CMakeFiles/optsat.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/CMakeFiles/OPTSAT.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/tools/nl_solver/CMakeFiles/edit_cache.dir
+/home/aaa/fp-solver/optsat/cmake-build-debug/tools/nl_solver/CMakeFiles/rebuild_cache.dir

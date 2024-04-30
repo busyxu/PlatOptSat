@@ -46,14 +46,14 @@ add_library(NLopt::nlopt2 SHARED IMPORTED)
 
 set_target_properties(NLopt::nlopt2 PROPERTIES
   INTERFACE_COMPILE_DEFINITIONS "NLOPT_DLL"
-  INTERFACE_INCLUDE_DIRECTORIES "/home/aaa/fp-solver/nlopt2/src/api;/home/aaa/fp-solver/nlopt2/build-debug"
+  INTERFACE_INCLUDE_DIRECTORIES "/home/aaa/nlopt2/src/api;/home/aaa/nlopt2/build-debug"
   INTERFACE_LINK_LIBRARIES "m"
 )
 
 # Import target "NLopt::nlopt2" for configuration "Debug"
 set_property(TARGET NLopt::nlopt2 APPEND PROPERTY IMPORTED_CONFIGURATIONS DEBUG)
 set_target_properties(NLopt::nlopt2 PROPERTIES
-  IMPORTED_LOCATION_DEBUG "/home/aaa/fp-solver/nlopt2/build-debug/libnlopt2.so.0.11.1"
+  IMPORTED_LOCATION_DEBUG "/home/aaa/nlopt2/build-debug/libnlopt2.so.0.11.1"
   IMPORTED_SONAME_DEBUG "libnlopt2.so.0"
   )
 

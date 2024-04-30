@@ -1,8 +1,8 @@
-# Install script for directory: /home/aaa/fp-solver/nlopt2
+# Install script for directory: /home/aaa/nlopt2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/aaa/fp-solver/nlopt2/install")
+  set(CMAKE_INSTALL_PREFIX "/home/aaa/fp-solver/nlopt/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -43,14 +43,14 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/aaa/fp-solver/nlopt2/build-debug/nlopt.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/aaa/nlopt2/build-debug/nlopt.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE FILE FILES
-    "/home/aaa/fp-solver/nlopt2/src/api/nlopt.h"
-    "/home/aaa/fp-solver/nlopt2/build-debug/nlopt.hpp"
-    "/home/aaa/fp-solver/nlopt2/build-debug/nlopt.f"
+    "/home/aaa/nlopt2/src/api/nlopt.h"
+    "/home/aaa/nlopt2/build-debug/nlopt.hpp"
+    "/home/aaa/nlopt2/build-debug/nlopt.f"
     )
 endif()
 
@@ -63,12 +63,12 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHECK
            FILE "${file}"
-           RPATH "/home/aaa/fp-solver/nlopt2/install/lib")
+           RPATH "/home/aaa/fp-solver/nlopt/install/lib")
     endif()
   endforeach()
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES
-    "/home/aaa/fp-solver/nlopt2/build-debug/libnlopt2.so.0.11.1"
-    "/home/aaa/fp-solver/nlopt2/build-debug/libnlopt2.so.0"
+    "/home/aaa/nlopt2/build-debug/libnlopt2.so.0.11.1"
+    "/home/aaa/nlopt2/build-debug/libnlopt2.so.0"
     )
   foreach(file
       "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so.0.11.1"
@@ -78,8 +78,8 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
        NOT IS_SYMLINK "${file}")
       file(RPATH_CHANGE
            FILE "${file}"
-           OLD_RPATH "::::::::::::::::::::::::::::::::::::::"
-           NEW_RPATH "/home/aaa/fp-solver/nlopt2/install/lib")
+           OLD_RPATH ":::::::::::::::::::::::::::::::::::::"
+           NEW_RPATH "/home/aaa/fp-solver/nlopt/install/lib")
       if(CMAKE_INSTALL_DO_STRIP)
         execute_process(COMMAND "/usr/bin/strip" "${file}")
       endif()
@@ -92,15 +92,15 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so")
     file(RPATH_CHECK
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so"
-         RPATH "/home/aaa/fp-solver/nlopt2/install/lib")
+         RPATH "/home/aaa/fp-solver/nlopt/install/lib")
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/aaa/fp-solver/nlopt2/build-debug/libnlopt2.so")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE SHARED_LIBRARY FILES "/home/aaa/nlopt2/build-debug/libnlopt2.so")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so"
-         OLD_RPATH "::::::::::::::::::::::::::::::::::::::"
-         NEW_RPATH "/home/aaa/fp-solver/nlopt2/install/lib")
+         OLD_RPATH ":::::::::::::::::::::::::::::::::::::"
+         NEW_RPATH "/home/aaa/fp-solver/nlopt/install/lib")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/libnlopt2.so")
     endif()
@@ -111,7 +111,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt/NLoptLibraryDepends.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt/NLoptLibraryDepends.cmake"
-         "/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends.cmake")
+         "/home/aaa/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt/NLoptLibraryDepends-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -120,23 +120,23 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt" TYPE FILE FILES "/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt" TYPE FILE FILES "/home/aaa/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt" TYPE FILE FILES "/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt" TYPE FILE FILES "/home/aaa/nlopt2/build-debug/CMakeFiles/Export/lib/cmake/nlopt/NLoptLibraryDepends-debug.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xDevelopmentx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/nlopt" TYPE FILE FILES
-    "/home/aaa/fp-solver/nlopt2/build-debug/NLoptConfig.cmake"
-    "/home/aaa/fp-solver/nlopt2/build-debug/NLoptConfigVersion.cmake"
+    "/home/aaa/nlopt2/build-debug/NLoptConfig.cmake"
+    "/home/aaa/nlopt2/build-debug/NLoptConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/aaa/fp-solver/nlopt2/build-debug/src/api/cmake_install.cmake")
-  include("/home/aaa/fp-solver/nlopt2/build-debug/test/cmake_install.cmake")
+  include("/home/aaa/nlopt2/build-debug/src/api/cmake_install.cmake")
+  include("/home/aaa/nlopt2/build-debug/test/cmake_install.cmake")
 
 endif()
 
@@ -148,5 +148,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/aaa/fp-solver/nlopt2/build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/aaa/nlopt2/build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

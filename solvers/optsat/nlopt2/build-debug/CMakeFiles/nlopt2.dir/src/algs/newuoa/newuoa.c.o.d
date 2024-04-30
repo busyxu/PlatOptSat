@@ -1,6 +1,6 @@
 CMakeFiles/nlopt2.dir/src/algs/newuoa/newuoa.c.o: \
- /home/aaa/fp-solver/nlopt2/src/algs/newuoa/newuoa.c \
- /usr/include/stdc-predef.h /usr/include/math.h \
+ /home/aaa/nlopt2/src/algs/newuoa/newuoa.c /usr/include/stdc-predef.h \
+ /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -53,8 +53,7 @@ CMakeFiles/nlopt2.dir/src/algs/newuoa/newuoa.c.o: \
  /usr/include/x86_64-linux-gnu/bits/sys_errlist.h /usr/include/string.h \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
- /usr/include/strings.h \
- /home/aaa/fp-solver/nlopt2/src/algs/newuoa/newuoa.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h
+ /usr/include/strings.h /home/aaa/nlopt2/src/algs/newuoa/newuoa.h \
+ /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/build-debug/nlopt_config.h \
+ /home/aaa/nlopt2/src/api/nlopt.h

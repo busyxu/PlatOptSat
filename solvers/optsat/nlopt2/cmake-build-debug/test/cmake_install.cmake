@@ -1,4 +1,4 @@
-# Install script for directory: /home/aaa/fp-solver/nlopt2/test
+# Install script for directory: /home/aaa/nlopt2/test
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

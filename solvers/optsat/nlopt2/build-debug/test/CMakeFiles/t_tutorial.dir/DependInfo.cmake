@@ -8,12 +8,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/aaa/fp-solver/nlopt2/test/t_tutorial.cxx" "test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o" "gcc" "test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o.d"
+  "/home/aaa/nlopt2/test/t_tutorial.cxx" "test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o" "gcc" "test/CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/nlopt2.dir/DependInfo.cmake"
+  "/home/aaa/nlopt2/build-debug/CMakeFiles/nlopt2.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

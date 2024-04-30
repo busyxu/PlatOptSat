@@ -1,6 +1,6 @@
 CMakeFiles/nlopt2.dir/src/algs/cobyla/cobyla.c.o: \
- /home/aaa/fp-solver/nlopt2/src/algs/cobyla/cobyla.c \
- /usr/include/stdc-predef.h /usr/include/stdlib.h \
+ /home/aaa/nlopt2/src/algs/cobyla/cobyla.c /usr/include/stdc-predef.h \
+ /usr/include/stdlib.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -51,10 +51,9 @@ CMakeFiles/nlopt2.dir/src/algs/cobyla/cobyla.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/aaa/fp-solver/nlopt2/src/algs/cobyla/cobyla.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h \
+ /home/aaa/nlopt2/src/algs/cobyla/cobyla.h \
+ /home/aaa/nlopt2/src/api/nlopt.h /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/build-debug/nlopt_config.h \
  /usr/lib/gcc/x86_64-linux-gnu/7/include/stdint.h /usr/include/stdint.h \
  /usr/include/x86_64-linux-gnu/bits/wchar.h \
  /usr/include/x86_64-linux-gnu/bits/stdint-uintn.h

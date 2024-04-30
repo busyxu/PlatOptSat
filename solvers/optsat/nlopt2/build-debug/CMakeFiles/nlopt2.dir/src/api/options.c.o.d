@@ -1,5 +1,5 @@
 CMakeFiles/nlopt2.dir/src/api/options.c.o: \
- /home/aaa/fp-solver/nlopt2/src/api/options.c /usr/include/stdc-predef.h \
+ /home/aaa/nlopt2/src/api/options.c /usr/include/stdc-predef.h \
  /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
@@ -54,8 +54,7 @@ CMakeFiles/nlopt2.dir/src/api/options.c.o: \
  /usr/include/x86_64-linux-gnu/bits/types/locale_t.h \
  /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h \
  /usr/include/strings.h /usr/lib/gcc/x86_64-linux-gnu/7/include/float.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt-internal.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h
+ /home/aaa/nlopt2/src/api/nlopt-internal.h \
+ /home/aaa/nlopt2/src/api/nlopt.h /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/build-debug/nlopt_config.h \
+ /home/aaa/nlopt2/src/api/nlopt.h

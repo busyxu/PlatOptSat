@@ -1,0 +1,151 @@
+misc: {backend: Docker}
+results:
+- {backend_timeout: false, benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/filter2_reinit_true-unreach-call.c_7.smt2,
+  exit_code: 255, expected_sat: sat, is_trivial: false, old_expected_sat: unknown,
+  out_of_memory: false, sat: unknown, stderr_log_file: /workdir-2/stderr.log.txt,
+  stdout_log_file: /workdir-2/stdout.log.txt, sys_cpu_time: 0.06, user_cpu_time: 0.02,
+  wallclock_time: 1.1378094969986705, working_directory: /workdir-2}
+- {backend_timeout: false, benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/cos_polynomial_true-unreach-call.c_9.smt2,
+  exit_code: 255, expected_sat: sat, is_trivial: false, old_expected_sat: unknown,
+  out_of_memory: false, sat: unknown, stderr_log_file: /workdir-1/stderr.log.txt,
+  stdout_log_file: /workdir-1/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.04,
+  wallclock_time: 1.2103608690013061, working_directory: /workdir-1}
+- {backend_timeout: false, benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/image_filter_true-unreach-call.c_2.smt2,
+  exit_code: 255, expected_sat: sat, is_trivial: false, old_expected_sat: unknown,
+  out_of_memory: false, sat: unknown, stderr_log_file: /workdir-3/stderr.log.txt,
+  stdout_log_file: /workdir-3/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.04,
+  wallclock_time: 1.2701906250003958, working_directory: /workdir-3}
+#over
+-
+- {backend_timeout: false, benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_372.smt2,
+  exit_code: 255, expected_sat: sat, is_trivial: false, old_expected_sat: unknown,
+  out_of_memory: false, sat: unknown, stderr_log_file: /workdir-5/stderr.log.txt,
+  stdout_log_file: /workdir-5/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.03,
+  wallclock_time: 1.1910253989990451, working_directory: /workdir-5}
+# timeout
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/div2.c.30.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-15/stderr.log.txt, stdout_log_file: /workdir-15/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.59291233800104, working_directory: /workdir-15}
+#timeout
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/div2.c.40.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-16/stderr.log.txt, stdout_log_file: /workdir-16/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.654428147001454, working_directory: /workdir-16}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/div2.c.50.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-17/stderr.log.txt, stdout_log_file: /workdir-17/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.51893446599934, working_directory: /workdir-17}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/gaussian.c.25.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-39/stderr.log.txt, stdout_log_file: /workdir-39/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.70340046799902, working_directory: /workdir-39}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/gaussian.c.75.smt2, exit_code: null,
+  expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-40/stderr.log.txt,
+  stdout_log_file: /workdir-40/stdout.log.txt, sys_cpu_time: null, user_cpu_time: null,
+  wallclock_time: 60.700611785003275, working_directory: /workdir-40}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/mul_03_3_1.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-43/stderr.log.txt, stdout_log_file: /workdir-43/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 59.32, wallclock_time: 60.452453699002945, working_directory: /workdir-43}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sin2.c.10.smt2, exit_code: null,
+  expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-72/stderr.log.txt,
+  stdout_log_file: /workdir-72/stdout.log.txt, sys_cpu_time: null, user_cpu_time: null,
+  wallclock_time: 60.30993757000033, working_directory: /workdir-72}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sin2.c.2.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-76/stderr.log.txt, stdout_log_file: /workdir-76/stdout.log.txt,
+  sys_cpu_time: 0.05, user_cpu_time: 59.46, wallclock_time: 60.37522953500229, working_directory: /workdir-76}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sin2.c.5.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-79/stderr.log.txt, stdout_log_file: /workdir-79/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 59.52, wallclock_time: 60.382140428999264, working_directory: /workdir-79}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sqrt.c.10.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-82/stderr.log.txt, stdout_log_file: /workdir-82/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.38321619300041, working_directory: /workdir-82}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sqrt.c.15.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-83/stderr.log.txt, stdout_log_file: /workdir-83/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.36847454300005, working_directory: /workdir-83}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sqrt.c.20.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-85/stderr.log.txt, stdout_log_file: /workdir-85/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.38024658200084, working_directory: /workdir-85}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sqrt.c.25.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-86/stderr.log.txt, stdout_log_file: /workdir-86/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.377683793998585, working_directory: /workdir-86}
+- {backend_timeout: true, benchmark: QF_FP/griggio/fmcad12/sqrt.c.5.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, old_expected_sat: unknown, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-87/stderr.log.txt, stdout_log_file: /workdir-87/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 59.47, wallclock_time: 60.45591159500327, working_directory: /workdir-87}
+
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/O220-024.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-141/stderr.log.txt,
+  stdout_log_file: /workdir-141/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.02,
+  wallclock_time: 0.6096513289994618, working_directory: /workdir-141}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/assoc_add.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-143/stderr.log.txt,
+  stdout_log_file: /workdir-143/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.03,
+  wallclock_time: 0.5807557260013709, working_directory: /workdir-143}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/assoc_mult.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-144/stderr.log.txt,
+  stdout_log_file: /workdir-144/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.02,
+  wallclock_time: 0.5531479159981245, working_directory: /workdir-144}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/average_3.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-145/stderr.log.txt,
+  stdout_log_file: /workdir-145/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.02,
+  wallclock_time: 0.5257025430000795, working_directory: /workdir-145}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/average_5.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-146/stderr.log.txt,
+  stdout_log_file: /workdir-146/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.03,
+  wallclock_time: 0.5629661540006055, working_directory: /workdir-146}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/average_6.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-147/stderr.log.txt,
+  stdout_log_file: /workdir-147/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.03,
+  wallclock_time: 0.6981301990017528, working_directory: /workdir-147}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/exp_3_precision.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-150/stderr.log.txt,
+  stdout_log_file: /workdir-150/stdout.log.txt, sys_cpu_time: 0.01, user_cpu_time: 0.04,
+  wallclock_time: 0.5549637510011962, working_directory: /workdir-150}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/guarded_div_1.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-151/stderr.log.txt,
+  stdout_log_file: /workdir-151/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.03,
+  wallclock_time: 0.5626246579995495, working_directory: /workdir-151}
+- {backend_timeout: true, benchmark: QF_FP/schanda/spark/cancel_2.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-148/stderr.log.txt,
+  stdout_log_file: /workdir-148/stdout.log.txt, sys_cpu_time: 0.81, user_cpu_time: 58.36,
+  wallclock_time: 60.383474795999064, working_directory: /workdir-148}
+- {backend_timeout: true, benchmark: QF_FP/schanda/spark/cases_2.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-149/stderr.log.txt,
+  stdout_log_file: /workdir-149/stdout.log.txt, sys_cpu_time: 0.05, user_cpu_time: 59.42,
+  wallclock_time: 60.42039565399682, working_directory: /workdir-149}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/protected_divide.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-154/stderr.log.txt,
+  stdout_log_file: /workdir-154/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.03,
+  wallclock_time: 0.7235731039982056, working_directory: /workdir-154}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/riposte_floats_are_not_rational.smt2,
+  exit_code: 3, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-155/stderr.log.txt, stdout_log_file: /workdir-155/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.04, wallclock_time: 0.7491235919987957, working_directory: /workdir-155}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/scale_1.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-156/stderr.log.txt,
+  stdout_log_file: /workdir-156/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.04,
+  wallclock_time: 0.6774149859993486, working_directory: /workdir-156}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/underflow_1.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-157/stderr.log.txt,
+  stdout_log_file: /workdir-157/stdout.log.txt, sys_cpu_time: 0.01, user_cpu_time: 0.04,
+  wallclock_time: 0.6650680730017484, working_directory: /workdir-157}
+- {backend_timeout: false, benchmark: QF_FP/schanda/spark/zeros_count_1.smt2, exit_code: 3,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-159/stderr.log.txt,
+  stdout_log_file: /workdir-159/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.03,
+  wallclock_time: 0.6585828120005317, working_directory: /workdir-159}
+- {backend_timeout: true, benchmark: QF_FP/schanda/spark/guarded_div_2.smt2, exit_code: null,
+  expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown, stderr_log_file: /workdir-152/stderr.log.txt,
+  stdout_log_file: /workdir-152/stdout.log.txt, sys_cpu_time: null, user_cpu_time: null,
+  wallclock_time: 60.34951336999802, working_directory: /workdir-152}
+- {backend_timeout: true, benchmark: QF_FP/schanda/spark/incorrect_reordering.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-153/stderr.log.txt, stdout_log_file: /workdir-153/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 59.26, wallclock_time: 60.359591353000724, working_directory: /workdir-153}

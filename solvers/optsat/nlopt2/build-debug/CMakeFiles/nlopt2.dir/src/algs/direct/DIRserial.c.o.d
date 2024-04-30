@@ -1,8 +1,6 @@
 CMakeFiles/nlopt2.dir/src/algs/direct/DIRserial.c.o: \
- /home/aaa/fp-solver/nlopt2/src/algs/direct/DIRserial.c \
- /usr/include/stdc-predef.h \
- /home/aaa/fp-solver/nlopt2/src/algs/direct/direct-internal.h \
- /usr/include/stdio.h \
+ /home/aaa/nlopt2/src/algs/direct/DIRserial.c /usr/include/stdc-predef.h \
+ /home/aaa/nlopt2/src/algs/direct/direct-internal.h /usr/include/stdio.h \
  /usr/include/x86_64-linux-gnu/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/x86_64-linux-gnu/sys/cdefs.h \
  /usr/include/x86_64-linux-gnu/bits/wordsize.h \
@@ -53,7 +51,7 @@ CMakeFiles/nlopt2.dir/src/algs/direct/DIRserial.c.o: \
  /usr/include/x86_64-linux-gnu/bits/fp-fast.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls-helper-functions.h \
  /usr/include/x86_64-linux-gnu/bits/mathcalls.h \
- /home/aaa/fp-solver/nlopt2/src/algs/direct/direct.h \
- /home/aaa/fp-solver/nlopt2/src/util/nlopt-util.h \
- /home/aaa/fp-solver/nlopt2/build-debug/nlopt_config.h \
- /home/aaa/fp-solver/nlopt2/src/api/nlopt.h
+ /home/aaa/nlopt2/src/algs/direct/direct.h \
+ /home/aaa/nlopt2/src/util/nlopt-util.h \
+ /home/aaa/nlopt2/build-debug/nlopt_config.h \
+ /home/aaa/nlopt2/src/api/nlopt.h

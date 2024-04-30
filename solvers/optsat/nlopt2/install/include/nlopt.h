@@ -149,6 +149,7 @@ typedef enum {
     NLOPT_GN_ESCH,
     NLOPT_GN_BYTEEA, //add by yx
     NLOPT_GN_GA, //add by yx
+    NLOPT_GN_MOEA, //add by yx
 
     NLOPT_GN_AGS,
 

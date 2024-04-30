@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaa/fp-solver/nlopt2
+CMAKE_SOURCE_DIR = /home/aaa/nlopt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaa/fp-solver/nlopt2/build-debug
+CMAKE_BINARY_DIR = /home/aaa/nlopt2/build-debug
 
 # Utility rule file for generate-fortran.
 
@@ -69,8 +69,8 @@ include CMakeFiles/generate-fortran.dir/progress.make
 CMakeFiles/generate-fortran: nlopt.f
 
 nlopt.f: ../src/api/nlopt.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nlopt.f"
-	/usr/local/bin/cmake -DAPI_SOURCE_DIR=/home/aaa/fp-solver/nlopt2/src/api -P /home/aaa/fp-solver/nlopt2/cmake/generate-fortran.cmake
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/aaa/nlopt2/build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating nlopt.f"
+	/usr/local/bin/cmake -DAPI_SOURCE_DIR=/home/aaa/nlopt2/src/api -P /home/aaa/nlopt2/cmake/generate-fortran.cmake
 
 generate-fortran: CMakeFiles/generate-fortran
 generate-fortran: nlopt.f
@@ -86,6 +86,6 @@ CMakeFiles/generate-fortran.dir/clean:
 .PHONY : CMakeFiles/generate-fortran.dir/clean
 
 CMakeFiles/generate-fortran.dir/depend:
-	cd /home/aaa/fp-solver/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug/CMakeFiles/generate-fortran.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaa/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/nlopt2 /home/aaa/nlopt2 /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug/CMakeFiles/generate-fortran.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/generate-fortran.dir/depend
 

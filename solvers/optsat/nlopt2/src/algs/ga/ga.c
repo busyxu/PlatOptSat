@@ -179,7 +179,9 @@ nlopt_result ga_sbx_pm_strategy(
      double* minf,
      nlopt_stopping* stop, 		/* nlopt stop condition */
      unsigned np, 			/* Number of Parents */
-     unsigned no) {
+     unsigned no,           /* Number of Offsprings */
+     double *seed,
+     int seed_size) {
 
      /* variables from nlopt */
      nlopt_result ret = NLOPT_SUCCESS;//init ret
@@ -247,14 +249,19 @@ nlopt_result ga_sbx_pm_strategy(
 	       ret = NLOPT_OUT_OF_MEMORY;
 	       goto done;
 	  }
-	  for (item=0; item<nparameters; item++) {
-	       vetor[1] = lb[item];
-	       vetor[2] = ub[item];
-	       vetor[7] = vetor[7]+1;
-//	       esparents[id].parameters[item] = randcauchy(vetor);
-//          esparents[id].parameters[item] = vetor[1] + ((double)rand() / RAND_MAX) * (vetor[2] - vetor[1]);
-          esparents[id].parameters[item] = nlopt_urand(vetor[1],vetor[2]);//uniform distribution
-	  }
+         if(id<seed_size){
+             for(item=0; item<nparameters; item++)
+                 esparents[id].parameters[item] = seed[id];
+         } else{
+             for (item=0; item<nparameters; item++) {
+               vetor[1] = lb[item];
+               vetor[2] = ub[item];
+               vetor[7] = vetor[7]+1;
+    //	       esparents[id].parameters[item] = randcauchy(vetor);
+    //          esparents[id].parameters[item] = vetor[1] + ((double)rand() / RAND_MAX) * (vetor[2] - vetor[1]);
+              esparents[id].parameters[item] = nlopt_urand(vetor[1],vetor[2]);//uniform distribution
+             }
+         }
      }
 
      memcpy(esparents[0].parameters, x, nparameters * sizeof(double));

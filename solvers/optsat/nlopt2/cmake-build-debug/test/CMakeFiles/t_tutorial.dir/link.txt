@@ -1,1 +1,1 @@
-/usr/bin/c++ -std=c++11  -g -rdynamic CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o -o t_tutorial  -Wl,-rpath,/home/aaa/fp-solver/nlopt2/cmake-build-debug ../libnlopt2.so.0.11.1 -lm 
+/home/aaa/jfs/cmake-build-debug/runtime/bin/clang++ -std=c++11  -g -rdynamic CMakeFiles/t_tutorial.dir/t_tutorial.cxx.o -o t_tutorial  -Wl,-rpath,/home/aaa/nlopt2/cmake-build-debug ../libnlopt2.so.0.11.1 -lm 

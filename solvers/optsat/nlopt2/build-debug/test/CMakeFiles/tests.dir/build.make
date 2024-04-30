@@ -53,10 +53,10 @@ RM = /usr/local/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/aaa/fp-solver/nlopt2
+CMAKE_SOURCE_DIR = /home/aaa/nlopt2
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/aaa/fp-solver/nlopt2/build-debug
+CMAKE_BINARY_DIR = /home/aaa/nlopt2/build-debug
 
 # Utility rule file for tests.
 
@@ -74,10 +74,10 @@ test/CMakeFiles/tests.dir/build: tests
 .PHONY : test/CMakeFiles/tests.dir/build
 
 test/CMakeFiles/tests.dir/clean:
-	cd /home/aaa/fp-solver/nlopt2/build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
+	cd /home/aaa/nlopt2/build-debug/test && $(CMAKE_COMMAND) -P CMakeFiles/tests.dir/cmake_clean.cmake
 .PHONY : test/CMakeFiles/tests.dir/clean
 
 test/CMakeFiles/tests.dir/depend:
-	cd /home/aaa/fp-solver/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/fp-solver/nlopt2 /home/aaa/fp-solver/nlopt2/test /home/aaa/fp-solver/nlopt2/build-debug /home/aaa/fp-solver/nlopt2/build-debug/test /home/aaa/fp-solver/nlopt2/build-debug/test/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/aaa/nlopt2/build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/aaa/nlopt2 /home/aaa/nlopt2/test /home/aaa/nlopt2/build-debug /home/aaa/nlopt2/build-debug/test /home/aaa/nlopt2/build-debug/test/CMakeFiles/tests.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : test/CMakeFiles/tests.dir/depend
 

@@ -85,6 +85,7 @@ static const char nlopt_algorithm_names[NLOPT_NUM_ALGORITHMS][256] = {
     "ESCH evolutionary strategy",
     "BYTEEA evolutionary strategy", //add by yx
     "GA genetic algorithm", //add by yx
+    "MOEA multiobjective evolutionary algorithm" //add by yx
 #ifdef NLOPT_CXX11
     "AGS (global, no-derivative)"
 #else
@@ -151,6 +152,7 @@ const char *nlopt_algorithm_to_string(nlopt_algorithm algorithm)
     case NLOPT_GN_ESCH: return "GN_ESCH";
     case NLOPT_GN_BYTEEA: return "GN_BYTEEA"; // add by yx
     case NLOPT_GN_GA: return "GN_GA"; //add by yx
+    case NLOPT_GN_MOEA: return "GN_MOEA"; // add by yx
     case NLOPT_GN_AGS: return "GN_AGS";
     case NLOPT_NUM_ALGORITHMS: return NULL;
   }

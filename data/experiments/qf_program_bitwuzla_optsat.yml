@@ -1,0 +1,1226 @@
+misc: {backend: Docker}
+results:
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsec_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-9/stderr.log.txt, stdout_log_file: /workdir-9/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.04, wallclock_time: 0.9815678909944836, working_directory: /workdir-9}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_649.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-27/stderr.log.txt, stdout_log_file: /workdir-27/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.53, wallclock_time: 60.53791223499866, working_directory: /workdir-27}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_ldexp_bfs_FP_13.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-51/stderr.log.txt, stdout_log_file: /workdir-51/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.04, wallclock_time: 0.6074605809990317, working_directory: /workdir-51}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_81.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-37/stderr.log.txt, stdout_log_file: /workdir-37/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.64, wallclock_time: 60.37098020801204, working_directory: /workdir-37}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_array_bfs_FP_31.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-43/stderr.log.txt, stdout_log_file: /workdir-43/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.35, wallclock_time: 60.435090197992395, working_directory: /workdir-43}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_Plm_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-102/stderr.log.txt, stdout_log_file: /workdir-102/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.62, wallclock_time: 60.4153765749943, working_directory: /workdir-102}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multimin_test_gradient_bfs_FP_1.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-103/stderr.log.txt, stdout_log_file: /workdir-103/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.7, wallclock_time: 60.34924599000078, working_directory: /workdir-103}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-108/stderr.log.txt, stdout_log_file: /workdir-108/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.67, wallclock_time: 60.359806483000284, working_directory: /workdir-108}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_In_scaled_array_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-124/stderr.log.txt, stdout_log_file: /workdir-124/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.64, wallclock_time: 60.41305349901086, working_directory: /workdir-124}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_75.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-140/stderr.log.txt, stdout_log_file: /workdir-140/stdout.log.txt,
+  sys_cpu_time: 0.32, user_cpu_time: 58.72, wallclock_time: 60.38542341600987, working_directory: /workdir-140}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Inu_scaled_e_bfs_FP_15.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-152/stderr.log.txt, stdout_log_file: /workdir-152/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.66, wallclock_time: 60.456593406008324, working_directory: /workdir-152}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_scaled_array_bfs_FP_39.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-158/stderr.log.txt, stdout_log_file: /workdir-158/stdout.log.txt,
+  sys_cpu_time: 0.17, user_cpu_time: 58.67, wallclock_time: 60.40063851400919, working_directory: /workdir-158}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multimin_test_gradient_bfs_FP_78.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-162/stderr.log.txt, stdout_log_file: /workdir-162/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 58.65, wallclock_time: 60.38578175799921, working_directory: /workdir-162}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_17.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-184/stderr.log.txt, stdout_log_file: /workdir-184/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.67, wallclock_time: 60.477113420987735, working_directory: /workdir-184}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_77.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-226/stderr.log.txt, stdout_log_file: /workdir-226/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.1, wallclock_time: 0.7066438570036553, working_directory: /workdir-226}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_100.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-215/stderr.log.txt, stdout_log_file: /workdir-215/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.65, wallclock_time: 60.51431639700604, working_directory: /workdir-215}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_complex_spence_xy_e_bfs_FP_22.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-224/stderr.log.txt, stdout_log_file: /workdir-224/stdout.log.txt,
+  sys_cpu_time: 0.27, user_cpu_time: 58.7, wallclock_time: 60.410321349001606, working_directory: /workdir-224}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_266.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-232/stderr.log.txt, stdout_log_file: /workdir-232/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.35274786599621, working_directory: /workdir-232}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-244/stderr.log.txt, stdout_log_file: /workdir-244/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.62, wallclock_time: 60.413182603006135, working_directory: /workdir-244}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hyperg_2F1_renorm_e_bfs_FP_34.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-255/stderr.log.txt, stdout_log_file: /workdir-255/stdout.log.txt,
+  sys_cpu_time: 0.17, user_cpu_time: 58.69, wallclock_time: 60.4134741309972, working_directory: /workdir-255}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_62.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-256/stderr.log.txt, stdout_log_file: /workdir-256/stdout.log.txt,
+  sys_cpu_time: 0.31, user_cpu_time: 58.66, wallclock_time: 60.372785760991974, working_directory: /workdir-256}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_52.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-285/stderr.log.txt, stdout_log_file: /workdir-285/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.09, wallclock_time: 0.6222902500012424, working_directory: /workdir-285}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_H3d_array_bfs_FP_26.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-278/stderr.log.txt, stdout_log_file: /workdir-278/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.53, wallclock_time: 60.482246885992936, working_directory: /workdir-278}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_52.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-282/stderr.log.txt, stdout_log_file: /workdir-282/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.69, wallclock_time: 60.387209656997584, working_directory: /workdir-282}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_67.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-287/stderr.log.txt, stdout_log_file: /workdir-287/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.82, wallclock_time: 60.39234353299253, working_directory: /workdir-287}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hyperg_2F1_renorm_e_bfs_FP_33.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-342/stderr.log.txt, stdout_log_file: /workdir-342/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.89, wallclock_time: 60.39929842700076, working_directory: /workdir-342}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_318.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-360/stderr.log.txt, stdout_log_file: /workdir-360/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.98, wallclock_time: 60.3838676650048, working_directory: /workdir-360}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_array_bfs_FP_41.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-378/stderr.log.txt, stdout_log_file: /workdir-378/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.52, wallclock_time: 60.34201164598926, working_directory: /workdir-378}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_array_bfs_FP_43.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-392/stderr.log.txt, stdout_log_file: /workdir-392/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.42, wallclock_time: 60.366903343994636, working_directory: /workdir-392}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1487.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-406/stderr.log.txt, stdout_log_file: /workdir-406/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.8, wallclock_time: 60.42689482800779, working_directory: /workdir-406}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_123.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-415/stderr.log.txt, stdout_log_file: /workdir-415/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.68, wallclock_time: 60.46365291599068, working_directory: /workdir-415}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_350.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-438/stderr.log.txt, stdout_log_file: /workdir-438/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.4, wallclock_time: 60.39380443200935, working_directory: /workdir-438}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_scaled_array_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-459/stderr.log.txt, stdout_log_file: /workdir-459/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.53, wallclock_time: 60.79970214300556, working_directory: /workdir-459}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_0_e_bfs_FP_86.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-474/stderr.log.txt, stdout_log_file: /workdir-474/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.59, wallclock_time: 60.395015066009364, working_directory: /workdir-474}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_30.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-521/stderr.log.txt, stdout_log_file: /workdir-521/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.07, wallclock_time: 0.6235362180013908, working_directory: /workdir-521}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_302.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-490/stderr.log.txt, stdout_log_file: /workdir-490/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.614780076997704, working_directory: /workdir-490}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_Plm_array_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-526/stderr.log.txt, stdout_log_file: /workdir-526/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.63, wallclock_time: 60.39330894300656, working_directory: /workdir-526}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_52.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-545/stderr.log.txt, stdout_log_file: /workdir-545/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.55, wallclock_time: 60.39480197199737, working_directory: /workdir-545}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_airy_Ai_deriv_e_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-549/stderr.log.txt, stdout_log_file: /workdir-549/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.58, wallclock_time: 60.488096511995536, working_directory: /workdir-549}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_dilog_e_bfs_FP_14.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-554/stderr.log.txt, stdout_log_file: /workdir-554/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.57, wallclock_time: 60.393356843997026, working_directory: /workdir-554}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lambert_W0_e_bfs_FP_2.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-565/stderr.log.txt, stdout_log_file: /workdir-565/stdout.log.txt,
+  sys_cpu_time: 0.05, user_cpu_time: 58.87, wallclock_time: 60.37445741200645, working_directory: /workdir-565}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_3.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-567/stderr.log.txt, stdout_log_file: /workdir-567/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.6, wallclock_time: 60.536107184001594, working_directory: /workdir-567}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_expint_E2_scaled_e_bfs_FP_14.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-579/stderr.log.txt, stdout_log_file: /workdir-579/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.68, wallclock_time: 60.34697719399992, working_directory: /workdir-579}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsch_bfs_FP_3.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-595/stderr.log.txt, stdout_log_file: /workdir-595/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.07, wallclock_time: 0.8218655439995928, working_directory: /workdir-595}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hyperg_2F1_renorm_e_bfs_FP_31.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-587/stderr.log.txt, stdout_log_file: /workdir-587/stdout.log.txt,
+  sys_cpu_time: 0.25, user_cpu_time: 58.78, wallclock_time: 60.39598564199696, working_directory: /workdir-587}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsec_bfs_FP_4.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-609/stderr.log.txt, stdout_log_file: /workdir-609/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.04, wallclock_time: 0.5771516749955481, working_directory: /workdir-609}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_array_bfs_FP_25.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-592/stderr.log.txt, stdout_log_file: /workdir-592/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.62, wallclock_time: 60.39527814100438, working_directory: /workdir-592}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_38.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-612/stderr.log.txt, stdout_log_file: /workdir-612/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.51, wallclock_time: 60.392700633005006, working_directory: /workdir-612}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_chisq_Q_bfs_FP_16.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-615/stderr.log.txt, stdout_log_file: /workdir-615/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.58, wallclock_time: 60.371525817987276, working_directory: /workdir-615}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_6.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-631/stderr.log.txt, stdout_log_file: /workdir-631/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.56, wallclock_time: 60.662861127988435, working_directory: /workdir-631}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_184.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-656/stderr.log.txt, stdout_log_file: /workdir-656/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.79, wallclock_time: 60.42086692499288, working_directory: /workdir-656}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1706.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-660/stderr.log.txt, stdout_log_file: /workdir-660/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.8, wallclock_time: 60.36468929500552, working_directory: /workdir-660}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_44.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-662/stderr.log.txt, stdout_log_file: /workdir-662/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.40717626900005, working_directory: /workdir-662}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_array_bfs_FP_47.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-678/stderr.log.txt, stdout_log_file: /workdir-678/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.83, wallclock_time: 60.42724509999971, working_directory: /workdir-678}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_6.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-687/stderr.log.txt, stdout_log_file: /workdir-687/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.78, wallclock_time: 60.367271799987066, working_directory: /workdir-687}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_array_bfs_FP_21.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-692/stderr.log.txt, stdout_log_file: /workdir-692/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.64, wallclock_time: 60.35792604100425, working_directory: /workdir-692}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_poly_complex_solve_cubic_bfs_FP_11.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-708/stderr.log.txt, stdout_log_file: /workdir-708/stdout.log.txt,
+  sys_cpu_time: 0.27, user_cpu_time: 58.75, wallclock_time: 60.35121379198972, working_directory: /workdir-708}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_872.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-717/stderr.log.txt, stdout_log_file: /workdir-717/stdout.log.txt,
+  sys_cpu_time: 0.3, user_cpu_time: 58.65, wallclock_time: 60.4093651509902, working_directory: /workdir-717}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_sphPlm_deriv_array_bfs_FP_91.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-741/stderr.log.txt, stdout_log_file: /workdir-741/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.72, wallclock_time: 60.380763039007434, working_directory: /workdir-741}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_e_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-776/stderr.log.txt, stdout_log_file: /workdir-776/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.75, wallclock_time: 60.31374202799634, working_directory: /workdir-776}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_K0_e_bfs_FP_14.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-786/stderr.log.txt, stdout_log_file: /workdir-786/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.72, wallclock_time: 60.383109028989566, working_directory: /workdir-786}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_107.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-788/stderr.log.txt, stdout_log_file: /workdir-788/stdout.log.txt,
+  sys_cpu_time: 0.3, user_cpu_time: 58.58, wallclock_time: 60.385322414993425, working_directory: /workdir-788}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_binomial_Q_bfs_FP_39.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-794/stderr.log.txt, stdout_log_file: /workdir-794/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.81, wallclock_time: 60.38626725699578, working_directory: /workdir-794}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_1_e_bfs_FP_136.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-806/stderr.log.txt, stdout_log_file: /workdir-806/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.57, wallclock_time: 60.427850852996926, working_directory: /workdir-806}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_kl_scaled_e_bfs_FP_24.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-831/stderr.log.txt, stdout_log_file: /workdir-831/stdout.log.txt,
+  sys_cpu_time: 0.25, user_cpu_time: 58.61, wallclock_time: 60.396851514000446, working_directory: /workdir-831}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_67.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-839/stderr.log.txt, stdout_log_file: /workdir-839/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.78, wallclock_time: 60.39857564200065, working_directory: /workdir-839}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_238.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-857/stderr.log.txt, stdout_log_file: /workdir-857/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.69, wallclock_time: 60.39043302599748, working_directory: /workdir-857}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_e_bfs_FP_8.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-861/stderr.log.txt, stdout_log_file: /workdir-861/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.63, wallclock_time: 60.383634422993055, working_directory: /workdir-861}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-871/stderr.log.txt, stdout_log_file: /workdir-871/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.6, wallclock_time: 60.38411648799956, working_directory: /workdir-871}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_134.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-899/stderr.log.txt, stdout_log_file: /workdir-899/stdout.log.txt,
+  sys_cpu_time: 0.32, user_cpu_time: 58.67, wallclock_time: 60.38420684498851, working_directory: /workdir-899}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Jn_array_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-905/stderr.log.txt, stdout_log_file: /workdir-905/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.83, wallclock_time: 60.54572390799876, working_directory: /workdir-905}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_871.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-914/stderr.log.txt, stdout_log_file: /workdir-914/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.64, wallclock_time: 60.378274139002315, working_directory: /workdir-914}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_51.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-925/stderr.log.txt, stdout_log_file: /workdir-925/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.73, wallclock_time: 60.37789283800521, working_directory: /workdir-925}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_chisq_Q_bfs_FP_20.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-943/stderr.log.txt, stdout_log_file: /workdir-943/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.7, wallclock_time: 60.371255117992405, working_directory: /workdir-943}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_yl_e_bfs_FP_142.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-951/stderr.log.txt, stdout_log_file: /workdir-951/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.64, wallclock_time: 60.41967038900475, working_directory: /workdir-951}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_In_scaled_array_bfs_FP_6.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-952/stderr.log.txt, stdout_log_file: /workdir-952/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.76, wallclock_time: 60.445155959998374, working_directory: /workdir-952}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_1.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-960/stderr.log.txt, stdout_log_file: /workdir-960/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.49, wallclock_time: 60.45149214701087, working_directory: /workdir-960}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_tdist_Q_bfs_FP_9.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-974/stderr.log.txt, stdout_log_file: /workdir-974/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.64, wallclock_time: 60.37849005499447, working_directory: /workdir-974}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_log_erfc_e_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-981/stderr.log.txt, stdout_log_file: /workdir-981/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.8, wallclock_time: 60.30905126300058, working_directory: /workdir-981}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1488.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-983/stderr.log.txt, stdout_log_file: /workdir-983/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.75, wallclock_time: 60.38050183998712, working_directory: /workdir-983}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_poch_e_bfs_FP_70.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-986/stderr.log.txt, stdout_log_file: /workdir-986/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.71, wallclock_time: 60.37815242299985, working_directory: /workdir-986}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_50.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1001/stderr.log.txt, stdout_log_file: /workdir-1001/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.7, wallclock_time: 60.40083015199343, working_directory: /workdir-1001}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnchoose_e_bfs_FP_30.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1020/stderr.log.txt, stdout_log_file: /workdir-1020/stdout.log.txt,
+  sys_cpu_time: 0.5, user_cpu_time: 58.61, wallclock_time: 60.40615833799529, working_directory: /workdir-1020}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_22.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1057/stderr.log.txt, stdout_log_file: /workdir-1057/stdout.log.txt,
+  sys_cpu_time: 0.33, user_cpu_time: 58.6, wallclock_time: 60.53630256600445, working_directory: /workdir-1057}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_wave_FG_array_bfs_FP_16.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1063/stderr.log.txt, stdout_log_file: /workdir-1063/stdout.log.txt,
+  sys_cpu_time: 0.38, user_cpu_time: 58.79, wallclock_time: 60.45625560100598, working_directory: /workdir-1063}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_poly_solve_cubic_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1069/stderr.log.txt, stdout_log_file: /workdir-1069/stdout.log.txt,
+  sys_cpu_time: 0.46, user_cpu_time: 58.6, wallclock_time: 60.37919548100035, working_directory: /workdir-1069}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_fdist_Pinv_bfs_FP_26.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1105/stderr.log.txt, stdout_log_file: /workdir-1105/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.8, wallclock_time: 60.33407250599703, working_directory: /workdir-1105}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_80.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1109/stderr.log.txt, stdout_log_file: /workdir-1109/stdout.log.txt,
+  sys_cpu_time: 0.27, user_cpu_time: 58.83, wallclock_time: 60.41872382600559, working_directory: /workdir-1109}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_wave_FGp_array_bfs_FP_13.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1123/stderr.log.txt, stdout_log_file: /workdir-1123/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 58.78, wallclock_time: 60.341118628013646, working_directory: /workdir-1123}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_53.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1127/stderr.log.txt, stdout_log_file: /workdir-1127/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.82, wallclock_time: 60.374158201986575, working_directory: /workdir-1127}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_multiply_err_e_bfs_FP_13.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1129/stderr.log.txt, stdout_log_file: /workdir-1129/stdout.log.txt,
+  sys_cpu_time: 0.37, user_cpu_time: 58.47, wallclock_time: 60.3992268639995, working_directory: /workdir-1129}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_102.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1164/stderr.log.txt, stdout_log_file: /workdir-1164/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.08, wallclock_time: 0.6286145810008748, working_directory: /workdir-1164}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lngamma_complex_e_bfs_FP_3.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1170/stderr.log.txt, stdout_log_file: /workdir-1170/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.76, wallclock_time: 60.38227347099746, working_directory: /workdir-1170}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_194.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1178/stderr.log.txt, stdout_log_file: /workdir-1178/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.53, wallclock_time: 60.38636834200588, working_directory: /workdir-1178}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hyperg_2F1_renorm_e_bfs_FP_32.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1180/stderr.log.txt, stdout_log_file: /workdir-1180/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.48, wallclock_time: 60.412972059013555, working_directory: /workdir-1180}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_42.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1237/stderr.log.txt, stdout_log_file: /workdir-1237/stdout.log.txt,
+  sys_cpu_time: 0.3, user_cpu_time: 58.79, wallclock_time: 60.39713574000052, working_directory: /workdir-1237}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_poch_e_bfs_FP_97.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1260/stderr.log.txt, stdout_log_file: /workdir-1260/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 59.13, wallclock_time: 60.46879680300481, working_directory: /workdir-1260}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_594.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1289/stderr.log.txt, stdout_log_file: /workdir-1289/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.84, wallclock_time: 60.37999064900214, working_directory: /workdir-1289}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsc_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1320/stderr.log.txt, stdout_log_file: /workdir-1320/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.05, wallclock_time: 0.5421152690105373, working_directory: /workdir-1320}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_78.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1317/stderr.log.txt, stdout_log_file: /workdir-1317/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.62, wallclock_time: 60.41587584100489, working_directory: /workdir-1317}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_49.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1324/stderr.log.txt, stdout_log_file: /workdir-1324/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.71, wallclock_time: 60.37874259900127, working_directory: /workdir-1324}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_2.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1325/stderr.log.txt, stdout_log_file: /workdir-1325/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.76, wallclock_time: 60.36442666500807, working_directory: /workdir-1325}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_0_e_bfs_FP_82.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1328/stderr.log.txt, stdout_log_file: /workdir-1328/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.76, wallclock_time: 60.39852138000424, working_directory: /workdir-1328}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_array_bfs_FP_36.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1353/stderr.log.txt, stdout_log_file: /workdir-1353/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.84, wallclock_time: 60.39441322001221, working_directory: /workdir-1353}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1769.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1359/stderr.log.txt, stdout_log_file: /workdir-1359/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.33009667501028, working_directory: /workdir-1359}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_21.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1368/stderr.log.txt, stdout_log_file: /workdir-1368/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.59, wallclock_time: 60.34448171099939, working_directory: /workdir-1368}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_42.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1371/stderr.log.txt, stdout_log_file: /workdir-1371/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.38356736199057, working_directory: /workdir-1371}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_48.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1372/stderr.log.txt, stdout_log_file: /workdir-1372/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.38853527199535, working_directory: /workdir-1372}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_eta_int_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1395/stderr.log.txt, stdout_log_file: /workdir-1395/stdout.log.txt,
+  sys_cpu_time: 0.31, user_cpu_time: 58.76, wallclock_time: 60.42461783600447, working_directory: /workdir-1395}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_15.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1419/stderr.log.txt, stdout_log_file: /workdir-1419/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.77, wallclock_time: 60.43764387500414, working_directory: /workdir-1419}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_310.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1422/stderr.log.txt, stdout_log_file: /workdir-1422/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.64, wallclock_time: 60.367410770995775, working_directory: /workdir-1422}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_47.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1427/stderr.log.txt, stdout_log_file: /workdir-1427/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.40687466399686, working_directory: /workdir-1427}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_87.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1442/stderr.log.txt, stdout_log_file: /workdir-1442/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.66, wallclock_time: 60.38662739400752, working_directory: /workdir-1442}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_123.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1448/stderr.log.txt, stdout_log_file: /workdir-1448/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.1, wallclock_time: 0.6714463620010065, working_directory: /workdir-1448}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_1_e_bfs_FP_132.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1443/stderr.log.txt, stdout_log_file: /workdir-1443/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.55, wallclock_time: 60.40039958099078, working_directory: /workdir-1443}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_In_scaled_array_bfs_FP_35.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1446/stderr.log.txt, stdout_log_file: /workdir-1446/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.69, wallclock_time: 60.39078122499632, working_directory: /workdir-1446}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1452/stderr.log.txt, stdout_log_file: /workdir-1452/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.66, wallclock_time: 60.410926397991716, working_directory: /workdir-1452}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Jn_e_bfs_FP_8.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1465/stderr.log.txt, stdout_log_file: /workdir-1465/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.51, wallclock_time: 60.34960472700186, working_directory: /workdir-1465}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_16.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1472/stderr.log.txt, stdout_log_file: /workdir-1472/stdout.log.txt,
+  sys_cpu_time: 0.25, user_cpu_time: 58.66, wallclock_time: 60.38436973000353, working_directory: /workdir-1472}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_136.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1487/stderr.log.txt, stdout_log_file: /workdir-1487/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 58.84, wallclock_time: 60.767473002997576, working_directory: /workdir-1487}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_array_bfs_FP_11.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1490/stderr.log.txt, stdout_log_file: /workdir-1490/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 58.74, wallclock_time: 60.64850137999747, working_directory: /workdir-1490}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsech_bfs_FP_3.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1494/stderr.log.txt, stdout_log_file: /workdir-1494/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.06, wallclock_time: 0.9276251409901306, working_directory: /workdir-1494}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_K1_e_bfs_FP_8.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1504/stderr.log.txt, stdout_log_file: /workdir-1504/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.59, wallclock_time: 60.40186239598552, working_directory: /workdir-1504}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1839.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1505/stderr.log.txt, stdout_log_file: /workdir-1505/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.34387013700325, working_directory: /workdir-1505}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_245.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1513/stderr.log.txt, stdout_log_file: /workdir-1513/stdout.log.txt,
+  sys_cpu_time: 0.32, user_cpu_time: 59.1, wallclock_time: 60.43659091000154, working_directory: /workdir-1513}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_24.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1546/stderr.log.txt, stdout_log_file: /workdir-1546/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.07, wallclock_time: 0.5878769900009502, working_directory: /workdir-1546}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsc_bfs_FP_3.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1549/stderr.log.txt, stdout_log_file: /workdir-1549/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.05, wallclock_time: 0.684788230995764, working_directory: /workdir-1549}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_193.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1584/stderr.log.txt, stdout_log_file: /workdir-1584/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.64, wallclock_time: 60.39772634599649, working_directory: /workdir-1584}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1586/stderr.log.txt, stdout_log_file: /workdir-1586/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.35801579299732, working_directory: /workdir-1586}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_array_bfs_FP_11.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1594/stderr.log.txt, stdout_log_file: /workdir-1594/stdout.log.txt,
+  sys_cpu_time: 0.17, user_cpu_time: 58.8, wallclock_time: 60.405620888996054, working_directory: /workdir-1594}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsch_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1613/stderr.log.txt, stdout_log_file: /workdir-1613/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.03, wallclock_time: 0.5750929519999772, working_directory: /workdir-1613}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_64.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1599/stderr.log.txt, stdout_log_file: /workdir-1599/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.74, wallclock_time: 60.38281473299139, working_directory: /workdir-1599}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_poch_e_bfs_FP_98.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1622/stderr.log.txt, stdout_log_file: /workdir-1622/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.63, wallclock_time: 60.38758548400074, working_directory: /workdir-1622}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_complex_psi_e_bfs_FP_33.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1624/stderr.log.txt, stdout_log_file: /workdir-1624/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.63, wallclock_time: 60.3815712039941, working_directory: /workdir-1624}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_41.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1629/stderr.log.txt, stdout_log_file: /workdir-1629/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.378424061011174, working_directory: /workdir-1629}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_In_array_bfs_FP_12.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1639/stderr.log.txt, stdout_log_file: /workdir-1639/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.76, wallclock_time: 60.36961294099456, working_directory: /workdir-1639}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_array_bfs_FP_43.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1659/stderr.log.txt, stdout_log_file: /workdir-1659/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.56, wallclock_time: 60.500041168997996, working_directory: /workdir-1659}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_309.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1662/stderr.log.txt, stdout_log_file: /workdir-1662/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.66, wallclock_time: 60.371477324006264, working_directory: /workdir-1662}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_55.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1675/stderr.log.txt, stdout_log_file: /workdir-1675/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.58, wallclock_time: 60.407276000012644, working_directory: /workdir-1675}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Inu_e_bfs_FP_26.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1680/stderr.log.txt, stdout_log_file: /workdir-1680/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.5, wallclock_time: 60.37672266300069, working_directory: /workdir-1680}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_interp_eval_integ_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1682/stderr.log.txt, stdout_log_file: /workdir-1682/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.75, wallclock_time: 60.473572935006814, working_directory: /workdir-1682}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_deriv_e_bfs_FP_42.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1685/stderr.log.txt, stdout_log_file: /workdir-1685/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.64, wallclock_time: 60.51403047000349, working_directory: /workdir-1685}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_17.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1684/stderr.log.txt, stdout_log_file: /workdir-1684/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.73, wallclock_time: 60.57655866500863, working_directory: /workdir-1684}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_110.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1706/stderr.log.txt, stdout_log_file: /workdir-1706/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.08, wallclock_time: 0.6302741559920833, working_directory: /workdir-1706}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_76.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1692/stderr.log.txt, stdout_log_file: /workdir-1692/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.74, wallclock_time: 60.3740663589997, working_directory: /workdir-1692}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_23.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1709/stderr.log.txt, stdout_log_file: /workdir-1709/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.54, wallclock_time: 60.38831236299302, working_directory: /workdir-1709}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_358.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1715/stderr.log.txt, stdout_log_file: /workdir-1715/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.7, wallclock_time: 60.406910719990265, working_directory: /workdir-1715}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_array_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1719/stderr.log.txt, stdout_log_file: /workdir-1719/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.8, wallclock_time: 60.33177804699517, working_directory: /workdir-1719}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multimin_test_gradient_bfs_FP_185.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1727/stderr.log.txt, stdout_log_file: /workdir-1727/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.68, wallclock_time: 60.36728684199625, working_directory: /workdir-1727}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_39.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1731/stderr.log.txt, stdout_log_file: /workdir-1731/stdout.log.txt,
+  sys_cpu_time: 0.27, user_cpu_time: 58.72, wallclock_time: 60.37130674799846, working_directory: /workdir-1731}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_29.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1740/stderr.log.txt, stdout_log_file: /workdir-1740/stdout.log.txt,
+  sys_cpu_time: 0.33, user_cpu_time: 58.66, wallclock_time: 60.606160328010446, working_directory: /workdir-1740}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_33.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1770/stderr.log.txt, stdout_log_file: /workdir-1770/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.69, wallclock_time: 60.374741645006, working_directory: /workdir-1770}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_74.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1771/stderr.log.txt, stdout_log_file: /workdir-1771/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.61, wallclock_time: 60.408513491012855, working_directory: /workdir-1771}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_e_bfs_FP_10.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1790/stderr.log.txt, stdout_log_file: /workdir-1790/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.67, wallclock_time: 60.64161193999462, working_directory: /workdir-1790}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_Chi_e_bfs_FP_40.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1794/stderr.log.txt, stdout_log_file: /workdir-1794/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.68, wallclock_time: 60.390789577009855, working_directory: /workdir-1794}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_78.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1806/stderr.log.txt, stdout_log_file: /workdir-1806/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.56, wallclock_time: 60.36448501198902, working_directory: /workdir-1806}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_37.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1809/stderr.log.txt, stdout_log_file: /workdir-1809/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.304779334008344, working_directory: /workdir-1809}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_28.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1837/stderr.log.txt, stdout_log_file: /workdir-1837/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.08, wallclock_time: 0.6193862999934936, working_directory: /workdir-1837}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_poly_solve_cubic_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1824/stderr.log.txt, stdout_log_file: /workdir-1824/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.73, wallclock_time: 60.433089287005714, working_directory: /workdir-1824}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_271.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1827/stderr.log.txt, stdout_log_file: /workdir-1827/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.72, wallclock_time: 60.37298930899124, working_directory: /workdir-1827}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_16.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-1869/stderr.log.txt, stdout_log_file: /workdir-1869/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.37091591900389, working_directory: /workdir-1869}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_1_e_bfs_FP_96.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1881/stderr.log.txt, stdout_log_file: /workdir-1881/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.39, wallclock_time: 60.392277556995396, working_directory: /workdir-1881}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_82.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1887/stderr.log.txt, stdout_log_file: /workdir-1887/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.68, wallclock_time: 60.33586360499612, working_directory: /workdir-1887}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_53.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1888/stderr.log.txt, stdout_log_file: /workdir-1888/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.58, wallclock_time: 60.39279047299351, working_directory: /workdir-1888}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_complex_spence_xy_e_bfs_FP_50.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1893/stderr.log.txt, stdout_log_file: /workdir-1893/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.66, wallclock_time: 60.33384533000935, working_directory: /workdir-1893}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_149.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1898/stderr.log.txt, stdout_log_file: /workdir-1898/stdout.log.txt,
+  sys_cpu_time: 0.23, user_cpu_time: 58.7, wallclock_time: 60.36953878198983, working_directory: /workdir-1898}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_239.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1913/stderr.log.txt, stdout_log_file: /workdir-1913/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.74, wallclock_time: 60.38286032300675, working_directory: /workdir-1913}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1920/stderr.log.txt, stdout_log_file: /workdir-1920/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.73, wallclock_time: 60.49733950200607, working_directory: /workdir-1920}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_82.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1942/stderr.log.txt, stdout_log_file: /workdir-1942/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.78, wallclock_time: 60.43802556399896, working_directory: /workdir-1942}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1943/stderr.log.txt, stdout_log_file: /workdir-1943/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.78, wallclock_time: 60.37136312799703, working_directory: /workdir-1943}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_phys_e_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1987/stderr.log.txt, stdout_log_file: /workdir-1987/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 58.68, wallclock_time: 60.395815944997594, working_directory: /workdir-1987}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_240.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-1994/stderr.log.txt, stdout_log_file: /workdir-1994/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.64, wallclock_time: 60.35937764401024, working_directory: /workdir-1994}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2014/stderr.log.txt, stdout_log_file: /workdir-2014/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.66, wallclock_time: 60.38983667000139, working_directory: /workdir-2014}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_145.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2015/stderr.log.txt, stdout_log_file: /workdir-2015/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.37397219100967, working_directory: /workdir-2015}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_83.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2045/stderr.log.txt, stdout_log_file: /workdir-2045/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.66, wallclock_time: 60.41874366099364, working_directory: /workdir-2045}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_19.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2047/stderr.log.txt, stdout_log_file: /workdir-2047/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.48, wallclock_time: 60.40709124600107, working_directory: /workdir-2047}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_binomial_Q_bfs_FP_29.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2052/stderr.log.txt, stdout_log_file: /workdir-2052/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.63, wallclock_time: 60.410348810997675, working_directory: /workdir-2052}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsec_bfs_FP_3.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2098/stderr.log.txt, stdout_log_file: /workdir-2098/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.04, wallclock_time: 0.5762530409992905, working_directory: /workdir-2098}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_63.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2087/stderr.log.txt, stdout_log_file: /workdir-2087/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.7, wallclock_time: 60.55990735699015, working_directory: /workdir-2087}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_39.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2110/stderr.log.txt, stdout_log_file: /workdir-2110/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.42100019300415, working_directory: /workdir-2110}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_301.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2130/stderr.log.txt, stdout_log_file: /workdir-2130/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.09, wallclock_time: 0.5662182550004218, working_directory: /workdir-2130}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_36.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2119/stderr.log.txt, stdout_log_file: /workdir-2119/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.69, wallclock_time: 60.37632718900568, working_directory: /workdir-2119}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_77.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2155/stderr.log.txt, stdout_log_file: /workdir-2155/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 58.67, wallclock_time: 60.39543853000214, working_directory: /workdir-2155}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_scaled_array_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2198/stderr.log.txt, stdout_log_file: /workdir-2198/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.72, wallclock_time: 60.447128564992454, working_directory: /workdir-2198}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsech_bfs_FP_4.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2222/stderr.log.txt, stdout_log_file: /workdir-2222/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.05, wallclock_time: 0.9446645489952061, working_directory: /workdir-2222}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_255.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2243/stderr.log.txt, stdout_log_file: /workdir-2243/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.11, wallclock_time: 0.6844169899995904, working_directory: /workdir-2243}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Jn_array_bfs_FP_9.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2236/stderr.log.txt, stdout_log_file: /workdir-2236/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.72, wallclock_time: 60.36625219001144, working_directory: /workdir-2236}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_322.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2242/stderr.log.txt, stdout_log_file: /workdir-2242/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.57, wallclock_time: 60.45412408000266, working_directory: /workdir-2242}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_37.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2254/stderr.log.txt, stdout_log_file: /workdir-2254/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.39769987401087, working_directory: /workdir-2254}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_20.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-2261/stderr.log.txt, stdout_log_file: /workdir-2261/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.59, wallclock_time: 60.42850946600083, working_directory: /workdir-2261}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_2.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2291/stderr.log.txt, stdout_log_file: /workdir-2291/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.65, wallclock_time: 60.39951947200461, working_directory: /workdir-2291}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_19.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-2294/stderr.log.txt, stdout_log_file: /workdir-2294/stdout.log.txt,
+  sys_cpu_time: 0.38, user_cpu_time: 58.54, wallclock_time: 60.40584955000668, working_directory: /workdir-2294}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_86.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2310/stderr.log.txt, stdout_log_file: /workdir-2310/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.3408273870009, working_directory: /workdir-2310}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_array_bfs_FP_25.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2335/stderr.log.txt, stdout_log_file: /workdir-2335/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.73, wallclock_time: 60.40728765699896, working_directory: /workdir-2335}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_188.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2347/stderr.log.txt, stdout_log_file: /workdir-2347/stdout.log.txt,
+  sys_cpu_time: 0.25, user_cpu_time: 58.62, wallclock_time: 60.380025856007705, working_directory: /workdir-2347}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_13.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2364/stderr.log.txt, stdout_log_file: /workdir-2364/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.66, wallclock_time: 60.345469349005725, working_directory: /workdir-2364}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_ldexp_bfs_FP_14.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2390/stderr.log.txt, stdout_log_file: /workdir-2390/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.04, wallclock_time: 0.5861391399957938, working_directory: /workdir-2390}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multimin_test_gradient_bfs_FP_25.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2381/stderr.log.txt, stdout_log_file: /workdir-2381/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.56, wallclock_time: 60.37783243099693, working_directory: /workdir-2381}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1158.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2394/stderr.log.txt, stdout_log_file: /workdir-2394/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 58.7, wallclock_time: 60.458284752996406, working_directory: /workdir-2394}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_In_array_bfs_FP_11.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2412/stderr.log.txt, stdout_log_file: /workdir-2412/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 58.9, wallclock_time: 60.37873669699184, working_directory: /workdir-2412}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_residual_bfs_FP_16.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-2443/stderr.log.txt, stdout_log_file: /workdir-2443/stdout.log.txt,
+  sys_cpu_time: 0.17, user_cpu_time: 58.77, wallclock_time: 60.401068358987686, working_directory: /workdir-2443}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_e_bfs_FP_24.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2456/stderr.log.txt, stdout_log_file: /workdir-2456/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.59, wallclock_time: 60.64272009099659, working_directory: /workdir-2456}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_6.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2459/stderr.log.txt, stdout_log_file: /workdir-2459/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.57, wallclock_time: 60.34463844700076, working_directory: /workdir-2459}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_CL_array_bfs_FP_26.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2478/stderr.log.txt, stdout_log_file: /workdir-2478/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.31668040099612, working_directory: /workdir-2478}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_36.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2483/stderr.log.txt, stdout_log_file: /workdir-2483/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.63, wallclock_time: 60.391999358995236, working_directory: /workdir-2483}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_286.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2492/stderr.log.txt, stdout_log_file: /workdir-2492/stdout.log.txt,
+  sys_cpu_time: 0.44, user_cpu_time: 58.64, wallclock_time: 60.31924522800546, working_directory: /workdir-2492}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_array_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2503/stderr.log.txt, stdout_log_file: /workdir-2503/stdout.log.txt,
+  sys_cpu_time: 0.42, user_cpu_time: 58.74, wallclock_time: 60.41805947999819, working_directory: /workdir-2503}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_41.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2552/stderr.log.txt, stdout_log_file: /workdir-2552/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.67, wallclock_time: 60.410605236989795, working_directory: /workdir-2552}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsech_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2561/stderr.log.txt, stdout_log_file: /workdir-2561/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.05, wallclock_time: 1.1503087090095505, working_directory: /workdir-2561}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_8.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2567/stderr.log.txt, stdout_log_file: /workdir-2567/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.63, wallclock_time: 60.72406541000237, working_directory: /workdir-2567}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_poly_complex_solve_cubic_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-2578/stderr.log.txt, stdout_log_file: /workdir-2578/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.72, wallclock_time: 60.41220825200435, working_directory: /workdir-2578}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_230.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2624/stderr.log.txt, stdout_log_file: /workdir-2624/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.07, wallclock_time: 0.6240397840010701, working_directory: /workdir-2624}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_147.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2632/stderr.log.txt, stdout_log_file: /workdir-2632/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.12, wallclock_time: 0.6702076920046238, working_directory: /workdir-2632}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_35.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2642/stderr.log.txt, stdout_log_file: /workdir-2642/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.68, wallclock_time: 60.39824067399604, working_directory: /workdir-2642}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_odeiv2_evolve_apply_bfs_FP_2.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2647/stderr.log.txt, stdout_log_file: /workdir-2647/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.58, wallclock_time: 60.34766789099376, working_directory: /workdir-2647}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_43.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2671/stderr.log.txt, stdout_log_file: /workdir-2671/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.6, wallclock_time: 60.40925090499513, working_directory: /workdir-2671}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_61.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2682/stderr.log.txt, stdout_log_file: /workdir-2682/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.58, wallclock_time: 60.47922387300059, working_directory: /workdir-2682}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_140.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2706/stderr.log.txt, stdout_log_file: /workdir-2706/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.9, wallclock_time: 60.567886819000705, working_directory: /workdir-2706}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_scaled_array_bfs_FP_34.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2721/stderr.log.txt, stdout_log_file: /workdir-2721/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.6, wallclock_time: 60.445265567002934, working_directory: /workdir-2721}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_228.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2736/stderr.log.txt, stdout_log_file: /workdir-2736/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.07, wallclock_time: 0.5691495789942564, working_directory: /workdir-2736}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_CL_e_bfs_FP_22.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2762/stderr.log.txt, stdout_log_file: /workdir-2762/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 58.77, wallclock_time: 60.343211152998265, working_directory: /workdir-2762}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_e_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2763/stderr.log.txt, stdout_log_file: /workdir-2763/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.87, wallclock_time: 60.39361413700681, working_directory: /workdir-2763}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_224.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2772/stderr.log.txt, stdout_log_file: /workdir-2772/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.08, wallclock_time: 0.6237390839960426, working_directory: /workdir-2772}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_47.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2765/stderr.log.txt, stdout_log_file: /workdir-2765/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.68, wallclock_time: 60.363489348004805, working_directory: /workdir-2765}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_40.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2767/stderr.log.txt, stdout_log_file: /workdir-2767/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.400099638995016, working_directory: /workdir-2767}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_54.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2773/stderr.log.txt, stdout_log_file: /workdir-2773/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.82, wallclock_time: 60.39610275099403, working_directory: /workdir-2773}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_wave_FG_array_bfs_FP_13.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2774/stderr.log.txt, stdout_log_file: /workdir-2774/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 58.7, wallclock_time: 60.40198550300556, working_directory: /workdir-2774}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_ldexp_bfs_FP_2.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2792/stderr.log.txt, stdout_log_file: /workdir-2792/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.68, wallclock_time: 60.40105724999739, working_directory: /workdir-2792}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_sphPlm_deriv_array_bfs_FP_92.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2793/stderr.log.txt, stdout_log_file: /workdir-2793/stdout.log.txt,
+  sys_cpu_time: 0.25, user_cpu_time: 58.69, wallclock_time: 60.382820020997315, working_directory: /workdir-2793}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_K0_e_bfs_FP_11.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2801/stderr.log.txt, stdout_log_file: /workdir-2801/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.7, wallclock_time: 60.39966162700148, working_directory: /workdir-2801}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_54.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2802/stderr.log.txt, stdout_log_file: /workdir-2802/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.54, wallclock_time: 60.35413585299102, working_directory: /workdir-2802}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_49.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-2828/stderr.log.txt, stdout_log_file: /workdir-2828/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.54248758000904, working_directory: /workdir-2828}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_poly_solve_cubic_bfs_FP_1.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2879/stderr.log.txt, stdout_log_file: /workdir-2879/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.62, wallclock_time: 60.37146616198879, working_directory: /workdir-2879}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_38.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2881/stderr.log.txt, stdout_log_file: /workdir-2881/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.365125173004344, working_directory: /workdir-2881}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_8.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2883/stderr.log.txt, stdout_log_file: /workdir-2883/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.68, wallclock_time: 60.39066163099778, working_directory: /workdir-2883}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_sgn_e_bfs_FP_84.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2894/stderr.log.txt, stdout_log_file: /workdir-2894/stdout.log.txt,
+  sys_cpu_time: 0.32, user_cpu_time: 58.74, wallclock_time: 60.38746004799032, working_directory: /workdir-2894}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_rect_to_polar_bfs_FP_12.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-2922/stderr.log.txt, stdout_log_file: /workdir-2922/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.8, wallclock_time: 60.42707331100246, working_directory: /workdir-2922}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_50.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3015/stderr.log.txt, stdout_log_file: /workdir-3015/stdout.log.txt,
+  sys_cpu_time: 0.13, user_cpu_time: 58.64, wallclock_time: 60.327544386003865, working_directory: /workdir-3015}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_complex_logsin_e_bfs_FP_15.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3018/stderr.log.txt, stdout_log_file: /workdir-3018/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.77, wallclock_time: 60.38010357398889, working_directory: /workdir-3018}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_220.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3025/stderr.log.txt, stdout_log_file: /workdir-3025/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.64, wallclock_time: 60.37566689000232, working_directory: /workdir-3025}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_155.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3035/stderr.log.txt, stdout_log_file: /workdir-3035/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.65, wallclock_time: 60.40485807400546, working_directory: /workdir-3035}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_6j_e_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3041/stderr.log.txt, stdout_log_file: /workdir-3041/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 58.54, wallclock_time: 60.42443305399502, working_directory: /workdir-3041}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1157.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3050/stderr.log.txt, stdout_log_file: /workdir-3050/stdout.log.txt,
+  sys_cpu_time: 0.33, user_cpu_time: 58.53, wallclock_time: 60.38580533298955, working_directory: /workdir-3050}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_zeta_int_e_bfs_FP_6.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3064/stderr.log.txt, stdout_log_file: /workdir-3064/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.67, wallclock_time: 60.372737425001105, working_directory: /workdir-3064}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_legendre_Plm_array_bfs_FP_5.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3072/stderr.log.txt, stdout_log_file: /workdir-3072/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.56, wallclock_time: 60.39508959199884, working_directory: /workdir-3072}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_54.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3086/stderr.log.txt, stdout_log_file: /workdir-3086/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.56, wallclock_time: 60.42955628100026, working_directory: /workdir-3086}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_164.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3095/stderr.log.txt, stdout_log_file: /workdir-3095/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.51, wallclock_time: 60.38377779100847, working_directory: /workdir-3095}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_sgn_e_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3101/stderr.log.txt, stdout_log_file: /workdir-3101/stdout.log.txt,
+  sys_cpu_time: 0.06, user_cpu_time: 58.73, wallclock_time: 60.34747733498807, working_directory: /workdir-3101}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_53.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3107/stderr.log.txt, stdout_log_file: /workdir-3107/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.34221700800117, working_directory: /workdir-3107}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3112/stderr.log.txt, stdout_log_file: /workdir-3112/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 59.21, wallclock_time: 60.350589674999355, working_directory: /workdir-3112}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_99.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3158/stderr.log.txt, stdout_log_file: /workdir-3158/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.08, wallclock_time: 0.6497585710021667, working_directory: /workdir-3158}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_51.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3143/stderr.log.txt, stdout_log_file: /workdir-3143/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 58.49, wallclock_time: 60.34261886800232, working_directory: /workdir-3143}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnchoose_e_bfs_FP_17.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3144/stderr.log.txt, stdout_log_file: /workdir-3144/stdout.log.txt,
+  sys_cpu_time: 0.29, user_cpu_time: 58.76, wallclock_time: 60.46899983899493, working_directory: /workdir-3144}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multimin_test_gradient_bfs_FP_3.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3162/stderr.log.txt, stdout_log_file: /workdir-3162/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.55, wallclock_time: 60.41931014499278, working_directory: /workdir-3162}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_poch_e_bfs_FP_3.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3182/stderr.log.txt, stdout_log_file: /workdir-3182/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.75, wallclock_time: 60.51250246800191, working_directory: /workdir-3182}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsch_bfs_FP_4.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3212/stderr.log.txt, stdout_log_file: /workdir-3212/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.06, wallclock_time: 0.7445434819965158, working_directory: /workdir-3212}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_7.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3193/stderr.log.txt, stdout_log_file: /workdir-3193/stdout.log.txt,
+  sys_cpu_time: 0.46, user_cpu_time: 58.63, wallclock_time: 60.395328319005785, working_directory: /workdir-3193}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_40.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3232/stderr.log.txt, stdout_log_file: /workdir-3232/stdout.log.txt,
+  sys_cpu_time: 0.29, user_cpu_time: 58.61, wallclock_time: 60.374209500005236, working_directory: /workdir-3232}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnpoch_e_bfs_FP_9.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3247/stderr.log.txt, stdout_log_file: /workdir-3247/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 58.79, wallclock_time: 60.39776581100887, working_directory: /workdir-3247}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_309.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3253/stderr.log.txt, stdout_log_file: /workdir-3253/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.68, wallclock_time: 60.35907459000009, working_directory: /workdir-3253}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsc_bfs_FP_4.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3265/stderr.log.txt, stdout_log_file: /workdir-3265/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.04, wallclock_time: 0.7615053449990228, working_directory: /workdir-3265}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_expint_Ei_scaled_e_bfs_FP_9.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3254/stderr.log.txt, stdout_log_file: /workdir-3254/stdout.log.txt,
+  sys_cpu_time: 0.32, user_cpu_time: 58.74, wallclock_time: 60.392079953002394, working_directory: /workdir-3254}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_array_bfs_FP_31.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3257/stderr.log.txt, stdout_log_file: /workdir-3257/stdout.log.txt,
+  sys_cpu_time: 0.34, user_cpu_time: 58.56, wallclock_time: 60.348760460998164, working_directory: /workdir-3257}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Kn_scaled_array_bfs_FP_21.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3283/stderr.log.txt, stdout_log_file: /workdir-3283/stdout.log.txt,
+  sys_cpu_time: 0.44, user_cpu_time: 58.54, wallclock_time: 60.39188912800455, working_directory: /workdir-3283}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_beta_Q_bfs_FP_41.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3297/stderr.log.txt, stdout_log_file: /workdir-3297/stdout.log.txt,
+  sys_cpu_time: 0.39, user_cpu_time: 58.72, wallclock_time: 60.43048665000242, working_directory: /workdir-3297}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_201.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3335/stderr.log.txt, stdout_log_file: /workdir-3335/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.77, wallclock_time: 60.35409969800094, working_directory: /workdir-3335}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_1768.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3346/stderr.log.txt, stdout_log_file: /workdir-3346/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.34792063100031, working_directory: /workdir-3346}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_141.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3355/stderr.log.txt, stdout_log_file: /workdir-3355/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.76, wallclock_time: 60.348299906007014, working_directory: /workdir-3355}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_161.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3361/stderr.log.txt, stdout_log_file: /workdir-3361/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.07, wallclock_time: 0.586082866997458, working_directory: /workdir-3361}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_mathieu_Ms_e_bfs_FP_12.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3378/stderr.log.txt, stdout_log_file: /workdir-3378/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.402502044002176, working_directory: /workdir-3378}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_der_e_bfs_FP_24.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3388/stderr.log.txt, stdout_log_file: /workdir-3388/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.76, wallclock_time: 60.417876592007815, working_directory: /workdir-3388}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_9.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3404/stderr.log.txt, stdout_log_file: /workdir-3404/stdout.log.txt,
+  sys_cpu_time: 0.15, user_cpu_time: 58.56, wallclock_time: 60.36149109600228, working_directory: /workdir-3404}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_58.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3413/stderr.log.txt, stdout_log_file: /workdir-3413/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.7, wallclock_time: 60.373247387004085, working_directory: /workdir-3413}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_hermite_prob_deriv_array_bfs_FP_41.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3425/stderr.log.txt, stdout_log_file: /workdir-3425/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.42, wallclock_time: 60.438591568992706, working_directory: /workdir-3425}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_pochrel_e_bfs_FP_192.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3477/stderr.log.txt, stdout_log_file: /workdir-3477/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.84, wallclock_time: 60.40378050498839, working_directory: /workdir-3477}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_46.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3502/stderr.log.txt, stdout_log_file: /workdir-3502/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.39006957800302, working_directory: /workdir-3502}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_48.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3506/stderr.log.txt, stdout_log_file: /workdir-3506/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.67, wallclock_time: 60.423616022992064, working_directory: /workdir-3506}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coulomb_CL_e_bfs_FP_21.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3509/stderr.log.txt, stdout_log_file: /workdir-3509/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.69, wallclock_time: 60.37817316700239, working_directory: /workdir-3509}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_18.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3530/stderr.log.txt, stdout_log_file: /workdir-3530/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.63, wallclock_time: 60.39356214500731, working_directory: /workdir-3530}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_45.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3533/stderr.log.txt, stdout_log_file: /workdir-3533/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.381638780003414, working_directory: /workdir-3533}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_lnbeta_e_bfs_FP_78.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3537/stderr.log.txt, stdout_log_file: /workdir-3537/stdout.log.txt,
+  sys_cpu_time: 0.28, user_cpu_time: 58.71, wallclock_time: 60.3946038629947, working_directory: /workdir-3537}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_50.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3543/stderr.log.txt, stdout_log_file: /workdir-3543/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.71, wallclock_time: 60.36235981500067, working_directory: /workdir-3543}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_75.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3557/stderr.log.txt, stdout_log_file: /workdir-3557/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.68, wallclock_time: 60.46416508499533, working_directory: /workdir-3557}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_23.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3583/stderr.log.txt, stdout_log_file: /workdir-3583/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 58.38, wallclock_time: 60.3851517639996, working_directory: /workdir-3583}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_177.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3599/stderr.log.txt, stdout_log_file: /workdir-3599/stdout.log.txt,
+  sys_cpu_time: 0.21, user_cpu_time: 58.71, wallclock_time: 60.33362428899272, working_directory: /workdir-3599}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_fermi_dirac_int_e_bfs_FP_76.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3616/stderr.log.txt, stdout_log_file: /workdir-3616/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.353999999992084, working_directory: /workdir-3616}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_97.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3633/stderr.log.txt, stdout_log_file: /workdir-3633/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.06, wallclock_time: 0.5748713579960167, working_directory: /workdir-3633}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_167.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3644/stderr.log.txt, stdout_log_file: /workdir-3644/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.07, wallclock_time: 0.5819425840018084, working_directory: /workdir-3644}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_complex_spence_xy_e_bfs_FP_53.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3630/stderr.log.txt, stdout_log_file: /workdir-3630/stdout.log.txt,
+  sys_cpu_time: 0.2, user_cpu_time: 58.7, wallclock_time: 60.40983958900324, working_directory: /workdir-3630}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_3j_e_bfs_FP_14.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3631/stderr.log.txt, stdout_log_file: /workdir-3631/stdout.log.txt,
+  sys_cpu_time: 0.19, user_cpu_time: 58.77, wallclock_time: 60.358331231997, working_directory: /workdir-3631}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_186.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3654/stderr.log.txt, stdout_log_file: /workdir-3654/stdout.log.txt,
+  sys_cpu_time: 0.12, user_cpu_time: 58.67, wallclock_time: 60.49496541499684, working_directory: /workdir-3654}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_185.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3679/stderr.log.txt, stdout_log_file: /workdir-3679/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.6, wallclock_time: 60.469607027000166, working_directory: /workdir-3679}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_fdist_Pinv_bfs_FP_25.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3681/stderr.log.txt, stdout_log_file: /workdir-3681/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.77, wallclock_time: 60.40283699800784, working_directory: /workdir-3681}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_74.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3690/stderr.log.txt, stdout_log_file: /workdir-3690/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.33554398400884, working_directory: /workdir-3690}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_conicalP_1_e_bfs_FP_4.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3711/stderr.log.txt, stdout_log_file: /workdir-3711/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 58.6, wallclock_time: 60.381366793997586, working_directory: /workdir-3711}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_coupling_9j_e_bfs_FP_43.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3714/stderr.log.txt, stdout_log_file: /workdir-3714/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.38283116200182, working_directory: /workdir-3714}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_beta_inc_e_bfs_FP_22.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3733/stderr.log.txt, stdout_log_file: /workdir-3733/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 58.8, wallclock_time: 60.353472255999804, working_directory: /workdir-3733}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_residual_bfs_FP_17.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3741/stderr.log.txt, stdout_log_file: /workdir-3741/stdout.log.txt,
+  sys_cpu_time: 0.06, user_cpu_time: 58.64, wallclock_time: 60.52358919600374, working_directory: /workdir-3741}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_132.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3743/stderr.log.txt, stdout_log_file: /workdir-3743/stdout.log.txt,
+  sys_cpu_time: 0.22, user_cpu_time: 58.71, wallclock_time: 60.38874845398823, working_directory: /workdir-3743}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_cdf_gamma_Q_bfs_FP_3.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3791/stderr.log.txt, stdout_log_file: /workdir-3791/stdout.log.txt,
+  sys_cpu_time: 0.18, user_cpu_time: 58.71, wallclock_time: 60.498017500998685, working_directory: /workdir-3791}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_multiroot_test_delta_bfs_FP_35.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3805/stderr.log.txt, stdout_log_file: /workdir-3805/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.7, wallclock_time: 60.38282469099795, working_directory: /workdir-3805}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_array_bfs_FP_308.smt2,
+  exit_code: null, expected_sat: unknown, is_trivial: false, out_of_memory: false,
+  sat: unknown, stderr_log_file: /workdir-3829/stderr.log.txt, stdout_log_file: /workdir-3829/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.594931198007544, working_directory: /workdir-3829}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_root_test_interval_bfs_FP_238.smt2,
+  exit_code: 0, expected_sat: unknown, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3846/stderr.log.txt, stdout_log_file: /workdir-3846/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.09, wallclock_time: 0.7488659689988708, working_directory: /workdir-3846}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_21.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3880/stderr.log.txt, stdout_log_file: /workdir-3880/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.35041689500213, working_directory: /workdir-3880}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_integration_qaws_bfs_FP_648.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3896/stderr.log.txt, stdout_log_file: /workdir-3896/stdout.log.txt,
+  sys_cpu_time: null, user_cpu_time: null, wallclock_time: 60.31784392599366, working_directory: /workdir-3896}
+- {backend_timeout: true, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_sf_bessel_Yn_e_bfs_FP_169.smt2,
+  exit_code: null, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: unknown,
+  stderr_log_file: /workdir-3907/stderr.log.txt, stdout_log_file: /workdir-3907/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 58.4, wallclock_time: 60.394430675994954, working_directory: /workdir-3907}

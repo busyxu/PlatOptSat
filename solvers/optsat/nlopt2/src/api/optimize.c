@@ -56,6 +56,7 @@
 #include "slsqp.h"
 #include "byteea.h"
 #include "ga.h"
+#include "moea.h"
 
 /*********************************************************************/
 
@@ -366,6 +367,7 @@ static int elimdim_wrapcheck(nlopt_opt opt)
     case NLOPT_GN_ESCH:
     case NLOPT_GN_BYTEEA: //add by yx
     case NLOPT_GN_GA://add by yx
+    case NLOPT_GN_MOEA: // add by yx
     case NLOPT_GN_AGS:
     case NLOPT_GD_STOGO:
     case NLOPT_GD_STOGO_RAND:
@@ -418,11 +420,11 @@ static nlopt_result nlopt_optimize_(nlopt_opt opt, double *x, double *minf)
     nlopt_srand_time_default(); /* default is non-deterministic */
 
     /* check bound constraints */
-    for (i = 0; i < n; ++i)
-        if (lb[i] > ub[i] || x[i] < lb[i] || x[i] > ub[i]) {
-            nlopt_set_errmsg(opt, "bounds %d fail %g <= %g <= %g", i, lb[i], x[i], ub[i]);
-            return NLOPT_INVALID_ARGS;
-        }
+//    for (i = 0; i < n; ++i)
+//        if (lb[i] > ub[i] || x[i] < lb[i] || x[i] > ub[i]) {
+//            nlopt_set_errmsg(opt, "bounds %d fail %g <= %g <= %g", i, lb[i], x[i], ub[i]);
+//            return NLOPT_INVALID_ARGS;
+//        }
 
     stop.n = n;
     stop.minf_max = opt->stopval;
@@ -789,12 +791,18 @@ static nlopt_result nlopt_optimize_(nlopt_opt opt, double *x, double *minf)
 //        don't check finite domain for Byteea
       return byteevolutionarystrategy(n, f, f_data, lb, ub, x, minf, &stop, (unsigned) POP(0), (unsigned) (POP(0) * 1.5), opt->seed, opt->seed_size);
 
-      //add by yx
+    case NLOPT_GN_MOEA:
+//      if (!finite_domain(n, lb, ub))
+//        RETURN_ERR(NLOPT_INVALID_ARGS, opt, "finite domain required for global algorithm");
+//        don't check finite domain for Byteea
+      return MOEAMain(n, f, f_data, lb, ub, x, minf, &stop, (unsigned) POP(0), opt->seed, opt->seed_size);
+
+            //add by yx
     case NLOPT_GN_GA:
         if (!finite_domain(n, lb, ub))
             RETURN_ERR(NLOPT_INVALID_ARGS, opt, "finite domain required for global algorithm");
 //        printf("esch\n");
-        return ga_sbx_pm_strategy(n, f, f_data, lb, ub, x, minf, &stop, (unsigned) POP(0), (unsigned) (POP(0) * 1.5));
+        return ga_sbx_pm_strategy(n, f, f_data, lb, ub, x, minf, &stop, (unsigned) POP(0), (unsigned) (POP(0) * 1.5), opt->seed, opt->seed_size);
 
 
         case NLOPT_LD_SLSQP:

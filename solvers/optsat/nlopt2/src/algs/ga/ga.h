@@ -40,7 +40,9 @@ nlopt_result ga_sbx_pm_strategy(
      double*,
      nlopt_stopping*, 		/* nlopt stop condition */
      unsigned, 			/* Number of Parents */
-     unsigned);
+     unsigned,
+     double*,
+     int);
 
 #ifdef __cplusplus
 }  /* extern "C" */
