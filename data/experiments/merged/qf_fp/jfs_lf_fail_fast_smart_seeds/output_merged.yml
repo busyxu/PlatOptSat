@@ -6,8 +6,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/Newlib-BadKrozingenChallenge-Oversimplified.smt2
   dsoes_wallclock_time:
-  - 0.440150423
-  - 0.440150423
+  - 0.744234095
+  - 0.744234095
   event_tag:
   - sat
   - sat
@@ -17,8 +17,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032435
-  - 0.032435
+  - 0.038673
+  - 0.038673
   jfs_stat_num_inputs:
   - 6
   - 6
@@ -44,14 +44,14 @@ results:
   - /0/wd/workdir-0/stdout.log.txt
   - /1/wd/workdir-0/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.39
+  - 0.39
   wallclock_time:
-  - 1.304202561997954
-  - 1.304202561997954
+  - 2.278751622998243
+  - 2.278751622998243
   working_directory:
   - /0/wd/workdir-0
   - /1/wd/workdir-0
@@ -60,8 +60,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/cos_polynomial_true-unreach-call.c_9.smt2
   dsoes_wallclock_time:
-  - 0.451826976
-  - 0.451826976
+  - 0.927132105
+  - 0.927132105
   event_tag:
   - sat
   - sat
@@ -71,8 +71,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.029382
-  - 0.029382
+  - 0.053489
+  - 0.053489
   jfs_stat_num_inputs:
   - 6
   - 6
@@ -98,14 +98,14 @@ results:
   - /0/wd/workdir-1/stdout.log.txt
   - /1/wd/workdir-1/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.24
+  - 0.24
   user_cpu_time:
   - 0.39
   - 0.39
   wallclock_time:
-  - 1.5160499229968991
-  - 1.5160499229968991
+  - 2.168076629001007
+  - 2.168076629001007
   working_directory:
   - /0/wd/workdir-1
   - /1/wd/workdir-1
@@ -114,8 +114,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/filter2_reinit_true-unreach-call.c_7.smt2
   dsoes_wallclock_time:
-  - 0.414929234
-  - 0.414929234
+  - 0.744891831
+  - 0.744891831
   event_tag:
   - sat
   - sat
@@ -125,8 +125,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.044328
-  - 0.044328
+  - 0.042458
+  - 0.042458
   jfs_stat_num_inputs:
   - 6
   - 6
@@ -152,14 +152,14 @@ results:
   - /0/wd/workdir-2/stdout.log.txt
   - /1/wd/workdir-2/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.42
+  - 0.42
   wallclock_time:
-  - 1.6066765719988325
-  - 1.6066765719988325
+  - 2.095019604003028
+  - 2.095019604003028
   working_directory:
   - /0/wd/workdir-2
   - /1/wd/workdir-2
@@ -168,8 +168,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/image_filter_true-unreach-call.c_2.smt2
   dsoes_wallclock_time:
-  - 0.362181352
-  - 0.362181352
+  - 1.041971508
+  - 1.041971508
   event_tag:
   - sat
   - sat
@@ -179,8 +179,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.043715
-  - 0.043715
+  - 0.038856
+  - 0.038856
   jfs_stat_num_inputs:
   - 1
   - 1
@@ -206,14 +206,14 @@ results:
   - /0/wd/workdir-3/stdout.log.txt
   - /1/wd/workdir-3/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.27
+  - 0.27
   user_cpu_time:
-  - 0.27
-  - 0.27
+  - 0.41
+  - 0.41
   wallclock_time:
-  - 1.5928211150021525
-  - 1.5928211150021525
+  - 1.9889727929985384
+  - 1.9889727929985384
   working_directory:
   - /0/wd/workdir-3
   - /1/wd/workdir-3
@@ -222,8 +222,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_14.smt2
   dsoes_wallclock_time:
-  - 0.455627807
-  - 0.455627807
+  - 0.596020247
+  - 0.596020247
   event_tag:
   - sat
   - sat
@@ -233,8 +233,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.043172
-  - 0.043172
+  - 0.0475
+  - 0.0475
   jfs_stat_num_inputs:
   - 31
   - 31
@@ -260,14 +260,14 @@ results:
   - /0/wd/workdir-4/stdout.log.txt
   - /1/wd/workdir-4/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.54
+  - 0.54
   wallclock_time:
-  - 1.6094731379998848
-  - 1.6094731379998848
+  - 1.9953086519999488
+  - 1.9953086519999488
   working_directory:
   - /0/wd/workdir-4
   - /1/wd/workdir-4
@@ -276,8 +276,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_372.smt2
   dsoes_wallclock_time:
-  - 0.467064936
-  - 0.467064936
+  - 0.585024054
+  - 0.585024054
   event_tag:
   - sat
   - sat
@@ -287,8 +287,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.038481
-  - 0.038481
+  - 0.051571
+  - 0.051571
   jfs_stat_num_inputs:
   - 84
   - 84
@@ -314,14 +314,14 @@ results:
   - /0/wd/workdir-5/stdout.log.txt
   - /1/wd/workdir-5/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.49
+  - 0.49
   wallclock_time:
-  - 1.2682847489995765
-  - 1.2682847489995765
+  - 1.7599152700022387
+  - 1.7599152700022387
   working_directory:
   - /0/wd/workdir-5
   - /1/wd/workdir-5
@@ -330,8 +330,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.10.smt2
   dsoes_wallclock_time:
-  - 0.479720368
-  - 0.479720368
+  - 0.602718869
+  - 0.602718869
   event_tag:
   - sat
   - sat
@@ -341,8 +341,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.051849
-  - 0.051849
+  - 0.055904
+  - 0.055904
   jfs_stat_num_inputs:
   - 1186
   - 1186
@@ -368,14 +368,14 @@ results:
   - /0/wd/workdir-6/stdout.log.txt
   - /1/wd/workdir-6/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 1.375205743999686
-  - 1.375205743999686
+  - 1.6698169129995222
+  - 1.6698169129995222
   working_directory:
   - /0/wd/workdir-6
   - /1/wd/workdir-6
@@ -384,8 +384,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.20.smt2
   dsoes_wallclock_time:
-  - 0.499461034
-  - 0.499461034
+  - 0.622861347
+  - 0.622861347
   event_tag:
   - sat
   - sat
@@ -395,8 +395,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.054319
-  - 0.054319
+  - 0.06812
+  - 0.06812
   jfs_stat_num_inputs:
   - 3145
   - 3145
@@ -422,14 +422,14 @@ results:
   - /0/wd/workdir-7/stdout.log.txt
   - /1/wd/workdir-7/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.54
+  - 0.54
   wallclock_time:
-  - 1.4305312790020253
-  - 1.4305312790020253
+  - 1.6436005329996988
+  - 1.6436005329996988
   working_directory:
   - /0/wd/workdir-7
   - /1/wd/workdir-7
@@ -438,8 +438,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.3.smt2
   dsoes_wallclock_time:
-  - 0.452972182
-  - 0.452972182
+  - 0.566819145
+  - 0.566819145
   event_tag:
   - sat
   - sat
@@ -449,8 +449,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.041936
-  - 0.041936
+  - 0.051977
+  - 0.051977
   jfs_stat_num_inputs:
   - 257
   - 257
@@ -476,14 +476,14 @@ results:
   - /0/wd/workdir-8/stdout.log.txt
   - /1/wd/workdir-8/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.52
+  - 0.52
   wallclock_time:
-  - 1.4231186119977792
-  - 1.4231186119977792
+  - 1.3044787819999328
+  - 1.3044787819999328
   working_directory:
   - /0/wd/workdir-8
   - /1/wd/workdir-8
@@ -492,8 +492,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.30.smt2
   dsoes_wallclock_time:
-  - 0.624212182
-  - 0.624212182
+  - 0.788782652
+  - 0.788782652
   event_tag:
   - sat
   - sat
@@ -503,8 +503,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.157872
-  - 0.157872
+  - 0.199938
+  - 0.199938
   jfs_stat_num_inputs:
   - 27285
   - 27285
@@ -533,11 +533,11 @@ results:
   - 0.12
   - 0.12
   user_cpu_time:
-  - 0.55
-  - 0.55
+  - 0.7
+  - 0.7
   wallclock_time:
-  - 1.6437587719992734
-  - 1.6437587719992734
+  - 1.651275947002432
+  - 1.651275947002432
   working_directory:
   - /0/wd/workdir-9
   - /1/wd/workdir-9
@@ -546,8 +546,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.40.smt2
   dsoes_wallclock_time:
-  - 0.559573185
-  - 0.559573185
+  - 0.757507763
+  - 0.757507763
   event_tag:
   - sat
   - sat
@@ -557,8 +557,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.077148
-  - 0.077148
+  - 0.102895
+  - 0.102895
   jfs_stat_num_inputs:
   - 9296
   - 9296
@@ -584,14 +584,14 @@ results:
   - /0/wd/workdir-10/stdout.log.txt
   - /1/wd/workdir-10/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.17
+  - 0.17
   user_cpu_time:
-  - 0.48
-  - 0.48
+  - 0.64
+  - 0.64
   wallclock_time:
-  - 1.543580084999121
-  - 1.543580084999121
+  - 1.6627732739980274
+  - 1.6627732739980274
   working_directory:
   - /0/wd/workdir-10
   - /1/wd/workdir-10
@@ -600,8 +600,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.50.smt2
   dsoes_wallclock_time:
-  - 1.594949814
-  - 1.594949814
+  - 1.997178414
+  - 1.997178414
   event_tag:
   - sat
   - sat
@@ -611,8 +611,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 1.110272
-  - 1.110272
+  - 1.369208
+  - 1.369208
   jfs_stat_num_inputs:
   - 196215
   - 196215
@@ -638,14 +638,14 @@ results:
   - /0/wd/workdir-11/stdout.log.txt
   - /1/wd/workdir-11/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - 1.47
-  - 1.47
+  - 1.91
+  - 1.91
   wallclock_time:
-  - 2.527683848002198
-  - 2.527683848002198
+  - 2.910801703998004
+  - 2.910801703998004
   working_directory:
   - /0/wd/workdir-11
   - /1/wd/workdir-11
@@ -654,8 +654,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.10.smt2
   dsoes_wallclock_time:
-  - 0.477651767
-  - 0.477651767
+  - 0.572445051
+  - 0.572445051
   event_tag:
   - sat
   - sat
@@ -665,8 +665,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032727
-  - 0.032727
+  - 0.040643
+  - 0.040643
   jfs_stat_num_inputs:
   - 224
   - 224
@@ -692,14 +692,14 @@ results:
   - /0/wd/workdir-12/stdout.log.txt
   - /1/wd/workdir-12/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.1864957660000073
-  - 1.1864957660000073
+  - 1.4020954919978976
+  - 1.4020954919978976
   working_directory:
   - /0/wd/workdir-12
   - /1/wd/workdir-12
@@ -708,8 +708,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.20.smt2
   dsoes_wallclock_time:
-  - 0.618811743
-  - 0.618811743
+  - 0.727768628
+  - 0.727768628
   event_tag:
   - sat
   - sat
@@ -719,8 +719,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.153045
-  - 0.153045
+  - 0.196403
+  - 0.196403
   jfs_stat_num_inputs:
   - 35564
   - 35564
@@ -746,14 +746,14 @@ results:
   - /0/wd/workdir-13/stdout.log.txt
   - /1/wd/workdir-13/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.54
-  - 0.54
+  - 0.62
+  - 0.62
   wallclock_time:
-  - 1.3379943569998431
-  - 1.3379943569998431
+  - 1.6042907060000289
+  - 1.6042907060000289
   working_directory:
   - /0/wd/workdir-13
   - /1/wd/workdir-13
@@ -762,8 +762,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.3.smt2
   dsoes_wallclock_time:
-  - 0.473748189
-  - 0.473748189
+  - 0.533553484
+  - 0.533553484
   event_tag:
   - sat
   - sat
@@ -773,8 +773,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.042196
-  - 0.042196
+  - 0.053672
+  - 0.053672
   jfs_stat_num_inputs:
   - 311
   - 311
@@ -800,14 +800,14 @@ results:
   - /0/wd/workdir-14/stdout.log.txt
   - /1/wd/workdir-14/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.43
+  - 0.43
   wallclock_time:
-  - 1.3234190930015757
-  - 1.3234190930015757
+  - 1.4354135939975095
+  - 1.4354135939975095
   working_directory:
   - /0/wd/workdir-14
   - /1/wd/workdir-14
@@ -816,8 +816,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.30.smt2
   dsoes_wallclock_time:
-  - 0.829988805
-  - 0.829988805
+  - 1.028569799
+  - 1.028569799
   event_tag:
   - sat
   - sat
@@ -827,8 +827,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.343901
-  - 0.343901
+  - 0.426777
+  - 0.426777
   jfs_stat_num_inputs:
   - 58640
   - 58640
@@ -854,14 +854,14 @@ results:
   - /0/wd/workdir-15/stdout.log.txt
   - /1/wd/workdir-15/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.17
+  - 0.17
   user_cpu_time:
-  - 0.72
-  - 0.72
+  - 0.95
+  - 0.95
   wallclock_time:
-  - 1.6292126299995289
-  - 1.6292126299995289
+  - 2.000925855998503
+  - 2.000925855998503
   working_directory:
   - /0/wd/workdir-15
   - /1/wd/workdir-15
@@ -870,8 +870,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.40.smt2
   dsoes_wallclock_time:
-  - 8.233839224
-  - 8.233839224
+  - 10.07097689
+  - 10.07097689
   event_tag:
   - sat
   - sat
@@ -881,8 +881,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 7.771132
-  - 7.771132
+  - 9.477094
+  - 9.477094
   jfs_stat_num_inputs:
   - 1586073
   - 1586073
@@ -893,8 +893,8 @@ results:
   - /0/wd/workdir-16/jfs-wd
   - /1/wd/workdir-16/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - 226582
-  - 226582
+  - 176230
+  - 176230
   out_of_memory:
   - false
   - false
@@ -908,14 +908,14 @@ results:
   - /0/wd/workdir-16/stdout.log.txt
   - /1/wd/workdir-16/stdout.log.txt
   sys_cpu_time:
-  - 0.29
-  - 0.29
+  - 0.24
+  - 0.24
   user_cpu_time:
-  - 7.98
-  - 7.98
+  - 9.88
+  - 9.88
   wallclock_time:
-  - 9.132361703999777
-  - 9.132361703999777
+  - 11.265966528997524
+  - 11.265966528997524
   working_directory:
   - /0/wd/workdir-16
   - /1/wd/workdir-16
@@ -924,8 +924,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.50.smt2
   dsoes_wallclock_time:
-  - 1.137530362
-  - 1.137530362
+  - 1.445254659
+  - 1.445254659
   event_tag:
   - sat
   - sat
@@ -935,8 +935,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.635558
-  - 0.635558
+  - 0.810083
+  - 0.810083
   jfs_stat_num_inputs:
   - 97136
   - 97136
@@ -962,14 +962,14 @@ results:
   - /0/wd/workdir-17/stdout.log.txt
   - /1/wd/workdir-17/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 1.06
-  - 1.06
+  - 1.38
+  - 1.38
   wallclock_time:
-  - 1.9646280159977323
-  - 1.9646280159977323
+  - 2.188516617999994
+  - 2.188516617999994
   working_directory:
   - /0/wd/workdir-17
   - /1/wd/workdir-17
@@ -978,8 +978,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.10.smt2
   dsoes_wallclock_time:
-  - 0.449540058
-  - 0.449540058
+  - 0.560746193
+  - 0.560746193
   event_tag:
   - sat
   - sat
@@ -989,8 +989,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.041188
-  - 0.041188
+  - 0.040593
+  - 0.040593
   jfs_stat_num_inputs:
   - 517
   - 517
@@ -1019,11 +1019,11 @@ results:
   - 0.12
   - 0.12
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.49
+  - 0.49
   wallclock_time:
-  - 1.2233994970010826
-  - 1.2233994970010826
+  - 1.4016929299978074
+  - 1.4016929299978074
   working_directory:
   - /0/wd/workdir-18
   - /1/wd/workdir-18
@@ -1032,8 +1032,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.20.smt2
   dsoes_wallclock_time:
-  - 0.501957264
-  - 0.501957264
+  - 0.621887233
+  - 0.621887233
   event_tag:
   - sat
   - sat
@@ -1043,8 +1043,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.046103
-  - 0.046103
+  - 0.057548
+  - 0.057548
   jfs_stat_num_inputs:
   - 3009
   - 3009
@@ -1073,11 +1073,11 @@ results:
   - 0.14
   - 0.14
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.53
+  - 0.53
   wallclock_time:
-  - 1.1769571929980884
-  - 1.1769571929980884
+  - 1.4067720230013947
+  - 1.4067720230013947
   working_directory:
   - /0/wd/workdir-19
   - /1/wd/workdir-19
@@ -1086,8 +1086,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.3.smt2
   dsoes_wallclock_time:
-  - 0.461772129
-  - 0.461772129
+  - 0.536449352
+  - 0.536449352
   event_tag:
   - sat
   - sat
@@ -1097,8 +1097,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.037549
-  - 0.037549
+  - 0.045594
+  - 0.045594
   jfs_stat_num_inputs:
   - 550
   - 550
@@ -1127,11 +1127,11 @@ results:
   - 0.11
   - 0.11
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.46
+  - 0.46
   wallclock_time:
-  - 1.0944282860000385
-  - 1.0944282860000385
+  - 1.4022210459988855
+  - 1.4022210459988855
   working_directory:
   - /0/wd/workdir-20
   - /1/wd/workdir-20
@@ -1140,8 +1140,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.30.smt2
   dsoes_wallclock_time:
-  - 0.585509634
-  - 0.585509634
+  - 0.756852658
+  - 0.756852658
   event_tag:
   - sat
   - sat
@@ -1151,8 +1151,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.142765
-  - 0.142765
+  - 0.178544
+  - 0.178544
   jfs_stat_num_inputs:
   - 27285
   - 27285
@@ -1178,14 +1178,14 @@ results:
   - /0/wd/workdir-21/stdout.log.txt
   - /1/wd/workdir-21/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.5
-  - 0.5
+  - 0.64
+  - 0.64
   wallclock_time:
-  - 1.3525148340013402
-  - 1.3525148340013402
+  - 1.5076826549993712
+  - 1.5076826549993712
   working_directory:
   - /0/wd/workdir-21
   - /1/wd/workdir-21
@@ -1194,8 +1194,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.40.smt2
   dsoes_wallclock_time:
-  - 0.574062495
-  - 0.574062495
+  - 0.756825043
+  - 0.756825043
   event_tag:
   - sat
   - sat
@@ -1205,8 +1205,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.136203
-  - 0.136203
+  - 0.1493
+  - 0.1493
   jfs_stat_num_inputs:
   - 13761
   - 13761
@@ -1232,14 +1232,14 @@ results:
   - /0/wd/workdir-22/stdout.log.txt
   - /1/wd/workdir-22/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.51
-  - 0.51
+  - 0.71
+  - 0.71
   wallclock_time:
-  - 1.3418821240011312
-  - 1.3418821240011312
+  - 1.72710630200163
+  - 1.72710630200163
   working_directory:
   - /0/wd/workdir-22
   - /1/wd/workdir-22
@@ -1248,8 +1248,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.50.smt2
   dsoes_wallclock_time:
-  - 1.547283642
-  - 1.547283642
+  - 1.988770343
+  - 1.988770343
   event_tag:
   - sat
   - sat
@@ -1259,8 +1259,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 1.098781
-  - 1.098781
+  - 1.361311
+  - 1.361311
   jfs_stat_num_inputs:
   - 195934
   - 195934
@@ -1286,14 +1286,14 @@ results:
   - /0/wd/workdir-23/stdout.log.txt
   - /1/wd/workdir-23/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 1.45
-  - 1.45
+  - 1.88
+  - 1.88
   wallclock_time:
-  - 2.3706940009979007
-  - 2.3706940009979007
+  - 2.874876311998378
+  - 2.874876311998378
   working_directory:
   - /0/wd/workdir-23
   - /1/wd/workdir-23
@@ -1302,8 +1302,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1.c.smt2
   dsoes_wallclock_time:
-  - 0.454398775
-  - 0.454398775
+  - 0.551859669
+  - 0.551859669
   event_tag:
   - sat
   - sat
@@ -1313,8 +1313,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.029955
-  - 0.029955
+  - 0.046908
+  - 0.046908
   jfs_stat_num_inputs:
   - 37
   - 37
@@ -1340,14 +1340,14 @@ results:
   - /0/wd/workdir-24/stdout.log.txt
   - /1/wd/workdir-24/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.4
-  - 0.4
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.062227869999333
-  - 1.062227869999333
+  - 1.1928860869993514
+  - 1.1928860869993514
   working_directory:
   - /0/wd/workdir-24
   - /1/wd/workdir-24
@@ -1356,8 +1356,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1_1.c.smt2
   dsoes_wallclock_time:
-  - 0.412448081
-  - 0.412448081
+  - 0.548567759
+  - 0.548567759
   event_tag:
   - sat
   - sat
@@ -1367,8 +1367,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.035633
-  - 0.035633
+  - 0.03937
+  - 0.03937
   jfs_stat_num_inputs:
   - 1
   - 1
@@ -1394,14 +1394,14 @@ results:
   - /0/wd/workdir-25/stdout.log.txt
   - /1/wd/workdir-25/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.03882917500232
-  - 1.03882917500232
+  - 1.3879253880004399
+  - 1.3879253880004399
   working_directory:
   - /0/wd/workdir-25
   - /1/wd/workdir-25
@@ -1410,8 +1410,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1_2.c.smt2
   dsoes_wallclock_time:
-  - 0.491524212
-  - 0.491524212
+  - 0.557187479
+  - 0.557187479
   event_tag:
   - sat
   - sat
@@ -1421,8 +1421,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.034385
-  - 0.034385
+  - 0.047223
+  - 0.047223
   jfs_stat_num_inputs:
   - 1
   - 1
@@ -1451,11 +1451,11 @@ results:
   - 0.14
   - 0.14
   user_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.45
+  - 0.45
   wallclock_time:
-  - 1.5085635100003856
-  - 1.5085635100003856
+  - 1.2141495430005307
+  - 1.2141495430005307
   working_directory:
   - /0/wd/workdir-26
   - /1/wd/workdir-26
@@ -1464,8 +1464,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2.c.smt2
   dsoes_wallclock_time:
-  - 0.460268385
-  - 0.460268385
+  - 0.558100685
+  - 0.558100685
   event_tag:
   - sat
   - sat
@@ -1475,8 +1475,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.040922
-  - 0.040922
+  - 0.051567
+  - 0.051567
   jfs_stat_num_inputs:
   - 1053
   - 1053
@@ -1502,14 +1502,14 @@ results:
   - /0/wd/workdir-27/stdout.log.txt
   - /1/wd/workdir-27/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.49
+  - 0.49
   wallclock_time:
-  - 1.196208236997336
-  - 1.196208236997336
+  - 1.333321390000492
+  - 1.333321390000492
   working_directory:
   - /0/wd/workdir-27
   - /1/wd/workdir-27
@@ -1518,8 +1518,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_1.c.smt2
   dsoes_wallclock_time:
-  - 0.468638696
-  - 0.468638696
+  - 0.574547325
+  - 0.574547325
   event_tag:
   - sat
   - sat
@@ -1529,8 +1529,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.039473
-  - 0.039473
+  - 0.059882
+  - 0.059882
   jfs_stat_num_inputs:
   - 2521
   - 2521
@@ -1556,14 +1556,14 @@ results:
   - /0/wd/workdir-28/stdout.log.txt
   - /1/wd/workdir-28/stdout.log.txt
   sys_cpu_time:
-  - 0.15
-  - 0.15
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.1211770859990793
-  - 1.1211770859990793
+  - 1.42571884499921
+  - 1.42571884499921
   working_directory:
   - /0/wd/workdir-28
   - /1/wd/workdir-28
@@ -1572,8 +1572,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_2.c.smt2
   dsoes_wallclock_time:
-  - 0.437904098
-  - 0.437904098
+  - 0.502808676
+  - 0.502808676
   event_tag:
   - sat
   - sat
@@ -1583,8 +1583,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.037688
-  - 0.037688
+  - 0.063922
+  - 0.063922
   jfs_stat_num_inputs:
   - 2741
   - 2741
@@ -1610,14 +1610,14 @@ results:
   - /0/wd/workdir-29/stdout.log.txt
   - /1/wd/workdir-29/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.4
+  - 0.4
   wallclock_time:
-  - 1.1743299730005674
-  - 1.1743299730005674
+  - 1.4127369380003074
+  - 1.4127369380003074
   working_directory:
   - /0/wd/workdir-29
   - /1/wd/workdir-29
@@ -1626,8 +1626,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_3.c.smt2
   dsoes_wallclock_time:
-  - 0.46319015
-  - 0.46319015
+  - 0.566501461
+  - 0.566501461
   event_tag:
   - sat
   - sat
@@ -1637,8 +1637,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.038043
-  - 0.038043
+  - 0.055106
+  - 0.055106
   jfs_stat_num_inputs:
   - 959
   - 959
@@ -1664,14 +1664,14 @@ results:
   - /0/wd/workdir-30/stdout.log.txt
   - /1/wd/workdir-30/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 1.4301293899989105
-  - 1.4301293899989105
+  - 1.4298869289996219
+  - 1.4298869289996219
   working_directory:
   - /0/wd/workdir-30
   - /1/wd/workdir-30
@@ -1680,8 +1680,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_1.c.smt2
   dsoes_wallclock_time:
-  - 0.443817902
-  - 0.443817902
+  - 0.535595536
+  - 0.535595536
   event_tag:
   - sat
   - sat
@@ -1691,8 +1691,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.034003
-  - 0.034003
+  - 0.040916
+  - 0.040916
   jfs_stat_num_inputs:
   - 62
   - 62
@@ -1718,14 +1718,14 @@ results:
   - /0/wd/workdir-31/stdout.log.txt
   - /1/wd/workdir-31/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.366392176001682
-  - 1.366392176001682
+  - 1.3262344820032013
+  - 1.3262344820032013
   working_directory:
   - /0/wd/workdir-31
   - /1/wd/workdir-31
@@ -1734,8 +1734,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_2.c.smt2
   dsoes_wallclock_time:
-  - 0.436406254
-  - 0.436406254
+  - 0.530095514
+  - 0.530095514
   event_tag:
   - sat
   - sat
@@ -1745,8 +1745,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.042421
-  - 0.042421
+  - 0.045272
+  - 0.045272
   jfs_stat_num_inputs:
   - 366
   - 366
@@ -1775,11 +1775,11 @@ results:
   - 0.13
   - 0.13
   user_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.44
+  - 0.44
   wallclock_time:
-  - 1.3906298729998525
-  - 1.3906298729998525
+  - 1.365874242001155
+  - 1.365874242001155
   working_directory:
   - /0/wd/workdir-32
   - /1/wd/workdir-32
@@ -1788,8 +1788,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_3.c.smt2
   dsoes_wallclock_time:
-  - 0.474095172
-  - 0.474095172
+  - 0.560776223
+  - 0.560776223
   event_tag:
   - sat
   - sat
@@ -1799,8 +1799,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032969
-  - 0.032969
+  - 0.047616
+  - 0.047616
   jfs_stat_num_inputs:
   - 364
   - 364
@@ -1829,11 +1829,11 @@ results:
   - 0.14
   - 0.14
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.5220557089996873
-  - 1.5220557089996873
+  - 1.5098162120011693
+  - 1.5098162120011693
   working_directory:
   - /0/wd/workdir-33
   - /1/wd/workdir-33
@@ -1842,8 +1842,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e3_1.c.smt2
   dsoes_wallclock_time:
-  - 0.462745945
-  - 0.462745945
+  - 0.564183878
+  - 0.564183878
   event_tag:
   - sat
   - sat
@@ -1853,8 +1853,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.040353
-  - 0.040353
+  - 0.046675
+  - 0.046675
   jfs_stat_num_inputs:
   - 128
   - 128
@@ -1880,14 +1880,14 @@ results:
   - /0/wd/workdir-34/stdout.log.txt
   - /1/wd/workdir-34/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.49
+  - 0.49
   wallclock_time:
-  - 1.506076393998228
-  - 1.506076393998228
+  - 1.5863604160003888
+  - 1.5863604160003888
   working_directory:
   - /0/wd/workdir-34
   - /1/wd/workdir-34
@@ -1896,8 +1896,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e3_2.c.smt2
   dsoes_wallclock_time:
-  - 0.489372998
-  - 0.489372998
+  - 0.566073533
+  - 0.566073533
   event_tag:
   - sat
   - sat
@@ -1907,8 +1907,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.039407
-  - 0.039407
+  - 0.051686
+  - 0.051686
   jfs_stat_num_inputs:
   - 407
   - 407
@@ -1934,14 +1934,14 @@ results:
   - /0/wd/workdir-35/stdout.log.txt
   - /1/wd/workdir-35/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 0.4
-  - 0.4
+  - 0.49
+  - 0.49
   wallclock_time:
-  - 1.5753744400026335
-  - 1.5753744400026335
+  - 1.389906954998878
+  - 1.389906954998878
   working_directory:
   - /0/wd/workdir-35
   - /1/wd/workdir-35
@@ -1950,8 +1950,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/f23.smt2
   dsoes_wallclock_time:
-  - 0.511495009
-  - 0.511495009
+  - 0.636138126
+  - 0.636138126
   event_tag:
   - sat
   - sat
@@ -1961,8 +1961,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.096514
-  - 0.096514
+  - 0.118113
+  - 0.118113
   jfs_stat_num_inputs:
   - 23059
   - 23059
@@ -1988,14 +1988,14 @@ results:
   - /0/wd/workdir-36/stdout.log.txt
   - /1/wd/workdir-36/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.44
-  - 0.44
+  - 0.57
+  - 0.57
   wallclock_time:
-  - 1.359342572002788
-  - 1.359342572002788
+  - 1.7886798070030636
+  - 1.7886798070030636
   working_directory:
   - /0/wd/workdir-36
   - /1/wd/workdir-36
@@ -2004,8 +2004,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.125.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.012995863
+  - 60.012995863
   event_tag:
   - timeout
   - timeout
@@ -2015,20 +2015,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.673486
+  - 58.673486
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1877007
+  - 1877007
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-37/jfs-wd
   - /1/wd/workdir-37/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 32362
+  - 32362
   out_of_memory:
   - false
   - false
@@ -2042,14 +2042,14 @@ results:
   - /0/wd/workdir-37/stdout.log.txt
   - /1/wd/workdir-37/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - null
-  - null
+  - 59.81
+  - 59.81
   wallclock_time:
-  - 60.6174329739988
-  - 60.6174329739988
+  - 60.821582568998565
+  - 60.821582568998565
   working_directory:
   - /0/wd/workdir-37
   - /1/wd/workdir-37
@@ -2058,8 +2058,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.175.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013586648
+  - 60.013586648
   event_tag:
   - timeout
   - timeout
@@ -2069,20 +2069,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.311894
+  - 58.311894
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1224485
+  - 1224485
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-38/jfs-wd
   - /1/wd/workdir-38/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 21111
+  - 21111
   out_of_memory:
   - false
   - false
@@ -2096,14 +2096,14 @@ results:
   - /0/wd/workdir-38/stdout.log.txt
   - /1/wd/workdir-38/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.79
+  - 59.79
   wallclock_time:
-  - 60.63953766499981
-  - 60.63953766499981
+  - 60.76084197599994
+  - 60.76084197599994
   working_directory:
   - /0/wd/workdir-38
   - /1/wd/workdir-38
@@ -2112,8 +2112,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.25.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014209828
+  - 60.014209828
   event_tag:
   - timeout
   - timeout
@@ -2123,20 +2123,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.388229
+  - 59.388229
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 6302804
+  - 6302804
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-39/jfs-wd
   - /1/wd/workdir-39/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 106827
+  - 106827
   out_of_memory:
   - false
   - false
@@ -2150,14 +2150,14 @@ results:
   - /0/wd/workdir-39/stdout.log.txt
   - /1/wd/workdir-39/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - null
-  - null
+  - 59.75
+  - 59.75
   wallclock_time:
-  - 60.606050286001846
-  - 60.606050286001846
+  - 60.67467976400076
+  - 60.67467976400076
   working_directory:
   - /0/wd/workdir-39
   - /1/wd/workdir-39
@@ -2166,8 +2166,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.75.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.011927634
+  - 60.011927634
   event_tag:
   - timeout
   - timeout
@@ -2177,20 +2177,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.034642
+  - 59.034642
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 2952208
+  - 2952208
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-40/jfs-wd
   - /1/wd/workdir-40/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 50037
+  - 50037
   out_of_memory:
   - false
   - false
@@ -2204,14 +2204,14 @@ results:
   - /0/wd/workdir-40/stdout.log.txt
   - /1/wd/workdir-40/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - null
-  - null
+  - 59.83
+  - 59.83
   wallclock_time:
-  - 60.605358609001996
-  - 60.605358609001996
+  - 60.40787584299687
+  - 60.40787584299687
   working_directory:
   - /0/wd/workdir-40
   - /1/wd/workdir-40
@@ -2220,8 +2220,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/mul_000003_30000_1.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.0128946
+  - 60.0128946
   event_tag:
   - timeout
   - timeout
@@ -2231,20 +2231,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.490946
+  - 59.490946
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 23775355
+  - 23775355
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-41/jfs-wd
   - /1/wd/workdir-41/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 402972
+  - 402972
   out_of_memory:
   - false
   - false
@@ -2258,14 +2258,14 @@ results:
   - /0/wd/workdir-41/stdout.log.txt
   - /1/wd/workdir-41/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.32
+  - 0.32
   user_cpu_time:
-  - null
-  - null
+  - 59.61
+  - 59.61
   wallclock_time:
-  - 60.38150427900109
-  - 60.38150427900109
+  - 60.45908819499891
+  - 60.45908819499891
   working_directory:
   - /0/wd/workdir-41
   - /1/wd/workdir-41
@@ -2274,8 +2274,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/mul_03_3000_1.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013855788
+  - 60.013855788
   event_tag:
   - timeout
   - timeout
@@ -2285,20 +2285,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.514318
+  - 59.514318
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 23381987
+  - 23381987
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-42/jfs-wd
   - /1/wd/workdir-42/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 396304
+  - 396304
   out_of_memory:
   - false
   - false
@@ -2312,14 +2312,14 @@ results:
   - /0/wd/workdir-42/stdout.log.txt
   - /1/wd/workdir-42/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.32
+  - 0.32
   user_cpu_time:
-  - null
-  - null
+  - 59.66
+  - 59.66
   wallclock_time:
-  - 60.43487023399939
-  - 60.43487023399939
+  - 60.57805035099955
+  - 60.57805035099955
   working_directory:
   - /0/wd/workdir-42
   - /1/wd/workdir-42
@@ -2328,8 +2328,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/mul_03_3_1.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013091386
+  - 60.013091386
   event_tag:
   - timeout
   - timeout
@@ -2339,20 +2339,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.451243
+  - 59.451243
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 23867113
+  - 23867113
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-43/jfs-wd
   - /1/wd/workdir-43/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 404527
+  - 404527
   out_of_memory:
   - false
   - false
@@ -2366,14 +2366,14 @@ results:
   - /0/wd/workdir-43/stdout.log.txt
   - /1/wd/workdir-43/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.35
+  - 0.35
   user_cpu_time:
-  - null
-  - null
+  - 59.63
+  - 59.63
   wallclock_time:
-  - 60.5054336189969
-  - 60.5054336189969
+  - 60.626090402001864
+  - 60.626090402001864
   working_directory:
   - /0/wd/workdir-43
   - /1/wd/workdir-43
@@ -2382,8 +2382,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.10.smt2
   dsoes_wallclock_time:
-  - 0.430681245
-  - 0.430681245
+  - 0.470355419
+  - 0.470355419
   event_tag:
   - sat
   - sat
@@ -2393,8 +2393,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.038526
-  - 0.038526
+  - 0.048623
+  - 0.048623
   jfs_stat_num_inputs:
   - 499
   - 499
@@ -2420,14 +2420,14 @@ results:
   - /0/wd/workdir-44/stdout.log.txt
   - /1/wd/workdir-44/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.41
+  - 0.41
   wallclock_time:
-  - 1.1954230350020225
-  - 1.1954230350020225
+  - 1.0790831750018697
+  - 1.0790831750018697
   working_directory:
   - /0/wd/workdir-44
   - /1/wd/workdir-44
@@ -2436,8 +2436,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.20.smt2
   dsoes_wallclock_time:
-  - 0.468172873
-  - 0.468172873
+  - 0.586953379
+  - 0.586953379
   event_tag:
   - sat
   - sat
@@ -2447,8 +2447,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.042041
-  - 0.042041
+  - 0.058802
+  - 0.058802
   jfs_stat_num_inputs:
   - 2201
   - 2201
@@ -2477,11 +2477,11 @@ results:
   - 0.1
   - 0.1
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 0.9852788409989444
-  - 0.9852788409989444
+  - 1.1756159169999592
+  - 1.1756159169999592
   working_directory:
   - /0/wd/workdir-45
   - /1/wd/workdir-45
@@ -2490,8 +2490,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.3.smt2
   dsoes_wallclock_time:
-  - 0.405923547
-  - 0.405923547
+  - 0.468946925
+  - 0.468946925
   event_tag:
   - sat
   - sat
@@ -2501,8 +2501,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.039402
-  - 0.039402
+  - 0.048747
+  - 0.048747
   jfs_stat_num_inputs:
   - 38
   - 38
@@ -2528,14 +2528,14 @@ results:
   - /0/wd/workdir-46/stdout.log.txt
   - /1/wd/workdir-46/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.07
+  - 0.07
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.44
+  - 0.44
   wallclock_time:
-  - 0.9475822739987052
-  - 0.9475822739987052
+  - 1.0547382059994561
+  - 1.0547382059994561
   working_directory:
   - /0/wd/workdir-46
   - /1/wd/workdir-46
@@ -2544,8 +2544,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.30.smt2
   dsoes_wallclock_time:
-  - 0.593727003
-  - 0.593727003
+  - 0.694276531
+  - 0.694276531
   event_tag:
   - sat
   - sat
@@ -2555,8 +2555,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.173289
-  - 0.173289
+  - 0.248011
+  - 0.248011
   jfs_stat_num_inputs:
   - 40401
   - 40401
@@ -2585,11 +2585,11 @@ results:
   - 0.11
   - 0.11
   user_cpu_time:
-  - 0.52
-  - 0.52
+  - 0.63
+  - 0.63
   wallclock_time:
-  - 1.1361217339981522
-  - 1.1361217339981522
+  - 1.2610357189987553
+  - 1.2610357189987553
   working_directory:
   - /0/wd/workdir-47
   - /1/wd/workdir-47
@@ -2598,8 +2598,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.40.smt2
   dsoes_wallclock_time:
-  - 4.92923842
-  - 4.92923842
+  - 5.917054744
+  - 5.917054744
   event_tag:
   - sat
   - sat
@@ -2609,8 +2609,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 4.52748
-  - 4.52748
+  - 5.370523
+  - 5.370523
   jfs_stat_num_inputs:
   - 905455
   - 905455
@@ -2621,8 +2621,8 @@ results:
   - /0/wd/workdir-48/jfs-wd
   - /1/wd/workdir-48/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - 226364
-  - 226364
+  - 181091
+  - 181091
   out_of_memory:
   - false
   - false
@@ -2636,14 +2636,14 @@ results:
   - /0/wd/workdir-48/stdout.log.txt
   - /1/wd/workdir-48/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 4.84
-  - 4.84
+  - 5.86
+  - 5.86
   wallclock_time:
-  - 5.522243209001317
-  - 5.522243209001317
+  - 6.5087876559991855
+  - 6.5087876559991855
   working_directory:
   - /0/wd/workdir-48
   - /1/wd/workdir-48
@@ -2652,8 +2652,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.50.smt2
   dsoes_wallclock_time:
-  - 1.057466121
-  - 1.057466121
+  - 1.342349532
+  - 1.342349532
   event_tag:
   - sat
   - sat
@@ -2663,8 +2663,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.634737
-  - 0.634737
+  - 0.748867
+  - 0.748867
   jfs_stat_num_inputs:
   - 100842
   - 100842
@@ -2690,14 +2690,14 @@ results:
   - /0/wd/workdir-49/stdout.log.txt
   - /1/wd/workdir-49/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.96
-  - 0.96
+  - 1.28
+  - 1.28
   wallclock_time:
-  - 1.5860423390004144
-  - 1.5860423390004144
+  - 1.9123530670003674
+  - 1.9123530670003674
   working_directory:
   - /0/wd/workdir-49
   - /1/wd/workdir-49
@@ -2706,8 +2706,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.10.smt2
   dsoes_wallclock_time:
-  - 0.46357838
-  - 0.46357838
+  - 0.536209835
+  - 0.536209835
   event_tag:
   - sat
   - sat
@@ -2717,8 +2717,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.035159
-  - 0.035159
+  - 0.050541
+  - 0.050541
   jfs_stat_num_inputs:
   - 389
   - 389
@@ -2744,14 +2744,14 @@ results:
   - /0/wd/workdir-50/stdout.log.txt
   - /1/wd/workdir-50/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 0.9927905639997334
-  - 0.9927905639997334
+  - 1.1137346409996098
+  - 1.1137346409996098
   working_directory:
   - /0/wd/workdir-50
   - /1/wd/workdir-50
@@ -2760,8 +2760,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.20.smt2
   dsoes_wallclock_time:
-  - 0.421779252
-  - 0.421779252
+  - 0.590591622
+  - 0.590591622
   event_tag:
   - sat
   - sat
@@ -2771,8 +2771,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.071507
-  - 0.071507
+  - 0.090681
+  - 0.090681
   jfs_stat_num_inputs:
   - 13817
   - 13817
@@ -2798,14 +2798,14 @@ results:
   - /0/wd/workdir-51/stdout.log.txt
   - /1/wd/workdir-51/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.53
+  - 0.53
   wallclock_time:
-  - 0.976150274000247
-  - 0.976150274000247
+  - 1.244787974999781
+  - 1.244787974999781
   working_directory:
   - /0/wd/workdir-51
   - /1/wd/workdir-51
@@ -2814,8 +2814,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.3.smt2
   dsoes_wallclock_time:
-  - 0.391103604
-  - 0.391103604
+  - 0.489995855
+  - 0.489995855
   event_tag:
   - sat
   - sat
@@ -2825,8 +2825,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032566
-  - 0.032566
+  - 0.041401
+  - 0.041401
   jfs_stat_num_inputs:
   - 158
   - 158
@@ -2852,14 +2852,14 @@ results:
   - /0/wd/workdir-52/stdout.log.txt
   - /1/wd/workdir-52/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.42
+  - 0.42
   wallclock_time:
-  - 0.9820835579994309
-  - 0.9820835579994309
+  - 1.074082063001697
+  - 1.074082063001697
   working_directory:
   - /0/wd/workdir-52
   - /1/wd/workdir-52
@@ -2868,8 +2868,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.30.smt2
   dsoes_wallclock_time:
-  - 0.487825787
-  - 0.487825787
+  - 0.576390438
+  - 0.576390438
   event_tag:
   - sat
   - sat
@@ -2879,8 +2879,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.070978
-  - 0.070978
+  - 0.079461
+  - 0.079461
   jfs_stat_num_inputs:
   - 5768
   - 5768
@@ -2906,14 +2906,14 @@ results:
   - /0/wd/workdir-53/stdout.log.txt
   - /1/wd/workdir-53/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.52
+  - 0.52
   wallclock_time:
-  - 1.0164869959990028
-  - 1.0164869959990028
+  - 1.1927648119999503
+  - 1.1927648119999503
   working_directory:
   - /0/wd/workdir-53
   - /1/wd/workdir-53
@@ -2922,8 +2922,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.40.smt2
   dsoes_wallclock_time:
-  - 6.351341589
-  - 6.351341589
+  - 7.944802516
+  - 7.944802516
   event_tag:
   - sat
   - sat
@@ -2933,8 +2933,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 5.961469
-  - 5.961469
+  - 7.36054
+  - 7.36054
   jfs_stat_num_inputs:
   - 1217199
   - 1217199
@@ -2945,8 +2945,8 @@ results:
   - /0/wd/workdir-54/jfs-wd
   - /1/wd/workdir-54/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - 243440
-  - 243440
+  - 173885
+  - 173885
   out_of_memory:
   - false
   - false
@@ -2960,14 +2960,14 @@ results:
   - /0/wd/workdir-54/stdout.log.txt
   - /1/wd/workdir-54/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 6.22
-  - 6.22
+  - 7.86
+  - 7.86
   wallclock_time:
-  - 6.916998807002528
-  - 6.916998807002528
+  - 8.563656751000963
+  - 8.563656751000963
   working_directory:
   - /0/wd/workdir-54
   - /1/wd/workdir-54
@@ -2976,8 +2976,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.50.smt2
   dsoes_wallclock_time:
-  - 2.104020869
-  - 2.104020869
+  - 2.477770893
+  - 2.477770893
   event_tag:
   - sat
   - sat
@@ -2987,8 +2987,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 1.648047
-  - 1.648047
+  - 1.997378
+  - 1.997378
   jfs_stat_num_inputs:
   - 273964
   - 273964
@@ -3017,11 +3017,11 @@ results:
   - 0.12
   - 0.12
   user_cpu_time:
-  - 1.99
-  - 1.99
+  - 2.42
+  - 2.42
   wallclock_time:
-  - 2.6382762389985146
-  - 2.6382762389985146
+  - 3.031185056002869
+  - 3.031185056002869
   working_directory:
   - /0/wd/workdir-55
   - /1/wd/workdir-55
@@ -3030,8 +3030,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.4.1.i.smt2
   dsoes_wallclock_time:
-  - 0.440351742
-  - 0.440351742
+  - 0.530181831
+  - 0.530181831
   event_tag:
   - sat
   - sat
@@ -3041,8 +3041,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.076118
-  - 0.076118
+  - 0.040473
+  - 0.040473
   jfs_stat_num_inputs:
   - 10454
   - 10454
@@ -3071,11 +3071,11 @@ results:
   - 0.09
   - 0.09
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 0.9679731930009439
-  - 0.9679731930009439
+  - 1.1242648739971628
+  - 1.1242648739971628
   working_directory:
   - /0/wd/workdir-56
   - /1/wd/workdir-56
@@ -3084,8 +3084,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.5.1.i.smt2
   dsoes_wallclock_time:
-  - 0.380693077
-  - 0.380693077
+  - 0.513922588
+  - 0.513922588
   event_tag:
   - sat
   - sat
@@ -3095,8 +3095,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.058915
-  - 0.058915
+  - 0.0579
+  - 0.0579
   jfs_stat_num_inputs:
   - 3633
   - 3633
@@ -3122,14 +3122,14 @@ results:
   - /0/wd/workdir-57/stdout.log.txt
   - /1/wd/workdir-57/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.44
+  - 0.44
   wallclock_time:
-  - 0.9309620000021823
-  - 0.9309620000021823
+  - 1.1006189069994434
+  - 1.1006189069994434
   working_directory:
   - /0/wd/workdir-57
   - /1/wd/workdir-57
@@ -3138,8 +3138,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.5.3.i.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.010857275
+  - 60.010857275
   event_tag:
   - timeout
   - timeout
@@ -3149,20 +3149,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.549268
+  - 59.549268
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 13154229
+  - 13154229
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-58/jfs-wd
   - /1/wd/workdir-58/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 222953
+  - 222953
   out_of_memory:
   - false
   - false
@@ -3176,14 +3176,14 @@ results:
   - /0/wd/workdir-58/stdout.log.txt
   - /1/wd/workdir-58/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.22
+  - 0.22
   user_cpu_time:
-  - null
-  - null
+  - 59.72
+  - 59.72
   wallclock_time:
-  - 60.32927827000094
-  - 60.32927827000094
+  - 60.40908894799941
+  - 60.40908894799941
   working_directory:
   - /0/wd/workdir-58
   - /1/wd/workdir-58
@@ -3192,8 +3192,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.6.1.i.smt2
   dsoes_wallclock_time:
-  - 0.477910796
-  - 0.477910796
+  - 0.576540956
+  - 0.576540956
   event_tag:
   - sat
   - sat
@@ -3203,8 +3203,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.035977
-  - 0.035977
+  - 0.036314
+  - 0.036314
   jfs_stat_num_inputs:
   - 47
   - 47
@@ -3230,14 +3230,14 @@ results:
   - /0/wd/workdir-59/stdout.log.txt
   - /1/wd/workdir-59/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.106456222001725
-  - 1.106456222001725
+  - 1.6465264819998993
+  - 1.6465264819998993
   working_directory:
   - /0/wd/workdir-59
   - /1/wd/workdir-59
@@ -3246,8 +3246,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.6.2.i.smt2
   dsoes_wallclock_time:
-  - 0.406533519
-  - 0.406533519
+  - 0.551795565
+  - 0.551795565
   event_tag:
   - sat
   - sat
@@ -3257,8 +3257,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.042715
-  - 0.042715
+  - 0.033217
+  - 0.033217
   jfs_stat_num_inputs:
   - 277
   - 277
@@ -3284,14 +3284,14 @@ results:
   - /0/wd/workdir-60/stdout.log.txt
   - /1/wd/workdir-60/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.5
+  - 0.5
   wallclock_time:
-  - 1.077569795997988
-  - 1.077569795997988
+  - 1.3638529879972339
+  - 1.3638529879972339
   working_directory:
   - /0/wd/workdir-60
   - /1/wd/workdir-60
@@ -3300,8 +3300,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.6.3.i.smt2
   dsoes_wallclock_time:
-  - 0.477613342
-  - 0.477613342
+  - 0.520944958
+  - 0.520944958
   event_tag:
   - sat
   - sat
@@ -3311,8 +3311,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.038417
-  - 0.038417
+  - 0.075845
+  - 0.075845
   jfs_stat_num_inputs:
   - 6173
   - 6173
@@ -3338,14 +3338,14 @@ results:
   - /0/wd/workdir-61/stdout.log.txt
   - /1/wd/workdir-61/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.4
-  - 0.4
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.4126563039972098
-  - 1.4126563039972098
+  - 1.278066006998415
+  - 1.278066006998415
   working_directory:
   - /0/wd/workdir-61
   - /1/wd/workdir-61
@@ -3354,8 +3354,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.7.1.i.smt2
   dsoes_wallclock_time:
-  - 0.399543916
-  - 0.399543916
+  - 0.577088735
+  - 0.577088735
   event_tag:
   - sat
   - sat
@@ -3365,8 +3365,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.038543
-  - 0.038543
+  - 0.047732
+  - 0.047732
   jfs_stat_num_inputs:
   - 47
   - 47
@@ -3395,11 +3395,11 @@ results:
   - 0.11
   - 0.11
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.52
+  - 0.52
   wallclock_time:
-  - 1.3252302670007339
-  - 1.3252302670007339
+  - 1.5649543660001655
+  - 1.5649543660001655
   working_directory:
   - /0/wd/workdir-62
   - /1/wd/workdir-62
@@ -3408,8 +3408,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.7.2.i.smt2
   dsoes_wallclock_time:
-  - 0.425499215
-  - 0.425499215
+  - 0.566932631
+  - 0.566932631
   event_tag:
   - sat
   - sat
@@ -3419,8 +3419,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.037635
-  - 0.037635
+  - 0.046875
+  - 0.046875
   jfs_stat_num_inputs:
   - 277
   - 277
@@ -3446,14 +3446,14 @@ results:
   - /0/wd/workdir-63/stdout.log.txt
   - /1/wd/workdir-63/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 1.1861918860013247
-  - 1.1861918860013247
+  - 1.5521620610015816
+  - 1.5521620610015816
   working_directory:
   - /0/wd/workdir-63
   - /1/wd/workdir-63
@@ -3462,8 +3462,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.7.3.i.smt2
   dsoes_wallclock_time:
-  - 0.436721232
-  - 0.436721232
+  - 0.55683704
+  - 0.55683704
   event_tag:
   - sat
   - sat
@@ -3473,8 +3473,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.034197
-  - 0.034197
+  - 0.035253
+  - 0.035253
   jfs_stat_num_inputs:
   - 992
   - 992
@@ -3500,14 +3500,14 @@ results:
   - /0/wd/workdir-64/stdout.log.txt
   - /1/wd/workdir-64/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.5
+  - 0.5
   wallclock_time:
-  - 1.2894023129993002
-  - 1.2894023129993002
+  - 1.4930485370023234
+  - 1.4930485370023234
   working_directory:
   - /0/wd/workdir-64
   - /1/wd/workdir-64
@@ -3516,8 +3516,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.8.1.i.smt2
   dsoes_wallclock_time:
-  - 0.449698853
-  - 0.449698853
+  - 0.544955142
+  - 0.544955142
   event_tag:
   - sat
   - sat
@@ -3527,8 +3527,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.034612
-  - 0.034612
+  - 0.038678
+  - 0.038678
   jfs_stat_num_inputs:
   - 47
   - 47
@@ -3554,14 +3554,14 @@ results:
   - /0/wd/workdir-65/stdout.log.txt
   - /1/wd/workdir-65/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.1470221769995987
-  - 1.1470221769995987
+  - 1.526908238996839
+  - 1.526908238996839
   working_directory:
   - /0/wd/workdir-65
   - /1/wd/workdir-65
@@ -3570,8 +3570,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.8.2.i.smt2
   dsoes_wallclock_time:
-  - 0.375998209
-  - 0.375998209
+  - 0.55618393
+  - 0.55618393
   event_tag:
   - sat
   - sat
@@ -3581,8 +3581,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.036747
-  - 0.036747
+  - 0.048091
+  - 0.048091
   jfs_stat_num_inputs:
   - 797
   - 797
@@ -3608,14 +3608,14 @@ results:
   - /0/wd/workdir-66/stdout.log.txt
   - /1/wd/workdir-66/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.31
-  - 0.31
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.1301532390025386
-  - 1.1301532390025386
+  - 1.5702276730007725
+  - 1.5702276730007725
   working_directory:
   - /0/wd/workdir-66
   - /1/wd/workdir-66
@@ -3624,8 +3624,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.8.3.i.smt2
   dsoes_wallclock_time:
-  - 0.422495831
-  - 0.422495831
+  - 0.571342704
+  - 0.571342704
   event_tag:
   - sat
   - sat
@@ -3635,8 +3635,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.046715
-  - 0.046715
+  - 0.054518
+  - 0.054518
   jfs_stat_num_inputs:
   - 797
   - 797
@@ -3662,14 +3662,14 @@ results:
   - /0/wd/workdir-67/stdout.log.txt
   - /1/wd/workdir-67/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.51
+  - 0.51
   wallclock_time:
-  - 1.0002897439990193
-  - 1.0002897439990193
+  - 1.441411951000191
+  - 1.441411951000191
   working_directory:
   - /0/wd/workdir-67
   - /1/wd/workdir-67
@@ -3678,8 +3678,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin.c.125.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013715734
+  - 60.013715734
   event_tag:
   - timeout
   - timeout
@@ -3689,20 +3689,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.538432
+  - 58.538432
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1103326
+  - 1103326
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-68/jfs-wd
   - /1/wd/workdir-68/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 19022
+  - 19022
   out_of_memory:
   - false
   - false
@@ -3716,14 +3716,14 @@ results:
   - /0/wd/workdir-68/stdout.log.txt
   - /1/wd/workdir-68/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.78
+  - 59.78
   wallclock_time:
-  - 60.364007907002815
-  - 60.364007907002815
+  - 60.42857174200253
+  - 60.42857174200253
   working_directory:
   - /0/wd/workdir-68
   - /1/wd/workdir-68
@@ -3732,8 +3732,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin.c.175.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.01806844
+  - 60.01806844
   event_tag:
   - timeout
   - timeout
@@ -3743,20 +3743,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.06403
+  - 58.06403
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 830471
+  - 830471
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-69/jfs-wd
   - /1/wd/workdir-69/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 14318
+  - 14318
   out_of_memory:
   - false
   - false
@@ -3770,14 +3770,14 @@ results:
   - /0/wd/workdir-69/stdout.log.txt
   - /1/wd/workdir-69/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.77
+  - 59.77
   wallclock_time:
-  - 60.484321945001284
-  - 60.484321945001284
+  - 60.61732220699923
+  - 60.61732220699923
   working_directory:
   - /0/wd/workdir-69
   - /1/wd/workdir-69
@@ -3786,8 +3786,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin.c.25.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014916662
+  - 60.014916662
   event_tag:
   - timeout
   - timeout
@@ -3797,20 +3797,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.391359
+  - 59.391359
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 4632312
+  - 4632312
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-70/jfs-wd
   - /1/wd/workdir-70/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 78513
+  - 78513
   out_of_memory:
   - false
   - false
@@ -3824,14 +3824,14 @@ results:
   - /0/wd/workdir-70/stdout.log.txt
   - /1/wd/workdir-70/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - null
-  - null
+  - 59.86
+  - 59.86
   wallclock_time:
-  - 60.410532111000066
-  - 60.410532111000066
+  - 60.509084391000215
+  - 60.509084391000215
   working_directory:
   - /0/wd/workdir-70
   - /1/wd/workdir-70
@@ -3840,8 +3840,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin.c.75.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.011656039
+  - 60.011656039
   event_tag:
   - timeout
   - timeout
@@ -3851,20 +3851,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.010595
+  - 59.010595
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1745349
+  - 1745349
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-71/jfs-wd
   - /1/wd/workdir-71/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 30092
+  - 30092
   out_of_memory:
   - false
   - false
@@ -3878,14 +3878,14 @@ results:
   - /0/wd/workdir-71/stdout.log.txt
   - /1/wd/workdir-71/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.36458679499992
-  - 60.36458679499992
+  - 60.414459513998736
+  - 60.414459513998736
   working_directory:
   - /0/wd/workdir-71
   - /1/wd/workdir-71
@@ -3894,8 +3894,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.10.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014935896
+  - 60.014935896
   event_tag:
   - timeout
   - timeout
@@ -3905,20 +3905,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.399186
+  - 59.399186
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 8236197
+  - 8236197
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-72/jfs-wd
   - /1/wd/workdir-72/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 139596
+  - 139596
   out_of_memory:
   - false
   - false
@@ -3932,14 +3932,14 @@ results:
   - /0/wd/workdir-72/stdout.log.txt
   - /1/wd/workdir-72/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.84
+  - 59.84
   wallclock_time:
-  - 60.48277529400002
-  - 60.48277529400002
+  - 60.45718586199655
+  - 60.45718586199655
   working_directory:
   - /0/wd/workdir-72
   - /1/wd/workdir-72
@@ -3948,8 +3948,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.125.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.01536377
+  - 60.01536377
   event_tag:
   - timeout
   - timeout
@@ -3959,20 +3959,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.584021
+  - 58.584021
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1106807
+  - 1106807
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-73/jfs-wd
   - /1/wd/workdir-73/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 19082
+  - 19082
   out_of_memory:
   - false
   - false
@@ -3986,14 +3986,14 @@ results:
   - /0/wd/workdir-73/stdout.log.txt
   - /1/wd/workdir-73/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.8
+  - 59.8
   wallclock_time:
-  - 60.33051180500115
-  - 60.33051180500115
+  - 60.540701398997044
+  - 60.540701398997044
   working_directory:
   - /0/wd/workdir-73
   - /1/wd/workdir-73
@@ -4002,8 +4002,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.15.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.012323537
+  - 60.012323537
   event_tag:
   - timeout
   - timeout
@@ -4013,20 +4013,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.492383
+  - 59.492383
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 6822694
+  - 6822694
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-74/jfs-wd
   - /1/wd/workdir-74/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 115638
+  - 115638
   out_of_memory:
   - false
   - false
@@ -4040,14 +4040,14 @@ results:
   - /0/wd/workdir-74/stdout.log.txt
   - /1/wd/workdir-74/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - null
-  - null
+  - 59.87
+  - 59.87
   wallclock_time:
-  - 60.313257840000006
-  - 60.313257840000006
+  - 60.54261221299748
+  - 60.54261221299748
   working_directory:
   - /0/wd/workdir-74
   - /1/wd/workdir-74
@@ -4056,8 +4056,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.175.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.017466631
+  - 60.017466631
   event_tag:
   - timeout
   - timeout
@@ -4067,20 +4067,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.29734
+  - 58.29734
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 846705
+  - 846705
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-75/jfs-wd
   - /1/wd/workdir-75/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 14598
+  - 14598
   out_of_memory:
   - false
   - false
@@ -4094,14 +4094,14 @@ results:
   - /0/wd/workdir-75/stdout.log.txt
   - /1/wd/workdir-75/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.18
+  - 0.18
   user_cpu_time:
-  - null
-  - null
+  - 59.78
+  - 59.78
   wallclock_time:
-  - 60.344837786000426
-  - 60.344837786000426
+  - 60.421382652999455
+  - 60.421382652999455
   working_directory:
   - /0/wd/workdir-75
   - /1/wd/workdir-75
@@ -4110,8 +4110,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.2.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014873103
+  - 60.014873103
   event_tag:
   - timeout
   - timeout
@@ -4121,20 +4121,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.473422
+  - 59.473422
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 15533323
+  - 15533323
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-76/jfs-wd
   - /1/wd/workdir-76/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 263276
+  - 263276
   out_of_memory:
   - false
   - false
@@ -4148,14 +4148,14 @@ results:
   - /0/wd/workdir-76/stdout.log.txt
   - /1/wd/workdir-76/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - null
-  - null
+  - 59.84
+  - 59.84
   wallclock_time:
-  - 60.44220601699999
-  - 60.44220601699999
+  - 60.47767378200297
+  - 60.47767378200297
   working_directory:
   - /0/wd/workdir-76
   - /1/wd/workdir-76
@@ -4164,8 +4164,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.20.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013546011
+  - 60.013546011
   event_tag:
   - timeout
   - timeout
@@ -4175,20 +4175,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.339243
+  - 59.339243
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 5509226
+  - 5509226
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-77/jfs-wd
   - /1/wd/workdir-77/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 93376
+  - 93376
   out_of_memory:
   - false
   - false
@@ -4202,14 +4202,14 @@ results:
   - /0/wd/workdir-77/stdout.log.txt
   - /1/wd/workdir-77/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - null
-  - null
+  - 59.8
+  - 59.8
   wallclock_time:
-  - 60.37393156899998
-  - 60.37393156899998
+  - 60.43234985100207
+  - 60.43234985100207
   working_directory:
   - /0/wd/workdir-77
   - /1/wd/workdir-77
@@ -4218,8 +4218,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.25.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013015853
+  - 60.013015853
   event_tag:
   - timeout
   - timeout
@@ -4229,20 +4229,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.401604
+  - 59.401604
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 4645230
+  - 4645230
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-78/jfs-wd
   - /1/wd/workdir-78/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 78732
+  - 78732
   out_of_memory:
   - false
   - false
@@ -4256,14 +4256,14 @@ results:
   - /0/wd/workdir-78/stdout.log.txt
   - /1/wd/workdir-78/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.81
+  - 59.81
   wallclock_time:
-  - 60.41425908400197
-  - 60.41425908400197
+  - 60.46579751600075
+  - 60.46579751600075
   working_directory:
   - /0/wd/workdir-78
   - /1/wd/workdir-78
@@ -4272,8 +4272,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.5.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.015111659
+  - 60.015111659
   event_tag:
   - timeout
   - timeout
@@ -4283,20 +4283,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.521589
+  - 59.521589
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 11792729
+  - 11792729
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-79/jfs-wd
   - /1/wd/workdir-79/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 199876
+  - 199876
   out_of_memory:
   - false
   - false
@@ -4310,14 +4310,14 @@ results:
   - /0/wd/workdir-79/stdout.log.txt
   - /1/wd/workdir-79/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.18
+  - 0.18
   user_cpu_time:
-  - null
-  - null
+  - 59.77
+  - 59.77
   wallclock_time:
-  - 60.36473361300159
-  - 60.36473361300159
+  - 60.37690480099991
+  - 60.37690480099991
   working_directory:
   - /0/wd/workdir-79
   - /1/wd/workdir-79
@@ -4326,8 +4326,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.75.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.016634385
+  - 60.016634385
   event_tag:
   - timeout
   - timeout
@@ -4337,20 +4337,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 58.885265
+  - 58.885265
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 1715650
+  - 1715650
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-80/jfs-wd
   - /1/wd/workdir-80/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 29580
+  - 29580
   out_of_memory:
   - false
   - false
@@ -4364,14 +4364,14 @@ results:
   - /0/wd/workdir-80/stdout.log.txt
   - /1/wd/workdir-80/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - null
-  - null
+  - 59.68
+  - 59.68
   wallclock_time:
-  - 60.355054118001135
-  - 60.355054118001135
+  - 60.53377093000017
+  - 60.53377093000017
   working_directory:
   - /0/wd/workdir-80
   - /1/wd/workdir-80
@@ -4380,8 +4380,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sine.1.0.i.smt2
   dsoes_wallclock_time:
-  - 0.444779882
-  - 0.444779882
+  - 0.541212248
+  - 0.541212248
   event_tag:
   - sat
   - sat
@@ -4391,8 +4391,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.045483
-  - 0.045483
+  - 0.038828
+  - 0.038828
   jfs_stat_num_inputs:
   - 126
   - 126
@@ -4421,11 +4421,11 @@ results:
   - 0.11
   - 0.11
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.12058074900051
-  - 1.12058074900051
+  - 1.3005911580003158
+  - 1.3005911580003158
   working_directory:
   - /0/wd/workdir-81
   - /1/wd/workdir-81
@@ -4434,8 +4434,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.10.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.011616567
+  - 60.011616567
   event_tag:
   - timeout
   - timeout
@@ -4445,20 +4445,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.446393
+  - 59.446393
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 5937702
+  - 5937702
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-82/jfs-wd
   - /1/wd/workdir-82/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 100639
+  - 100639
   out_of_memory:
   - false
   - false
@@ -4472,14 +4472,14 @@ results:
   - /0/wd/workdir-82/stdout.log.txt
   - /1/wd/workdir-82/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.19
+  - 0.19
   user_cpu_time:
-  - null
-  - null
+  - 59.79
+  - 59.79
   wallclock_time:
-  - 60.417563555001834
-  - 60.417563555001834
+  - 60.52847194900096
+  - 60.52847194900096
   working_directory:
   - /0/wd/workdir-82
   - /1/wd/workdir-82
@@ -4488,8 +4488,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.15.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014421244
+  - 60.014421244
   event_tag:
   - timeout
   - timeout
@@ -4499,20 +4499,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.442067
+  - 59.442067
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 4120348
+  - 4120348
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-83/jfs-wd
   - /1/wd/workdir-83/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 69836
+  - 69836
   out_of_memory:
   - false
   - false
@@ -4526,14 +4526,14 @@ results:
   - /0/wd/workdir-83/stdout.log.txt
   - /1/wd/workdir-83/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.72
+  - 59.72
   wallclock_time:
-  - 60.38008452100257
-  - 60.38008452100257
+  - 60.3619421479998
+  - 60.3619421479998
   working_directory:
   - /0/wd/workdir-83
   - /1/wd/workdir-83
@@ -4542,8 +4542,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.2.smt2
   dsoes_wallclock_time:
-  - 25.476860306
-  - 25.476860306
+  - 33.905787252
+  - 33.905787252
   event_tag:
   - sat
   - sat
@@ -4553,8 +4553,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 25.054004
-  - 25.054004
+  - 33.449537
+  - 33.449537
   jfs_stat_num_inputs:
   - 7764928
   - 7764928
@@ -4565,8 +4565,8 @@ results:
   - /0/wd/workdir-84/jfs-wd
   - /1/wd/workdir-84/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - 310597
-  - 310597
+  - 235300
+  - 235300
   out_of_memory:
   - false
   - false
@@ -4580,14 +4580,14 @@ results:
   - /0/wd/workdir-84/stdout.log.txt
   - /1/wd/workdir-84/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 25.22
-  - 25.22
+  - 33.78
+  - 33.78
   wallclock_time:
-  - 26.012962509998033
-  - 26.012962509998033
+  - 34.606562552999094
+  - 34.606562552999094
   working_directory:
   - /0/wd/workdir-84
   - /1/wd/workdir-84
@@ -4596,8 +4596,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.20.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014626833
+  - 60.014626833
   event_tag:
   - timeout
   - timeout
@@ -4607,20 +4607,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.36388
+  - 59.36388
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 3841180
+  - 3841180
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-85/jfs-wd
   - /1/wd/workdir-85/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 65104
+  - 65104
   out_of_memory:
   - false
   - false
@@ -4634,14 +4634,14 @@ results:
   - /0/wd/workdir-85/stdout.log.txt
   - /1/wd/workdir-85/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - null
-  - null
+  - 59.69
+  - 59.69
   wallclock_time:
-  - 60.37749085299947
-  - 60.37749085299947
+  - 60.39165563699862
+  - 60.39165563699862
   working_directory:
   - /0/wd/workdir-85
   - /1/wd/workdir-85
@@ -4650,8 +4650,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.25.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014695908
+  - 60.014695908
   event_tag:
   - timeout
   - timeout
@@ -4661,20 +4661,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.422954
+  - 59.422954
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 3907724
+  - 3907724
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-86/jfs-wd
   - /1/wd/workdir-86/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 66232
+  - 66232
   out_of_memory:
   - false
   - false
@@ -4688,14 +4688,14 @@ results:
   - /0/wd/workdir-86/stdout.log.txt
   - /1/wd/workdir-86/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - null
-  - null
+  - 59.68
+  - 59.68
   wallclock_time:
-  - 60.31867449999845
-  - 60.31867449999845
+  - 60.40421293499821
+  - 60.40421293499821
   working_directory:
   - /0/wd/workdir-86
   - /1/wd/workdir-86
@@ -4704,8 +4704,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.5.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.009142477
+  - 60.009142477
   event_tag:
   - timeout
   - timeout
@@ -4715,20 +4715,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.485805
+  - 59.485805
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 9495787
+  - 9495787
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-87/jfs-wd
   - /1/wd/workdir-87/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 160945
+  - 160945
   out_of_memory:
   - false
   - false
@@ -4742,14 +4742,14 @@ results:
   - /0/wd/workdir-87/stdout.log.txt
   - /1/wd/workdir-87/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.38203557300221
-  - 60.38203557300221
+  - 60.52243542299766
+  - 60.52243542299766
   working_directory:
   - /0/wd/workdir-87
   - /1/wd/workdir-87
@@ -4758,8 +4758,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s14052.smt2
   dsoes_wallclock_time:
-  - 0.39154965
-  - 0.39154965
+  - 0.47633101
+  - 0.47633101
   event_tag:
   - sat
   - sat
@@ -4769,8 +4769,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.031542
-  - 0.031542
+  - 0.022212
+  - 0.022212
   jfs_stat_num_inputs:
   - 10
   - 10
@@ -4796,14 +4796,14 @@ results:
   - /0/wd/workdir-88/stdout.log.txt
   - /1/wd/workdir-88/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.43
+  - 0.43
   wallclock_time:
-  - 0.9444113989993639
-  - 0.9444113989993639
+  - 1.0409020569968561
+  - 1.0409020569968561
   working_directory:
   - /0/wd/workdir-88
   - /1/wd/workdir-88
@@ -4812,8 +4812,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s24300.smt2
   dsoes_wallclock_time:
-  - 0.391643266
-  - 0.391643266
+  - 0.454365616
+  - 0.454365616
   event_tag:
   - sat
   - sat
@@ -4823,8 +4823,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.033843
-  - 0.033843
+  - 0.052709
+  - 0.052709
   jfs_stat_num_inputs:
   - 2093
   - 2093
@@ -4850,14 +4850,14 @@ results:
   - /0/wd/workdir-89/stdout.log.txt
   - /1/wd/workdir-89/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.4
+  - 0.4
   wallclock_time:
-  - 0.9171923300018534
-  - 0.9171923300018534
+  - 1.032635923998896
+  - 1.032635923998896
   working_directory:
   - /0/wd/workdir-89
   - /1/wd/workdir-89
@@ -4866,8 +4866,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s29304.smt2
   dsoes_wallclock_time:
-  - 0.393805623
-  - 0.393805623
+  - 0.513518907
+  - 0.513518907
   event_tag:
   - sat
   - sat
@@ -4877,8 +4877,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032083
-  - 0.032083
+  - 0.040196
+  - 0.040196
   jfs_stat_num_inputs:
   - 20
   - 20
@@ -4904,14 +4904,14 @@ results:
   - /0/wd/workdir-90/stdout.log.txt
   - /1/wd/workdir-90/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 0.9229698169983749
-  - 0.9229698169983749
+  - 1.1411828579985013
+  - 1.1411828579985013
   working_directory:
   - /0/wd/workdir-90
   - /1/wd/workdir-90
@@ -4920,8 +4920,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr1_c1_s10392.smt2
   dsoes_wallclock_time:
-  - 0.47472233
-  - 0.47472233
+  - 0.497766506
+  - 0.497766506
   event_tag:
   - sat
   - sat
@@ -4931,8 +4931,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.031338
-  - 0.031338
+  - 0.045103
+  - 0.045103
   jfs_stat_num_inputs:
   - 39
   - 39
@@ -4958,14 +4958,14 @@ results:
   - /0/wd/workdir-91/stdout.log.txt
   - /1/wd/workdir-91/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.42
+  - 0.42
   wallclock_time:
-  - 1.0060437200008892
-  - 1.0060437200008892
+  - 1.0650405079977645
+  - 1.0650405079977645
   working_directory:
   - /0/wd/workdir-91
   - /1/wd/workdir-91
@@ -4974,8 +4974,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16641.smt2
   dsoes_wallclock_time:
-  - 0.399778409
-  - 0.399778409
+  - 0.507495179
+  - 0.507495179
   event_tag:
   - sat
   - sat
@@ -4985,8 +4985,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.030503
-  - 0.030503
+  - 0.029398
+  - 0.029398
   jfs_stat_num_inputs:
   - 39
   - 39
@@ -5015,11 +5015,11 @@ results:
   - 0.08
   - 0.08
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 0.9285241269972175
-  - 0.9285241269972175
+  - 1.0888053519993264
+  - 1.0888053519993264
   working_directory:
   - /0/wd/workdir-92
   - /1/wd/workdir-92
@@ -5028,8 +5028,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16867.smt2
   dsoes_wallclock_time:
-  - 0.41486852
-  - 0.41486852
+  - 0.522267705
+  - 0.522267705
   event_tag:
   - sat
   - sat
@@ -5039,8 +5039,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.041781
-  - 0.041781
+  - 0.047529
+  - 0.047529
   jfs_stat_num_inputs:
   - 6
   - 6
@@ -5066,14 +5066,14 @@ results:
   - /0/wd/workdir-93/stdout.log.txt
   - /1/wd/workdir-93/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.46
+  - 0.46
   wallclock_time:
-  - 0.9409744859985949
-  - 0.9409744859985949
+  - 1.1037128360003408
+  - 1.1037128360003408
   working_directory:
   - /0/wd/workdir-93
   - /1/wd/workdir-93
@@ -5082,8 +5082,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s26769.smt2
   dsoes_wallclock_time:
-  - 0.390161895
-  - 0.390161895
+  - 0.532821416
+  - 0.532821416
   event_tag:
   - sat
   - sat
@@ -5093,8 +5093,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.021619
-  - 0.021619
+  - 0.03652
+  - 0.03652
   jfs_stat_num_inputs:
   - 50
   - 50
@@ -5120,14 +5120,14 @@ results:
   - /0/wd/workdir-94/stdout.log.txt
   - /1/wd/workdir-94/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.42
+  - 0.42
   wallclock_time:
-  - 0.9602365840000857
-  - 0.9602365840000857
+  - 1.0701978249999229
+  - 1.0701978249999229
   working_directory:
   - /0/wd/workdir-94
   - /1/wd/workdir-94
@@ -5136,8 +5136,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r8_vr10_c1_s5590.smt2
   dsoes_wallclock_time:
-  - 0.464193016
-  - 0.464193016
+  - 0.497944855
+  - 0.497944855
   event_tag:
   - sat
   - sat
@@ -5147,8 +5147,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.036087
-  - 0.036087
+  - 0.04299
+  - 0.04299
   jfs_stat_num_inputs:
   - 221
   - 221
@@ -5174,14 +5174,14 @@ results:
   - /0/wd/workdir-95/stdout.log.txt
   - /1/wd/workdir-95/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.46
+  - 0.46
   wallclock_time:
-  - 0.975464382001519
-  - 0.975464382001519
+  - 1.082103038999776
+  - 1.082103038999776
   working_directory:
   - /0/wd/workdir-95
   - /1/wd/workdir-95
@@ -5190,8 +5190,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr10_c1_s15708.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.01397035
+  - 60.01397035
   event_tag:
   - timeout
   - timeout
@@ -5201,20 +5201,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.500004
+  - 59.500004
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 16102991
+  - 16102991
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-96/jfs-wd
   - /1/wd/workdir-96/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 272932
+  - 272932
   out_of_memory:
   - false
   - false
@@ -5228,14 +5228,14 @@ results:
   - /0/wd/workdir-96/stdout.log.txt
   - /1/wd/workdir-96/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.78
+  - 59.78
   wallclock_time:
-  - 60.303980427997885
-  - 60.303980427997885
+  - 60.407146018002095
+  - 60.407146018002095
   working_directory:
   - /0/wd/workdir-96
   - /1/wd/workdir-96
@@ -5244,8 +5244,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s13516.smt2
   dsoes_wallclock_time:
-  - 0.44565867
-  - 0.44565867
+  - 0.600273151
+  - 0.600273151
   event_tag:
   - sat
   - sat
@@ -5255,8 +5255,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.040036
-  - 0.040036
+  - 0.054256
+  - 0.054256
   jfs_stat_num_inputs:
   - 2437
   - 2437
@@ -5282,14 +5282,14 @@ results:
   - /0/wd/workdir-97/stdout.log.txt
   - /1/wd/workdir-97/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.5
+  - 0.5
   wallclock_time:
-  - 1.0049181020003743
-  - 1.0049181020003743
+  - 1.2118322269998316
+  - 1.2118322269998316
   working_directory:
   - /0/wd/workdir-97
   - /1/wd/workdir-97
@@ -5298,8 +5298,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s19145.smt2
   dsoes_wallclock_time:
-  - 0.43176659
-  - 0.43176659
+  - 0.637791208
+  - 0.637791208
   event_tag:
   - sat
   - sat
@@ -5309,8 +5309,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.035736
-  - 0.035736
+  - 0.056283
+  - 0.056283
   jfs_stat_num_inputs:
   - 637
   - 637
@@ -5336,14 +5336,14 @@ results:
   - /0/wd/workdir-98/stdout.log.txt
   - /1/wd/workdir-98/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.53
+  - 0.53
   wallclock_time:
-  - 1.0036258840009395
-  - 1.0036258840009395
+  - 1.2630066690035164
+  - 1.2630066690035164
   working_directory:
   - /0/wd/workdir-98
   - /1/wd/workdir-98
@@ -5352,8 +5352,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13195.smt2
   dsoes_wallclock_time:
-  - 0.422551411
-  - 0.422551411
+  - 0.635499689
+  - 0.635499689
   event_tag:
   - sat
   - sat
@@ -5363,8 +5363,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.061597
-  - 0.061597
+  - 0.078091
+  - 0.078091
   jfs_stat_num_inputs:
   - 4648
   - 4648
@@ -5390,14 +5390,14 @@ results:
   - /0/wd/workdir-99/stdout.log.txt
   - /1/wd/workdir-99/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.56
+  - 0.56
   wallclock_time:
-  - 0.9908893499996339
-  - 0.9908893499996339
+  - 1.3340507860011712
+  - 1.3340507860011712
   working_directory:
   - /0/wd/workdir-99
   - /1/wd/workdir-99
@@ -5406,8 +5406,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13679.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013060502
+  - 60.013060502
   event_tag:
   - timeout
   - timeout
@@ -5417,20 +5417,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.432703
+  - 59.432703
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 19825259
+  - 19825259
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-100/jfs-wd
   - /1/wd/workdir-100/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 336021
+  - 336021
   out_of_memory:
   - false
   - false
@@ -5444,14 +5444,14 @@ results:
   - /0/wd/workdir-100/stdout.log.txt
   - /1/wd/workdir-100/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.26
+  - 0.26
   user_cpu_time:
-  - null
-  - null
+  - 59.73
+  - 59.73
   wallclock_time:
-  - 60.36689099399882
-  - 60.36689099399882
+  - 60.62008503799734
+  - 60.62008503799734
   working_directory:
   - /0/wd/workdir-100
   - /1/wd/workdir-100
@@ -5460,8 +5460,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s14516.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.017127851
+  - 60.017127851
   event_tag:
   - timeout
   - timeout
@@ -5471,20 +5471,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.420564
+  - 59.420564
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 14669976
+  - 14669976
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-101/jfs-wd
   - /1/wd/workdir-101/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 248643
+  - 248643
   out_of_memory:
   - false
   - false
@@ -5498,14 +5498,14 @@ results:
   - /0/wd/workdir-101/stdout.log.txt
   - /1/wd/workdir-101/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.36363500299922
-  - 60.36363500299922
+  - 60.60066852700038
+  - 60.60066852700038
   working_directory:
   - /0/wd/workdir-101
   - /1/wd/workdir-101
@@ -5514,8 +5514,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s25268.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.008763536
+  - 60.008763536
   event_tag:
   - timeout
   - timeout
@@ -5525,20 +5525,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.45863
+  - 59.45863
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 18192796
+  - 18192796
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-102/jfs-wd
   - /1/wd/workdir-102/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 308352
+  - 308352
   out_of_memory:
   - false
   - false
@@ -5552,14 +5552,14 @@ results:
   - /0/wd/workdir-102/stdout.log.txt
   - /1/wd/workdir-102/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.19
+  - 0.19
   user_cpu_time:
-  - null
-  - null
+  - 59.74
+  - 59.74
   wallclock_time:
-  - 60.39768536500196
-  - 60.39768536500196
+  - 60.44239560999995
+  - 60.44239560999995
   working_directory:
   - /0/wd/workdir-102
   - /1/wd/workdir-102
@@ -5568,8 +5568,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5379.smt2
   dsoes_wallclock_time:
-  - 0.39415805
-  - 0.39415805
+  - 0.518075124
+  - 0.518075124
   event_tag:
   - sat
   - sat
@@ -5579,8 +5579,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.030197
-  - 0.030197
+  - 0.051665
+  - 0.051665
   jfs_stat_num_inputs:
   - 86
   - 86
@@ -5609,11 +5609,11 @@ results:
   - 0.1
   - 0.1
   user_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.46
+  - 0.46
   wallclock_time:
-  - 0.9455095469966182
-  - 0.9455095469966182
+  - 1.1597450200024468
+  - 1.1597450200024468
   working_directory:
   - /0/wd/workdir-103
   - /1/wd/workdir-103
@@ -5622,8 +5622,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5996.smt2
   dsoes_wallclock_time:
-  - 0.393231334
-  - 0.393231334
+  - 0.445314607
+  - 0.445314607
   event_tag:
   - sat
   - sat
@@ -5633,8 +5633,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.035545
-  - 0.035545
+  - 0.049357
+  - 0.049357
   jfs_stat_num_inputs:
   - 3
   - 3
@@ -5660,14 +5660,14 @@ results:
   - /0/wd/workdir-104/stdout.log.txt
   - /1/wd/workdir-104/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.4
+  - 0.4
   wallclock_time:
-  - 0.8970657250029035
-  - 0.8970657250029035
+  - 1.054775131000497
+  - 1.054775131000497
   working_directory:
   - /0/wd/workdir-104
   - /1/wd/workdir-104
@@ -5676,8 +5676,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s7194.smt2
   dsoes_wallclock_time:
-  - 0.448449626
-  - 0.448449626
+  - 0.645499857
+  - 0.645499857
   event_tag:
   - sat
   - sat
@@ -5687,8 +5687,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.097533
-  - 0.097533
+  - 0.12748
+  - 0.12748
   jfs_stat_num_inputs:
   - 28295
   - 28295
@@ -5714,14 +5714,14 @@ results:
   - /0/wd/workdir-105/stdout.log.txt
   - /1/wd/workdir-105/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.58
+  - 0.58
   wallclock_time:
-  - 1.0339398619980784
-  - 1.0339398619980784
+  - 1.2372552099986933
+  - 1.2372552099986933
   working_directory:
   - /0/wd/workdir-105
   - /1/wd/workdir-105
@@ -5730,8 +5730,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s14623.smt2
   dsoes_wallclock_time:
-  - 1.858418706
-  - 1.858418706
+  - 2.404751358
+  - 2.404751358
   event_tag:
   - sat
   - sat
@@ -5741,8 +5741,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 1.478002
-  - 1.478002
+  - 1.892971
+  - 1.892971
   jfs_stat_num_inputs:
   - 575164
   - 575164
@@ -5768,14 +5768,14 @@ results:
   - /0/wd/workdir-106/stdout.log.txt
   - /1/wd/workdir-106/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 1.79
-  - 1.79
+  - 2.36
+  - 2.36
   wallclock_time:
-  - 2.4448507239976607
-  - 2.4448507239976607
+  - 2.9646516809989407
+  - 2.9646516809989407
   working_directory:
   - /0/wd/workdir-106
   - /1/wd/workdir-106
@@ -5784,8 +5784,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s15604.smt2
   dsoes_wallclock_time:
-  - 0.424961753
-  - 0.424961753
+  - 0.540162679
+  - 0.540162679
   event_tag:
   - sat
   - sat
@@ -5795,8 +5795,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.036832
-  - 0.036832
+  - 0.058498
+  - 0.058498
   jfs_stat_num_inputs:
   - 4570
   - 4570
@@ -5822,14 +5822,14 @@ results:
   - /0/wd/workdir-107/stdout.log.txt
   - /1/wd/workdir-107/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 0.9733121520002896
-  - 0.9733121520002896
+  - 1.1202888989973872
+  - 1.1202888989973872
   working_directory:
   - /0/wd/workdir-107
   - /1/wd/workdir-107
@@ -5838,8 +5838,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s16138.smt2
   dsoes_wallclock_time:
-  - 0.424210561
-  - 0.424210561
+  - 0.512567507
+  - 0.512567507
   event_tag:
   - sat
   - sat
@@ -5849,8 +5849,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.036764
-  - 0.036764
+  - 0.043589
+  - 0.043589
   jfs_stat_num_inputs:
   - 3
   - 3
@@ -5876,14 +5876,14 @@ results:
   - /0/wd/workdir-108/stdout.log.txt
   - /1/wd/workdir-108/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.45
+  - 0.45
   wallclock_time:
-  - 0.9706792939978186
-  - 0.9706792939978186
+  - 1.0911988619991462
+  - 1.0911988619991462
   working_directory:
   - /0/wd/workdir-108
   - /1/wd/workdir-108
@@ -5892,8 +5892,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s24018.smt2
   dsoes_wallclock_time:
-  - 0.429143643
-  - 0.429143643
+  - 0.578175768
+  - 0.578175768
   event_tag:
   - sat
   - sat
@@ -5903,8 +5903,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.042924
-  - 0.042924
+  - 0.047771
+  - 0.047771
   jfs_stat_num_inputs:
   - 379
   - 379
@@ -5930,14 +5930,14 @@ results:
   - /0/wd/workdir-109/stdout.log.txt
   - /1/wd/workdir-109/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 0.9631931309995707
-  - 0.9631931309995707
+  - 1.1670009570007096
+  - 1.1670009570007096
   working_directory:
   - /0/wd/workdir-109
   - /1/wd/workdir-109
@@ -5946,8 +5946,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s2800.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013939576
+  - 60.013939576
   event_tag:
   - timeout
   - timeout
@@ -5957,20 +5957,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.52799
+  - 59.52799
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 20686753
+  - 20686753
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-110/jfs-wd
   - /1/wd/workdir-110/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 350622
+  - 350622
   out_of_memory:
   - false
   - false
@@ -5984,14 +5984,14 @@ results:
   - /0/wd/workdir-110/stdout.log.txt
   - /1/wd/workdir-110/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.8
+  - 59.8
   wallclock_time:
-  - 60.34507612300149
-  - 60.34507612300149
+  - 60.390279125000234
+  - 60.390279125000234
   working_directory:
   - /0/wd/workdir-110
   - /1/wd/workdir-110
@@ -6000,8 +6000,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s9855.smt2
   dsoes_wallclock_time:
-  - 0.369318016
-  - 0.369318016
+  - 0.620543379
+  - 0.620543379
   event_tag:
   - sat
   - sat
@@ -6011,8 +6011,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.03806
-  - 0.03806
+  - 0.042299
+  - 0.042299
   jfs_stat_num_inputs:
   - 2
   - 2
@@ -6038,14 +6038,14 @@ results:
   - /0/wd/workdir-111/stdout.log.txt
   - /1/wd/workdir-111/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.54
+  - 0.54
   wallclock_time:
-  - 0.9456586189990048
-  - 0.9456586189990048
+  - 1.4301390910004557
+  - 1.4301390910004557
   working_directory:
   - /0/wd/workdir-111
   - /1/wd/workdir-111
@@ -6054,8 +6054,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s15994.smt2
   dsoes_wallclock_time:
-  - 0.38903961
-  - 0.38903961
+  - 0.601313636
+  - 0.601313636
   event_tag:
   - sat
   - sat
@@ -6065,8 +6065,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.048866
-  - 0.048866
+  - 0.050236
+  - 0.050236
   jfs_stat_num_inputs:
   - 1380
   - 1380
@@ -6092,14 +6092,14 @@ results:
   - /0/wd/workdir-112/stdout.log.txt
   - /1/wd/workdir-112/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.53
+  - 0.53
   wallclock_time:
-  - 0.968820357000368
-  - 0.968820357000368
+  - 1.4654933329984488
+  - 1.4654933329984488
   working_directory:
   - /0/wd/workdir-112
   - /1/wd/workdir-112
@@ -6108,8 +6108,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s18160.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.015241293
+  - 60.015241293
   event_tag:
   - timeout
   - timeout
@@ -6119,20 +6119,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.486027
+  - 59.486027
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 14096443
+  - 14096443
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-113/jfs-wd
   - /1/wd/workdir-113/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 238922
+  - 238922
   out_of_memory:
   - false
   - false
@@ -6146,14 +6146,14 @@ results:
   - /0/wd/workdir-113/stdout.log.txt
   - /1/wd/workdir-113/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.38183682499948
-  - 60.38183682499948
+  - 60.423159123001824
+  - 60.423159123001824
   working_directory:
   - /0/wd/workdir-113
   - /1/wd/workdir-113
@@ -6162,8 +6162,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s30410.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014652208
+  - 60.014652208
   event_tag:
   - timeout
   - timeout
@@ -6173,20 +6173,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.447966
+  - 59.447966
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 16627083
+  - 16627083
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-114/jfs-wd
   - /1/wd/workdir-114/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 281814
+  - 281814
   out_of_memory:
   - false
   - false
@@ -6200,14 +6200,14 @@ results:
   - /0/wd/workdir-114/stdout.log.txt
   - /1/wd/workdir-114/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - null
-  - null
+  - 59.77
+  - 59.77
   wallclock_time:
-  - 60.344591140001285
-  - 60.344591140001285
+  - 60.395362747000036
+  - 60.395362747000036
   working_directory:
   - /0/wd/workdir-114
   - /1/wd/workdir-114
@@ -6216,8 +6216,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s10576.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.011832576
+  - 60.011832576
   event_tag:
   - timeout
   - timeout
@@ -6227,20 +6227,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.498046
+  - 59.498046
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 14773676
+  - 14773676
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-115/jfs-wd
   - /1/wd/workdir-115/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 250401
+  - 250401
   out_of_memory:
   - false
   - false
@@ -6254,14 +6254,14 @@ results:
   - /0/wd/workdir-115/stdout.log.txt
   - /1/wd/workdir-115/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - null
-  - null
+  - 59.77
+  - 59.77
   wallclock_time:
-  - 60.351673052999104
-  - 60.351673052999104
+  - 60.39287395700012
+  - 60.39287395700012
   working_directory:
   - /0/wd/workdir-115
   - /1/wd/workdir-115
@@ -6270,8 +6270,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s22787.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014787947
+  - 60.014787947
   event_tag:
   - timeout
   - timeout
@@ -6281,20 +6281,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.483841
+  - 59.483841
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 18930869
+  - 18930869
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-116/jfs-wd
   - /1/wd/workdir-116/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 320862
+  - 320862
   out_of_memory:
   - false
   - false
@@ -6308,14 +6308,14 @@ results:
   - /0/wd/workdir-116/stdout.log.txt
   - /1/wd/workdir-116/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.3216534940002
-  - 60.3216534940002
+  - 60.421052284000325
+  - 60.421052284000325
   working_directory:
   - /0/wd/workdir-116
   - /1/wd/workdir-116
@@ -6324,8 +6324,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s703.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.017057121
+  - 60.017057121
   event_tag:
   - timeout
   - timeout
@@ -6335,20 +6335,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.456112
+  - 59.456112
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 20630403
+  - 20630403
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-117/jfs-wd
   - /1/wd/workdir-117/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 349667
+  - 349667
   out_of_memory:
   - false
   - false
@@ -6362,14 +6362,14 @@ results:
   - /0/wd/workdir-117/stdout.log.txt
   - /1/wd/workdir-117/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.18
+  - 0.18
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.37680352700045
-  - 60.37680352700045
+  - 60.37929712999903
+  - 60.37929712999903
   working_directory:
   - /0/wd/workdir-117
   - /1/wd/workdir-117
@@ -6378,8 +6378,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s14336.smt2
   dsoes_wallclock_time:
-  - 0.494350345
-  - 0.494350345
+  - 0.613659784
+  - 0.613659784
   event_tag:
   - sat
   - sat
@@ -6389,8 +6389,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.070684
-  - 0.070684
+  - 0.073413
+  - 0.073413
   jfs_stat_num_inputs:
   - 7128
   - 7128
@@ -6419,11 +6419,11 @@ results:
   - 0.1
   - 0.1
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.56
+  - 0.56
   wallclock_time:
-  - 1.0506822620009189
-  - 1.0506822620009189
+  - 1.2413273380007013
+  - 1.2413273380007013
   working_directory:
   - /0/wd/workdir-118
   - /1/wd/workdir-118
@@ -6432,8 +6432,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s29826.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014198499
+  - 60.014198499
   event_tag:
   - timeout
   - timeout
@@ -6443,20 +6443,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.513101
+  - 59.513101
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 14059835
+  - 14059835
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-119/jfs-wd
   - /1/wd/workdir-119/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 238302
+  - 238302
   out_of_memory:
   - false
   - false
@@ -6470,14 +6470,14 @@ results:
   - /0/wd/workdir-119/stdout.log.txt
   - /1/wd/workdir-119/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.73
+  - 59.73
   wallclock_time:
-  - 60.49831314000039
-  - 60.49831314000039
+  - 60.38452210900141
+  - 60.38452210900141
   working_directory:
   - /0/wd/workdir-119
   - /1/wd/workdir-119
@@ -6486,8 +6486,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s8938.smt2
   dsoes_wallclock_time:
-  - 0.432402203
-  - 0.432402203
+  - 0.570249011
+  - 0.570249011
   event_tag:
   - sat
   - sat
@@ -6497,8 +6497,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.034555
-  - 0.034555
+  - 0.045772
+  - 0.045772
   jfs_stat_num_inputs:
   - 111
   - 111
@@ -6524,14 +6524,14 @@ results:
   - /0/wd/workdir-120/stdout.log.txt
   - /1/wd/workdir-120/stdout.log.txt
   sys_cpu_time:
-  - 0.11
-  - 0.11
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.53
+  - 0.53
   wallclock_time:
-  - 0.9605978729996423
-  - 0.9605978729996423
+  - 1.141382675999921
+  - 1.141382675999921
   working_directory:
   - /0/wd/workdir-120
   - /1/wd/workdir-120
@@ -6540,8 +6540,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s18654.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013266624
+  - 60.013266624
   event_tag:
   - timeout
   - timeout
@@ -6551,20 +6551,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.513782
+  - 59.513782
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 11638733
+  - 11638733
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-121/jfs-wd
   - /1/wd/workdir-121/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 197266
+  - 197266
   out_of_memory:
   - false
   - false
@@ -6578,14 +6578,14 @@ results:
   - /0/wd/workdir-121/stdout.log.txt
   - /1/wd/workdir-121/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - null
-  - null
+  - 59.82
+  - 59.82
   wallclock_time:
-  - 60.359516471999086
-  - 60.359516471999086
+  - 60.3944913009982
+  - 60.3944913009982
   working_directory:
   - /0/wd/workdir-121
   - /1/wd/workdir-121
@@ -6594,8 +6594,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s3680.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.012004154
+  - 60.012004154
   event_tag:
   - timeout
   - timeout
@@ -6605,20 +6605,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.484792
+  - 59.484792
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 11761811
+  - 11761811
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-122/jfs-wd
   - /1/wd/workdir-122/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 199352
+  - 199352
   out_of_memory:
   - false
   - false
@@ -6632,14 +6632,14 @@ results:
   - /0/wd/workdir-122/stdout.log.txt
   - /1/wd/workdir-122/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.17
+  - 0.17
   user_cpu_time:
-  - null
-  - null
+  - 59.72
+  - 59.72
   wallclock_time:
-  - 60.309352473002946
-  - 60.309352473002946
+  - 60.38757205900038
+  - 60.38757205900038
   working_directory:
   - /0/wd/workdir-122
   - /1/wd/workdir-122
@@ -6648,8 +6648,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s8773.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014962265
+  - 60.014962265
   event_tag:
   - timeout
   - timeout
@@ -6659,20 +6659,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.485617
+  - 59.485617
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 15642278
+  - 15642278
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-123/jfs-wd
   - /1/wd/workdir-123/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 265123
+  - 265123
   out_of_memory:
   - false
   - false
@@ -6686,14 +6686,14 @@ results:
   - /0/wd/workdir-123/stdout.log.txt
   - /1/wd/workdir-123/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - null
-  - null
+  - 59.85
+  - 59.85
   wallclock_time:
-  - 60.37581433200103
-  - 60.37581433200103
+  - 60.39930591300072
+  - 60.39930591300072
   working_directory:
   - /0/wd/workdir-123
   - /1/wd/workdir-123
@@ -6702,8 +6702,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s23882.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.012887308
+  - 60.012887308
   event_tag:
   - timeout
   - timeout
@@ -6713,20 +6713,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.466014
+  - 59.466014
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 13930126
+  - 13930126
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-124/jfs-wd
   - /1/wd/workdir-124/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 236103
+  - 236103
   out_of_memory:
   - false
   - false
@@ -6740,14 +6740,14 @@ results:
   - /0/wd/workdir-124/stdout.log.txt
   - /1/wd/workdir-124/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - null
-  - null
+  - 59.79
+  - 59.79
   wallclock_time:
-  - 60.31591400900288
-  - 60.31591400900288
+  - 60.38526244199966
+  - 60.38526244199966
   working_directory:
   - /0/wd/workdir-124
   - /1/wd/workdir-124
@@ -6756,8 +6756,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s24331.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014195573
+  - 60.014195573
   event_tag:
   - timeout
   - timeout
@@ -6767,20 +6767,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.513524
+  - 59.513524
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 16795208
+  - 16795208
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-125/jfs-wd
   - /1/wd/workdir-125/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 284664
+  - 284664
   out_of_memory:
   - false
   - false
@@ -6794,14 +6794,14 @@ results:
   - /0/wd/workdir-125/stdout.log.txt
   - /1/wd/workdir-125/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - null
-  - null
+  - 59.82
+  - 59.82
   wallclock_time:
-  - 60.34841124200102
-  - 60.34841124200102
+  - 60.33657873999982
+  - 60.33657873999982
   working_directory:
   - /0/wd/workdir-125
   - /1/wd/workdir-125
@@ -6810,8 +6810,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s25451.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.016934495
+  - 60.016934495
   event_tag:
   - timeout
   - timeout
@@ -6821,20 +6821,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.48474
+  - 59.48474
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 12225725
+  - 12225725
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-126/jfs-wd
   - /1/wd/workdir-126/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 207215
+  - 207215
   out_of_memory:
   - false
   - false
@@ -6848,14 +6848,14 @@ results:
   - /0/wd/workdir-126/stdout.log.txt
   - /1/wd/workdir-126/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - null
-  - null
+  - 59.77
+  - 59.77
   wallclock_time:
-  - 60.366035291001026
-  - 60.366035291001026
+  - 60.419682651001494
+  - 60.419682651001494
   working_directory:
   - /0/wd/workdir-126
   - /1/wd/workdir-126
@@ -6864,8 +6864,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s2807.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.01106747
+  - 60.01106747
   event_tag:
   - timeout
   - timeout
@@ -6875,20 +6875,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.450606
+  - 59.450606
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 13086626
+  - 13086626
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-127/jfs-wd
   - /1/wd/workdir-127/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 221807
+  - 221807
   out_of_memory:
   - false
   - false
@@ -6902,14 +6902,14 @@ results:
   - /0/wd/workdir-127/stdout.log.txt
   - /1/wd/workdir-127/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.22
+  - 0.22
   user_cpu_time:
-  - null
-  - null
+  - 59.7
+  - 59.7
   wallclock_time:
-  - 60.37737959500009
-  - 60.37737959500009
+  - 60.41084943000169
+  - 60.41084943000169
   working_directory:
   - /0/wd/workdir-127
   - /1/wd/workdir-127
@@ -6918,8 +6918,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s4772.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.01265333
+  - 60.01265333
   event_tag:
   - timeout
   - timeout
@@ -6929,20 +6929,20 @@ results:
   expected_sat: unknown
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.455239
+  - 59.455239
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 15561311
+  - 15561311
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-128/jfs-wd
   - /1/wd/workdir-128/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 263751
+  - 263751
   out_of_memory:
   - false
   - false
@@ -6956,14 +6956,14 @@ results:
   - /0/wd/workdir-128/stdout.log.txt
   - /1/wd/workdir-128/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.21
+  - 0.21
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.31340338999871
-  - 60.31340338999871
+  - 60.39883043900045
+  - 60.39883043900045
   working_directory:
   - /0/wd/workdir-128
   - /1/wd/workdir-128
@@ -6972,8 +6972,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s10625.smt2
   dsoes_wallclock_time:
-  - 5.715765199
-  - 5.715765199
+  - 7.655559006
+  - 7.655559006
   event_tag:
   - sat
   - sat
@@ -6983,8 +6983,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 5.378912
-  - 5.378912
+  - 7.18341
+  - 7.18341
   jfs_stat_num_inputs:
   - 2168675
   - 2168675
@@ -6995,8 +6995,8 @@ results:
   - /0/wd/workdir-129/jfs-wd
   - /1/wd/workdir-129/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - 433735
-  - 433735
+  - 309810
+  - 309810
   out_of_memory:
   - false
   - false
@@ -7010,14 +7010,14 @@ results:
   - /0/wd/workdir-129/stdout.log.txt
   - /1/wd/workdir-129/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 5.61
-  - 5.61
+  - 7.58
+  - 7.58
   wallclock_time:
-  - 6.273830817000999
-  - 6.273830817000999
+  - 8.229406392998499
+  - 8.229406392998499
   working_directory:
   - /0/wd/workdir-129
   - /1/wd/workdir-129
@@ -7026,8 +7026,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s24535.smt2
   dsoes_wallclock_time:
-  - 0.315963571
-  - 0.315963571
+  - 0.527477678
+  - 0.527477678
   event_tag:
   - sat
   - sat
@@ -7037,8 +7037,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.022689
-  - 0.022689
+  - 0.043936
+  - 0.043936
   jfs_stat_num_inputs:
   - 24
   - 24
@@ -7064,14 +7064,14 @@ results:
   - /0/wd/workdir-130/stdout.log.txt
   - /1/wd/workdir-130/stdout.log.txt
   sys_cpu_time:
-  - 0.06
-  - 0.06
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.27
-  - 0.27
+  - 0.45
+  - 0.45
   wallclock_time:
-  - 0.8784495510008128
-  - 0.8784495510008128
+  - 1.1017250430013519
+  - 1.1017250430013519
   working_directory:
   - /0/wd/workdir-130
   - /1/wd/workdir-130
@@ -7080,8 +7080,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s32506.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.013938378
+  - 60.013938378
   event_tag:
   - timeout
   - timeout
@@ -7091,20 +7091,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.478973
+  - 59.478973
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 16486169
+  - 16486169
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-131/jfs-wd
   - /1/wd/workdir-131/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 279426
+  - 279426
   out_of_memory:
   - false
   - false
@@ -7118,14 +7118,14 @@ results:
   - /0/wd/workdir-131/stdout.log.txt
   - /1/wd/workdir-131/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.22
+  - 0.22
   user_cpu_time:
-  - null
-  - null
+  - 59.71
+  - 59.71
   wallclock_time:
-  - 60.31193845599773
-  - 60.31193845599773
+  - 60.40826546000244
+  - 60.40826546000244
   working_directory:
   - /0/wd/workdir-131
   - /1/wd/workdir-131
@@ -7134,8 +7134,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s22845.smt2
   dsoes_wallclock_time:
-  - 0.492362986
-  - 0.492362986
+  - 0.49239424
+  - 0.49239424
   event_tag:
   - sat
   - sat
@@ -7145,8 +7145,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.064069
-  - 0.064069
+  - 0.093107
+  - 0.093107
   jfs_stat_num_inputs:
   - 18311
   - 18311
@@ -7172,14 +7172,14 @@ results:
   - /0/wd/workdir-132/stdout.log.txt
   - /1/wd/workdir-132/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.1
+  - 0.1
   user_cpu_time:
   - 0.44
   - 0.44
   wallclock_time:
-  - 1.0163955530006206
-  - 1.0163955530006206
+  - 1.090569632997358
+  - 1.090569632997358
   working_directory:
   - /0/wd/workdir-132
   - /1/wd/workdir-132
@@ -7188,8 +7188,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s4574.smt2
   dsoes_wallclock_time:
-  - 0.578413736
-  - 0.578413736
+  - 0.647196038
+  - 0.647196038
   event_tag:
   - sat
   - sat
@@ -7199,8 +7199,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.12691
-  - 0.12691
+  - 0.166476
+  - 0.166476
   jfs_stat_num_inputs:
   - 44417
   - 44417
@@ -7229,11 +7229,11 @@ results:
   - 0.08
   - 0.08
   user_cpu_time:
-  - 0.52
-  - 0.52
+  - 0.61
+  - 0.61
   wallclock_time:
-  - 1.111113638999086
-  - 1.111113638999086
+  - 1.2226238889998058
+  - 1.2226238889998058
   working_directory:
   - /0/wd/workdir-133
   - /1/wd/workdir-133
@@ -7242,8 +7242,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s14675.smt2
   dsoes_wallclock_time:
-  - 0.45291688
-  - 0.45291688
+  - 0.573588334
+  - 0.573588334
   event_tag:
   - sat
   - sat
@@ -7253,8 +7253,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.032962
-  - 0.032962
+  - 0.054586
+  - 0.054586
   jfs_stat_num_inputs:
   - 2210
   - 2210
@@ -7280,14 +7280,14 @@ results:
   - /0/wd/workdir-134/stdout.log.txt
   - /1/wd/workdir-134/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.52
+  - 0.52
   wallclock_time:
-  - 1.0373770519981917
-  - 1.0373770519981917
+  - 1.1688767900013772
+  - 1.1688767900013772
   working_directory:
   - /0/wd/workdir-134
   - /1/wd/workdir-134
@@ -7296,8 +7296,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s19694.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.014992245
+  - 60.014992245
   event_tag:
   - timeout
   - timeout
@@ -7307,20 +7307,20 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
+  - 59.472251
+  - 59.472251
   jfs_stat_num_inputs:
-  - null
-  - null
+  - 17499971
+  - 17499971
   jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
+  - 1
+  - 1
   jfs_working_directory:
   - /0/wd/workdir-135/jfs-wd
   - /1/wd/workdir-135/jfs-wd
   libfuzzer_average_exec_per_sec:
-  - null
-  - null
+  - 296609
+  - 296609
   out_of_memory:
   - false
   - false
@@ -7334,14 +7334,14 @@ results:
   - /0/wd/workdir-135/stdout.log.txt
   - /1/wd/workdir-135/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - null
-  - null
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.40767910399882
-  - 60.40767910399882
+  - 60.38521854500141
+  - 60.38521854500141
   working_directory:
   - /0/wd/workdir-135
   - /1/wd/workdir-135
@@ -7350,8 +7350,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s3582.smt2
   dsoes_wallclock_time:
-  - 0.381516666
-  - 0.381516666
+  - 0.50086408
+  - 0.50086408
   event_tag:
   - sat
   - sat
@@ -7361,8 +7361,8 @@ results:
   expected_sat: sat
   is_trivial: false
   jfs_stat_fuzzing_wallclock_time:
-  - 0.047432
-  - 0.047432
+  - 0.051342
+  - 0.051342
   jfs_stat_num_inputs:
   - 342
   - 342
@@ -7388,1257 +7388,15 @@ results:
   - /0/wd/workdir-136/stdout.log.txt
   - /1/wd/workdir-136/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.44
+  - 0.44
   wallclock_time:
-  - 0.9289423500013072
-  - 0.9289423500013072
+  - 1.0594799869977578
+  - 1.0594799869977578
   working_directory:
   - /0/wd/workdir-136
   - /1/wd/workdir-136
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/ramalho/esbmc/nan_double-main.smt2
-  dsoes_wallclock_time:
-  - 0.363643036
-  - 0.363643036
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.022574
-  - 0.022574
-  jfs_stat_num_inputs:
-  - 3
-  - 3
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-137/jfs-wd
-  - /1/wd/workdir-137/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-137/stderr.log.txt
-  - /1/wd/workdir-137/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-137/stdout.log.txt
-  - /1/wd/workdir-137/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.3
-  - 0.3
-  wallclock_time:
-  - 0.9406277340021916
-  - 0.9406277340021916
-  working_directory:
-  - /0/wd/workdir-137
-  - /1/wd/workdir-137
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/ramalho/esbmc/nan_float-main.smt2
-  dsoes_wallclock_time:
-  - 0.365921747
-  - 0.365921747
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.034365
-  - 0.034365
-  jfs_stat_num_inputs:
-  - 3
-  - 3
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-138/jfs-wd
-  - /1/wd/workdir-138/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-138/stderr.log.txt
-  - /1/wd/workdir-138/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-138/stdout.log.txt
-  - /1/wd/workdir-138/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.32
-  - 0.32
-  wallclock_time:
-  - 0.9034480859991163
-  - 0.9034480859991163
-  working_directory:
-  - /0/wd/workdir-138
-  - /1/wd/workdir-138
-- backend_timeout:
-  - true
-  - true
-  benchmark: QF_FP/ramalho/esbmc/newton_3_6_false-unreach-call-main.smt2
-  dsoes_wallclock_time:
-  - null
-  - null
-  event_tag:
-  - timeout
-  - timeout
-  exit_code:
-  - null
-  - null
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
-  jfs_stat_num_inputs:
-  - null
-  - null
-  jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
-  jfs_working_directory:
-  - /0/wd/workdir-139/jfs-wd
-  - /1/wd/workdir-139/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - null
-  - null
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - unknown
-  - unknown
-  stderr_log_file:
-  - /0/wd/workdir-139/stderr.log.txt
-  - /1/wd/workdir-139/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-139/stdout.log.txt
-  - /1/wd/workdir-139/stdout.log.txt
-  sys_cpu_time:
-  - null
-  - null
-  user_cpu_time:
-  - null
-  - null
-  wallclock_time:
-  - 60.36162815500211
-  - 60.36162815500211
-  working_directory:
-  - /0/wd/workdir-139
-  - /1/wd/workdir-139
-- backend_timeout:
-  - true
-  - true
-  benchmark: QF_FP/ramalho/esbmc/sine_4_true-unreach-call-main.smt2
-  dsoes_wallclock_time:
-  - null
-  - null
-  event_tag:
-  - timeout
-  - timeout
-  exit_code:
-  - null
-  - null
-  expected_sat: unknown
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
-  jfs_stat_num_inputs:
-  - null
-  - null
-  jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
-  jfs_working_directory:
-  - /0/wd/workdir-140/jfs-wd
-  - /1/wd/workdir-140/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - null
-  - null
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - unknown
-  - unknown
-  stderr_log_file:
-  - /0/wd/workdir-140/stderr.log.txt
-  - /1/wd/workdir-140/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-140/stdout.log.txt
-  - /1/wd/workdir-140/stdout.log.txt
-  sys_cpu_time:
-  - null
-  - null
-  user_cpu_time:
-  - null
-  - null
-  wallclock_time:
-  - 60.3857605689991
-  - 60.3857605689991
-  working_directory:
-  - /0/wd/workdir-140
-  - /1/wd/workdir-140
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/O220-024.smt2
-  dsoes_wallclock_time:
-  - 7.588945905
-  - 7.588945905
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 7.239446
-  - 7.239446
-  jfs_stat_num_inputs:
-  - 3450744
-  - 3450744
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-141/jfs-wd
-  - /1/wd/workdir-141/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 492963
-  - 492963
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-141/stderr.log.txt
-  - /1/wd/workdir-141/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-141/stdout.log.txt
-  - /1/wd/workdir-141/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 7.44
-  - 7.44
-  wallclock_time:
-  - 8.182074244999967
-  - 8.182074244999967
-  working_directory:
-  - /0/wd/workdir-141
-  - /1/wd/workdir-141
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/angle_between_2.smt2
-  dsoes_wallclock_time:
-  - 0.439291975
-  - 0.439291975
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.025326
-  - 0.025326
-  jfs_stat_num_inputs:
-  - 441
-  - 441
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-142/jfs-wd
-  - /1/wd/workdir-142/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-142/stderr.log.txt
-  - /1/wd/workdir-142/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-142/stdout.log.txt
-  - /1/wd/workdir-142/stdout.log.txt
-  sys_cpu_time:
-  - 0.07
-  - 0.07
-  user_cpu_time:
-  - 0.39
-  - 0.39
-  wallclock_time:
-  - 1.0055507699980808
-  - 1.0055507699980808
-  working_directory:
-  - /0/wd/workdir-142
-  - /1/wd/workdir-142
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/assoc_add.smt2
-  dsoes_wallclock_time:
-  - 0.391904827
-  - 0.391904827
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.047421
-  - 0.047421
-  jfs_stat_num_inputs:
-  - 160
-  - 160
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-143/jfs-wd
-  - /1/wd/workdir-143/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-143/stderr.log.txt
-  - /1/wd/workdir-143/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-143/stdout.log.txt
-  - /1/wd/workdir-143/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.32
-  - 0.32
-  wallclock_time:
-  - 0.9030274690012448
-  - 0.9030274690012448
-  working_directory:
-  - /0/wd/workdir-143
-  - /1/wd/workdir-143
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/assoc_mult.smt2
-  dsoes_wallclock_time:
-  - 0.407858634
-  - 0.407858634
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.036851
-  - 0.036851
-  jfs_stat_num_inputs:
-  - 7
-  - 7
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-144/jfs-wd
-  - /1/wd/workdir-144/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-144/stderr.log.txt
-  - /1/wd/workdir-144/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-144/stdout.log.txt
-  - /1/wd/workdir-144/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.35
-  - 0.35
-  wallclock_time:
-  - 0.9445257309998851
-  - 0.9445257309998851
-  working_directory:
-  - /0/wd/workdir-144
-  - /1/wd/workdir-144
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/average_3.smt2
-  dsoes_wallclock_time:
-  - 0.376322262
-  - 0.376322262
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.036956
-  - 0.036956
-  jfs_stat_num_inputs:
-  - 1
-  - 1
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-145/jfs-wd
-  - /1/wd/workdir-145/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-145/stderr.log.txt
-  - /1/wd/workdir-145/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-145/stdout.log.txt
-  - /1/wd/workdir-145/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.33
-  - 0.33
-  wallclock_time:
-  - 1.226383690998773
-  - 1.226383690998773
-  working_directory:
-  - /0/wd/workdir-145
-  - /1/wd/workdir-145
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/average_5.smt2
-  dsoes_wallclock_time:
-  - 0.417937241
-  - 0.417937241
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.032733
-  - 0.032733
-  jfs_stat_num_inputs:
-  - 127
-  - 127
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-146/jfs-wd
-  - /1/wd/workdir-146/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-146/stderr.log.txt
-  - /1/wd/workdir-146/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-146/stdout.log.txt
-  - /1/wd/workdir-146/stdout.log.txt
-  sys_cpu_time:
-  - 0.06
-  - 0.06
-  user_cpu_time:
-  - 0.39
-  - 0.39
-  wallclock_time:
-  - 1.1193052409980737
-  - 1.1193052409980737
-  working_directory:
-  - /0/wd/workdir-146
-  - /1/wd/workdir-146
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/average_6.smt2
-  dsoes_wallclock_time:
-  - 0.426211335
-  - 0.426211335
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.035905
-  - 0.035905
-  jfs_stat_num_inputs:
-  - 3628
-  - 3628
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-147/jfs-wd
-  - /1/wd/workdir-147/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-147/stderr.log.txt
-  - /1/wd/workdir-147/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-147/stdout.log.txt
-  - /1/wd/workdir-147/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.37
-  - 0.37
-  wallclock_time:
-  - 1.0533737759978976
-  - 1.0533737759978976
-  working_directory:
-  - /0/wd/workdir-147
-  - /1/wd/workdir-147
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/cancel_2.smt2
-  dsoes_wallclock_time:
-  - 0.44682849
-  - 0.44682849
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.030657
-  - 0.030657
-  jfs_stat_num_inputs:
-  - 9
-  - 9
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-148/jfs-wd
-  - /1/wd/workdir-148/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-148/stderr.log.txt
-  - /1/wd/workdir-148/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-148/stdout.log.txt
-  - /1/wd/workdir-148/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.37
-  - 0.37
-  wallclock_time:
-  - 1.2034266339978785
-  - 1.2034266339978785
-  working_directory:
-  - /0/wd/workdir-148
-  - /1/wd/workdir-148
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/cases_2.smt2
-  dsoes_wallclock_time:
-  - 0.445712666
-  - 0.445712666
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.038858
-  - 0.038858
-  jfs_stat_num_inputs:
-  - 1
-  - 1
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-149/jfs-wd
-  - /1/wd/workdir-149/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-149/stderr.log.txt
-  - /1/wd/workdir-149/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-149/stdout.log.txt
-  - /1/wd/workdir-149/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.38
-  - 0.38
-  wallclock_time:
-  - 1.1995743400002539
-  - 1.1995743400002539
-  working_directory:
-  - /0/wd/workdir-149
-  - /1/wd/workdir-149
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/exp_3_precision.smt2
-  dsoes_wallclock_time:
-  - 0.428536733
-  - 0.428536733
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.032421
-  - 0.032421
-  jfs_stat_num_inputs:
-  - 190
-  - 190
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-150/jfs-wd
-  - /1/wd/workdir-150/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-150/stderr.log.txt
-  - /1/wd/workdir-150/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-150/stdout.log.txt
-  - /1/wd/workdir-150/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.36
-  - 0.36
-  wallclock_time:
-  - 1.0938246620025893
-  - 1.0938246620025893
-  working_directory:
-  - /0/wd/workdir-150
-  - /1/wd/workdir-150
-- backend_timeout:
-  - true
-  - true
-  benchmark: QF_FP/schanda/spark/guarded_div_1.smt2
-  dsoes_wallclock_time:
-  - null
-  - null
-  event_tag:
-  - timeout
-  - timeout
-  exit_code:
-  - null
-  - null
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
-  jfs_stat_num_inputs:
-  - null
-  - null
-  jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
-  jfs_working_directory:
-  - /0/wd/workdir-151/jfs-wd
-  - /1/wd/workdir-151/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - null
-  - null
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - unknown
-  - unknown
-  stderr_log_file:
-  - /0/wd/workdir-151/stderr.log.txt
-  - /1/wd/workdir-151/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-151/stdout.log.txt
-  - /1/wd/workdir-151/stdout.log.txt
-  sys_cpu_time:
-  - null
-  - null
-  user_cpu_time:
-  - null
-  - null
-  wallclock_time:
-  - 60.450679740999476
-  - 60.450679740999476
-  working_directory:
-  - /0/wd/workdir-151
-  - /1/wd/workdir-151
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/guarded_div_2.smt2
-  dsoes_wallclock_time:
-  - 0.550839064
-  - 0.550839064
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.194576
-  - 0.194576
-  jfs_stat_num_inputs:
-  - 98838
-  - 98838
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-152/jfs-wd
-  - /1/wd/workdir-152/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-152/stderr.log.txt
-  - /1/wd/workdir-152/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-152/stdout.log.txt
-  - /1/wd/workdir-152/stdout.log.txt
-  sys_cpu_time:
-  - 0.12
-  - 0.12
-  user_cpu_time:
-  - 0.47
-  - 0.47
-  wallclock_time:
-  - 1.0953142539983673
-  - 1.0953142539983673
-  working_directory:
-  - /0/wd/workdir-152
-  - /1/wd/workdir-152
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/incorrect_reordering.smt2
-  dsoes_wallclock_time:
-  - 0.370147718
-  - 0.370147718
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.070481
-  - 0.070481
-  jfs_stat_num_inputs:
-  - 25458
-  - 25458
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-153/jfs-wd
-  - /1/wd/workdir-153/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-153/stderr.log.txt
-  - /1/wd/workdir-153/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-153/stdout.log.txt
-  - /1/wd/workdir-153/stdout.log.txt
-  sys_cpu_time:
-  - 0.08
-  - 0.08
-  user_cpu_time:
-  - 0.33
-  - 0.33
-  wallclock_time:
-  - 0.9100168240001949
-  - 0.9100168240001949
-  working_directory:
-  - /0/wd/workdir-153
-  - /1/wd/workdir-153
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/protected_divide.smt2
-  dsoes_wallclock_time:
-  - 0.477899122
-  - 0.477899122
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.164255
-  - 0.164255
-  jfs_stat_num_inputs:
-  - 68857
-  - 68857
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-154/jfs-wd
-  - /1/wd/workdir-154/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-154/stderr.log.txt
-  - /1/wd/workdir-154/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-154/stdout.log.txt
-  - /1/wd/workdir-154/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.43
-  - 0.43
-  wallclock_time:
-  - 1.0674296859979222
-  - 1.0674296859979222
-  working_directory:
-  - /0/wd/workdir-154
-  - /1/wd/workdir-154
-- backend_timeout:
-  - true
-  - true
-  benchmark: QF_FP/schanda/spark/riposte_floats_are_not_rational.smt2
-  dsoes_wallclock_time:
-  - null
-  - null
-  event_tag:
-  - timeout
-  - timeout
-  exit_code:
-  - null
-  - null
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
-  jfs_stat_num_inputs:
-  - null
-  - null
-  jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
-  jfs_working_directory:
-  - /0/wd/workdir-155/jfs-wd
-  - /1/wd/workdir-155/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - null
-  - null
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - unknown
-  - unknown
-  stderr_log_file:
-  - /0/wd/workdir-155/stderr.log.txt
-  - /1/wd/workdir-155/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-155/stdout.log.txt
-  - /1/wd/workdir-155/stdout.log.txt
-  sys_cpu_time:
-  - null
-  - null
-  user_cpu_time:
-  - null
-  - null
-  wallclock_time:
-  - 60.340602924999985
-  - 60.340602924999985
-  working_directory:
-  - /0/wd/workdir-155
-  - /1/wd/workdir-155
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/scale_1.smt2
-  dsoes_wallclock_time:
-  - 0.394709885
-  - 0.394709885
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.033843
-  - 0.033843
-  jfs_stat_num_inputs:
-  - 1
-  - 1
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-156/jfs-wd
-  - /1/wd/workdir-156/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-156/stderr.log.txt
-  - /1/wd/workdir-156/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-156/stdout.log.txt
-  - /1/wd/workdir-156/stdout.log.txt
-  sys_cpu_time:
-  - 0.09
-  - 0.09
-  user_cpu_time:
-  - 0.3
-  - 0.3
-  wallclock_time:
-  - 0.967110984998726
-  - 0.967110984998726
-  working_directory:
-  - /0/wd/workdir-156
-  - /1/wd/workdir-156
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/underflow_1.smt2
-  dsoes_wallclock_time:
-  - 0.406173688
-  - 0.406173688
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.034206
-  - 0.034206
-  jfs_stat_num_inputs:
-  - 35
-  - 35
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-157/jfs-wd
-  - /1/wd/workdir-157/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-157/stderr.log.txt
-  - /1/wd/workdir-157/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-157/stdout.log.txt
-  - /1/wd/workdir-157/stdout.log.txt
-  sys_cpu_time:
-  - 0.1
-  - 0.1
-  user_cpu_time:
-  - 0.34
-  - 0.34
-  wallclock_time:
-  - 0.9383068589995673
-  - 0.9383068589995673
-  working_directory:
-  - /0/wd/workdir-157
-  - /1/wd/workdir-157
-- backend_timeout:
-  - true
-  - true
-  benchmark: QF_FP/schanda/spark/user_rule_1.smt2
-  dsoes_wallclock_time:
-  - null
-  - null
-  event_tag:
-  - timeout
-  - timeout
-  exit_code:
-  - null
-  - null
-  expected_sat: unknown
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - null
-  - null
-  jfs_stat_num_inputs:
-  - null
-  - null
-  jfs_stat_num_wrong_sized_inputs:
-  - null
-  - null
-  jfs_working_directory:
-  - /0/wd/workdir-158/jfs-wd
-  - /1/wd/workdir-158/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - null
-  - null
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - unknown
-  - unknown
-  stderr_log_file:
-  - /0/wd/workdir-158/stderr.log.txt
-  - /1/wd/workdir-158/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-158/stdout.log.txt
-  - /1/wd/workdir-158/stdout.log.txt
-  sys_cpu_time:
-  - null
-  - null
-  user_cpu_time:
-  - null
-  - null
-  wallclock_time:
-  - 60.36674018100166
-  - 60.36674018100166
-  working_directory:
-  - /0/wd/workdir-158
-  - /1/wd/workdir-158
-- backend_timeout:
-  - false
-  - false
-  benchmark: QF_FP/schanda/spark/zeros_count_1.smt2
-  dsoes_wallclock_time:
-  - 0.418204767
-  - 0.418204767
-  event_tag:
-  - sat
-  - sat
-  exit_code:
-  - 0
-  - 0
-  expected_sat: sat
-  is_trivial: false
-  jfs_stat_fuzzing_wallclock_time:
-  - 0.033153
-  - 0.033153
-  jfs_stat_num_inputs:
-  - 58
-  - 58
-  jfs_stat_num_wrong_sized_inputs:
-  - 1
-  - 1
-  jfs_working_directory:
-  - /0/wd/workdir-159/jfs-wd
-  - /1/wd/workdir-159/jfs-wd
-  libfuzzer_average_exec_per_sec:
-  - 0
-  - 0
-  out_of_memory:
-  - false
-  - false
-  sat:
-  - sat
-  - sat
-  stderr_log_file:
-  - /0/wd/workdir-159/stderr.log.txt
-  - /1/wd/workdir-159/stderr.log.txt
-  stdout_log_file:
-  - /0/wd/workdir-159/stdout.log.txt
-  - /1/wd/workdir-159/stdout.log.txt
-  sys_cpu_time:
-  - 0.14
-  - 0.14
-  user_cpu_time:
-  - 0.31
-  - 0.31
-  wallclock_time:
-  - 0.9618804919991817
-  - 0.9618804919991817
-  working_directory:
-  - /0/wd/workdir-159
-  - /1/wd/workdir-159
 schema_version: 0

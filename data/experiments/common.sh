@@ -15,7 +15,7 @@ solvers=( \
   gosat \
   optsat \
   jfs_lf_fail_fast \
-#  jfs_lf_fail_fast_smart_seeds \
+  jfs_lf_fail_fast_smart_seeds \
 #  jfs_pf_fail_fast \
 #  mathsat5 \
 #  xsat \
@@ -36,13 +36,14 @@ fi
 # Benchmark sets to use.
 # See `get_invocation_info()` for valid benchmark sets.
 #bsets=(qf_fp qf_bvfp qf_bv)
-bsets=(qf_fp qf_bvfp qf_program_bfs)
+#bsets=(qf_fp qf_bvfp qf_program_bfs)
+bsets=(qf_fp)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
 #ns=(0 1 2 3)
-#ns=(0 1)
-ns=(0)
+ns=(0 1)
+#ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"

@@ -20,8 +20,8 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 set(libz3-path /home/user/z3-4.6.2/install/lib/libz3.so)
 set(Z3_INCLUDE_DIR /home/user/z3-4.6.2/install/include)
 
-#set(libnlopt-path /home/aaa/nlopt2/build/libnlopt2.so)
-set(libnlopt-path /home/user/nlopt2/build-debug/libnlopt2.so)
+set(libnlopt-path /home/user/nlopt2/build/libnlopt2.so)
+#set(libnlopt-path /home/user/nlopt2/build-debug/libnlopt2.so)
 set(NLOPT_INCLUDE_DIR /home/user/nlopt2/install/include)
 
 set(LLVM_DIR /home/user/llvm-6/install/lib/cmake/llvm)

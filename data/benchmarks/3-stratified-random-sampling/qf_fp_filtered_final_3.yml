@@ -513,19 +513,4 @@ results:
   expected_sat: sat
   is_trivial: false
   old_expected_sat: unknown
-- benchmark: QF_FP/ramalho/esbmc/nan_double-main.smt2
-  expected_sat: sat
-  is_trivial: false
-  old_expected_sat: unknown
-- benchmark: QF_FP/ramalho/esbmc/nan_float-main.smt2
-  expected_sat: sat
-  is_trivial: false
-  old_expected_sat: unknown
-- benchmark: QF_FP/ramalho/esbmc/newton_3_6_false-unreach-call-main.smt2
-  expected_sat: sat
-  is_trivial: false
-  old_expected_sat: unknown
-- benchmark: QF_FP/ramalho/esbmc/sine_4_true-unreach-call-main.smt2
-  expected_sat: unknown
-  is_trivial: false
 schema_version: 0

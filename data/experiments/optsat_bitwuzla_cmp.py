@@ -29,7 +29,7 @@ def save_to_yaml(benchmarks, filename):
         yaml.dump(data, f)
 
 # 调用函数提取 benchmark
-benchmarks = extract_benchmarks_with_different_sat('/home/aaa/PlatOptSat/data/experiments/runs/qf_program_bfs/optsat/0/output_with_sat.yml', '/home/aaa/PlatOptSat/data/experiments/runs/qf_program_bfs/bitwuzla/0/output_with_sat.yml')
+benchmarks = extract_benchmarks_with_different_sat('/home/aaa/PlatOptSat/data/experiments/runs/qf_fp/optsat/0/output_with_sat.yml', '/home/aaa/PlatOptSat/data/experiments/runs/qf_fp/jfs_lf_fail_fast_smart_seeds/0/output_with_sat.yml')
 
 # 保存提取出来的 benchmark 到 C.yml 文件
-save_to_yaml(benchmarks, 'qf_program_bitwuzla_optsat.yml')
+save_to_yaml(benchmarks, 'qf_fp_jfs_lf_fail_fast_smart_seeds_optsat.yml')

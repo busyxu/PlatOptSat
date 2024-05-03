@@ -446,6 +446,22 @@ nlopt_result MOEAMain(
         estotal[id].id = id;
     }
 
+    int **fronts = (int **)malloc((np+np) * sizeof(int *)); //individual index in the fronts
+    for(int i=0; i<np+np; i++){
+        fronts[i] = (int *) malloc((np+np) * sizeof(int));
+        if(!fronts[i]){
+            ret = NLOPT_OUT_OF_MEMORY;
+            goto done;
+        }
+    }
+
+    int *fronts_cnt = (int *) malloc((np+np) * sizeof(int *)); //each front count
+    if ((!fronts)||(!fronts_cnt)) {
+        free(fronts);
+        free(fronts_cnt);
+        return NLOPT_OUT_OF_MEMORY;
+    }
+
     /**************************************
      * Initializing parents population
      **************************************/
@@ -456,7 +472,8 @@ nlopt_result MOEAMain(
                 esparents[id].parameters[item] = seed[id];
         } else{
             for (int item=0; item<nparameters; item++) {
-                esparents[id].parameters[item] = nlopt_urand(lb[item], ub[item]);//uniform distribution
+                double t = nlopt_urand(lb[item], ub[item]);
+                esparents[id].parameters[item] = t;//uniform distribution
             }
         }
     }
@@ -494,12 +511,6 @@ nlopt_result MOEAMain(
     /**************************************
      * Main Loop - Generations
      **************************************/
-//    printf("Main Loop - Generations\n");
-    int **fronts = (int **)malloc((np+np) * sizeof(int *)); //individual index in the fronts
-    for(int i=0; i<np+np; i++)
-        fronts[i] = (int *)malloc((np+np) * sizeof(int));
-    int *fronts_cnt = (int *) malloc((np+np) * sizeof(int *)); //each front count
-//    Individual *temp_pop = (Individual*) malloc(sizeof(Individual) * (np+np));
     while (1) {
 //        printf("evoluation %d\n", *(stop->nevals_p));
 //        printPopInfo(esparents,np,nparameters);
@@ -614,6 +625,8 @@ nlopt_result MOEAMain(
         /* Sorting */
         int front_index = non_dominated_sorting(estotal,np+np,fronts, fronts_cnt);
 
+
+
         int pop_idx = 0;
         int f_idx = 0;
         while(pop_idx+fronts_cnt[f_idx]<=np){
@@ -663,7 +676,8 @@ nlopt_result MOEAMain(
     for (int id=0; id < np; id++) free(esparents[id].parameters);
     for (int id=0; id < np; id++) free(esoffsprings[id].parameters);
     for (int id=0; id < np+np; id++) free(estotal[id].parameters);
-    for (int id=0; id < np; id++) free(fronts[id]);
+
+    for (int id=0; id < np+np; id++) free(fronts[id]);
 
     if (fronts)         free(fronts);
     if (fronts_cnt)     free(fronts_cnt);

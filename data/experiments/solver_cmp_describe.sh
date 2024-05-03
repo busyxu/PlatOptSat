@@ -38,20 +38,20 @@ DIR_PREFIX="${MERGED_DIR}/${bset}"
 
 if [ "${bset}" = "qf_fp" ]; then
   SOLVER_NAMES=( \
-    colibri \
-    coral_avm \
-    coral_pso \
-    cvc5 \
+#    colibri \
+#    coral_avm \
+#    coral_pso \
+#    cvc5 \
     bitwuzla \
     gosat \
     optsat \
     jfs_lf_fail_fast \
     jfs_lf_fail_fast_smart_seeds \
-    mathsat5 \
-    xsat \
-    z3 \
+#    mathsat5 \
+#    xsat \
+#    z3 \
   )
-  TOOL_OPTS+=(--index-for-compute-sets 6)
+  TOOL_OPTS+=(--index-for-compute-sets 2)
 else
   SOLVER_NAMES=( \
     colibri \
