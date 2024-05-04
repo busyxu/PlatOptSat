@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 DEFAULT_VERSION="5.5.1"
 
-BASE_TAG="jfs_build_base:ubuntu1804"
+BASE_TAG="dockeryangxu/base_build:ubuntu1804"
 
 function usage() {
   echo "$0 [<version>]"
@@ -27,7 +27,7 @@ BUILD_OPTS=()
 case "${version}" in
   5.4.1)
     # Keep legacy tag name
-    FINAL_TAG="mathsat_build:ubuntu1804"
+    FINAL_TAG="dockeryangxu/mathsat-5.5.1:ubuntu1804"
     BUILD_OPTS+=( \
       "--build-arg" \
       "MATHSAT_VER=mathsat-5.4.1-linux-x86_64" \

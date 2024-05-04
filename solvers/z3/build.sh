@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 DEFAULT_VERSION="4.6"
 
-BASE_TAG="jfs_build_base:ubuntu1804"
+BASE_TAG="dockeryangxu/base_build:ubuntu1804"
 
 function usage() {
   echo "$0 <version>"
@@ -27,7 +27,7 @@ BUILD_OPTS=()
 case "${version}" in
   4.5)
     # Keep legacy tag name
-    FINAL_TAG="z3_build:ubuntu1804"
+    FINAL_TAG="dockeryangxu/z3-4.6.0:ubuntu1804"
     BUILD_OPTS+=( \
       "--build-arg" \
       "Z3_GIT_REVISION=d57a2a6dce9291acf9c71a561252f3e133f0c894" \
