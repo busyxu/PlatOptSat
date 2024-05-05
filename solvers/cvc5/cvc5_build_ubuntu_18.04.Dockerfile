@@ -17,7 +17,7 @@ RUN sudo apt-get update && \
 # install cmake-3.22.1
 ADD /cmake-3.22.1.tar.gz /usr/share/
 
-# Build CV4
+# Build CVC5
 RUN mkdir /home/user/cvc5/
 # NOTE: Docker seems to implicitly un tar this for us.
 ADD /${CVC5_SRC_TARBALL} /home/user/cvc5/

@@ -4,7 +4,7 @@ SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 DEFAULT_OPTION="1.1.2"
 
-BASE_TAG="dockeryangxu/base_build:ubuntu1804"
+BASE_TAG="base_build:ubuntu1804"
 
 function usage() {
   echo "$0 [<version>]"
@@ -27,7 +27,7 @@ BUILD_OPTS=()
 case "${version}" in
   1.1.2)
     # Keep legacy tag name
-    FINAL_TAG="dockeryangxu/cvc5-1.1.2:ubuntu1804"
+    FINAL_TAG="cvc5-1.1.2:ubuntu1804"
     CVC5_SRC_TARBALL="cvc5-1.1.2.tar.gz"
     BUILD_OPTS+=( \
       "--build-arg" \

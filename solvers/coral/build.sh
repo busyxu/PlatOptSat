@@ -4,8 +4,8 @@ set -x
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 ROOT_DIR="$(cd "${SCRIPT_DIR}/../../" ; echo $PWD)"
 
-BASE_TAG="dockeryangxu/base_build:ubuntu1804"
-FINAL_TAG="dockeryangxu/coral:ubuntu1804"
+BASE_TAG="base_build:ubuntu1804"
+FINAL_TAG="coral:ubuntu1804"
 
 ## Build base that we can use for other tools
 #docker build -t "${BASE_TAG}" - < "${SCRIPT_DIR}/coral_base_ubuntu_16.04.Dockerfile"

@@ -1,4 +1,4 @@
-FROM jfs_build_base:ubuntu1804
+FROM base_build:ubuntu1804
 LABEL maintainer "a@a.com"
 RUN sudo apt-get update
 

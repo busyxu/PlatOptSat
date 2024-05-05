@@ -43,10 +43,13 @@ ADDITIONAL_Z3_OPTS+=(-DPYTHON_EXECUTABLE=${Z3_PYTHON_EXECUTABLE})
 # Setup source tree
 mkdir -p "${Z3_SRC_DIR}"
 # add by yx
-git config --global http.proxy socks5://192.168.57.1:10808
-git config --global https.proxy socks5://192.168.57.1:10808
+git config --global http.proxy socks5://192.168.23.180:10808
+git config --global https.proxy socks5://192.168.23.180:10808
 git config --global user.email "you@example.com"
 git config --global user.name "yangxu"
+#git config --global http.postBuffer 524288000
+#git config --global http.lowSpeedLimit 0
+#git config --global http.lowSpeedTime 999999
 
 git clone "${Z3_GIT_URL}" "${Z3_SRC_DIR}"
 cd "${Z3_SRC_DIR}"
