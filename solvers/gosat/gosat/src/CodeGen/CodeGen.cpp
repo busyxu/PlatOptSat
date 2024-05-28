@@ -27,6 +27,7 @@ const std::string CodeGenStr::kFunIsNan = "fp64_isnan";
 // add by zgf
 const std::string CodeGenStr::kFunIsInf = "fp64_isinf";
 const std::string CodeGenStr::kFunIte = "fp64_ite";
+const std::string CodeGenStr::kFunDistinct = "fp64_distinct";//add by yx
 const std::string CodeGenStr::kFunBand = "fp64_band";
 const std::string CodeGenStr::kFunBor = "fp64_bor";
 const std::string CodeGenStr::kFunBxor = "fp64_bxor";

@@ -26,6 +26,7 @@ double fp64_isnan(double a, double flag);
 // add by zgf
 double fp64_isinf(double a, double b);
 double fp64_ite(double flag, double a, double b);
+double fp64_distinct(double arg1, double arg2, int arg_size);//add by yx
 double fp64_band(double a, double b);
 double fp64_bor(double a, double b);
 double fp64_bxor(double a, double b);
@@ -85,6 +86,14 @@ bool inline isFPVar(const z3::expr& expr) noexcept
     return (expr.num_args() == 0
             && expr.decl().decl_kind() == Z3_OP_UNINTERPRETED
             && expr.get_sort().sort_kind() == Z3_FLOATING_POINT_SORT);
+}
+
+// add by yx
+bool inline isREALVar(const z3::expr& expr) noexcept
+{
+    return (expr.num_args() == 0
+            && expr.decl().decl_kind() == Z3_OP_UNINTERPRETED
+            && expr.get_sort().sort_kind() == Z3_REAL_SORT);
 }
 
 // add by zgf

@@ -264,6 +264,8 @@ def main(args):
             # However if both are timeouts we can note this
             if x_scatter_point == pargs.max_exec_time:
                 x_eq_y_and_is_timeout_keys.add(key)
+            else:
+                print(x_scatter_points, y_scatter_points)
         else:
             # Compare the means
             if x_scatter_point > y_scatter_point and abs(x_scatter_point - y_scatter_point) > pargs.require_time_abs_diff:
@@ -370,7 +372,7 @@ def main(args):
 
         ax.annotate(dual_timeout_txt,
             # HACK -5 is to offset arrow properly
-            xy=(pargs.max_exec_time - 15.00, pargs.max_exec_time), xycoords='data',
+            xy=(pargs.max_exec_time - 1.00, pargs.max_exec_time), xycoords='data',
             xytext=(-50, 0), textcoords='offset points',
             arrowprops=dict(facecolor='black', shrink=0.05, width=1.5, headwidth=7.0),
             horizontalalignment='right', verticalalignment='center',

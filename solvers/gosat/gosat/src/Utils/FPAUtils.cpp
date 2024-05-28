@@ -183,6 +183,20 @@ double fp64_isinf(const double a, const double flag)
 double fp64_ite(double flag, double a, double b) {
   return flag > 0 ? a : b;
 }
+double fp64_distinct(double arg1, double arg2, int arg_size) {
+//    printf("%d\n",arg_size);
+//    if(arg1==arg2) return 0;
+    return arg1==arg2?0:1;
+//    double cnt=0;
+//    for(int i=0; i<arg_size; i++){
+//        for(int j=0; j<arg_size; j++){
+//            if(i!=j && arg[i]==arg[j]){
+//                cnt+=1;
+//            }
+//        }
+//    }
+//    return cnt;
+}
 double fp64_band(double a, double b) {
   uint64_t *au = (uint64_t*)&a, *bu = (uint64_t*)&b;
   uint64_t resu = *au & *bu;

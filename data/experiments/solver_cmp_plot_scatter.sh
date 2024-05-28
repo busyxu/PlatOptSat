@@ -6,7 +6,7 @@ set -o pipefail
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 
-source ${SCRIPT_DIR}/common.sh
+source ${SCRIPT_DIR}/common_1.sh
 
 TOOL_NAME="result-info-plot-scatter-exec-time.py"
 
@@ -38,6 +38,8 @@ TOOL_OPTS=( \
   --max-exec-time 60 \
   --annotate \
   --true-type-fonts \
+#  --annotate-use-legacy-values \
+  --annotate-timeout-point \
 )
 TOOL_OPTS+=("$@")
 

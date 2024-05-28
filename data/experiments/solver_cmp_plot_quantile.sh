@@ -6,7 +6,7 @@ set -o pipefail
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 
-source ${SCRIPT_DIR}/common.sh
+source ${SCRIPT_DIR}/common_1.sh
 
 TOOL_NAME="result-info-plot-quantile-plot.py"
 
@@ -21,7 +21,7 @@ function usage() {
 TOOL="${SMT_RUNNER_ROOT}/tools/${TOOL_NAME}"
 
 TOOL_OPTS=( \
-  --max-exec-time 900 \
+  --max-exec-time 60 \
   --mode time \
   --true-type-fonts \
 )
@@ -40,22 +40,25 @@ TOOL_OPTS+=("$@")
 
 DIR_PREFIX="${MERGED_DIR}/${bset}"
 
-if [ "${bset}" = "qf_fp" ]; then
+if [ "${bset}" = "qf_fp" ] || [ "${bset}" = "QF_FP_final" ]; then
   SOLVER_NAMES=( \
-    colibri \
-    coral_avm \
-    coral_pso \
+    z3 \
     cvc5 \
+    mathsat5 \
     bitwuzla \
+    colibri \
+  #  jfs_lf_fail_fast \
+    jfs_lf_fail_fast_smart_seeds \
+    ol1v3r \
+    coral_pso \
+  #  coral_avm \
+    xsat \
     gosat \
     optsat \
-    jfs_lf_fail_fast_smart_seeds \
-    mathsat5 \
-    xsat \
-    z3 \
-    portfolio_jfs_mathsat5 \
+    optsatBitwuzla \
+    portfolio_optsat_bitwuzla \
   )
-  LEGEND_NAMES='["COLIBRI", "CORAL-AVM", "CORAL-PSO", "CVC5", "Bitwuzla", "goSAT", "optSAT", "JFS", "MathSAT5", "XSat", "Z3", "JFS+MathSAT5"]'
+  LEGEND_NAMES='["Z3", "CVC5", "MathSAT5", "Bitwuzla", "COLIBRI", "JFS", "OL1V3R", "CORAL", "XSat", "goSAT", "QSat", "QSat_Bitwuzla", "QSat+Bitwuzla"]'
 else
   SOLVER_NAMES=( \
     colibri \

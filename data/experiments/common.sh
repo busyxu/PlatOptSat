@@ -40,7 +40,7 @@ fi
 #bsets=(qf_fp qf_bvfp qf_program_bfs)
 #bsets=(qf_fp)
 #bsets=(qf_fp qf_program_bfs)
-bsets=(qf_program_bfs)
+#bsets=(qf_program_bfs)
 #bsets=(qf_bvfp)
 #bsets=(QF_FP_20170501-Heizmann-UltimateAutomizer \
 #        QF_FP_20190429-UltimateAutomizerSvcomp2019 \
@@ -49,17 +49,17 @@ bsets=(qf_program_bfs)
 #        QF_FP_griggio \
 #        QF_FP_ramalho \
 #        QF_FP_schanda)
-#bsets=(QF_FP_final)
+bsets=(QF_FP_final)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
-#ns=(0 1 2 3)
-ns=(0 1)
+ns=(0 1 2 3)
+#ns=(0 1)
 #ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
-INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
-#INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP"
+#INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
+INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP"
 
 # NOTE: We use more generic configurations for experiment reproduction.
 # The commented out path points to the solver configurations actually used for experiments.

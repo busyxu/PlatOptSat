@@ -122,6 +122,60 @@ const IRSymbol* FPIRGenerator::genNumeralIR
         auto res_pair = insertSymbol(SymbolKind::kFP64Const, expr, value, 0);
         return res_pair.first;
     }
+
+    //add by yx support real expr
+    if (expr.decl().decl_kind() == Z3_OP_ANUM) {
+        auto result_iter = findSymbol(SymbolKind::kFP64Const, &expr);
+        if (result_iter != m_expr_sym_map.cend()) {
+            return &(*result_iter).second;
+        }
+        std::string numeral_str = Z3_ast_to_string(expr.ctx(),
+                                                   static_cast<z3::ast>(expr));
+//        numeral_str.replace(0, 1, 1, '0');
+        numeral_str = numeral_str.substr(1, numeral_str.size() - 2);
+        std::vector<std::string> tokens;
+        std::istringstream stream(numeral_str);
+        std::string token;
+        char delimiter = ' ';
+        while (std::getline(stream, token, delimiter)) {
+            tokens.push_back(token);
+        }
+        char* op = const_cast<char *>(tokens[0].c_str());
+        double resDouble = 0;
+        switch (*op) {
+            case '+':{
+                double op1 = std::stod(tokens[1]);
+                double op2 = std::stod(tokens[2]);
+                resDouble = op1 + op2;
+                break;
+            }
+            case '-':{
+                double op1 = std::stod(tokens[1]);
+                double op2 = std::stod(tokens[2]);
+                resDouble = op1 - op2;
+                break;
+            }
+            case '*':{
+                double op1 = std::stod(tokens[1]);
+                double op2 = std::stod(tokens[2]);
+                resDouble = op1 * op2;
+                break;
+            }
+            case '/':{
+                double op1 = std::stod(tokens[1]);
+                double op2 = std::stod(tokens[2]);
+                resDouble = op1 / op2;
+                break;
+            }
+            default:
+                assert(false && "unsupported op");
+        }
+//        init_number.push_back(resDouble);//add by yx
+        Value* value = ConstantFP::get(builder.getDoubleTy(), resDouble);
+        auto res_pair = insertSymbol(SymbolKind::kFP64Const, expr, value, 0);
+        return res_pair.first;
+    }
+
     return nullptr;
 }
 
@@ -261,6 +315,9 @@ llvm::Function* FPIRGenerator::genFunction
     m_func_ite = cast<Function>(
           m_mod->getOrInsertFunction(StringRef(CodeGenStr::kFunIte),
                                      DoubleTY,DoubleTY,DoubleTY,DoubleTY));
+    m_func_distinct = cast<Function>(
+            m_mod->getOrInsertFunction(StringRef(CodeGenStr::kFunDistinct),
+                                       DoubleTY,DoubleTY,DoubleTY,Int32TY));
     m_func_band = cast<Function>(
           m_mod->getOrInsertFunction(StringRef(CodeGenStr::kFunBand),
                                      DoubleTY,DoubleTY,DoubleTY));
@@ -384,6 +441,7 @@ llvm::Function* FPIRGenerator::genFunction
     // add by zgf
     m_func_isinf->setLinkage(Function::ExternalLinkage);
     m_func_ite->setLinkage(Function::ExternalLinkage);
+    m_func_distinct->setLinkage(Function::ExternalLinkage); // add by yx
     m_func_band->setLinkage(Function::ExternalLinkage);
     m_func_bor->setLinkage(Function::ExternalLinkage);
     m_func_bxor->setLinkage(Function::ExternalLinkage);
@@ -457,9 +515,14 @@ const IRSymbol* FPIRGenerator::genFuncRecursive
     }
     if (fpa_util::isRoundingModeApp(expr) &&
         expr.decl().decl_kind() != Z3_OP_FPA_RM_NEAREST_TIES_TO_EVEN &&
-        expr.decl().decl_kind() != Z3_OP_FPA_RM_TOWARD_ZERO) {
+        expr.decl().decl_kind() != Z3_OP_FPA_RM_TOWARD_ZERO &&
+        expr.decl().decl_kind() != Z3_OP_FPA_RM_TOWARD_POSITIVE &&
+        expr.decl().decl_kind() != Z3_OP_FPA_RM_TOWARD_NEGATIVE) {
         m_found_unsupported_smt_expr = true;
         assert(false && "unsupport expr !");
+    }
+    if(expr.get_sort().sort_kind()==Z3_ROUNDING_MODE_SORT){
+        return nullptr;
     }
     if (expr.is_numeral()) {
         return genNumeralIR(builder, expr);
@@ -505,6 +568,29 @@ const IRSymbol* FPIRGenerator::genFuncRecursive
         m_var_sym_vec.emplace_back(result_pair.first);
         return result_pair.first;
     }
+    //add by yx
+    if (fpa_util::isREALVar(expr)) {
+        SymbolKind kind=SymbolKind::kFP64Const;
+        auto result_iter = findSymbol(kind, &expr);
+        if (result_iter != m_expr_sym_map.cend()) {
+            return &(*result_iter).second;
+        }
+
+        using namespace llvm;
+        Argument* x_arg = &(*(m_gofunc->arg_begin()+1));
+
+        auto idx_ptr = builder.CreateInBoundsGEP
+                (llvm::cast<Value>(x_arg),
+                 builder.getInt64(getVarCount()));
+        auto loaded_val = builder.CreateAlignedLoad(idx_ptr, 8);
+        loaded_val->setMetadata(llvm::LLVMContext::MD_tbaa, m_tbaa_node);
+        auto result_pair =
+                insertSymbol(kind, expr, loaded_val, getVarCount());
+        m_var_sym_vec.emplace_back(result_pair.first);
+
+        return result_pair.first;
+    }
+
 //    if (!fpa_util::isBoolExpr(expr)) {
 //        is_negated = false;
 //    } else if (expr.decl().decl_kind() == Z3_OP_NOT) {
@@ -600,6 +686,7 @@ llvm::Value* FPIRGenerator::genExprIR
         case Z3_OP_FPA_MINUS_ZERO:
             return ConstantFP::get(builder.getDoubleTy(), -0.0);
         case Z3_OP_BADD:
+        case Z3_OP_ADD: // add by yx
             return builder.CreateFAdd(arg_syms[0]->getValue(),
                                     arg_syms[1]->getValue());
         case Z3_OP_FPA_ADD:
@@ -607,6 +694,7 @@ llvm::Value* FPIRGenerator::genExprIR
                                       arg_syms[2]->getValue());
 
         case Z3_OP_BSUB:
+        case Z3_OP_SUB: // add by yx
             return builder.CreateFSub(arg_syms[0]->getValue(),
                                       arg_syms[1]->getValue());
         case Z3_OP_FPA_SUB:
@@ -616,11 +704,16 @@ llvm::Value* FPIRGenerator::genExprIR
         case Z3_OP_BNEG:
 //          llvm::errs()<<"[into case Z3_OP_BNEG]\n";
         case Z3_OP_FPA_NEG:
+        case Z3_OP_UMINUS: // add by yx
 //          llvm::errs()<<"[into case Z3_OP_FPA_NEG]\n";
             return builder.CreateFSub(
                     ConstantFP::get(builder.getDoubleTy(), -0.0),
                     arg_syms[0]->getValue());
-        case Z3_OP_BMUL:
+        case Z3_OP_BMUL:// add by yx
+        case Z3_OP_MUL:// add by yx
+//            llvm::outs()<<"[add by yx] Z3_OP_MUL:\n";
+//            llvm::outs()<<*arg_syms[0]->getValue()<<"\n";
+//            llvm::outs()<<*arg_syms[1]->getValue()<<"\n";
             return builder.CreateFMul(arg_syms[0]->getValue(),
                                       arg_syms[1]->getValue());
         case Z3_OP_FPA_MUL:
@@ -724,35 +817,45 @@ llvm::Value* FPIRGenerator::genExprIR
         case Z3_OP_SIGN_EXT:
         case Z3_OP_ZERO_EXT:
         case Z3_OP_FPA_TO_FP_UNSIGNED:
-        case Z3_OP_FPA_TO_FP:{
+//        case Z3_OP_FPA_TO_FP:{
 //            return (arg_syms[arg_syms.size() - 1])->getValue();
-            //            llvm::outs()<<"expr>>>"<<arg_syms[arg_syms.size()-1]->expr()->to_string()<<"\n";
-            if(arg_syms[arg_syms.size()-1]->kind()!=SymbolKind::kFP32Const && arg_syms[arg_syms.size()-1]->kind()!=SymbolKind::kFP64Const){
+//        }
+//            add  by yx
+        case Z3_OP_FPA_TO_FP: {
+//            llvm::outs()<<"expr>>>"<<arg_syms[arg_syms.size()-1]->expr()->to_string()<<"\n";
+            if (arg_syms[arg_syms.size() - 1]->kind() != SymbolKind::kFP32Const &&
+                arg_syms[arg_syms.size() - 1]->kind() != SymbolKind::kFP64Const) {
 //                llvm::outs()<<"getValue>>>"<<*arg_syms[arg_syms.size()-1]->getValue()<<"\n";
-                return arg_syms[arg_syms.size()-1]->getValue();
+                return arg_syms[arg_syms.size() - 1]->getValue();
             }
-//            llvm::outs()<<arg_syms[arg_syms.size()-1]->getValue()<<"\n";
-            std::string numeral_str = arg_syms[arg_syms.size()-1]->expr()->to_string();
-            std::string hex_string = numeral_str.substr(2,numeral_str.size()-2);//delete "#x"
-//        char* hex_string = "3fe0000000000000";
-            uint64_t int_value;
-            sscanf(hex_string.c_str(), "%lx", &int_value);
-//            double *numeral = (double*)&int_value;
-            double numeral = 0.0;
-            if(arg_syms[arg_syms.size()-1]->kind()==SymbolKind::kFP32Const){
-                float *numeral32 = (float *)&int_value;
-                numeral = *numeral32;
+//            if (arg_syms[arg_syms.size() - 1]->expr()->get_sort().sort_kind() == Z3_REAL_SORT) {
+//                return arg_syms[arg_syms.size() - 1]->getValue();
+//            }
+            if (arg_syms[arg_syms.size() - 1]->expr()->get_sort().sort_kind() == Z3_BV_SORT) {
+    //          llvm::outs()<<arg_syms[arg_syms.size()-1]->getValue()<<"\n";
+                std::string numeral_str = arg_syms[arg_syms.size() - 1]->expr()->to_string();
+                std::string hex_string = numeral_str.substr(2, numeral_str.size() - 2);//delete "#x"
+    //          char* hex_string = "3fe0000000000000";
+                uint64_t int_value;
+                sscanf(hex_string.c_str(), "%lx", &int_value);
+    //          double *numeral = (double*)&int_value;
+                double numeral = 0.0;
+                if (arg_syms[arg_syms.size() - 1]->kind() == SymbolKind::kFP32Const) {
+                    float *numeral32 = (float *) &int_value;
+                    numeral = *numeral32;
+                } else if (arg_syms[arg_syms.size() - 1]->kind() == SymbolKind::kFP64Const) {
+                    double *numeral64 = (double *) &int_value;
+                    numeral = *numeral64;
+                } else {
+                    assert(true && "unsupport SymbolKind!");
+                }
+
+    //          llvm::outs()<<"numeral>>>"<<numeral<<"\n";
+//                init_number.push_back(numeral);
+                Value *value = ConstantFP::get(builder.getDoubleTy(), numeral);
+                return value;
             }
-            else if(arg_syms[arg_syms.size()-1]->kind()==SymbolKind::kFP64Const){
-                double *numeral64 = (double*)&int_value;
-                numeral = *numeral64;
-            }
-            else{
-                assert(true && "unsupport SymbolKind!");
-            }
-//            llvm::outs()<<"numeral>>>"<<numeral<<"\n";
-            Value* value = ConstantFP::get(builder.getDoubleTy(),numeral);
-            return value;
+            return arg_syms[arg_syms.size()-1]->getValue();
         }
 
         case Z3_OP_FPA_IS_NAN:
@@ -801,6 +904,10 @@ llvm::Value* FPIRGenerator::genExprIR
             return builder.CreateCall(m_func_ite, {arg_syms[0]->getValue(),
                                                    arg_syms[1]->getValue(),
                                                    arg_syms[2]->getValue()});
+        case Z3_OP_DISTINCT: {// add by yx
+            Value* arg_size = ConstantInt::get(builder.getInt32Ty(), arg_syms.size());
+            return builder.CreateCall(m_func_distinct, {arg_syms[0]->getValue(), arg_syms[1]->getValue(), arg_size});
+        }
         case Z3_OP_BAND:
             return builder.CreateCall(m_func_band, {arg_syms[0]->getValue(),
                                                     arg_syms[1]->getValue()});
@@ -1182,6 +1289,7 @@ void FPIRGenerator::addGlobalFunctionMappings(llvm::ExecutionEngine *engine)
     // add by zgf
     double (*func_ptr_isinf)(double, double) = fp64_isinf;
     double (*func_ptr_ite)(double, double, double) = fp64_ite;
+    double (*func_ptr_distinct)(double, double, int) = fp64_distinct;//add by yx
     double (*func_ptr_band)(double, double) = fp64_band;
     double (*func_ptr_bor)(double, double) = fp64_bor;
     double (*func_ptr_bxor)(double, double) = fp64_bxor;
@@ -1232,6 +1340,7 @@ void FPIRGenerator::addGlobalFunctionMappings(llvm::ExecutionEngine *engine)
     // add by zgf
     engine->addGlobalMapping(this->m_func_isinf, (void *)func_ptr_isinf);
     engine->addGlobalMapping(this->m_func_ite, (void *)func_ptr_ite);
+    engine->addGlobalMapping(this->m_func_distinct, (void *)func_ptr_distinct);//add by yx
     engine->addGlobalMapping(this->m_func_band, (void *)func_ptr_band);
     engine->addGlobalMapping(this->m_func_bor, (void *)func_ptr_bor);
     engine->addGlobalMapping(this->m_func_bxor, (void *)func_ptr_bxor);

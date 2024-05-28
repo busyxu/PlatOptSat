@@ -33,6 +33,7 @@ public:
     // add by zgf
     static const std::string kFunIsInf;
     static const std::string kFunIte;
+    static const std::string kFunDistinct; // add by yx
     static const std::string kFunBand;
     static const std::string kFunBor;
     static const std::string kFunBxor;

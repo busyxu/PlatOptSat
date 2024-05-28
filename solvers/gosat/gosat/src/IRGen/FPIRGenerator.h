@@ -156,6 +156,7 @@ private:
     // add by zgf
     llvm::Function* m_func_isinf;
     llvm::Function* m_func_ite;
+    llvm::Function* m_func_distinct;//add by yx
     llvm::Function* m_func_band;
     llvm::Function* m_func_bor;
     llvm::Function* m_func_bxor;
