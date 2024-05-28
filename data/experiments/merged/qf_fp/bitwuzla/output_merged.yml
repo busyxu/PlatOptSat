@@ -6,8 +6,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/Newlib-BadKrozingenChallenge-Oversimplified.smt2
   dsoes_wallclock_time:
-  - 4.097737019
-  - 4.097737019
+  - 3.979746008
+  - 3.979746008
   event_tag:
   - sat
   - sat
@@ -29,14 +29,14 @@ results:
   - /0/wd/workdir-0/stdout.log.txt
   - /1/wd/workdir-0/stdout.log.txt
   sys_cpu_time:
-  - 0.31
-  - 0.31
+  - 0.56
+  - 0.56
   user_cpu_time:
-  - 3.83
-  - 3.83
+  - 3.46
+  - 3.46
   wallclock_time:
-  - 4.824350454000523
-  - 4.824350454000523
+  - 5.046105069995974
+  - 5.046105069995974
   working_directory:
   - /0/wd/workdir-0
   - /1/wd/workdir-0
@@ -45,8 +45,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/cos_polynomial_true-unreach-call.c_9.smt2
   dsoes_wallclock_time:
-  - 0.973604466
-  - 0.973604466
+  - 0.971842971
+  - 0.971842971
   event_tag:
   - sat
   - sat
@@ -68,14 +68,14 @@ results:
   - /0/wd/workdir-1/stdout.log.txt
   - /1/wd/workdir-1/stdout.log.txt
   sys_cpu_time:
-  - 0.18
-  - 0.18
+  - 0.36
+  - 0.36
   user_cpu_time:
-  - 0.85
-  - 0.85
+  - 0.67
+  - 0.67
   wallclock_time:
-  - 2.09438844000033
-  - 2.09438844000033
+  - 2.100702261996048
+  - 2.100702261996048
   working_directory:
   - /0/wd/workdir-1
   - /1/wd/workdir-1
@@ -84,8 +84,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/filter2_reinit_true-unreach-call.c_7.smt2
   dsoes_wallclock_time:
-  - 0.489172743
-  - 0.489172743
+  - 0.538089123
+  - 0.538089123
   event_tag:
   - sat
   - sat
@@ -107,14 +107,14 @@ results:
   - /0/wd/workdir-2/stdout.log.txt
   - /1/wd/workdir-2/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.27
+  - 0.27
   user_cpu_time:
-  - 0.46
-  - 0.46
+  - 0.33
+  - 0.33
   wallclock_time:
-  - 1.316389468996931
-  - 1.316389468996931
+  - 1.6651055129987071
+  - 1.6651055129987071
   working_directory:
   - /0/wd/workdir-2
   - /1/wd/workdir-2
@@ -123,8 +123,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/image_filter_true-unreach-call.c_2.smt2
   dsoes_wallclock_time:
-  - 0.504965595
-  - 0.504965595
+  - 0.522827807
+  - 0.522827807
   event_tag:
   - sat
   - sat
@@ -146,14 +146,14 @@ results:
   - /0/wd/workdir-3/stdout.log.txt
   - /1/wd/workdir-3/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.27
+  - 0.27
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.34
+  - 0.34
   wallclock_time:
-  - 1.4748973230016418
-  - 1.4748973230016418
+  - 1.63423665099981
+  - 1.63423665099981
   working_directory:
   - /0/wd/workdir-3
   - /1/wd/workdir-3
@@ -162,8 +162,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_14.smt2
   dsoes_wallclock_time:
-  - 1.187759457
-  - 1.187759457
+  - 1.246932729
+  - 1.246932729
   event_tag:
   - sat
   - sat
@@ -185,14 +185,14 @@ results:
   - /0/wd/workdir-4/stdout.log.txt
   - /1/wd/workdir-4/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.62
+  - 0.62
   user_cpu_time:
-  - 1.1
-  - 1.1
+  - 0.68
+  - 0.68
   wallclock_time:
-  - 2.0449369859998114
-  - 2.0449369859998114
+  - 2.1384232549971784
+  - 2.1384232549971784
   working_directory:
   - /0/wd/workdir-4
   - /1/wd/workdir-4
@@ -201,8 +201,8 @@ results:
   - false
   benchmark: QF_FP/20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_372.smt2
   dsoes_wallclock_time:
-  - 0.890270271
-  - 0.890270271
+  - 0.964051065
+  - 0.964051065
   event_tag:
   - sat
   - sat
@@ -224,14 +224,14 @@ results:
   - /0/wd/workdir-5/stdout.log.txt
   - /1/wd/workdir-5/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.56
+  - 0.56
   user_cpu_time:
-  - 0.8
-  - 0.8
+  - 0.48
+  - 0.48
   wallclock_time:
-  - 1.670181887999206
-  - 1.670181887999206
+  - 1.773171150998678
+  - 1.773171150998678
   working_directory:
   - /0/wd/workdir-5
   - /1/wd/workdir-5
@@ -240,8 +240,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.10.smt2
   dsoes_wallclock_time:
-  - 0.807757388
-  - 0.807757388
+  - 0.913140027
+  - 0.913140027
   event_tag:
   - sat
   - sat
@@ -263,14 +263,14 @@ results:
   - /0/wd/workdir-6/stdout.log.txt
   - /1/wd/workdir-6/stdout.log.txt
   sys_cpu_time:
-  - 0.17
-  - 0.17
+  - 0.47
+  - 0.47
   user_cpu_time:
-  - 0.7
-  - 0.7
+  - 0.47
+  - 0.47
   wallclock_time:
-  - 1.5904157590011891
-  - 1.5904157590011891
+  - 1.6359860570009914
+  - 1.6359860570009914
   working_directory:
   - /0/wd/workdir-6
   - /1/wd/workdir-6
@@ -279,8 +279,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.20.smt2
   dsoes_wallclock_time:
-  - 1.671627114
-  - 1.671627114
+  - 1.587014431
+  - 1.587014431
   event_tag:
   - sat
   - sat
@@ -302,14 +302,14 @@ results:
   - /0/wd/workdir-7/stdout.log.txt
   - /1/wd/workdir-7/stdout.log.txt
   sys_cpu_time:
-  - 0.21
-  - 0.21
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - 1.5
-  - 1.5
+  - 1.46
+  - 1.46
   wallclock_time:
-  - 2.4938437290002184
-  - 2.4938437290002184
+  - 2.559379637001257
+  - 2.559379637001257
   working_directory:
   - /0/wd/workdir-7
   - /1/wd/workdir-7
@@ -318,8 +318,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.3.smt2
   dsoes_wallclock_time:
-  - 0.249695043
-  - 0.249695043
+  - 0.232047278
+  - 0.232047278
   event_tag:
   - sat
   - sat
@@ -341,14 +341,14 @@ results:
   - /0/wd/workdir-8/stdout.log.txt
   - /1/wd/workdir-8/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.05
+  - 0.05
   user_cpu_time:
-  - 0.24
-  - 0.24
+  - 0.25
+  - 0.25
   wallclock_time:
-  - 1.0611434320016997
-  - 1.0611434320016997
+  - 1.097376625999459
+  - 1.097376625999459
   working_directory:
   - /0/wd/workdir-8
   - /1/wd/workdir-8
@@ -357,8 +357,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.30.smt2
   dsoes_wallclock_time:
-  - 2.581484483
-  - 2.581484483
+  - 2.455228571
+  - 2.455228571
   event_tag:
   - sat
   - sat
@@ -380,14 +380,14 @@ results:
   - /0/wd/workdir-9/stdout.log.txt
   - /1/wd/workdir-9/stdout.log.txt
   sys_cpu_time:
-  - 0.19
-  - 0.19
+  - 0.24
+  - 0.24
   user_cpu_time:
-  - 2.44
-  - 2.44
+  - 2.25
+  - 2.25
   wallclock_time:
-  - 3.1712631649970717
-  - 3.1712631649970717
+  - 3.1858707849969505
+  - 3.1858707849969505
   working_directory:
   - /0/wd/workdir-9
   - /1/wd/workdir-9
@@ -396,8 +396,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.40.smt2
   dsoes_wallclock_time:
-  - 3.47106805
-  - 3.47106805
+  - 3.528795845
+  - 3.528795845
   event_tag:
   - sat
   - sat
@@ -419,14 +419,14 @@ results:
   - /0/wd/workdir-10/stdout.log.txt
   - /1/wd/workdir-10/stdout.log.txt
   sys_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.72
+  - 0.72
   user_cpu_time:
-  - 3.11
-  - 3.11
+  - 2.84
+  - 2.84
   wallclock_time:
-  - 4.1594638509996
-  - 4.1594638509996
+  - 4.183150365999609
+  - 4.183150365999609
   working_directory:
   - /0/wd/workdir-10
   - /1/wd/workdir-10
@@ -435,8 +435,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div.c.50.smt2
   dsoes_wallclock_time:
-  - 4.407710741
-  - 4.407710741
+  - 4.323207644
+  - 4.323207644
   event_tag:
   - sat
   - sat
@@ -458,14 +458,14 @@ results:
   - /0/wd/workdir-11/stdout.log.txt
   - /1/wd/workdir-11/stdout.log.txt
   sys_cpu_time:
-  - 0.47
-  - 0.47
+  - 0.84
+  - 0.84
   user_cpu_time:
-  - 3.97
-  - 3.97
+  - 3.52
+  - 3.52
   wallclock_time:
-  - 5.049484702998598
-  - 5.049484702998598
+  - 5.066840510000475
+  - 5.066840510000475
   working_directory:
   - /0/wd/workdir-11
   - /1/wd/workdir-11
@@ -474,8 +474,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.10.smt2
   dsoes_wallclock_time:
-  - 0.80222923
-  - 0.80222923
+  - 0.834527293
+  - 0.834527293
   event_tag:
   - sat
   - sat
@@ -497,14 +497,14 @@ results:
   - /0/wd/workdir-12/stdout.log.txt
   - /1/wd/workdir-12/stdout.log.txt
   sys_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - 0.68
-  - 0.68
+  - 0.66
+  - 0.66
   wallclock_time:
-  - 1.3861577569987276
-  - 1.3861577569987276
+  - 1.4766389180003898
+  - 1.4766389180003898
   working_directory:
   - /0/wd/workdir-12
   - /1/wd/workdir-12
@@ -513,8 +513,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.20.smt2
   dsoes_wallclock_time:
-  - 1.732676767
-  - 1.732676767
+  - 1.756524067
+  - 1.756524067
   event_tag:
   - sat
   - sat
@@ -536,14 +536,14 @@ results:
   - /0/wd/workdir-13/stdout.log.txt
   - /1/wd/workdir-13/stdout.log.txt
   sys_cpu_time:
-  - 0.22
-  - 0.22
+  - 0.48
+  - 0.48
   user_cpu_time:
-  - 1.56
-  - 1.56
+  - 1.34
+  - 1.34
   wallclock_time:
-  - 2.4559014449987444
-  - 2.4559014449987444
+  - 2.4339618350059027
+  - 2.4339618350059027
   working_directory:
   - /0/wd/workdir-13
   - /1/wd/workdir-13
@@ -552,8 +552,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.3.smt2
   dsoes_wallclock_time:
-  - 0.224798615
-  - 0.224798615
+  - 0.228727006
+  - 0.228727006
   event_tag:
   - sat
   - sat
@@ -575,14 +575,14 @@ results:
   - /0/wd/workdir-14/stdout.log.txt
   - /1/wd/workdir-14/stdout.log.txt
   sys_cpu_time:
-  - 0.06
-  - 0.06
+  - 0.1
+  - 0.1
   user_cpu_time:
-  - 0.21
-  - 0.21
+  - 0.17
+  - 0.17
   wallclock_time:
-  - 0.8739359450009943
-  - 0.8739359450009943
+  - 0.8916843109982437
+  - 0.8916843109982437
   working_directory:
   - /0/wd/workdir-14
   - /1/wd/workdir-14
@@ -591,8 +591,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.30.smt2
   dsoes_wallclock_time:
-  - 2.731877212
-  - 2.731877212
+  - 2.640113236
+  - 2.640113236
   event_tag:
   - sat
   - sat
@@ -614,14 +614,14 @@ results:
   - /0/wd/workdir-15/stdout.log.txt
   - /1/wd/workdir-15/stdout.log.txt
   sys_cpu_time:
-  - 0.23
-  - 0.23
+  - 0.24
+  - 0.24
   user_cpu_time:
-  - 2.54
-  - 2.54
+  - 2.45
+  - 2.45
   wallclock_time:
-  - 3.4120331989979604
-  - 3.4120331989979604
+  - 3.3357424799978617
+  - 3.3357424799978617
   working_directory:
   - /0/wd/workdir-15
   - /1/wd/workdir-15
@@ -630,8 +630,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.40.smt2
   dsoes_wallclock_time:
-  - 3.595502043
-  - 3.595502043
+  - 3.608478453
+  - 3.608478453
   event_tag:
   - sat
   - sat
@@ -653,14 +653,14 @@ results:
   - /0/wd/workdir-16/stdout.log.txt
   - /1/wd/workdir-16/stdout.log.txt
   sys_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.26
+  - 0.26
   user_cpu_time:
-  - 3.32
-  - 3.32
+  - 3.38
+  - 3.38
   wallclock_time:
-  - 4.3159490279977035
-  - 4.3159490279977035
+  - 4.22730378399865
+  - 4.22730378399865
   working_directory:
   - /0/wd/workdir-16
   - /1/wd/workdir-16
@@ -669,8 +669,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div2.c.50.smt2
   dsoes_wallclock_time:
-  - 4.306452364
-  - 4.306452364
+  - 4.106712995
+  - 4.106712995
   event_tag:
   - sat
   - sat
@@ -692,14 +692,14 @@ results:
   - /0/wd/workdir-17/stdout.log.txt
   - /1/wd/workdir-17/stdout.log.txt
   sys_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.29
+  - 0.29
   user_cpu_time:
-  - 3.98
-  - 3.98
+  - 3.85
+  - 3.85
   wallclock_time:
-  - 4.958173737999459
-  - 4.958173737999459
+  - 4.7357093910031836
+  - 4.7357093910031836
   working_directory:
   - /0/wd/workdir-17
   - /1/wd/workdir-17
@@ -708,8 +708,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.10.smt2
   dsoes_wallclock_time:
-  - 0.786940434
-  - 0.786940434
+  - 0.769225938
+  - 0.769225938
   event_tag:
   - sat
   - sat
@@ -731,14 +731,14 @@ results:
   - /0/wd/workdir-18/stdout.log.txt
   - /1/wd/workdir-18/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 0.76
-  - 0.76
+  - 0.72
+  - 0.72
   wallclock_time:
-  - 1.3791438020016358
-  - 1.3791438020016358
+  - 1.3410694379999768
+  - 1.3410694379999768
   working_directory:
   - /0/wd/workdir-18
   - /1/wd/workdir-18
@@ -747,8 +747,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.20.smt2
   dsoes_wallclock_time:
-  - 1.592810894
-  - 1.592810894
+  - 1.549338211
+  - 1.549338211
   event_tag:
   - sat
   - sat
@@ -770,14 +770,14 @@ results:
   - /0/wd/workdir-19/stdout.log.txt
   - /1/wd/workdir-19/stdout.log.txt
   sys_cpu_time:
-  - 0.18
-  - 0.18
+  - 0.21
+  - 0.21
   user_cpu_time:
-  - 1.47
-  - 1.47
+  - 1.4
+  - 1.4
   wallclock_time:
-  - 2.2537755430021207
-  - 2.2537755430021207
+  - 2.1822213550040033
+  - 2.1822213550040033
   working_directory:
   - /0/wd/workdir-19
   - /1/wd/workdir-19
@@ -786,8 +786,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.3.smt2
   dsoes_wallclock_time:
-  - 0.193901826
-  - 0.193901826
+  - 0.22512483
+  - 0.22512483
   event_tag:
   - sat
   - sat
@@ -809,14 +809,14 @@ results:
   - /0/wd/workdir-20/stdout.log.txt
   - /1/wd/workdir-20/stdout.log.txt
   sys_cpu_time:
-  - 0.02
-  - 0.02
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.2
-  - 0.2
+  - 0.22
+  - 0.22
   wallclock_time:
-  - 0.8479512760022772
-  - 0.8479512760022772
+  - 0.8276845040018088
+  - 0.8276845040018088
   working_directory:
   - /0/wd/workdir-20
   - /1/wd/workdir-20
@@ -825,8 +825,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.30.smt2
   dsoes_wallclock_time:
-  - 2.463720314
-  - 2.463720314
+  - 2.508262976
+  - 2.508262976
   event_tag:
   - sat
   - sat
@@ -848,14 +848,14 @@ results:
   - /0/wd/workdir-21/stdout.log.txt
   - /1/wd/workdir-21/stdout.log.txt
   sys_cpu_time:
-  - 0.24
-  - 0.24
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - 2.26
-  - 2.26
+  - 2.31
+  - 2.31
   wallclock_time:
-  - 3.2555520339992654
-  - 3.2555520339992654
+  - 3.18803847500385
+  - 3.18803847500385
   working_directory:
   - /0/wd/workdir-21
   - /1/wd/workdir-21
@@ -864,8 +864,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.40.smt2
   dsoes_wallclock_time:
-  - 3.354830658
-  - 3.354830658
+  - 3.285892743
+  - 3.285892743
   event_tag:
   - sat
   - sat
@@ -887,14 +887,14 @@ results:
   - /0/wd/workdir-22/stdout.log.txt
   - /1/wd/workdir-22/stdout.log.txt
   sys_cpu_time:
-  - 0.29
-  - 0.29
+  - 0.33
+  - 0.33
   user_cpu_time:
-  - 3.12
-  - 3.12
+  - 3.01
+  - 3.01
   wallclock_time:
-  - 4.014728186000866
-  - 4.014728186000866
+  - 3.9660920270034694
+  - 3.9660920270034694
   working_directory:
   - /0/wd/workdir-22
   - /1/wd/workdir-22
@@ -903,8 +903,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/div3.c.50.smt2
   dsoes_wallclock_time:
-  - 4.103495601
-  - 4.103495601
+  - 4.141820341
+  - 4.141820341
   event_tag:
   - sat
   - sat
@@ -926,14 +926,14 @@ results:
   - /0/wd/workdir-23/stdout.log.txt
   - /1/wd/workdir-23/stdout.log.txt
   sys_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.46
+  - 0.46
   user_cpu_time:
-  - 3.78
-  - 3.78
+  - 3.72
+  - 3.72
   wallclock_time:
-  - 4.7770770479983184
-  - 4.7770770479983184
+  - 4.8988392039973405
+  - 4.8988392039973405
   working_directory:
   - /0/wd/workdir-23
   - /1/wd/workdir-23
@@ -942,8 +942,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1.c.smt2
   dsoes_wallclock_time:
-  - 0.082143907
-  - 0.082143907
+  - 0.079733683
+  - 0.079733683
   event_tag:
   - sat
   - sat
@@ -965,14 +965,14 @@ results:
   - /0/wd/workdir-24/stdout.log.txt
   - /1/wd/workdir-24/stdout.log.txt
   sys_cpu_time:
-  - 0.03
-  - 0.03
+  - 0.02
+  - 0.02
   user_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.1
+  - 0.1
   wallclock_time:
-  - 0.6339582170003268
-  - 0.6339582170003268
+  - 0.6904614029990626
+  - 0.6904614029990626
   working_directory:
   - /0/wd/workdir-24
   - /1/wd/workdir-24
@@ -981,8 +981,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1_1.c.smt2
   dsoes_wallclock_time:
-  - 0.065826276
-  - 0.065826276
+  - 0.061437366
+  - 0.061437366
   event_tag:
   - sat
   - sat
@@ -1007,11 +1007,11 @@ results:
   - 0.04
   - 0.04
   user_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.07
+  - 0.07
   wallclock_time:
-  - 0.6527410950002377
-  - 0.6527410950002377
+  - 0.646459899006004
+  - 0.646459899006004
   working_directory:
   - /0/wd/workdir-25
   - /1/wd/workdir-25
@@ -1020,8 +1020,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e1_2.c.smt2
   dsoes_wallclock_time:
-  - 0.069169612
-  - 0.069169612
+  - 0.067866534
+  - 0.067866534
   event_tag:
   - sat
   - sat
@@ -1043,14 +1043,14 @@ results:
   - /0/wd/workdir-26/stdout.log.txt
   - /1/wd/workdir-26/stdout.log.txt
   sys_cpu_time:
-  - 0.03
-  - 0.03
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.08
+  - 0.08
   wallclock_time:
-  - 0.7584810080006719
-  - 0.7584810080006719
+  - 0.7495027940021828
+  - 0.7495027940021828
   working_directory:
   - /0/wd/workdir-26
   - /1/wd/workdir-26
@@ -1059,8 +1059,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2.c.smt2
   dsoes_wallclock_time:
-  - 0.391707536
-  - 0.391707536
+  - 0.365598569
+  - 0.365598569
   event_tag:
   - sat
   - sat
@@ -1082,14 +1082,14 @@ results:
   - /0/wd/workdir-27/stdout.log.txt
   - /1/wd/workdir-27/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.38
+  - 0.38
   wallclock_time:
-  - 1.2783516029994644
-  - 1.2783516029994644
+  - 1.0024908269988373
+  - 1.0024908269988373
   working_directory:
   - /0/wd/workdir-27
   - /1/wd/workdir-27
@@ -1098,8 +1098,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_1.c.smt2
   dsoes_wallclock_time:
-  - 0.252398
-  - 0.252398
+  - 0.266527134
+  - 0.266527134
   event_tag:
   - sat
   - sat
@@ -1121,14 +1121,14 @@ results:
   - /0/wd/workdir-28/stdout.log.txt
   - /1/wd/workdir-28/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 0.28
-  - 0.28
+  - 0.26
+  - 0.26
   wallclock_time:
-  - 1.079710232999787
-  - 1.079710232999787
+  - 0.9927493509967462
+  - 0.9927493509967462
   working_directory:
   - /0/wd/workdir-28
   - /1/wd/workdir-28
@@ -1137,8 +1137,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_2.c.smt2
   dsoes_wallclock_time:
-  - 0.146312795
-  - 0.146312795
+  - 0.147303912
+  - 0.147303912
   event_tag:
   - sat
   - sat
@@ -1160,14 +1160,14 @@ results:
   - /0/wd/workdir-29/stdout.log.txt
   - /1/wd/workdir-29/stdout.log.txt
   sys_cpu_time:
-  - 0.03
-  - 0.03
+  - 0.04
+  - 0.04
   user_cpu_time:
   - 0.16
   - 0.16
   wallclock_time:
-  - 1.1462600249979005
-  - 1.1462600249979005
+  - 0.8701533559942618
+  - 0.8701533559942618
   working_directory:
   - /0/wd/workdir-29
   - /1/wd/workdir-29
@@ -1176,8 +1176,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2_3.c.smt2
   dsoes_wallclock_time:
-  - 0.139584476
-  - 0.139584476
+  - 0.148927591
+  - 0.148927591
   event_tag:
   - sat
   - sat
@@ -1202,11 +1202,11 @@ results:
   - 0.05
   - 0.05
   user_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.14
+  - 0.14
   wallclock_time:
-  - 1.0482574990019202
-  - 1.0482574990019202
+  - 1.0457478759999503
+  - 1.0457478759999503
   working_directory:
   - /0/wd/workdir-30
   - /1/wd/workdir-30
@@ -1215,8 +1215,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_1.c.smt2
   dsoes_wallclock_time:
-  - 0.098269578
-  - 0.098269578
+  - 0.100576316
+  - 0.100576316
   event_tag:
   - sat
   - sat
@@ -1238,14 +1238,14 @@ results:
   - /0/wd/workdir-31/stdout.log.txt
   - /1/wd/workdir-31/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.03
+  - 0.03
   user_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.14
+  - 0.14
   wallclock_time:
-  - 0.9695591449999483
-  - 0.9695591449999483
+  - 1.0123444760029088
+  - 1.0123444760029088
   working_directory:
   - /0/wd/workdir-31
   - /1/wd/workdir-31
@@ -1254,8 +1254,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_2.c.smt2
   dsoes_wallclock_time:
-  - 0.11681988
-  - 0.11681988
+  - 0.141796035
+  - 0.141796035
   event_tag:
   - sat
   - sat
@@ -1277,14 +1277,14 @@ results:
   - /0/wd/workdir-32/stdout.log.txt
   - /1/wd/workdir-32/stdout.log.txt
   sys_cpu_time:
-  - 0.03
-  - 0.03
+  - 0.07
+  - 0.07
   user_cpu_time:
   - 0.14
   - 0.14
   wallclock_time:
-  - 1.0919860809990496
-  - 1.0919860809990496
+  - 1.1689527330017881
+  - 1.1689527330017881
   working_directory:
   - /0/wd/workdir-32
   - /1/wd/workdir-32
@@ -1293,8 +1293,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e2a_3.c.smt2
   dsoes_wallclock_time:
-  - 0.092522692
-  - 0.092522692
+  - 0.096336345
+  - 0.096336345
   event_tag:
   - sat
   - sat
@@ -1316,14 +1316,14 @@ results:
   - /0/wd/workdir-33/stdout.log.txt
   - /1/wd/workdir-33/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.02
+  - 0.02
   user_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.14
+  - 0.14
   wallclock_time:
-  - 1.1737238139976398
-  - 1.1737238139976398
+  - 1.1342022029930376
+  - 1.1342022029930376
   working_directory:
   - /0/wd/workdir-33
   - /1/wd/workdir-33
@@ -1332,8 +1332,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e3_1.c.smt2
   dsoes_wallclock_time:
-  - 0.406313547
-  - 0.406313547
+  - 0.428658311
+  - 0.428658311
   event_tag:
   - sat
   - sat
@@ -1358,11 +1358,11 @@ results:
   - 0.07
   - 0.07
   user_cpu_time:
-  - 0.4
-  - 0.4
+  - 0.42
+  - 0.42
   wallclock_time:
-  - 1.3863797180019901
-  - 1.3863797180019901
+  - 1.6767873690041597
+  - 1.6767873690041597
   working_directory:
   - /0/wd/workdir-34
   - /1/wd/workdir-34
@@ -1371,8 +1371,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/e3_2.c.smt2
   dsoes_wallclock_time:
-  - 0.254128958
-  - 0.254128958
+  - 0.272514962
+  - 0.272514962
   event_tag:
   - sat
   - sat
@@ -1394,14 +1394,14 @@ results:
   - /0/wd/workdir-35/stdout.log.txt
   - /1/wd/workdir-35/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.27
-  - 0.27
+  - 0.25
+  - 0.25
   wallclock_time:
-  - 1.3096220990009897
-  - 1.3096220990009897
+  - 1.250930091002374
+  - 1.250930091002374
   working_directory:
   - /0/wd/workdir-35
   - /1/wd/workdir-35
@@ -1410,8 +1410,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/f23.smt2
   dsoes_wallclock_time:
-  - 19.229422295
-  - 19.229422295
+  - 18.78716766
+  - 18.78716766
   event_tag:
   - sat
   - sat
@@ -1433,14 +1433,14 @@ results:
   - /0/wd/workdir-36/stdout.log.txt
   - /1/wd/workdir-36/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 19.18
-  - 19.18
+  - 18.71
+  - 18.71
   wallclock_time:
-  - 20.284354522002104
-  - 20.284354522002104
+  - 19.499789785004396
+  - 19.499789785004396
   working_directory:
   - /0/wd/workdir-36
   - /1/wd/workdir-36
@@ -1478,8 +1478,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.77897223000036
-  - 60.77897223000036
+  - 60.62797529600357
+  - 60.62797529600357
   working_directory:
   - /0/wd/workdir-37
   - /1/wd/workdir-37
@@ -1517,8 +1517,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.601437207002164
-  - 60.601437207002164
+  - 60.660442241001874
+  - 60.660442241001874
   working_directory:
   - /0/wd/workdir-38
   - /1/wd/workdir-38
@@ -1527,8 +1527,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.25.smt2
   dsoes_wallclock_time:
-  - 10.214097351
-  - 10.214097351
+  - 10.130459163
+  - 10.130459163
   event_tag:
   - sat
   - sat
@@ -1550,14 +1550,14 @@ results:
   - /0/wd/workdir-39/stdout.log.txt
   - /1/wd/workdir-39/stdout.log.txt
   sys_cpu_time:
-  - 0.41
-  - 0.41
+  - 1.14
+  - 1.14
   user_cpu_time:
-  - 9.82
-  - 9.82
+  - 9.04
+  - 9.04
   wallclock_time:
-  - 10.897276643998339
-  - 10.897276643998339
+  - 10.77956403799908
+  - 10.77956403799908
   working_directory:
   - /0/wd/workdir-39
   - /1/wd/workdir-39
@@ -1566,8 +1566,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/gaussian.c.75.smt2
   dsoes_wallclock_time:
-  - 34.841453116
-  - 34.841453116
+  - 35.392608007
+  - 35.392608007
   event_tag:
   - sat
   - sat
@@ -1589,14 +1589,14 @@ results:
   - /0/wd/workdir-40/stdout.log.txt
   - /1/wd/workdir-40/stdout.log.txt
   sys_cpu_time:
-  - 2.22
-  - 2.22
+  - 7.85
+  - 7.85
   user_cpu_time:
-  - 32.56
-  - 32.56
+  - 27.51
+  - 27.51
   wallclock_time:
-  - 35.49340680200112
-  - 35.49340680200112
+  - 35.968692143003864
+  - 35.968692143003864
   working_directory:
   - /0/wd/workdir-40
   - /1/wd/workdir-40
@@ -1605,8 +1605,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/mul_000003_30000_1.smt2
   dsoes_wallclock_time:
-  - 60.009787401
-  - 60.009787401
+  - 60.009849726
+  - 60.009849726
   event_tag:
   - timeout
   - timeout
@@ -1628,14 +1628,14 @@ results:
   - /0/wd/workdir-41/stdout.log.txt
   - /1/wd/workdir-41/stdout.log.txt
   sys_cpu_time:
-  - 0.28
-  - 0.28
+  - 0.54
+  - 0.54
   user_cpu_time:
-  - 59.64
-  - 59.64
+  - 59.49
+  - 59.49
   wallclock_time:
-  - 60.425650298999244
-  - 60.425650298999244
+  - 60.53476870700251
+  - 60.53476870700251
   working_directory:
   - /0/wd/workdir-41
   - /1/wd/workdir-41
@@ -1644,8 +1644,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/mul_03_3000_1.smt2
   dsoes_wallclock_time:
-  - 60.014732411
-  - 60.014732411
+  - 60.014103647
+  - 60.014103647
   event_tag:
   - timeout
   - timeout
@@ -1667,14 +1667,14 @@ results:
   - /0/wd/workdir-42/stdout.log.txt
   - /1/wd/workdir-42/stdout.log.txt
   sys_cpu_time:
-  - 0.26
-  - 0.26
+  - 0.31
+  - 0.31
   user_cpu_time:
-  - 59.72
-  - 59.72
+  - 59.76
+  - 59.76
   wallclock_time:
-  - 60.40868158000012
-  - 60.40868158000012
+  - 60.460716513996886
+  - 60.460716513996886
   working_directory:
   - /0/wd/workdir-42
   - /1/wd/workdir-42
@@ -1683,8 +1683,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mul_03_3_1.smt2
   dsoes_wallclock_time:
-  - 29.242429113
-  - 29.242429113
+  - 28.911705178
+  - 28.911705178
   event_tag:
   - sat
   - sat
@@ -1706,14 +1706,14 @@ results:
   - /0/wd/workdir-43/stdout.log.txt
   - /1/wd/workdir-43/stdout.log.txt
   sys_cpu_time:
-  - 0.22
-  - 0.22
+  - 0.26
+  - 0.26
   user_cpu_time:
-  - 29.01
-  - 29.01
+  - 28.69
+  - 28.69
   wallclock_time:
-  - 29.970629765997728
-  - 29.970629765997728
+  - 29.695617604003928
+  - 29.695617604003928
   working_directory:
   - /0/wd/workdir-43
   - /1/wd/workdir-43
@@ -1722,8 +1722,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.10.smt2
   dsoes_wallclock_time:
-  - 0.375780826
-  - 0.375780826
+  - 0.389686948
+  - 0.389686948
   event_tag:
   - sat
   - sat
@@ -1745,14 +1745,14 @@ results:
   - /0/wd/workdir-44/stdout.log.txt
   - /1/wd/workdir-44/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.36
-  - 0.36
+  - 0.39
+  - 0.39
   wallclock_time:
-  - 1.077190519998112
-  - 1.077190519998112
+  - 0.9370278069982305
+  - 0.9370278069982305
   working_directory:
   - /0/wd/workdir-44
   - /1/wd/workdir-44
@@ -1761,8 +1761,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.20.smt2
   dsoes_wallclock_time:
-  - 0.713879971
-  - 0.713879971
+  - 0.673170558
+  - 0.673170558
   event_tag:
   - sat
   - sat
@@ -1784,14 +1784,14 @@ results:
   - /0/wd/workdir-45/stdout.log.txt
   - /1/wd/workdir-45/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.05
+  - 0.05
   user_cpu_time:
-  - 0.72
-  - 0.72
+  - 0.67
+  - 0.67
   wallclock_time:
-  - 1.3103094799989776
-  - 1.3103094799989776
+  - 1.2774422490037978
+  - 1.2774422490037978
   working_directory:
   - /0/wd/workdir-45
   - /1/wd/workdir-45
@@ -1800,8 +1800,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.3.smt2
   dsoes_wallclock_time:
-  - 0.108146765
-  - 0.108146765
+  - 0.104339641
+  - 0.104339641
   event_tag:
   - sat
   - sat
@@ -1823,14 +1823,14 @@ results:
   - /0/wd/workdir-46/stdout.log.txt
   - /1/wd/workdir-46/stdout.log.txt
   sys_cpu_time:
-  - 0.01
-  - 0.01
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.15
-  - 0.15
+  - 0.13
+  - 0.13
   wallclock_time:
-  - 0.7300909849982418
-  - 0.7300909849982418
+  - 0.6762297349996516
+  - 0.6762297349996516
   working_directory:
   - /0/wd/workdir-46
   - /1/wd/workdir-46
@@ -1839,8 +1839,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.30.smt2
   dsoes_wallclock_time:
-  - 1.143711084
-  - 1.143711084
+  - 1.130999151
+  - 1.130999151
   event_tag:
   - sat
   - sat
@@ -1862,14 +1862,14 @@ results:
   - /0/wd/workdir-47/stdout.log.txt
   - /1/wd/workdir-47/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 1.09
-  - 1.09
+  - 1.06
+  - 1.06
   wallclock_time:
-  - 1.72059925099893
-  - 1.72059925099893
+  - 1.7128445899943472
+  - 1.7128445899943472
   working_directory:
   - /0/wd/workdir-47
   - /1/wd/workdir-47
@@ -1878,8 +1878,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.40.smt2
   dsoes_wallclock_time:
-  - 1.521585008
-  - 1.521585008
+  - 1.608873336
+  - 1.608873336
   event_tag:
   - sat
   - sat
@@ -1904,11 +1904,11 @@ results:
   - 0.1
   - 0.1
   user_cpu_time:
-  - 1.48
-  - 1.48
+  - 1.55
+  - 1.55
   wallclock_time:
-  - 2.0778083019977203
-  - 2.0778083019977203
+  - 2.219637417998456
+  - 2.219637417998456
   working_directory:
   - /0/wd/workdir-48
   - /1/wd/workdir-48
@@ -1917,8 +1917,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult1.c.50.smt2
   dsoes_wallclock_time:
-  - 2.044541139
-  - 2.044541139
+  - 2.120694136
+  - 2.120694136
   event_tag:
   - sat
   - sat
@@ -1940,14 +1940,14 @@ results:
   - /0/wd/workdir-49/stdout.log.txt
   - /1/wd/workdir-49/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 1.96
-  - 1.96
+  - 2.02
+  - 2.02
   wallclock_time:
-  - 2.6048015230007877
-  - 2.6048015230007877
+  - 2.7247382600035053
+  - 2.7247382600035053
   working_directory:
   - /0/wd/workdir-49
   - /1/wd/workdir-49
@@ -1956,8 +1956,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.10.smt2
   dsoes_wallclock_time:
-  - 0.435085251
-  - 0.435085251
+  - 0.413936499
+  - 0.413936499
   event_tag:
   - sat
   - sat
@@ -1979,14 +1979,14 @@ results:
   - /0/wd/workdir-50/stdout.log.txt
   - /1/wd/workdir-50/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 0.42
-  - 0.42
+  - 0.41
+  - 0.41
   wallclock_time:
-  - 1.0481287029979285
-  - 1.0481287029979285
+  - 0.9803773039966472
+  - 0.9803773039966472
   working_directory:
   - /0/wd/workdir-50
   - /1/wd/workdir-50
@@ -1995,8 +1995,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.20.smt2
   dsoes_wallclock_time:
-  - 0.759183079
-  - 0.759183079
+  - 0.773007719
+  - 0.773007719
   event_tag:
   - sat
   - sat
@@ -2018,14 +2018,14 @@ results:
   - /0/wd/workdir-51/stdout.log.txt
   - /1/wd/workdir-51/stdout.log.txt
   sys_cpu_time:
-  - 0.06
-  - 0.06
+  - 0.07
+  - 0.07
   user_cpu_time:
   - 0.75
   - 0.75
   wallclock_time:
-  - 1.3287394010003482
-  - 1.3287394010003482
+  - 1.350415934000921
+  - 1.350415934000921
   working_directory:
   - /0/wd/workdir-51
   - /1/wd/workdir-51
@@ -2034,8 +2034,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.3.smt2
   dsoes_wallclock_time:
-  - 0.123445233
-  - 0.123445233
+  - 0.105494526
+  - 0.105494526
   event_tag:
   - sat
   - sat
@@ -2057,14 +2057,14 @@ results:
   - /0/wd/workdir-52/stdout.log.txt
   - /1/wd/workdir-52/stdout.log.txt
   sys_cpu_time:
-  - 0.02
-  - 0.02
+  - 0.03
+  - 0.03
   user_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.12
+  - 0.12
   wallclock_time:
-  - 0.7411774770007469
-  - 0.7411774770007469
+  - 0.6900963279986172
+  - 0.6900963279986172
   working_directory:
   - /0/wd/workdir-52
   - /1/wd/workdir-52
@@ -2073,8 +2073,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.30.smt2
   dsoes_wallclock_time:
-  - 1.148061066
-  - 1.148061066
+  - 1.121516292
+  - 1.121516292
   event_tag:
   - sat
   - sat
@@ -2099,11 +2099,11 @@ results:
   - 0.08
   - 0.08
   user_cpu_time:
-  - 1.13
-  - 1.13
+  - 1.07
+  - 1.07
   wallclock_time:
-  - 1.7099981419996766
-  - 1.7099981419996766
+  - 1.7212458319991129
+  - 1.7212458319991129
   working_directory:
   - /0/wd/workdir-53
   - /1/wd/workdir-53
@@ -2112,8 +2112,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.40.smt2
   dsoes_wallclock_time:
-  - 1.696371185
-  - 1.696371185
+  - 1.662956919
+  - 1.662956919
   event_tag:
   - sat
   - sat
@@ -2135,14 +2135,14 @@ results:
   - /0/wd/workdir-54/stdout.log.txt
   - /1/wd/workdir-54/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 1.63
-  - 1.63
+  - 1.56
+  - 1.56
   wallclock_time:
-  - 2.2685638119983196
-  - 2.2685638119983196
+  - 2.2143555479997303
+  - 2.2143555479997303
   working_directory:
   - /0/wd/workdir-54
   - /1/wd/workdir-54
@@ -2151,8 +2151,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/mult2.c.50.smt2
   dsoes_wallclock_time:
-  - 1.901929866
-  - 1.901929866
+  - 2.028519751
+  - 2.028519751
   event_tag:
   - sat
   - sat
@@ -2174,14 +2174,14 @@ results:
   - /0/wd/workdir-55/stdout.log.txt
   - /1/wd/workdir-55/stdout.log.txt
   sys_cpu_time:
-  - 0.13
-  - 0.13
+  - 0.21
+  - 0.21
   user_cpu_time:
-  - 1.81
-  - 1.81
+  - 1.84
+  - 1.84
   wallclock_time:
-  - 2.52728474900141
-  - 2.52728474900141
+  - 2.59880912299559
+  - 2.59880912299559
   working_directory:
   - /0/wd/workdir-55
   - /1/wd/workdir-55
@@ -2190,8 +2190,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.4.1.i.smt2
   dsoes_wallclock_time:
-  - 1.448671223
-  - 1.448671223
+  - 1.393549005
+  - 1.393549005
   event_tag:
   - sat
   - sat
@@ -2213,14 +2213,14 @@ results:
   - /0/wd/workdir-56/stdout.log.txt
   - /1/wd/workdir-56/stdout.log.txt
   sys_cpu_time:
-  - 0.06
-  - 0.06
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 1.43
-  - 1.43
+  - 1.38
+  - 1.38
   wallclock_time:
-  - 2.0586720680003054
-  - 2.0586720680003054
+  - 2.0201651099996525
+  - 2.0201651099996525
   working_directory:
   - /0/wd/workdir-56
   - /1/wd/workdir-56
@@ -2229,8 +2229,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.5.1.i.smt2
   dsoes_wallclock_time:
-  - 1.493816831
-  - 1.493816831
+  - 1.474147071
+  - 1.474147071
   event_tag:
   - sat
   - sat
@@ -2252,14 +2252,14 @@ results:
   - /0/wd/workdir-57/stdout.log.txt
   - /1/wd/workdir-57/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 1.47
-  - 1.47
+  - 1.44
+  - 1.44
   wallclock_time:
-  - 2.116594499999337
-  - 2.116594499999337
+  - 2.1051064529965515
+  - 2.1051064529965515
   working_directory:
   - /0/wd/workdir-57
   - /1/wd/workdir-57
@@ -2268,8 +2268,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.5.3.i.smt2
   dsoes_wallclock_time:
-  - 60.024545549
-  - 60.024545549
+  - 60.022481114
+  - 60.022481114
   event_tag:
   - timeout
   - timeout
@@ -2291,14 +2291,14 @@ results:
   - /0/wd/workdir-58/stdout.log.txt
   - /1/wd/workdir-58/stdout.log.txt
   sys_cpu_time:
-  - 0.2
-  - 0.2
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 59.77
-  - 59.77
+  - 59.91
+  - 59.91
   wallclock_time:
-  - 60.40219987399905
-  - 60.40219987399905
+  - 60.45789194900135
+  - 60.45789194900135
   working_directory:
   - /0/wd/workdir-58
   - /1/wd/workdir-58
@@ -2307,8 +2307,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.6.1.i.smt2
   dsoes_wallclock_time:
-  - 2.589687268
-  - 2.589687268
+  - 2.63918159
+  - 2.63918159
   event_tag:
   - sat
   - sat
@@ -2330,14 +2330,14 @@ results:
   - /0/wd/workdir-59/stdout.log.txt
   - /1/wd/workdir-59/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 2.6
-  - 2.6
+  - 2.62
+  - 2.62
   wallclock_time:
-  - 3.2098462670001027
-  - 3.2098462670001027
+  - 3.199210642000253
+  - 3.199210642000253
   working_directory:
   - /0/wd/workdir-59
   - /1/wd/workdir-59
@@ -2346,8 +2346,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.6.2.i.smt2
   dsoes_wallclock_time:
-  - 60.019388492
-  - 60.019388492
+  - 60.021634389
+  - 60.021634389
   event_tag:
   - timeout
   - timeout
@@ -2369,14 +2369,14 @@ results:
   - /0/wd/workdir-60/stdout.log.txt
   - /1/wd/workdir-60/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.2
+  - 0.2
   user_cpu_time:
-  - 59.86
-  - 59.86
+  - 59.82
+  - 59.82
   wallclock_time:
-  - 60.34881546500037
-  - 60.34881546500037
+  - 60.38236283900187
+  - 60.38236283900187
   working_directory:
   - /0/wd/workdir-60
   - /1/wd/workdir-60
@@ -2385,8 +2385,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.6.3.i.smt2
   dsoes_wallclock_time:
-  - 60.025289582
-  - 60.025289582
+  - 60.028572693
+  - 60.028572693
   event_tag:
   - timeout
   - timeout
@@ -2408,14 +2408,14 @@ results:
   - /0/wd/workdir-61/stdout.log.txt
   - /1/wd/workdir-61/stdout.log.txt
   sys_cpu_time:
-  - 0.19
-  - 0.19
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 59.79
-  - 59.79
+  - 59.9
+  - 59.9
   wallclock_time:
-  - 60.45537226799934
-  - 60.45537226799934
+  - 60.444524844002444
+  - 60.444524844002444
   working_directory:
   - /0/wd/workdir-61
   - /1/wd/workdir-61
@@ -2424,8 +2424,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.7.1.i.smt2
   dsoes_wallclock_time:
-  - 7.312209984
-  - 7.312209984
+  - 7.150715272
+  - 7.150715272
   event_tag:
   - sat
   - sat
@@ -2447,14 +2447,14 @@ results:
   - /0/wd/workdir-62/stdout.log.txt
   - /1/wd/workdir-62/stdout.log.txt
   sys_cpu_time:
-  - 0.06
-  - 0.06
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 7.3
-  - 7.3
+  - 7.1
+  - 7.1
   wallclock_time:
-  - 7.873289167000621
-  - 7.873289167000621
+  - 7.668279258003167
+  - 7.668279258003167
   working_directory:
   - /0/wd/workdir-62
   - /1/wd/workdir-62
@@ -2463,8 +2463,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.7.2.i.smt2
   dsoes_wallclock_time:
-  - 60.021009908
-  - 60.021009908
+  - 60.019743755
+  - 60.019743755
   event_tag:
   - timeout
   - timeout
@@ -2489,11 +2489,11 @@ results:
   - 0.14
   - 0.14
   user_cpu_time:
-  - 59.81
-  - 59.81
+  - 59.9
+  - 59.9
   wallclock_time:
-  - 60.41481184999793
-  - 60.41481184999793
+  - 60.42593205299636
+  - 60.42593205299636
   working_directory:
   - /0/wd/workdir-63
   - /1/wd/workdir-63
@@ -2502,8 +2502,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.7.3.i.smt2
   dsoes_wallclock_time:
-  - 60.039428565
-  - 60.039428565
+  - 60.027306262
+  - 60.027306262
   event_tag:
   - timeout
   - timeout
@@ -2525,14 +2525,14 @@ results:
   - /0/wd/workdir-64/stdout.log.txt
   - /1/wd/workdir-64/stdout.log.txt
   sys_cpu_time:
-  - 0.24
-  - 0.24
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - 59.75
-  - 59.75
+  - 59.78
+  - 59.78
   wallclock_time:
-  - 60.41521640799692
-  - 60.41521640799692
+  - 60.42608010299591
+  - 60.42608010299591
   working_directory:
   - /0/wd/workdir-64
   - /1/wd/workdir-64
@@ -2541,8 +2541,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.8.1.i.smt2
   dsoes_wallclock_time:
-  - 0.493951978
-  - 0.493951978
+  - 0.48294696
+  - 0.48294696
   event_tag:
   - sat
   - sat
@@ -2564,14 +2564,14 @@ results:
   - /0/wd/workdir-65/stdout.log.txt
   - /1/wd/workdir-65/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.03
+  - 0.03
   user_cpu_time:
-  - 0.51
-  - 0.51
+  - 0.5
+  - 0.5
   wallclock_time:
-  - 1.109632715000771
-  - 1.109632715000771
+  - 1.044369942996127
+  - 1.044369942996127
   working_directory:
   - /0/wd/workdir-65
   - /1/wd/workdir-65
@@ -2580,8 +2580,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/newton.8.2.i.smt2
   dsoes_wallclock_time:
-  - 1.585074987
-  - 1.585074987
+  - 1.555060052
+  - 1.555060052
   event_tag:
   - sat
   - sat
@@ -2603,14 +2603,14 @@ results:
   - /0/wd/workdir-66/stdout.log.txt
   - /1/wd/workdir-66/stdout.log.txt
   sys_cpu_time:
-  - 0.08
-  - 0.08
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 1.55
-  - 1.55
+  - 1.52
+  - 1.52
   wallclock_time:
-  - 2.2176163639996957
-  - 2.2176163639996957
+  - 2.164319372001046
+  - 2.164319372001046
   working_directory:
   - /0/wd/workdir-66
   - /1/wd/workdir-66
@@ -2619,8 +2619,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/newton.8.3.i.smt2
   dsoes_wallclock_time:
-  - 60.03068648
-  - 60.03068648
+  - 60.027997377
+  - 60.027997377
   event_tag:
   - timeout
   - timeout
@@ -2642,14 +2642,14 @@ results:
   - /0/wd/workdir-67/stdout.log.txt
   - /1/wd/workdir-67/stdout.log.txt
   sys_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.14
+  - 0.14
   user_cpu_time:
-  - 59.81
-  - 59.81
+  - 59.9
+  - 59.9
   wallclock_time:
-  - 60.42378462800116
-  - 60.42378462800116
+  - 60.489981810002064
+  - 60.489981810002064
   working_directory:
   - /0/wd/workdir-67
   - /1/wd/workdir-67
@@ -2687,8 +2687,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.35432693799885
-  - 60.35432693799885
+  - 60.43695070100512
+  - 60.43695070100512
   working_directory:
   - /0/wd/workdir-68
   - /1/wd/workdir-68
@@ -2726,8 +2726,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.449982549002016
-  - 60.449982549002016
+  - 60.38914134300285
+  - 60.38914134300285
   working_directory:
   - /0/wd/workdir-69
   - /1/wd/workdir-69
@@ -2765,8 +2765,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.466734227000416
-  - 60.466734227000416
+  - 60.3713493069954
+  - 60.3713493069954
   working_directory:
   - /0/wd/workdir-70
   - /1/wd/workdir-70
@@ -2804,8 +2804,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.79977354499715
-  - 60.79977354499715
+  - 60.44306377799512
+  - 60.44306377799512
   working_directory:
   - /0/wd/workdir-71
   - /1/wd/workdir-71
@@ -2814,8 +2814,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.10.smt2
   dsoes_wallclock_time:
-  - 60.056636189
-  - 60.056636189
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -2837,14 +2837,14 @@ results:
   - /0/wd/workdir-72/stdout.log.txt
   - /1/wd/workdir-72/stdout.log.txt
   sys_cpu_time:
-  - 0.77
-  - 0.77
+  - null
+  - null
   user_cpu_time:
-  - 59.23
-  - 59.23
+  - null
+  - null
   wallclock_time:
-  - 60.40883632999976
-  - 60.40883632999976
+  - 60.45963732099335
+  - 60.45963732099335
   working_directory:
   - /0/wd/workdir-72
   - /1/wd/workdir-72
@@ -2882,8 +2882,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.86841025200192
-  - 60.86841025200192
+  - 60.50613681300456
+  - 60.50613681300456
   working_directory:
   - /0/wd/workdir-73
   - /1/wd/workdir-73
@@ -2892,8 +2892,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/sin2.c.15.smt2
   dsoes_wallclock_time:
-  - 60.057182761
-  - 60.057182761
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -2915,14 +2915,14 @@ results:
   - /0/wd/workdir-74/stdout.log.txt
   - /1/wd/workdir-74/stdout.log.txt
   sys_cpu_time:
-  - 0.97
-  - 0.97
+  - null
+  - null
   user_cpu_time:
-  - 59.02
-  - 59.02
+  - null
+  - null
   wallclock_time:
-  - 60.6288481570009
-  - 60.6288481570009
+  - 60.3718744420039
+  - 60.3718744420039
   working_directory:
   - /0/wd/workdir-74
   - /1/wd/workdir-74
@@ -2960,8 +2960,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.5878223389991
-  - 60.5878223389991
+  - 60.48798477099626
+  - 60.48798477099626
   working_directory:
   - /0/wd/workdir-75
   - /1/wd/workdir-75
@@ -2970,8 +2970,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sin2.c.2.smt2
   dsoes_wallclock_time:
-  - 0.927312022
-  - 0.927312022
+  - 0.914621102
+  - 0.914621102
   event_tag:
   - sat
   - sat
@@ -2993,14 +2993,14 @@ results:
   - /0/wd/workdir-76/stdout.log.txt
   - /1/wd/workdir-76/stdout.log.txt
   sys_cpu_time:
-  - 0.07
-  - 0.07
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 0.92
-  - 0.92
+  - 0.88
+  - 0.88
   wallclock_time:
-  - 1.7201548809971428
-  - 1.7201548809971428
+  - 1.6717053199972725
+  - 1.6717053199972725
   working_directory:
   - /0/wd/workdir-76
   - /1/wd/workdir-76
@@ -3038,8 +3038,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.55031225800121
-  - 60.55031225800121
+  - 60.36720560200047
+  - 60.36720560200047
   working_directory:
   - /0/wd/workdir-77
   - /1/wd/workdir-77
@@ -3077,8 +3077,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.59980894099863
-  - 60.59980894099863
+  - 60.40782434799621
+  - 60.40782434799621
   working_directory:
   - /0/wd/workdir-78
   - /1/wd/workdir-78
@@ -3087,8 +3087,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sin2.c.5.smt2
   dsoes_wallclock_time:
-  - 35.742404646
-  - 35.742404646
+  - 35.097894503
+  - 35.097894503
   event_tag:
   - sat
   - sat
@@ -3110,14 +3110,14 @@ results:
   - /0/wd/workdir-79/stdout.log.txt
   - /1/wd/workdir-79/stdout.log.txt
   sys_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.36
+  - 0.36
   user_cpu_time:
-  - 35.37
-  - 35.37
+  - 34.76
+  - 34.76
   wallclock_time:
-  - 36.38771095300035
-  - 36.38771095300035
+  - 35.740530856994155
+  - 35.740530856994155
   working_directory:
   - /0/wd/workdir-79
   - /1/wd/workdir-79
@@ -3155,8 +3155,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.46025303699935
-  - 60.46025303699935
+  - 60.40008945199952
+  - 60.40008945199952
   working_directory:
   - /0/wd/workdir-80
   - /1/wd/workdir-80
@@ -3165,8 +3165,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sine.1.0.i.smt2
   dsoes_wallclock_time:
-  - 0.699234877
-  - 0.699234877
+  - 0.639312891
+  - 0.639312891
   event_tag:
   - sat
   - sat
@@ -3188,14 +3188,14 @@ results:
   - /0/wd/workdir-81/stdout.log.txt
   - /1/wd/workdir-81/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.04
+  - 0.04
   user_cpu_time:
-  - 0.72
-  - 0.72
+  - 0.65
+  - 0.65
   wallclock_time:
-  - 1.3348270499991486
-  - 1.3348270499991486
+  - 1.2683917679969454
+  - 1.2683917679969454
   working_directory:
   - /0/wd/workdir-81
   - /1/wd/workdir-81
@@ -3204,8 +3204,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.10.smt2
   dsoes_wallclock_time:
-  - 8.438046381
-  - 8.438046381
+  - 8.593368764
+  - 8.593368764
   event_tag:
   - sat
   - sat
@@ -3227,14 +3227,14 @@ results:
   - /0/wd/workdir-82/stdout.log.txt
   - /1/wd/workdir-82/stdout.log.txt
   sys_cpu_time:
-  - 0.14
-  - 0.14
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 8.34
-  - 8.34
+  - 8.48
+  - 8.48
   wallclock_time:
-  - 8.972452419999172
-  - 8.972452419999172
+  - 9.306117731997801
+  - 9.306117731997801
   working_directory:
   - /0/wd/workdir-82
   - /1/wd/workdir-82
@@ -3243,8 +3243,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.15.smt2
   dsoes_wallclock_time:
-  - 2.450850556
-  - 2.450850556
+  - 2.390068378
+  - 2.390068378
   event_tag:
   - sat
   - sat
@@ -3269,11 +3269,11 @@ results:
   - 0.07
   - 0.07
   user_cpu_time:
-  - 2.45
-  - 2.45
+  - 2.36
+  - 2.36
   wallclock_time:
-  - 3.0807190939995053
-  - 3.0807190939995053
+  - 2.9948283080011606
+  - 2.9948283080011606
   working_directory:
   - /0/wd/workdir-83
   - /1/wd/workdir-83
@@ -3282,8 +3282,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.2.smt2
   dsoes_wallclock_time:
-  - 1.565693595
-  - 1.565693595
+  - 1.493598055
+  - 1.493598055
   event_tag:
   - sat
   - sat
@@ -3305,14 +3305,14 @@ results:
   - /0/wd/workdir-84/stdout.log.txt
   - /1/wd/workdir-84/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 1.53
-  - 1.53
+  - 1.47
+  - 1.47
   wallclock_time:
-  - 2.2097548940000706
-  - 2.2097548940000706
+  - 2.1684093679941725
+  - 2.1684093679941725
   working_directory:
   - /0/wd/workdir-84
   - /1/wd/workdir-84
@@ -3321,8 +3321,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.20.smt2
   dsoes_wallclock_time:
-  - 9.59897087
-  - 9.59897087
+  - 9.185857042
+  - 9.185857042
   event_tag:
   - sat
   - sat
@@ -3344,14 +3344,14 @@ results:
   - /0/wd/workdir-85/stdout.log.txt
   - /1/wd/workdir-85/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.16
+  - 0.16
   user_cpu_time:
-  - 9.52
-  - 9.52
+  - 9.08
+  - 9.08
   wallclock_time:
-  - 10.349645417001739
-  - 10.349645417001739
+  - 9.850737681997998
+  - 9.850737681997998
   working_directory:
   - /0/wd/workdir-85
   - /1/wd/workdir-85
@@ -3360,8 +3360,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.25.smt2
   dsoes_wallclock_time:
-  - 49.983839544
-  - 49.983839544
+  - 48.561854349
+  - 48.561854349
   event_tag:
   - sat
   - sat
@@ -3383,14 +3383,14 @@ results:
   - /0/wd/workdir-86/stdout.log.txt
   - /1/wd/workdir-86/stdout.log.txt
   sys_cpu_time:
-  - 0.25
-  - 0.25
+  - 0.31
+  - 0.31
   user_cpu_time:
-  - 49.69
-  - 49.69
+  - 48.26
+  - 48.26
   wallclock_time:
-  - 50.609857401002955
-  - 50.609857401002955
+  - 49.18903826200403
+  - 49.18903826200403
   working_directory:
   - /0/wd/workdir-86
   - /1/wd/workdir-86
@@ -3399,8 +3399,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/sqrt.c.5.smt2
   dsoes_wallclock_time:
-  - 3.59824047
-  - 3.59824047
+  - 3.535709908
+  - 3.535709908
   event_tag:
   - sat
   - sat
@@ -3422,14 +3422,14 @@ results:
   - /0/wd/workdir-87/stdout.log.txt
   - /1/wd/workdir-87/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.12
+  - 0.12
   user_cpu_time:
-  - 3.56
-  - 3.56
+  - 3.47
+  - 3.47
   wallclock_time:
-  - 4.3270334049993835
-  - 4.3270334049993835
+  - 4.176511780002329
+  - 4.176511780002329
   working_directory:
   - /0/wd/workdir-87
   - /1/wd/workdir-87
@@ -3438,8 +3438,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s14052.smt2
   dsoes_wallclock_time:
-  - 0.807138122
-  - 0.807138122
+  - 0.792056138
+  - 0.792056138
   event_tag:
   - sat
   - sat
@@ -3467,8 +3467,8 @@ results:
   - 0.79
   - 0.79
   wallclock_time:
-  - 1.4033479360005003
-  - 1.4033479360005003
+  - 1.4035303100026795
+  - 1.4035303100026795
   working_directory:
   - /0/wd/workdir-88
   - /1/wd/workdir-88
@@ -3477,8 +3477,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s24300.smt2
   dsoes_wallclock_time:
-  - 7.041537734
-  - 7.041537734
+  - 6.810596484
+  - 6.810596484
   event_tag:
   - sat
   - sat
@@ -3500,14 +3500,14 @@ results:
   - /0/wd/workdir-89/stdout.log.txt
   - /1/wd/workdir-89/stdout.log.txt
   sys_cpu_time:
-  - 0.12
-  - 0.12
+  - 0.11
+  - 0.11
   user_cpu_time:
-  - 6.98
-  - 6.98
+  - 6.74
+  - 6.74
   wallclock_time:
-  - 7.729298156002187
-  - 7.729298156002187
+  - 7.44980024999677
+  - 7.44980024999677
   working_directory:
   - /0/wd/workdir-89
   - /1/wd/workdir-89
@@ -3516,8 +3516,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr10_c1_s29304.smt2
   dsoes_wallclock_time:
-  - 1.742862437
-  - 1.742862437
+  - 1.641127588
+  - 1.641127588
   event_tag:
   - sat
   - sat
@@ -3539,14 +3539,14 @@ results:
   - /0/wd/workdir-90/stdout.log.txt
   - /1/wd/workdir-90/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 1.75
-  - 1.75
+  - 1.64
+  - 1.64
   wallclock_time:
-  - 2.382404840998788
-  - 2.382404840998788
+  - 2.2493944710004143
+  - 2.2493944710004143
   working_directory:
   - /0/wd/workdir-90
   - /1/wd/workdir-90
@@ -3555,8 +3555,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr1_c1_s10392.smt2
   dsoes_wallclock_time:
-  - 0.694675074
-  - 0.694675074
+  - 0.682163468
+  - 0.682163468
   event_tag:
   - sat
   - sat
@@ -3578,14 +3578,14 @@ results:
   - /0/wd/workdir-91/stdout.log.txt
   - /1/wd/workdir-91/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 0.7
-  - 0.7
+  - 0.68
+  - 0.68
   wallclock_time:
-  - 1.3865402750016074
-  - 1.3865402750016074
+  - 1.3494098219962325
+  - 1.3494098219962325
   working_directory:
   - /0/wd/workdir-91
   - /1/wd/workdir-91
@@ -3594,8 +3594,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16641.smt2
   dsoes_wallclock_time:
-  - 0.407997107
-  - 0.407997107
+  - 0.404375138
+  - 0.404375138
   event_tag:
   - sat
   - sat
@@ -3617,14 +3617,14 @@ results:
   - /0/wd/workdir-92/stdout.log.txt
   - /1/wd/workdir-92/stdout.log.txt
   sys_cpu_time:
-  - 0.05
-  - 0.05
+  - 0.06
+  - 0.06
   user_cpu_time:
-  - 0.41
-  - 0.41
+  - 0.4
+  - 0.4
   wallclock_time:
-  - 1.0584666960021423
-  - 1.0584666960021423
+  - 1.0714918849989772
+  - 1.0714918849989772
   working_directory:
   - /0/wd/workdir-92
   - /1/wd/workdir-92
@@ -3633,8 +3633,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s16867.smt2
   dsoes_wallclock_time:
-  - 0.412422077
-  - 0.412422077
+  - 0.399618908
+  - 0.399618908
   event_tag:
   - sat
   - sat
@@ -3656,14 +3656,14 @@ results:
   - /0/wd/workdir-93/stdout.log.txt
   - /1/wd/workdir-93/stdout.log.txt
   sys_cpu_time:
-  - 0.04
-  - 0.04
+  - 0.08
+  - 0.08
   user_cpu_time:
-  - 0.43
-  - 0.43
+  - 0.4
+  - 0.4
   wallclock_time:
-  - 1.119629807999445
-  - 1.119629807999445
+  - 1.1133452799986117
+  - 1.1133452799986117
   working_directory:
   - /0/wd/workdir-93
   - /1/wd/workdir-93
@@ -3672,8 +3672,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r3_vr5_c1_s26769.smt2
   dsoes_wallclock_time:
-  - 5.073478179
-  - 5.073478179
+  - 5.058272261
+  - 5.058272261
   event_tag:
   - sat
   - sat
@@ -3695,14 +3695,14 @@ results:
   - /0/wd/workdir-94/stdout.log.txt
   - /1/wd/workdir-94/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.07
+  - 0.07
   user_cpu_time:
-  - 5.03
-  - 5.03
+  - 5.04
+  - 5.04
   wallclock_time:
-  - 5.740848861998529
-  - 5.740848861998529
+  - 5.708974779998243
+  - 5.708974779998243
   working_directory:
   - /0/wd/workdir-94
   - /1/wd/workdir-94
@@ -3711,8 +3711,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v3_r8_vr10_c1_s5590.smt2
   dsoes_wallclock_time:
-  - 35.991845644
-  - 35.991845644
+  - 35.080231544
+  - 35.080231544
   event_tag:
   - sat
   - sat
@@ -3734,14 +3734,14 @@ results:
   - /0/wd/workdir-95/stdout.log.txt
   - /1/wd/workdir-95/stdout.log.txt
   sys_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.29
+  - 0.29
   user_cpu_time:
-  - 35.84
-  - 35.84
+  - 34.84
+  - 34.84
   wallclock_time:
-  - 36.64207330499994
-  - 36.64207330499994
+  - 35.714440237003146
+  - 35.714440237003146
   working_directory:
   - /0/wd/workdir-95
   - /1/wd/workdir-95
@@ -3750,8 +3750,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr10_c1_s15708.smt2
   dsoes_wallclock_time:
-  - 60.033956499
-  - 60.033956499
+  - 60.033028515
+  - 60.033028515
   event_tag:
   - timeout
   - timeout
@@ -3773,14 +3773,14 @@ results:
   - /0/wd/workdir-96/stdout.log.txt
   - /1/wd/workdir-96/stdout.log.txt
   sys_cpu_time:
-  - 0.31
-  - 0.31
+  - 0.38
+  - 0.38
   user_cpu_time:
-  - 59.64
-  - 59.64
+  - 59.68
+  - 59.68
   wallclock_time:
-  - 60.44639749400085
-  - 60.44639749400085
+  - 60.4220107910005
+  - 60.4220107910005
   working_directory:
   - /0/wd/workdir-96
   - /1/wd/workdir-96
@@ -3789,8 +3789,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s13516.smt2
   dsoes_wallclock_time:
-  - 47.852048176
-  - 47.852048176
+  - 45.499478087
+  - 45.499478087
   event_tag:
   - sat
   - sat
@@ -3812,14 +3812,14 @@ results:
   - /0/wd/workdir-97/stdout.log.txt
   - /1/wd/workdir-97/stdout.log.txt
   sys_cpu_time:
-  - 0.3
-  - 0.3
+  - 0.37
+  - 0.37
   user_cpu_time:
-  - 47.51
-  - 47.51
+  - 45.15
+  - 45.15
   wallclock_time:
-  - 48.50971598800243
-  - 48.50971598800243
+  - 46.07359889899817
+  - 46.07359889899817
   working_directory:
   - /0/wd/workdir-97
   - /1/wd/workdir-97
@@ -3828,8 +3828,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr1_c1_s19145.smt2
   dsoes_wallclock_time:
-  - 60.030271278
-  - 60.030271278
+  - 60.035660983
+  - 60.035660983
   event_tag:
   - timeout
   - timeout
@@ -3851,14 +3851,14 @@ results:
   - /0/wd/workdir-98/stdout.log.txt
   - /1/wd/workdir-98/stdout.log.txt
   sys_cpu_time:
-  - 0.34
-  - 0.34
+  - 0.37
+  - 0.37
   user_cpu_time:
   - 59.6
   - 59.6
   wallclock_time:
-  - 60.4164246299988
-  - 60.4164246299988
+  - 60.39470727399748
+  - 60.39470727399748
   working_directory:
   - /0/wd/workdir-98
   - /1/wd/workdir-98
@@ -3867,8 +3867,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13195.smt2
   dsoes_wallclock_time:
-  - 60.037237456
-  - 60.037237456
+  - 60.035307924
+  - 60.035307924
   event_tag:
   - timeout
   - timeout
@@ -3890,14 +3890,14 @@ results:
   - /0/wd/workdir-99/stdout.log.txt
   - /1/wd/workdir-99/stdout.log.txt
   sys_cpu_time:
-  - 0.33
-  - 0.33
+  - 0.43
+  - 0.43
   user_cpu_time:
-  - 59.68
-  - 59.68
+  - 59.6
+  - 59.6
   wallclock_time:
-  - 60.42201010699864
-  - 60.42201010699864
+  - 60.44979621099628
+  - 60.44979621099628
   working_directory:
   - /0/wd/workdir-99
   - /1/wd/workdir-99
@@ -3906,8 +3906,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r10_vr5_c1_s13679.smt2
   dsoes_wallclock_time:
-  - 60.031951326
-  - 60.031951326
+  - 60.032290971
+  - 60.032290971
   event_tag:
   - timeout
   - timeout
@@ -3929,14 +3929,14 @@ results:
   - /0/wd/workdir-100/stdout.log.txt
   - /1/wd/workdir-100/stdout.log.txt
   sys_cpu_time:
-  - 0.27
-  - 0.27
+  - 0.42
+  - 0.42
   user_cpu_time:
   - 59.62
   - 59.62
   wallclock_time:
-  - 60.41382070599866
-  - 60.41382070599866
+  - 60.407786887997645
+  - 60.407786887997645
   working_directory:
   - /0/wd/workdir-100
   - /1/wd/workdir-100
@@ -3945,8 +3945,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s14516.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.049872879
+  - 60.049872879
   event_tag:
   - timeout
   - timeout
@@ -3968,14 +3968,14 @@ results:
   - /0/wd/workdir-101/stdout.log.txt
   - /1/wd/workdir-101/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.58
+  - 0.58
   user_cpu_time:
-  - null
-  - null
+  - 59.47
+  - 59.47
   wallclock_time:
-  - 60.396350443999836
-  - 60.396350443999836
+  - 60.43733904399414
+  - 60.43733904399414
   working_directory:
   - /0/wd/workdir-101
   - /1/wd/workdir-101
@@ -3984,8 +3984,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r15_vr10_c1_s25268.smt2
   dsoes_wallclock_time:
-  - 60.045581564
-  - 60.045581564
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -4007,14 +4007,14 @@ results:
   - /0/wd/workdir-102/stdout.log.txt
   - /1/wd/workdir-102/stdout.log.txt
   sys_cpu_time:
-  - 0.49
-  - 0.49
+  - null
+  - null
   user_cpu_time:
-  - 59.5
-  - 59.5
+  - null
+  - null
   wallclock_time:
-  - 60.420484217000194
-  - 60.420484217000194
+  - 60.32664804500382
+  - 60.32664804500382
   working_directory:
   - /0/wd/workdir-102
   - /1/wd/workdir-102
@@ -4023,8 +4023,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5379.smt2
   dsoes_wallclock_time:
-  - 0.904916754
-  - 0.904916754
+  - 1.017220554
+  - 1.017220554
   event_tag:
   - sat
   - sat
@@ -4046,14 +4046,14 @@ results:
   - /0/wd/workdir-103/stdout.log.txt
   - /1/wd/workdir-103/stdout.log.txt
   sys_cpu_time:
-  - 0.09
-  - 0.09
+  - 0.13
+  - 0.13
   user_cpu_time:
-  - 0.86
-  - 0.86
+  - 0.92
+  - 0.92
   wallclock_time:
-  - 1.4910612880012195
-  - 1.4910612880012195
+  - 1.6245685450048768
+  - 1.6245685450048768
   working_directory:
   - /0/wd/workdir-103
   - /1/wd/workdir-103
@@ -4062,8 +4062,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s5996.smt2
   dsoes_wallclock_time:
-  - 1.777706461
-  - 1.777706461
+  - 1.732770128
+  - 1.732770128
   event_tag:
   - sat
   - sat
@@ -4085,14 +4085,14 @@ results:
   - /0/wd/workdir-104/stdout.log.txt
   - /1/wd/workdir-104/stdout.log.txt
   sys_cpu_time:
-  - 0.1
-  - 0.1
+  - 0.09
+  - 0.09
   user_cpu_time:
-  - 1.73
-  - 1.73
+  - 1.67
+  - 1.67
   wallclock_time:
-  - 2.4113922959986667
-  - 2.4113922959986667
+  - 2.327620318996196
+  - 2.327620318996196
   working_directory:
   - /0/wd/workdir-104
   - /1/wd/workdir-104
@@ -4101,8 +4101,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr10_c1_s7194.smt2
   dsoes_wallclock_time:
-  - 60.017241931
-  - 60.017241931
+  - 60.019360023
+  - 60.019360023
   event_tag:
   - timeout
   - timeout
@@ -4124,14 +4124,14 @@ results:
   - /0/wd/workdir-105/stdout.log.txt
   - /1/wd/workdir-105/stdout.log.txt
   sys_cpu_time:
-  - 0.19
-  - 0.19
+  - 0.21
+  - 0.21
   user_cpu_time:
-  - 59.79
-  - 59.79
+  - 59.8
+  - 59.8
   wallclock_time:
-  - 60.40188308299912
-  - 60.40188308299912
+  - 60.423744963998615
+  - 60.423744963998615
   working_directory:
   - /0/wd/workdir-105
   - /1/wd/workdir-105
@@ -4140,8 +4140,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s14623.smt2
   dsoes_wallclock_time:
-  - 60.015982117
-  - 60.015982117
+  - 60.022210949
+  - 60.022210949
   event_tag:
   - timeout
   - timeout
@@ -4163,14 +4163,14 @@ results:
   - /0/wd/workdir-106/stdout.log.txt
   - /1/wd/workdir-106/stdout.log.txt
   sys_cpu_time:
-  - 0.22
-  - 0.22
+  - 0.27
+  - 0.27
   user_cpu_time:
-  - 59.71
-  - 59.71
+  - 59.75
+  - 59.75
   wallclock_time:
-  - 60.44416263099993
-  - 60.44416263099993
+  - 60.398526161996415
+  - 60.398526161996415
   working_directory:
   - /0/wd/workdir-106
   - /1/wd/workdir-106
@@ -4179,8 +4179,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s15604.smt2
   dsoes_wallclock_time:
-  - 27.165887588
-  - 27.165887588
+  - 25.447398456
+  - 25.447398456
   event_tag:
   - sat
   - sat
@@ -4202,14 +4202,14 @@ results:
   - /0/wd/workdir-107/stdout.log.txt
   - /1/wd/workdir-107/stdout.log.txt
   sys_cpu_time:
-  - 0.16
-  - 0.16
+  - 0.15
+  - 0.15
   user_cpu_time:
-  - 27.01
-  - 27.01
+  - 25.34
+  - 25.34
   wallclock_time:
-  - 27.816300693000812
-  - 27.816300693000812
+  - 26.02830492299836
+  - 26.02830492299836
   working_directory:
   - /0/wd/workdir-107
   - /1/wd/workdir-107
@@ -4218,8 +4218,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr1_c1_s16138.smt2
   dsoes_wallclock_time:
-  - 11.536046738
-  - 11.536046738
+  - 11.728679639
+  - 11.728679639
   event_tag:
   - sat
   - sat
@@ -4241,14 +4241,14 @@ results:
   - /0/wd/workdir-108/stdout.log.txt
   - /1/wd/workdir-108/stdout.log.txt
   sys_cpu_time:
-  - 0.18
-  - 0.18
+  - 0.22
+  - 0.22
   user_cpu_time:
-  - 11.4
-  - 11.4
+  - 11.56
+  - 11.56
   wallclock_time:
-  - 12.158956571001909
-  - 12.158956571001909
+  - 12.368995398006518
+  - 12.368995398006518
   working_directory:
   - /0/wd/workdir-108
   - /1/wd/workdir-108
@@ -4257,8 +4257,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s24018.smt2
   dsoes_wallclock_time:
-  - 60.024915052
-  - 60.024915052
+  - 60.018056371
+  - 60.018056371
   event_tag:
   - timeout
   - timeout
@@ -4280,14 +4280,14 @@ results:
   - /0/wd/workdir-109/stdout.log.txt
   - /1/wd/workdir-109/stdout.log.txt
   sys_cpu_time:
-  - 0.25
-  - 0.25
+  - 0.21
+  - 0.21
   user_cpu_time:
-  - 59.71
-  - 59.71
+  - 59.84
+  - 59.84
   wallclock_time:
-  - 60.42556837900338
-  - 60.42556837900338
+  - 60.39645865299826
+  - 60.39645865299826
   working_directory:
   - /0/wd/workdir-109
   - /1/wd/workdir-109
@@ -4296,8 +4296,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s2800.smt2
   dsoes_wallclock_time:
-  - 60.018250321
-  - 60.018250321
+  - 60.018251867
+  - 60.018251867
   event_tag:
   - timeout
   - timeout
@@ -4319,14 +4319,14 @@ results:
   - /0/wd/workdir-110/stdout.log.txt
   - /1/wd/workdir-110/stdout.log.txt
   sys_cpu_time:
-  - 0.22
-  - 0.22
+  - 0.23
+  - 0.23
   user_cpu_time:
-  - 59.75
-  - 59.75
+  - 59.82
+  - 59.82
   wallclock_time:
-  - 60.41413173199908
-  - 60.41413173199908
+  - 60.365725752999424
+  - 60.365725752999424
   working_directory:
   - /0/wd/workdir-110
   - /1/wd/workdir-110
@@ -4335,8 +4335,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v5_r5_vr5_c1_s9855.smt2
   dsoes_wallclock_time:
-  - 53.200973577
-  - 53.200973577
+  - 50.783296689
+  - 50.783296689
   event_tag:
   - sat
   - sat
@@ -4361,11 +4361,11 @@ results:
   - 0.2
   - 0.2
   user_cpu_time:
-  - 52.98
-  - 52.98
+  - 50.6
+  - 50.6
   wallclock_time:
-  - 53.87257043200225
-  - 53.87257043200225
+  - 51.37579362500401
+  - 51.37579362500401
   working_directory:
   - /0/wd/workdir-111
   - /1/wd/workdir-111
@@ -4374,8 +4374,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s15994.smt2
   dsoes_wallclock_time:
-  - 60.049480608
-  - 60.049480608
+  - 60.051978376
+  - 60.051978376
   event_tag:
   - timeout
   - timeout
@@ -4397,14 +4397,14 @@ results:
   - /0/wd/workdir-112/stdout.log.txt
   - /1/wd/workdir-112/stdout.log.txt
   sys_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.54
+  - 0.54
   user_cpu_time:
-  - 59.62
-  - 59.62
+  - 59.53
+  - 59.53
   wallclock_time:
-  - 60.43430702500336
-  - 60.43430702500336
+  - 60.423498023999855
+  - 60.423498023999855
   working_directory:
   - /0/wd/workdir-112
   - /1/wd/workdir-112
@@ -4413,8 +4413,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s18160.smt2
   dsoes_wallclock_time:
-  - 60.050964014
-  - 60.050964014
+  - 60.049477941
+  - 60.049477941
   event_tag:
   - timeout
   - timeout
@@ -4436,14 +4436,14 @@ results:
   - /0/wd/workdir-113/stdout.log.txt
   - /1/wd/workdir-113/stdout.log.txt
   sys_cpu_time:
-  - 0.51
-  - 0.51
+  - 0.46
+  - 0.46
   user_cpu_time:
-  - 59.48
-  - 59.48
+  - 59.53
+  - 59.53
   wallclock_time:
-  - 60.434740608998254
-  - 60.434740608998254
+  - 60.38055198399525
+  - 60.38055198399525
   working_directory:
   - /0/wd/workdir-113
   - /1/wd/workdir-113
@@ -4452,8 +4452,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr10_c1_s30410.smt2
   dsoes_wallclock_time:
-  - 60.044769835
-  - 60.044769835
+  - 60.046639554
+  - 60.046639554
   event_tag:
   - timeout
   - timeout
@@ -4475,14 +4475,14 @@ results:
   - /0/wd/workdir-114/stdout.log.txt
   - /1/wd/workdir-114/stdout.log.txt
   sys_cpu_time:
-  - 0.39
-  - 0.39
+  - 0.43
+  - 0.43
   user_cpu_time:
-  - 59.55
-  - 59.55
+  - 59.58
+  - 59.58
   wallclock_time:
-  - 60.51269075299933
-  - 60.51269075299933
+  - 60.404569467995316
+  - 60.404569467995316
   working_directory:
   - /0/wd/workdir-114
   - /1/wd/workdir-114
@@ -4491,8 +4491,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s10576.smt2
   dsoes_wallclock_time:
-  - 60.043489974
-  - 60.043489974
+  - 60.045486746
+  - 60.045486746
   event_tag:
   - timeout
   - timeout
@@ -4514,14 +4514,14 @@ results:
   - /0/wd/workdir-115/stdout.log.txt
   - /1/wd/workdir-115/stdout.log.txt
   sys_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.53
+  - 0.53
   user_cpu_time:
-  - 59.57
-  - 59.57
+  - 59.42
+  - 59.42
   wallclock_time:
-  - 60.4246976659997
-  - 60.4246976659997
+  - 60.390869326998654
+  - 60.390869326998654
   working_directory:
   - /0/wd/workdir-115
   - /1/wd/workdir-115
@@ -4559,8 +4559,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.412490976999834
-  - 60.412490976999834
+  - 60.38838979299908
+  - 60.38838979299908
   working_directory:
   - /0/wd/workdir-116
   - /1/wd/workdir-116
@@ -4569,8 +4569,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr1_c1_s703.smt2
   dsoes_wallclock_time:
-  - 60.05021163
-  - 60.05021163
+  - 60.04765714
+  - 60.04765714
   event_tag:
   - timeout
   - timeout
@@ -4592,14 +4592,14 @@ results:
   - /0/wd/workdir-117/stdout.log.txt
   - /1/wd/workdir-117/stdout.log.txt
   sys_cpu_time:
-  - 0.45
-  - 0.45
+  - 0.46
+  - 0.46
   user_cpu_time:
-  - 59.53
-  - 59.53
+  - 59.52
+  - 59.52
   wallclock_time:
-  - 60.41494080499979
-  - 60.41494080499979
+  - 60.46285507900029
+  - 60.46285507900029
   working_directory:
   - /0/wd/workdir-117
   - /1/wd/workdir-117
@@ -4608,8 +4608,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s14336.smt2
   dsoes_wallclock_time:
-  - 60.045240485
-  - 60.045240485
+  - 60.045445919
+  - 60.045445919
   event_tag:
   - timeout
   - timeout
@@ -4631,14 +4631,14 @@ results:
   - /0/wd/workdir-118/stdout.log.txt
   - /1/wd/workdir-118/stdout.log.txt
   sys_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.49
+  - 0.49
   user_cpu_time:
-  - 59.61
-  - 59.61
+  - 59.56
+  - 59.56
   wallclock_time:
-  - 60.468072358002246
-  - 60.468072358002246
+  - 60.39876718700543
+  - 60.39876718700543
   working_directory:
   - /0/wd/workdir-118
   - /1/wd/workdir-118
@@ -4647,8 +4647,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r12_vr5_c1_s29826.smt2
   dsoes_wallclock_time:
-  - 60.049787292
-  - 60.049787292
+  - 60.042522442
+  - 60.042522442
   event_tag:
   - timeout
   - timeout
@@ -4673,11 +4673,11 @@ results:
   - 0.42
   - 0.42
   user_cpu_time:
-  - 59.51
-  - 59.51
+  - 59.64
+  - 59.64
   wallclock_time:
-  - 60.41141018399867
-  - 60.41141018399867
+  - 60.44285335799941
+  - 60.44285335799941
   working_directory:
   - /0/wd/workdir-119
   - /1/wd/workdir-119
@@ -4715,8 +4715,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.34506407200024
-  - 60.34506407200024
+  - 60.35732795900549
+  - 60.35732795900549
   working_directory:
   - /0/wd/workdir-120
   - /1/wd/workdir-120
@@ -4725,8 +4725,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s18654.smt2
   dsoes_wallclock_time:
-  - 60.063398527
-  - 60.063398527
+  - 60.064432629
+  - 60.064432629
   event_tag:
   - timeout
   - timeout
@@ -4748,14 +4748,14 @@ results:
   - /0/wd/workdir-121/stdout.log.txt
   - /1/wd/workdir-121/stdout.log.txt
   sys_cpu_time:
-  - 0.85
-  - 0.85
+  - 0.88
+  - 0.88
   user_cpu_time:
-  - 59.11
-  - 59.11
+  - 59.16
+  - 59.16
   wallclock_time:
-  - 60.43723648299783
-  - 60.43723648299783
+  - 60.45738133499981
+  - 60.45738133499981
   working_directory:
   - /0/wd/workdir-121
   - /1/wd/workdir-121
@@ -4764,8 +4764,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s3680.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.05964456
+  - 60.05964456
   event_tag:
   - timeout
   - timeout
@@ -4787,14 +4787,14 @@ results:
   - /0/wd/workdir-122/stdout.log.txt
   - /1/wd/workdir-122/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.97
+  - 0.97
   user_cpu_time:
-  - null
-  - null
+  - 59.02
+  - 59.02
   wallclock_time:
-  - 60.46906505100196
-  - 60.46906505100196
+  - 60.41377260899753
+  - 60.41377260899753
   working_directory:
   - /0/wd/workdir-122
   - /1/wd/workdir-122
@@ -4803,8 +4803,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr10_c1_s8773.smt2
   dsoes_wallclock_time:
-  - 60.055205983
-  - 60.055205983
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -4826,14 +4826,14 @@ results:
   - /0/wd/workdir-123/stdout.log.txt
   - /1/wd/workdir-123/stdout.log.txt
   sys_cpu_time:
-  - 0.71
-  - 0.71
+  - null
+  - null
   user_cpu_time:
-  - 59.25
-  - 59.25
+  - null
+  - null
   wallclock_time:
-  - 60.44049268600065
-  - 60.44049268600065
+  - 60.32488741900306
+  - 60.32488741900306
   working_directory:
   - /0/wd/workdir-123
   - /1/wd/workdir-123
@@ -4842,8 +4842,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s23882.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.065191217
+  - 60.065191217
   event_tag:
   - timeout
   - timeout
@@ -4865,14 +4865,14 @@ results:
   - /0/wd/workdir-124/stdout.log.txt
   - /1/wd/workdir-124/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.86
+  - 0.86
   user_cpu_time:
-  - null
-  - null
+  - 59.13
+  - 59.13
   wallclock_time:
-  - 60.353562824999244
-  - 60.353562824999244
+  - 60.398937949001265
+  - 60.398937949001265
   working_directory:
   - /0/wd/workdir-124
   - /1/wd/workdir-124
@@ -4881,8 +4881,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr1_c1_s24331.smt2
   dsoes_wallclock_time:
-  - 60.06785776
-  - 60.06785776
+  - 60.060831389
+  - 60.060831389
   event_tag:
   - timeout
   - timeout
@@ -4904,14 +4904,14 @@ results:
   - /0/wd/workdir-125/stdout.log.txt
   - /1/wd/workdir-125/stdout.log.txt
   sys_cpu_time:
-  - 0.84
-  - 0.84
+  - 0.87
+  - 0.87
   user_cpu_time:
-  - 59.19
-  - 59.19
+  - 59.18
+  - 59.18
   wallclock_time:
-  - 60.426339476001885
-  - 60.426339476001885
+  - 60.42183998299879
+  - 60.42183998299879
   working_directory:
   - /0/wd/workdir-125
   - /1/wd/workdir-125
@@ -4920,8 +4920,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s25451.smt2
   dsoes_wallclock_time:
-  - 60.062016313
-  - 60.062016313
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -4943,14 +4943,14 @@ results:
   - /0/wd/workdir-126/stdout.log.txt
   - /1/wd/workdir-126/stdout.log.txt
   sys_cpu_time:
-  - 0.62
-  - 0.62
+  - null
+  - null
   user_cpu_time:
-  - 59.31
-  - 59.31
+  - null
+  - null
   wallclock_time:
-  - 60.47176827400108
-  - 60.47176827400108
+  - 60.345183022996935
+  - 60.345183022996935
   working_directory:
   - /0/wd/workdir-126
   - /1/wd/workdir-126
@@ -4959,8 +4959,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r17_vr5_c1_s2807.smt2
   dsoes_wallclock_time:
-  - 60.063143872
-  - 60.063143872
+  - null
+  - null
   event_tag:
   - timeout
   - timeout
@@ -4982,14 +4982,14 @@ results:
   - /0/wd/workdir-127/stdout.log.txt
   - /1/wd/workdir-127/stdout.log.txt
   sys_cpu_time:
-  - 0.7
-  - 0.7
+  - null
+  - null
   user_cpu_time:
-  - 59.3
-  - 59.3
+  - null
+  - null
   wallclock_time:
-  - 60.44392251300087
-  - 60.44392251300087
+  - 60.3644865210008
+  - 60.3644865210008
   working_directory:
   - /0/wd/workdir-127
   - /1/wd/workdir-127
@@ -5027,8 +5027,8 @@ results:
   - null
   - null
   wallclock_time:
-  - 60.38609661999726
-  - 60.38609661999726
+  - 60.387384197005304
+  - 60.387384197005304
   working_directory:
   - /0/wd/workdir-128
   - /1/wd/workdir-128
@@ -5037,8 +5037,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s10625.smt2
   dsoes_wallclock_time:
-  - null
-  - null
+  - 60.033119583
+  - 60.033119583
   event_tag:
   - timeout
   - timeout
@@ -5060,14 +5060,14 @@ results:
   - /0/wd/workdir-129/stdout.log.txt
   - /1/wd/workdir-129/stdout.log.txt
   sys_cpu_time:
-  - null
-  - null
+  - 0.38
+  - 0.38
   user_cpu_time:
-  - null
-  - null
+  - 59.7
+  - 59.7
   wallclock_time:
-  - 60.39798478099692
-  - 60.39798478099692
+  - 60.4155064689985
+  - 60.4155064689985
   working_directory:
   - /0/wd/workdir-129
   - /1/wd/workdir-129
@@ -5076,8 +5076,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s24535.smt2
   dsoes_wallclock_time:
-  - 42.519102853
-  - 42.519102853
+  - 41.045191601
+  - 41.045191601
   event_tag:
   - sat
   - sat
@@ -5099,14 +5099,14 @@ results:
   - /0/wd/workdir-130/stdout.log.txt
   - /1/wd/workdir-130/stdout.log.txt
   sys_cpu_time:
-  - 0.38
-  - 0.38
+  - 0.34
+  - 0.34
   user_cpu_time:
-  - 42.1
-  - 42.1
+  - 40.73
+  - 40.73
   wallclock_time:
-  - 43.193464669002424
-  - 43.193464669002424
+  - 41.64388086800318
+  - 41.64388086800318
   working_directory:
   - /0/wd/workdir-130
   - /1/wd/workdir-130
@@ -5115,8 +5115,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr10_c1_s32506.smt2
   dsoes_wallclock_time:
-  - 60.03067445
-  - 60.03067445
+  - 60.030615797
+  - 60.030615797
   event_tag:
   - timeout
   - timeout
@@ -5138,14 +5138,14 @@ results:
   - /0/wd/workdir-131/stdout.log.txt
   - /1/wd/workdir-131/stdout.log.txt
   sys_cpu_time:
-  - 0.37
-  - 0.37
+  - 0.4
+  - 0.4
   user_cpu_time:
-  - 59.58
-  - 59.58
+  - 59.67
+  - 59.67
   wallclock_time:
-  - 60.428369812998426
-  - 60.428369812998426
+  - 60.38949212800071
+  - 60.38949212800071
   working_directory:
   - /0/wd/workdir-131
   - /1/wd/workdir-131
@@ -5154,8 +5154,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s22845.smt2
   dsoes_wallclock_time:
-  - 58.664708001
-  - 58.664708001
+  - 55.150995455
+  - 55.150995455
   event_tag:
   - sat
   - sat
@@ -5177,14 +5177,14 @@ results:
   - /0/wd/workdir-132/stdout.log.txt
   - /1/wd/workdir-132/stdout.log.txt
   sys_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.4
+  - 0.4
   user_cpu_time:
-  - 58.28
-  - 58.28
+  - 54.79
+  - 54.79
   wallclock_time:
-  - 59.29946940999798
-  - 59.29946940999798
+  - 55.68144249499892
+  - 55.68144249499892
   working_directory:
   - /0/wd/workdir-132
   - /1/wd/workdir-132
@@ -5193,8 +5193,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr1_c1_s4574.smt2
   dsoes_wallclock_time:
-  - 60.034287937
-  - 60.034287937
+  - 60.032435651
+  - 60.032435651
   event_tag:
   - timeout
   - timeout
@@ -5216,14 +5216,14 @@ results:
   - /0/wd/workdir-133/stdout.log.txt
   - /1/wd/workdir-133/stdout.log.txt
   sys_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.36
+  - 0.36
   user_cpu_time:
   - 59.66
   - 59.66
   wallclock_time:
-  - 60.42085998000039
-  - 60.42085998000039
+  - 60.39482414500526
+  - 60.39482414500526
   working_directory:
   - /0/wd/workdir-133
   - /1/wd/workdir-133
@@ -5232,8 +5232,8 @@ results:
   - false
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s14675.smt2
   dsoes_wallclock_time:
-  - 57.008119809
-  - 57.008119809
+  - 53.054376696
+  - 53.054376696
   event_tag:
   - sat
   - sat
@@ -5255,14 +5255,14 @@ results:
   - /0/wd/workdir-134/stdout.log.txt
   - /1/wd/workdir-134/stdout.log.txt
   sys_cpu_time:
-  - 0.35
-  - 0.35
+  - 0.43
+  - 0.43
   user_cpu_time:
-  - 56.6
-  - 56.6
+  - 52.65
+  - 52.65
   wallclock_time:
-  - 57.615703532002954
-  - 57.615703532002954
+  - 53.614275423002255
+  - 53.614275423002255
   working_directory:
   - /0/wd/workdir-134
   - /1/wd/workdir-134
@@ -5271,8 +5271,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s19694.smt2
   dsoes_wallclock_time:
-  - 60.03338359
-  - 60.03338359
+  - 60.030977014
+  - 60.030977014
   event_tag:
   - timeout
   - timeout
@@ -5294,14 +5294,14 @@ results:
   - /0/wd/workdir-135/stdout.log.txt
   - /1/wd/workdir-135/stdout.log.txt
   sys_cpu_time:
-  - 0.32
-  - 0.32
+  - 0.31
+  - 0.31
   user_cpu_time:
-  - 59.59
-  - 59.59
+  - 59.71
+  - 59.71
   wallclock_time:
-  - 60.427085700001044
-  - 60.427085700001044
+  - 60.3602212620026
+  - 60.3602212620026
   working_directory:
   - /0/wd/workdir-135
   - /1/wd/workdir-135
@@ -5310,8 +5310,8 @@ results:
   - true
   benchmark: QF_FP/griggio/fmcad12/test_v7_r7_vr5_c1_s3582.smt2
   dsoes_wallclock_time:
-  - 60.02953467
-  - 60.02953467
+  - 60.028357421
+  - 60.028357421
   event_tag:
   - timeout
   - timeout
@@ -5333,14 +5333,14 @@ results:
   - /0/wd/workdir-136/stdout.log.txt
   - /1/wd/workdir-136/stdout.log.txt
   sys_cpu_time:
-  - 0.26
-  - 0.26
+  - 0.41
+  - 0.41
   user_cpu_time:
-  - 59.64
-  - 59.64
+  - 59.62
+  - 59.62
   wallclock_time:
-  - 60.43629825199969
-  - 60.43629825199969
+  - 60.39657027400244
+  - 60.39657027400244
   working_directory:
   - /0/wd/workdir-136
   - /1/wd/workdir-136

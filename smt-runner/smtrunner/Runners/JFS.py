@@ -25,20 +25,20 @@ class JFS(RunnerBaseClass):
 
     def getResults(self):
         r = super(JFS, self).getResults()
-        wd = r['working_directory']
-        jfs_output_dir = os.path.join(wd, 'jfs-wd')
-        jfs_stats_file = os.path.join(wd, 'jfs-stats.yml')
-        r['jfs_working_directory'] = jfs_output_dir
-        r['jfs_stats_file'] = jfs_stats_file
+        # wd = r['working_directory']
+        # jfs_output_dir = os.path.join(wd, 'jfs-wd')
+        # jfs_stats_file = os.path.join(wd, 'jfs-stats.yml')
+        # r['jfs_working_directory'] = jfs_output_dir
+        # r['jfs_stats_file'] = jfs_stats_file
         return r
 
     def run(self):
         # Build the command line
         cmdLine = [self.toolPath] + self.additionalArgs
         # TODO: Make configurable from runner
-        cmdLine.append('-output-dir=jfs-wd')
-        cmdLine.append('-keep-output-dir')
-        cmdLine.append('-stats-file=jfs-stats.yml')
+        # cmdLine.append('-output-dir=jfs-wd')
+        # cmdLine.append('-keep-output-dir')
+        # cmdLine.append('-stats-file=jfs-stats.yml')
 
         # Add the benchmark
         cmdLine.append(self.programPathArgument)

@@ -23,6 +23,8 @@ def get_event_analyser_from_runner_name(name, *nargs, **kwargs):
         return goSATRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'optSAT':
         return optSATRunnerEventAnalyser(*nargs, **kwargs)
+    if name == 'OL1V3R':
+        return OL1V3RRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'XSat':
         return XSatRunnerEventAnalyser(*nargs, **kwargs)
     if name == 'Coral':
@@ -33,6 +35,8 @@ def get_event_analyser_from_runner_name(name, *nargs, **kwargs):
         return CVC5RunnerEventAnalyser(*nargs, **kwargs)
     if name == 'Bitwuzla':
         return BitwuzlaRunnerEventAnalyser(*nargs, **kwargs)
+    if name == 'optSATBitwuzla':
+        return optSATBitwuzlaRunnerEventAnalyser(*nargs, **kwargs)
     
     raise Exception('not implemented')
 
@@ -87,6 +91,11 @@ def merge_aggregate_events(events):
     gosat_unknown_count = len(list(filter(lambda tag: tag == 'gosat_unknown', events)))
     if (gosat_unknown_count + sat_count) == len(events):
         return ('sat', True)
+    if (timeout_count + gosat_unknown_count) == len(events): # add by yx
+        if timeout_count >= gosat_unknown_count:
+            return ('timeout', True)
+        else:
+            return ('gosat_unknown_count', True)
 
     optsat_unknown_count = len(list(filter(lambda tag: tag == 'optsat_unknown', events)))
     if (optsat_unknown_count + sat_count) == len(events):
@@ -106,6 +115,14 @@ def merge_aggregate_events(events):
             return ('timeout', True)
         else:
             return ('colibri_generic_unknown', True)
+
+    # add by yx
+    colibri_unsat_expected_sat_count = len(list(filter(lambda tag: tag == 'unsat_but_expected_sat', events)))
+    if (timeout_count + colibri_unsat_expected_sat_count) == len(events):
+        if timeout_count >= colibri_generic_unknown_count:
+            return ('timeout', True)
+        else:
+            return ('colibri_unsat_but_expected_sat_count', True)
 
     raise MergeEventFailure('Could not merge {}'.format(events))
 
@@ -339,6 +356,25 @@ class JFSRunnerEventAnalyser(GenericRunnerEventAnalyser):
         assert fuzzing_wallclock_time is None or isinstance(fuzzing_wallclock_time, float)
         return (num_inputs, num_wrong_sized_inputs, fuzzing_wallclock_time)
 
+    def _error_unimplement_fp_literals(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            if ri['sat'] == 'sat':
+                if ri['expected_sat'] == 'unsat':
+                    return 'sat_but_expected_unsat'
+                return 'sat'
+            if ri['sat'] == 'unsat':
+                if ri['expected_sat'] == 'sat':
+                    return 'unsat_but_expected_sat'
+                return 'unsat'
+        if ri['exit_code'] == 255:
+            return "unknown"
+        if ri['exit_code'] == 'null':
+            return "time_out"
+        if ri['exit_code'] == 20 and ri['sat'] == 'unsat':
+            return "unsat"
+
     def get_solver_end_state_checker_fns(self):
         c = [
             self._unsupported_bv_sort,
@@ -346,6 +382,7 @@ class JFSRunnerEventAnalyser(GenericRunnerEventAnalyser):
             self._unsupported_general_sort,
             self._dropped_stdout,
             self._libfuzzer_timeout,
+            self._error_unimplement_fp_literals,
         ]
         if self.handle_unknown:
             c.append(self._handle_unknown_no_timeout)
@@ -694,6 +731,24 @@ class goSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
                     return 'gosat_unsupported_expr'
         return None
 
+    def _error_unimplement_fp_literals(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            if ri['sat'] == 'sat':
+                if ri['expected_sat'] == 'unsat':
+                    return 'sat_but_expected_unsat'
+                return 'sat'
+            if ri['sat'] == 'unsat':
+                if ri['expected_sat'] == 'sat':
+                    return 'unsat_but_expected_sat'
+                return 'unsat'
+        if ri['exit_code'] == 3:
+            return "unknown"
+        if ri['exit_code'] == 'null':
+            return "time_out"
+        if ri['exit_code'] == 20 and ri['sat'] == 'unsat':
+            return "unsat"
 
     def get_solver_end_state_checker_fns(self):
         # Child classes should override this
@@ -703,6 +758,7 @@ class goSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
             self.error_uncaught_exception,
             self.result_unknown,
             self.error_unsupported_expression,
+            self._error_unimplement_fp_literals,
         ]
 
 class optSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
@@ -787,6 +843,109 @@ class optSATRunnerEventAnalyser(GenericRunnerEventAnalyser):
             self.error_unsupported_expression,
         ]
 
+class optSATBitwuzlaRunnerEventAnalyser(GenericRunnerEventAnalyser):
+    def __init__(self, *nargs, **kwargs):
+        super().__init__("optSATBitwuzla", *nargs, **kwargs)
+
+    def error_generic_crash(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        # FIXME: The exit code is different depending on the backend
+        if ri['exit_code'] != 255 and geti.backend != 'Docker':
+            return None
+        if os.path.getsize(self.get_stdout_log_path(ri, wd_base)) == 0:
+            if os.path.getsize(self.get_stderr_log_path(ri, wd_base)) == 0:
+                return 'optsat_generic_crash'
+        return None
+
+    _RE_ASSERT_FAIL = re.compile(r'Assertion.+failed')
+
+    def error_assert_failed(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_ASSERT_FAIL.search(l)
+                if m:
+                    return 'optsat_assert_fail'
+        return None
+
+    _RE_UNCAUGHT_EXCEPTION = re.compile(r"terminate called after throwing an instance of")
+
+    def error_uncaught_exception(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_UNCAUGHT_EXCEPTION.search(l)
+                if m:
+                    return 'optsat_uncaught_exception'
+        return None
+
+    def result_unknown(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] != 0:
+            return None
+        # Check stderr is empty
+        stderr_path = self.get_stderr_log_path(ri, wd_base)
+        if os.path.getsize(stderr_path) != 0:
+            return None
+        if ri['sat'] == 'unknown':
+            return 'optsat_unknown'
+
+    _RE_UNSUPPORTED_EXPR = re.compile(r'^(Unsupported expression|unsupported:)')
+    def error_unsupported_expression(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            return None
+        with self.open_stderr_log(ri, wd_base) as f:
+            for l in f.readlines():
+                _logger.debug('Matching against line "{}"'.format(l))
+                m = self._RE_UNSUPPORTED_EXPR.match(l)
+                if m:
+                    return 'optsat_unsupported_expr'
+        return None
+
+    _RE_UNIMP_FP_LIT = re.compile(r'Floating-point literals not yet implemented')
+
+    def _error_unimplement_fp_literals(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 10:
+            if ri['sat'] == 'sat':
+                if ri['expected_sat'] == 'unsat':
+                    return 'sat_but_expected_unsat'
+                return 'sat'
+            if ri['sat'] == 'unsat':
+                if ri['expected_sat'] == 'sat':
+                    return 'unsat_but_expected_sat'
+                return 'unsat'
+        if ri['exit_code'] == 1:
+            return "unknown"
+        if ri['exit_code'] == 'null':
+            return "time_out"
+        if ri['exit_code'] == 20 and ri['sat'] == 'unsat':
+            return "unsat"
+
+    def get_solver_end_state_checker_fns(self):
+        # Child classes should override this
+        return [
+            self.error_generic_crash,
+            self.error_assert_failed,
+            self.error_uncaught_exception,
+            self.result_unknown,
+            self.error_unsupported_expression,
+            self._error_unimplement_fp_literals,
+        ]
+
 class ColibriRunnerEventAnalyser(GenericRunnerEventAnalyser):
     def __init__(self, *nargs, **kwargs):
         super().__init__("Colibri", *nargs, **kwargs)
@@ -797,10 +956,11 @@ class ColibriRunnerEventAnalyser(GenericRunnerEventAnalyser):
         # Colibri has been observed emitting both exit codes
         if ri['sat'] != 'unknown' or (ri['exit_code'] != 2 and ri['exit_code'] != 3):
             return None
-        # Check stderr is empty
-        stderr_path = self.get_stderr_log_path(ri, wd_base)
-        if os.path.getsize(stderr_path) != 0:
-            return None
+        # don't differ unknown type or cause reason
+        # # Check stderr is empty
+        # stderr_path = self.get_stderr_log_path(ri, wd_base)
+        # if os.path.getsize(stderr_path) != 0:
+        #     return None
         # I don't know what colibri is doing here
         return 'colibri_generic_unknown'
 
@@ -861,7 +1021,7 @@ class Z3RunnerEventAnalyser(GenericRunnerEventAnalyser):
     def __init__(self, *nargs, **kwargs):
         super().__init__("Z3", *nargs, **kwargs)
 
-    def old_z3_benchmark_name_bug(self, ri, wd_base):
+    def old_z3_benchmark_name_bug(self, geti):
         ri = geti.ri
         wd_base = geti.wd_base
         # This was a bug where we forgot to tell Z3 to handle
@@ -1102,6 +1262,37 @@ class BitwuzlaRunnerEventAnalyser(GenericRunnerEventAnalyser):
         wd_base = geti.wd_base
         if ri['exit_code'] == 10:
             if ri['sat'] == 'sat':
+                # if ri['expected_sat'] == 'unsat':
+                #     return 'sat_but_expected_unsat'
+                return 'sat'
+            if ri['sat'] == 'unsat':
+                # if ri['expected_sat'] == 'sat':
+                #     return 'unsat_but_expected_sat'
+                return 'unsat'
+        if ri['exit_code'] == 1:
+            return "unknown"
+        if ri['exit_code'] == 'null':
+            return "time_out"
+        if ri['exit_code'] == 20 and ri['sat'] == 'unsat':
+            return "unsat"
+
+    def get_solver_end_state_checker_fns(self):
+        # Child classes should override this
+        return [
+            self._error_unimplement_fp_literals,
+        ]
+
+
+class OL1V3RRunnerEventAnalyser(GenericRunnerEventAnalyser):
+    def __init__(self, *nargs, **kwargs):
+        super().__init__("OL1V3R", *nargs, **kwargs)
+
+    _RE_UNIMP_FP_LIT = re.compile(r'Floating-point literals not yet implemented')
+    def _error_unimplement_fp_literals(self, geti):
+        ri = geti.ri
+        wd_base = geti.wd_base
+        if ri['exit_code'] == 0:
+            if ri['sat'] == 'sat':
                 if ri['expected_sat'] == 'unsat':
                     return 'sat_but_expected_unsat'
                 return 'sat'
@@ -1121,4 +1312,3 @@ class BitwuzlaRunnerEventAnalyser(GenericRunnerEventAnalyser):
         return [
             self._error_unimplement_fp_literals,
         ]
-

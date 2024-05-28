@@ -7,19 +7,20 @@
 # List of solvers to use.
 # Look at `get_solver_config()` for the valid solver names.
 solvers=( \
-#  colibri \
-#  coral_pso \
-#  coral_avm \
-#  cvc5 \
+  z3 \
+  cvc5 \
+  mathsat5 \
   bitwuzla \
+  colibri \
+#  jfs_lf_fail_fast \
+  jfs_lf_fail_fast_smart_seeds \
+  ol1v3r \
+  coral_pso \
+#  coral_avm \
+  xsat \
   gosat \
   optsat \
-  jfs_lf_fail_fast \
-  jfs_lf_fail_fast_smart_seeds \
-#  jfs_pf_fail_fast \
-#  mathsat5 \
-#  xsat \
-#  z3 \
+  optsatBitwuzla \
 )
 
 JFS_ENABLE_VALIDATION_VARIANTS="${JFS_ENABLE_VALIDATION_VARIANTS:-0}"
@@ -37,16 +38,28 @@ fi
 # See `get_invocation_info()` for valid benchmark sets.
 #bsets=(qf_fp qf_bvfp qf_bv)
 #bsets=(qf_fp qf_bvfp qf_program_bfs)
-bsets=(qf_fp)
+#bsets=(qf_fp)
+#bsets=(qf_fp qf_program_bfs)
+bsets=(qf_program_bfs)
+#bsets=(qf_bvfp)
+#bsets=(QF_FP_20170501-Heizmann-UltimateAutomizer \
+#        QF_FP_20190429-UltimateAutomizerSvcomp2019 \
+#        QF_FP_20210211-Vector \
+#        QF_FP_20230321-UltimateAutomizerSvcomp2023 \
+#        QF_FP_griggio \
+#        QF_FP_ramalho \
+#        QF_FP_schanda)
+#bsets=(QF_FP_final)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
 #ns=(0 1 2 3)
-#ns=(0 1)
-ns=(0)
+ns=(0 1)
+#ns=(0)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
+#INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP"
 
 # NOTE: We use more generic configurations for experiment reproduction.
 # The commented out path points to the solver configurations actually used for experiments.
@@ -69,9 +82,10 @@ MERGED_DIR="${SCRIPT_DIR}/merged${RUNS_DIR_SUFFIX}"
 
 function get_benchmark_base() {
   bset="$1"
-  base_dir="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling/benchmarks/"
+#  base_dir="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling/benchmarks/"
+   base_dir="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP/"
    case "${bset}" in
-     qf_fp|qf_bv|qf_program_bfs)
+     qf_fp|qf_bv|qf_program_bfs|QF_FP_*)
        echo "${base_dir}"
      ;;
      qf_bvfp)
@@ -99,11 +113,35 @@ function get_invocation_info() {
       echo "${INVOCATIONS_DIR}/qf_bv_filtered_final_ii.yml"
     ;;
     qf_program_bfs)
-      echo "${INVOCATIONS_DIR}/qf_program_filtered_1.yml"
+      echo "${INVOCATIONS_DIR}/qf_program_filtered_final.yml"
     ;;
-  *)
-    echo "Unrecognised bset \"${bset}\""
-    exit 1
+    QF_FP_20170501-Heizmann-UltimateAutomizer)
+        echo "${INVOCATIONS_DIR}/QF_FP_20170501-Heizmann-UltimateAutomizer.yml"
+      ;;
+    QF_FP_20190429-UltimateAutomizerSvcomp2019)
+        echo "${INVOCATIONS_DIR}/QF_FP_20190429-UltimateAutomizerSvcomp2019.yml"
+      ;;
+    QF_FP_20210211-Vector)
+        echo "${INVOCATIONS_DIR}/QF_FP_20210211-Vector.yml"
+      ;;
+    QF_FP_20230321-UltimateAutomizerSvcomp2023)
+        echo "${INVOCATIONS_DIR}/QF_FP_20230321-UltimateAutomizerSvcomp2023.yml"
+      ;;
+    QF_FP_griggio)
+        echo "${INVOCATIONS_DIR}/QF_FP_griggio.yml"
+      ;;
+    QF_FP_ramalho)
+        echo "${INVOCATIONS_DIR}/QF_FP_ramalho.yml"
+      ;;
+    QF_FP_schanda)
+        echo "${INVOCATIONS_DIR}/QF_FP_schanda.yml"
+      ;;
+    QF_FP_final)
+        echo "${INVOCATIONS_DIR}/QF_FP_final_2.yml"
+      ;;
+    *)
+      echo "Unrecognised bset \"${bset}\""
+      exit 1
   esac
 }
 
@@ -132,7 +170,7 @@ function get_solver_config() {
         qf_bv)
           echo "${CONFIG_ROOT}/mathsat5_qf_bv_docker_generic.yml"
         ;;
-        qf_bvfp|qf_fp|qf_program_bfs)
+        qf_bvfp|qf_fp|qf_program_bfs|QF_FP_*)
           echo "${CONFIG_ROOT}/mathsat5_qf_fp_qf_bvfp_docker_generic.yml"
         ;;
         *)
@@ -175,7 +213,7 @@ function get_solver_config() {
           # Not supported by XSat.
           echo "SKIP"
         ;;
-        qf_fp)
+        qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/xsat_docker_generic.yml"
         ;;
         *)
@@ -189,7 +227,7 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs)
+        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
           echo "${CONFIG_ROOT}/gosat_docker_generic.yml"
         ;;
         *)
@@ -203,8 +241,36 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs)
+        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
           echo "${CONFIG_ROOT}/optsat_docker_generic.yml"
+        ;;
+        *)
+          echo "Unrecognised bset \"${bset}\""
+          exit 1
+      esac
+    ;;
+    ol1v3r)
+      case "${bset}" in
+        qf_bv)
+          # Not supported by goSAT.
+          echo "SKIP"
+        ;;
+        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+          echo "${CONFIG_ROOT}/ol1v3r_docker_generic.yml"
+        ;;
+        *)
+          echo "Unrecognised bset \"${bset}\""
+          exit 1
+      esac
+    ;;
+    optsatBitwuzla)
+      case "${bset}" in
+        qf_bv)
+          # Not supported by goSAT.
+          echo "SKIP"
+        ;;
+        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+          echo "${CONFIG_ROOT}/optsatBitwuzla_docker_generic.yml"
         ;;
         *)
           echo "Unrecognised bset \"${bset}\""
@@ -217,7 +283,7 @@ function get_solver_config() {
           # Not supported by Coral.
           echo "SKIP"
         ;;
-        qf_fp)
+        qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/coral_pso_docker_generic.yml"
         ;;
         *)
@@ -231,7 +297,7 @@ function get_solver_config() {
           # Not supported by Coral.
           echo "SKIP"
         ;;
-        qf_fp)
+        qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/coral_avm_docker_generic.yml"
         ;;
         *)
@@ -267,7 +333,7 @@ function get_solver_name() {
       echo "goSAT"
     ;;
     optsat)
-      echo "optSAT"
+      echo "QSat"
     ;;
     coral_pso)
       echo "CORAL-PSO"
@@ -280,6 +346,9 @@ function get_solver_name() {
     ;;
     bitwuzla)
       echo "Bitwuzla"
+    ;;
+    ol1v3r)
+      echo "OL1V3R"
     ;;
     portfolio_jfs_mathsat5)
       echo "JFS+MathSAT5"

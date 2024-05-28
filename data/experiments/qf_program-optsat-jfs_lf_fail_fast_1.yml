@@ -1,0 +1,14 @@
+misc: {backend: Docker}
+results:
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsec_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: sat,
+  stderr_log_file: /workdir-9/stderr.log.txt, stdout_log_file: /workdir-9/stdout.log.txt,
+  sys_cpu_time: 0.14, user_cpu_time: 0.37, wallclock_time: 1.2618146849999903, working_directory: /workdir-9}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arccsch_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: sat,
+  stderr_log_file: /workdir-1516/stderr.log.txt, stdout_log_file: /workdir-1516/stdout.log.txt,
+  sys_cpu_time: 0.11, user_cpu_time: 0.32, wallclock_time: 1.0145167400041828, working_directory: /workdir-1516}
+- {backend_timeout: false, benchmark: /home/aaa/PlatOptSat/data/benchmarks/3-stratified-random-sampling/benchmarks/selected_smtlib2/gsl_complex_arcsech_bfs_FP_5.smt2,
+  exit_code: 0, expected_sat: sat, is_trivial: false, out_of_memory: false, sat: sat,
+  stderr_log_file: /workdir-2409/stderr.log.txt, stdout_log_file: /workdir-2409/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 0.4, wallclock_time: 1.3201814639905933, working_directory: /workdir-2409}

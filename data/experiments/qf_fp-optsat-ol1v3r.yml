@@ -1,0 +1,6 @@
+misc: {backend: Docker}
+results:
+- {backend_timeout: false, benchmark: griggio/fmcad12/test_v7_r7_vr1_c1_s22845.smt2,
+  exit_code: 0, out_of_memory: false, sat: sat, stderr_log_file: /workdir-264/stderr.log.txt,
+  stdout_log_file: /workdir-264/stdout.log.txt, sys_cpu_time: 0.14, user_cpu_time: 21.75,
+  wallclock_time: 22.495095189020503, working_directory: /workdir-264}

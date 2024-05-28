@@ -1,0 +1,21 @@
+results:
+- benchmark: schanda/spark/user_rule_1.smt2
+- benchmark: schanda/spark/average_6.smt2
+- benchmark: schanda/spark/exp_3_precision.smt2
+- benchmark: schanda/spark/incorrect_reordering.smt2
+- benchmark: schanda/spark/scale_1.smt2
+- benchmark: schanda/spark/guarded_div_1.smt2
+- benchmark: schanda/spark/guarded_div_2.smt2
+- benchmark: schanda/spark/cancel_2.smt2
+- benchmark: schanda/spark/cases_2.smt2
+- benchmark: schanda/spark/O220-024.smt2
+- benchmark: schanda/spark/angle_between_2.smt2
+- benchmark: schanda/spark/underflow_1.smt2
+- benchmark: schanda/spark/assoc_mult.smt2
+- benchmark: schanda/spark/zeros_count_1.smt2
+- benchmark: schanda/spark/assoc_add.smt2
+- benchmark: schanda/spark/average_5.smt2
+- benchmark: schanda/spark/riposte_floats_are_not_rational.smt2
+- benchmark: schanda/spark/protected_divide.smt2
+- benchmark: schanda/spark/average_3.smt2
+schema_version: 0

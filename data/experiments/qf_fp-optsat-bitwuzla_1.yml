@@ -1,0 +1,143 @@
+misc: {backend: Docker}
+results:
+- {backend_timeout: false, benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_8.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-6/stderr.log.txt,
+  stdout_log_file: /workdir-6/stdout.log.txt, sys_cpu_time: 0.08, user_cpu_time: 0.92,
+  wallclock_time: 1.9795806290057953, working_directory: /workdir-6}
+- {backend_timeout: false, benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330b_true-unreach-call.c_9.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-11/stderr.log.txt,
+  stdout_log_file: /workdir-11/stdout.log.txt, sys_cpu_time: 0.14, user_cpu_time: 0.93,
+  wallclock_time: 2.083721559989499, working_directory: /workdir-11}
+- {backend_timeout: false, benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_5.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-18/stderr.log.txt,
+  stdout_log_file: /workdir-18/stdout.log.txt, sys_cpu_time: 0.1, user_cpu_time: 0.78,
+  wallclock_time: 1.6111802179948427, working_directory: /workdir-18}
+- {backend_timeout: false, benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_7.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-23/stderr.log.txt,
+  stdout_log_file: /workdir-23/stdout.log.txt, sys_cpu_time: 0.11, user_cpu_time: 0.78,
+  wallclock_time: 1.5985045660054311, working_directory: /workdir-23}
+- {backend_timeout: false, benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330b_true-unreach-call.c_11.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-24/stderr.log.txt,
+  stdout_log_file: /workdir-24/stdout.log.txt, sys_cpu_time: 0.14, user_cpu_time: 0.88,
+  wallclock_time: 1.6372079309949186, working_directory: /workdir-24}
+- {backend_timeout: false, benchmark: 20210211-Vector/Automotive_C/1de5c35a.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-93/stderr.log.txt,
+  stdout_log_file: /workdir-93/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.04,
+  wallclock_time: 1.1610930759925395, working_directory: /workdir-93}
+- {backend_timeout: false, benchmark: 20210211-Vector/Automotive_C/16527595.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-95/stderr.log.txt,
+  stdout_log_file: /workdir-95/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.04,
+  wallclock_time: 0.93418735198793, working_directory: /workdir-95}
+- {backend_timeout: false, benchmark: 20210211-Vector/Automotive_C/eba05d37.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-99/stderr.log.txt,
+  stdout_log_file: /workdir-99/stdout.log.txt, sys_cpu_time: 0.03, user_cpu_time: 0.03,
+  wallclock_time: 1.0446342230134178, working_directory: /workdir-99}
+- {backend_timeout: false, benchmark: 20210211-Vector/Automotive_C/1a59ab1c.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-100/stderr.log.txt,
+  stdout_log_file: /workdir-100/stdout.log.txt, sys_cpu_time: 0.02, user_cpu_time: 0.04,
+  wallclock_time: 0.9351586459961254, working_directory: /workdir-100}
+- {backend_timeout: false, benchmark: 20210211-Vector/Automotive_C/407a0d9b.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-102/stderr.log.txt,
+  stdout_log_file: /workdir-102/stdout.log.txt, sys_cpu_time: 0.01, user_cpu_time: 0.04,
+  wallclock_time: 0.9296860279864632, working_directory: /workdir-102}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.15.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-181/stderr.log.txt, stdout_log_file: /workdir-181/stdout.log.txt,
+  sys_cpu_time: 0.08, user_cpu_time: 2.33, wallclock_time: 2.9675198000040837, working_directory: /workdir-181}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.5.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-201/stderr.log.txt, stdout_log_file: /workdir-201/stdout.log.txt,
+  sys_cpu_time: 0.05, user_cpu_time: 3.15, wallclock_time: 3.738704820018029, working_directory: /workdir-201}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.20.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-208/stderr.log.txt, stdout_log_file: /workdir-208/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 9.41, wallclock_time: 10.11516053500236, working_directory: /workdir-208}
+- {backend_timeout: false, benchmark: griggio/fmcad12/mul_03_3_1.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-215/stderr.log.txt, stdout_log_file: /workdir-215/stdout.log.txt,
+  sys_cpu_time: 0.09, user_cpu_time: 26.39, wallclock_time: 27.11694006100879, working_directory: /workdir-215}
+- {backend_timeout: false, benchmark: griggio/fmcad12/gaussian.c.75.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-217/stderr.log.txt, stdout_log_file: /workdir-217/stdout.log.txt,
+  sys_cpu_time: 1.02, user_cpu_time: 31.98, wallclock_time: 33.67394248698838, working_directory: /workdir-217}
+- {backend_timeout: false, benchmark: griggio/fmcad12/gaussian.c.25.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-221/stderr.log.txt, stdout_log_file: /workdir-221/stdout.log.txt,
+  sys_cpu_time: 0.26, user_cpu_time: 9.84, wallclock_time: 10.679383751994465, working_directory: /workdir-221}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.10.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-232/stderr.log.txt, stdout_log_file: /workdir-232/stdout.log.txt,
+  sys_cpu_time: 0.1, user_cpu_time: 7.37, wallclock_time: 8.020072754006833, working_directory: /workdir-232}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.2.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-237/stderr.log.txt, stdout_log_file: /workdir-237/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 1.42, wallclock_time: 2.017320511979051, working_directory: /workdir-237}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sin2.c.10.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-243/stderr.log.txt, stdout_log_file: /workdir-243/stdout.log.txt,
+  sys_cpu_time: 0.61, user_cpu_time: 59.05, wallclock_time: 60.36768912500702, working_directory: /workdir-243}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sin2.c.2.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-257/stderr.log.txt, stdout_log_file: /workdir-257/stdout.log.txt,
+  sys_cpu_time: 0.07, user_cpu_time: 0.78, wallclock_time: 1.4300165479944553, working_directory: /workdir-257}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sqrt.c.25.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-258/stderr.log.txt, stdout_log_file: /workdir-258/stdout.log.txt,
+  sys_cpu_time: 0.16, user_cpu_time: 44.31, wallclock_time: 45.08419632399455, working_directory: /workdir-258}
+- {backend_timeout: false, benchmark: griggio/fmcad12/sin2.c.5.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-261/stderr.log.txt, stdout_log_file: /workdir-261/stdout.log.txt,
+  sys_cpu_time: 0.24, user_cpu_time: 33.63, wallclock_time: 34.49324082399835, working_directory: /workdir-261}
+- {backend_timeout: false, benchmark: ramalho/esbmc/Float_div_bad-main.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-271/stderr.log.txt, stdout_log_file: /workdir-271/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.16, wallclock_time: 0.759014331997605, working_directory: /workdir-271}
+- {backend_timeout: false, benchmark: ramalho/esbmc/nan_float-main.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-275/stderr.log.txt, stdout_log_file: /workdir-275/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.04, wallclock_time: 0.6400337599916384, working_directory: /workdir-275}
+- {backend_timeout: false, benchmark: ramalho/esbmc/nan_double-main.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-276/stderr.log.txt, stdout_log_file: /workdir-276/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.03, wallclock_time: 0.5640067729982547, working_directory: /workdir-276}
+- {backend_timeout: false, benchmark: schanda/spark/average_6.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-282/stderr.log.txt, stdout_log_file: /workdir-282/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 1.07, wallclock_time: 1.623953664995497, working_directory: /workdir-282}
+- {backend_timeout: false, benchmark: schanda/spark/exp_3_precision.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-283/stderr.log.txt, stdout_log_file: /workdir-283/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.3, wallclock_time: 0.8664300480159, working_directory: /workdir-283}
+- {backend_timeout: false, benchmark: schanda/spark/scale_1.smt2, exit_code: 10, out_of_memory: false,
+  sat: sat, stderr_log_file: /workdir-285/stderr.log.txt, stdout_log_file: /workdir-285/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.06, wallclock_time: 0.6203145479958039, working_directory: /workdir-285}
+- {backend_timeout: false, benchmark: schanda/spark/guarded_div_1.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-286/stderr.log.txt, stdout_log_file: /workdir-286/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.11, wallclock_time: 0.6536513920000289, working_directory: /workdir-286}
+- {backend_timeout: false, benchmark: griggio/fmcad12/test_v7_r7_vr1_c1_s22845.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-264/stderr.log.txt,
+  stdout_log_file: /workdir-264/stdout.log.txt, sys_cpu_time: 0.4, user_cpu_time: 52.94,
+  wallclock_time: 53.95194669900229, working_directory: /workdir-264}
+- {backend_timeout: false, benchmark: schanda/spark/incorrect_reordering.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-284/stderr.log.txt, stdout_log_file: /workdir-284/stdout.log.txt,
+  sys_cpu_time: 0.01, user_cpu_time: 0.16, wallclock_time: 0.7335510510019958, working_directory: /workdir-284}
+- {backend_timeout: false, benchmark: schanda/spark/O220-024.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-290/stderr.log.txt, stdout_log_file: /workdir-290/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.11, wallclock_time: 0.7151136600004975, working_directory: /workdir-290}
+- {backend_timeout: false, benchmark: schanda/spark/guarded_div_2.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-287/stderr.log.txt, stdout_log_file: /workdir-287/stdout.log.txt,
+  sys_cpu_time: 0.06, user_cpu_time: 1.08, wallclock_time: 1.7332272969943006, working_directory: /workdir-287}
+- {backend_timeout: false, benchmark: schanda/spark/underflow_1.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-292/stderr.log.txt, stdout_log_file: /workdir-292/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.08, wallclock_time: 0.691008921014145, working_directory: /workdir-292}
+- {backend_timeout: false, benchmark: schanda/spark/assoc_mult.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-293/stderr.log.txt, stdout_log_file: /workdir-293/stdout.log.txt,
+  sys_cpu_time: 0.03, user_cpu_time: 0.38, wallclock_time: 0.9783124529931229, working_directory: /workdir-293}
+- {backend_timeout: false, benchmark: schanda/spark/zeros_count_1.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-294/stderr.log.txt, stdout_log_file: /workdir-294/stdout.log.txt,
+  sys_cpu_time: 0.01, user_cpu_time: 0.04, wallclock_time: 0.6874207610089798, working_directory: /workdir-294}
+- {backend_timeout: false, benchmark: schanda/spark/assoc_add.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-295/stderr.log.txt, stdout_log_file: /workdir-295/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.13, wallclock_time: 0.7285647579992656, working_directory: /workdir-295}
+- {backend_timeout: false, benchmark: schanda/spark/average_5.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-296/stderr.log.txt, stdout_log_file: /workdir-296/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.37, wallclock_time: 0.9262068149982952, working_directory: /workdir-296}
+- {backend_timeout: false, benchmark: schanda/spark/riposte_floats_are_not_rational.smt2,
+  exit_code: 10, out_of_memory: false, sat: sat, stderr_log_file: /workdir-297/stderr.log.txt,
+  stdout_log_file: /workdir-297/stdout.log.txt, sys_cpu_time: 0.01, user_cpu_time: 0.06,
+  wallclock_time: 0.784093597001629, working_directory: /workdir-297}
+- {backend_timeout: false, benchmark: schanda/spark/protected_divide.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-298/stderr.log.txt, stdout_log_file: /workdir-298/stdout.log.txt,
+  sys_cpu_time: 0.04, user_cpu_time: 0.1, wallclock_time: 0.9271553870057687, working_directory: /workdir-298}
+- {backend_timeout: false, benchmark: schanda/spark/average_3.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-299/stderr.log.txt, stdout_log_file: /workdir-299/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.06, wallclock_time: 0.8851895979896653, working_directory: /workdir-299}
+- {backend_timeout: false, benchmark: schanda/spark/cancel_2.smt2, exit_code: 10,
+  out_of_memory: false, sat: sat, stderr_log_file: /workdir-288/stderr.log.txt, stdout_log_file: /workdir-288/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.04, wallclock_time: 0.6059476369991899, working_directory: /workdir-288}
+- {backend_timeout: false, benchmark: schanda/spark/cases_2.smt2, exit_code: 10, out_of_memory: false,
+  sat: sat, stderr_log_file: /workdir-289/stderr.log.txt, stdout_log_file: /workdir-289/stdout.log.txt,
+  sys_cpu_time: 0.02, user_cpu_time: 0.04, wallclock_time: 0.6041317740164232, working_directory: /workdir-289}

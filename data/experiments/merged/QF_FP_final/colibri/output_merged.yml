@@ -1,0 +1,10378 @@
+misc:
+  runner: Colibri
+results:
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20170501-Heizmann-UltimateAutomizer/Newlib-BadKrozingenChallenge-Oversimplified.smt2
+  dsoes_wallclock_time:
+  - 0.622769358
+  - 0.597983931
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-25/stderr.log.txt
+  - /1/wd/workdir-25/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-25/stdout.log.txt
+  - /1/wd/workdir-25/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.08
+  user_cpu_time:
+  - 0.62
+  - 0.58
+  wallclock_time:
+  - 1.4897685199975967
+  - 1.5099758770084009
+  working_directory:
+  - /0/wd/workdir-25
+  - /1/wd/workdir-25
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20170501-Heizmann-UltimateAutomizer/water_pid_true-unreach-call.c_14.smt2
+  dsoes_wallclock_time:
+  - 0.380724109
+  - 0.382737415
+  event_tag:
+  - colibri_parser_error_unknown_character
+  - colibri_parser_error_unknown_character
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-24/stderr.log.txt
+  - /1/wd/workdir-24/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-24/stdout.log.txt
+  - /1/wd/workdir-24/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.04
+  user_cpu_time:
+  - 0.36
+  - 0.39
+  wallclock_time:
+  - 0.9953951109782793
+  - 1.273179497977253
+  working_directory:
+  - /0/wd/workdir-24
+  - /1/wd/workdir-24
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_4.smt2
+  dsoes_wallclock_time:
+  - 0.514992639
+  - 0.502051084
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-1/stderr.log.txt
+  - /1/wd/workdir-1/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-1/stdout.log.txt
+  - /1/wd/workdir-1/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.03
+  user_cpu_time:
+  - 0.46
+  - 0.51
+  wallclock_time:
+  - 1.574478102964349
+  - 1.6002566009992734
+  working_directory:
+  - /0/wd/workdir-1
+  - /1/wd/workdir-1
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_5.smt2
+  dsoes_wallclock_time:
+  - 0.545908654
+  - 0.559537843
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-16/stderr.log.txt
+  - /1/wd/workdir-16/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-16/stdout.log.txt
+  - /1/wd/workdir-16/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.52
+  - 0.54
+  wallclock_time:
+  - 1.3726601150119677
+  - 1.4158583370153792
+  working_directory:
+  - /0/wd/workdir-16
+  - /1/wd/workdir-16
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0240a_true-unreach-call.c_7.smt2
+  dsoes_wallclock_time:
+  - 0.488561744
+  - 0.484139286
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-21/stderr.log.txt
+  - /1/wd/workdir-21/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-21/stdout.log.txt
+  - /1/wd/workdir-21/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.07
+  user_cpu_time:
+  - 0.46
+  - 0.46
+  wallclock_time:
+  - 1.4152913290308788
+  - 1.5261188200092874
+  working_directory:
+  - /0/wd/workdir-21
+  - /1/wd/workdir-21
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_1.smt2
+  dsoes_wallclock_time:
+  - 0.490172575
+  - 0.481307417
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-8/stderr.log.txt
+  - /1/wd/workdir-8/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-8/stdout.log.txt
+  - /1/wd/workdir-8/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 0.47
+  - 0.46
+  wallclock_time:
+  - 1.1917265870142728
+  - 1.334601501992438
+  working_directory:
+  - /0/wd/workdir-8
+  - /1/wd/workdir-8
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0310_true-unreach-call.c_8.smt2
+  dsoes_wallclock_time:
+  - 0.419135934
+  - 0.428085924
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-4/stderr.log.txt
+  - /1/wd/workdir-4/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-4/stdout.log.txt
+  - /1/wd/workdir-4/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.42
+  - 0.41
+  wallclock_time:
+  - 1.3877509839949198
+  - 1.1073994830367155
+  working_directory:
+  - /0/wd/workdir-4
+  - /1/wd/workdir-4
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0320_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.5298073
+  - 0.47637756
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-20/stderr.log.txt
+  - /1/wd/workdir-20/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-20/stdout.log.txt
+  - /1/wd/workdir-20/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.08
+  user_cpu_time:
+  - 0.48
+  - 0.42
+  wallclock_time:
+  - 1.359822432976216
+  - 1.2602080299984664
+  working_directory:
+  - /0/wd/workdir-20
+  - /1/wd/workdir-20
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0320_true-unreach-call.c_1.smt2
+  dsoes_wallclock_time:
+  - 0.510701484
+  - 0.49503568
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-12/stderr.log.txt
+  - /1/wd/workdir-12/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-12/stdout.log.txt
+  - /1/wd/workdir-12/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.08
+  user_cpu_time:
+  - 0.48
+  - 0.47
+  wallclock_time:
+  - 1.3017132559907623
+  - 1.4250344929751009
+  working_directory:
+  - /0/wd/workdir-12
+  - /1/wd/workdir-12
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330a_true-unreach-call.c_3.smt2
+  dsoes_wallclock_time:
+  - 0.47936088
+  - 0.469970315
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-3/stderr.log.txt
+  - /1/wd/workdir-3/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-3/stdout.log.txt
+  - /1/wd/workdir-3/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.04
+  user_cpu_time:
+  - 0.46
+  - 0.47
+  wallclock_time:
+  - 1.693196477019228
+  - 1.5110778789967299
+  working_directory:
+  - /0/wd/workdir-3
+  - /1/wd/workdir-3
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330a_true-unreach-call.c_4.smt2
+  dsoes_wallclock_time:
+  - 0.493936351
+  - 0.48252016
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-5/stderr.log.txt
+  - /1/wd/workdir-5/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-5/stdout.log.txt
+  - /1/wd/workdir-5/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 0.49
+  - 0.47
+  wallclock_time:
+  - 1.4493810759740882
+  - 1.6099440850084648
+  working_directory:
+  - /0/wd/workdir-5
+  - /1/wd/workdir-5
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330b_true-unreach-call.c_11.smt2
+  dsoes_wallclock_time:
+  - 0.513852444
+  - 0.520631899
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-22/stderr.log.txt
+  - /1/wd/workdir-22/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-22/stdout.log.txt
+  - /1/wd/workdir-22/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.5
+  - 0.52
+  wallclock_time:
+  - 1.3976686259848066
+  - 1.2367875520139933
+  working_directory:
+  - /0/wd/workdir-22
+  - /1/wd/workdir-22
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0330b_true-unreach-call.c_9.smt2
+  dsoes_wallclock_time:
+  - 0.637689631
+  - 0.556931299
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-9/stderr.log.txt
+  - /1/wd/workdir-9/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-9/stdout.log.txt
+  - /1/wd/workdir-9/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.54
+  - 0.55
+  wallclock_time:
+  - 1.7595640129875392
+  - 1.7259288190398365
+  working_directory:
+  - /0/wd/workdir-9
+  - /1/wd/workdir-9
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0740_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.546588708
+  - 0.580477096
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-2/stderr.log.txt
+  - /1/wd/workdir-2/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-2/stdout.log.txt
+  - /1/wd/workdir-2/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.16
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.5085661669727415
+  - 1.4284245729795657
+  working_directory:
+  - /0/wd/workdir-2
+  - /1/wd/workdir-2
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0832_true-unreach-call.c_1.smt2
+  dsoes_wallclock_time:
+  - 0.53066009
+  - 0.497632091
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-13/stderr.log.txt
+  - /1/wd/workdir-13/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-13/stdout.log.txt
+  - /1/wd/workdir-13/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.08
+  user_cpu_time:
+  - 0.46
+  - 0.47
+  wallclock_time:
+  - 1.4335470870137215
+  - 1.3860713730100542
+  working_directory:
+  - /0/wd/workdir-13
+  - /1/wd/workdir-13
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0876_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.365893187
+  - 0.349286846
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-15/stderr.log.txt
+  - /1/wd/workdir-15/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-15/stdout.log.txt
+  - /1/wd/workdir-15/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.36
+  - 0.33
+  wallclock_time:
+  - 1.204385029966943
+  - 1.074327581038233
+  working_directory:
+  - /0/wd/workdir-15
+  - /1/wd/workdir-15
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0882_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.388766123
+  - 0.402609746
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-19/stderr.log.txt
+  - /1/wd/workdir-19/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-19/stdout.log.txt
+  - /1/wd/workdir-19/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.4
+  wallclock_time:
+  - 1.4128347130026668
+  - 1.488458864041604
+  working_directory:
+  - /0/wd/workdir-19
+  - /1/wd/workdir-19
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0920b_true-unreach-call.c_6.smt2
+  dsoes_wallclock_time:
+  - 0.406540738
+  - 0.393132743
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-14/stderr.log.txt
+  - /1/wd/workdir-14/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-14/stdout.log.txt
+  - /1/wd/workdir-14/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.39
+  wallclock_time:
+  - 1.3728901040158235
+  - 1.1902142339968123
+  working_directory:
+  - /0/wd/workdir-14
+  - /1/wd/workdir-14
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0960b_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.440805613
+  - 0.457657711
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-6/stderr.log.txt
+  - /1/wd/workdir-6/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-6/stdout.log.txt
+  - /1/wd/workdir-6/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.43
+  - 0.44
+  wallclock_time:
+  - 1.7100218860432506
+  - 1.5136347459629178
+  working_directory:
+  - /0/wd/workdir-6
+  - /1/wd/workdir-6
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_0971_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.471590305
+  - 0.454245584
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-17/stderr.log.txt
+  - /1/wd/workdir-17/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-17/stdout.log.txt
+  - /1/wd/workdir-17/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.07
+  user_cpu_time:
+  - 0.46
+  - 0.43
+  wallclock_time:
+  - 1.4679620430106297
+  - 1.7459930630284362
+  working_directory:
+  - /0/wd/workdir-17
+  - /1/wd/workdir-17
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_1122b_true-unreach-call.c_1.smt2
+  dsoes_wallclock_time:
+  - 0.380926671
+  - 0.385434766
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-7/stderr.log.txt
+  - /1/wd/workdir-7/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-7/stdout.log.txt
+  - /1/wd/workdir-7/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.36
+  - 0.37
+  wallclock_time:
+  - 1.5475437239510939
+  - 1.1933466830523685
+  working_directory:
+  - /0/wd/workdir-7
+  - /1/wd/workdir-7
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_1122b_true-unreach-call.c_3.smt2
+  dsoes_wallclock_time:
+  - 0.429535113
+  - 0.388705479
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-11/stderr.log.txt
+  - /1/wd/workdir-11/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-11/stdout.log.txt
+  - /1/wd/workdir-11/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.37
+  - 0.4
+  wallclock_time:
+  - 1.1149877230054699
+  - 1.2259619859978557
+  working_directory:
+  - /0/wd/workdir-11
+  - /1/wd/workdir-11
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/double_req_bl_1122b_true-unreach-call.c_4.smt2
+  dsoes_wallclock_time:
+  - 0.384140951
+  - 0.39042895
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-18/stderr.log.txt
+  - /1/wd/workdir-18/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-18/stdout.log.txt
+  - /1/wd/workdir-18/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 1.4026443649781868
+  - 1.3482629209756851
+  working_directory:
+  - /0/wd/workdir-18
+  - /1/wd/workdir-18
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/float_req_bl_0877_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.425953637
+  - 0.372564579
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-10/stderr.log.txt
+  - /1/wd/workdir-10/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-10/stdout.log.txt
+  - /1/wd/workdir-10/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.07
+  user_cpu_time:
+  - 0.38
+  - 0.35
+  wallclock_time:
+  - 1.2446304399636574
+  - 1.3287823320133612
+  working_directory:
+  - /0/wd/workdir-10
+  - /1/wd/workdir-10
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/float_req_bl_0910a_true-unreach-call.c_0.smt2
+  dsoes_wallclock_time:
+  - 0.385126305
+  - 0.373611964
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-0/stderr.log.txt
+  - /1/wd/workdir-0/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-0/stdout.log.txt
+  - /1/wd/workdir-0/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.36
+  wallclock_time:
+  - 1.5104775020154193
+  - 1.506077652971726
+  working_directory:
+  - /0/wd/workdir-0
+  - /1/wd/workdir-0
+- backend_timeout:
+  - true
+  - true
+  benchmark: 20190429-UltimateAutomizerSvcomp2019/water_pid_true-unreach-call_true-termination.c_0.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-23/stderr.log.txt
+  - /1/wd/workdir-23/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-23/stdout.log.txt
+  - /1/wd/workdir-23/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.70076825399883
+  - 60.62460338202072
+  working_directory:
+  - /0/wd/workdir-23
+  - /1/wd/workdir-23
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/18128f78.smt2
+  dsoes_wallclock_time:
+  - 0.376433194
+  - 0.389672837
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-36/stderr.log.txt
+  - /1/wd/workdir-36/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-36/stdout.log.txt
+  - /1/wd/workdir-36/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 1.2072049680282362
+  - 1.2463554609566927
+  working_directory:
+  - /0/wd/workdir-36
+  - /1/wd/workdir-36
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/18b22f7c.smt2
+  dsoes_wallclock_time:
+  - 0.37789062
+  - 0.39194646
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-43/stderr.log.txt
+  - /1/wd/workdir-43/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-43/stdout.log.txt
+  - /1/wd/workdir-43/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.37
+  - 0.39
+  wallclock_time:
+  - 1.1294753099791706
+  - 1.0317654479877092
+  working_directory:
+  - /0/wd/workdir-43
+  - /1/wd/workdir-43
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/197caf3a.smt2
+  dsoes_wallclock_time:
+  - 0.39877507
+  - 0.39201017
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-66/stderr.log.txt
+  - /1/wd/workdir-66/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-66/stdout.log.txt
+  - /1/wd/workdir-66/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.02
+  user_cpu_time:
+  - 0.38
+  - 0.41
+  wallclock_time:
+  - 1.185503123968374
+  - 1.1260284039890394
+  working_directory:
+  - /0/wd/workdir-66
+  - /1/wd/workdir-66
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/1de31dae.smt2
+  dsoes_wallclock_time:
+  - 0.381247494
+  - 0.380529187
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-49/stderr.log.txt
+  - /1/wd/workdir-49/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-49/stdout.log.txt
+  - /1/wd/workdir-49/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.37
+  - 0.37
+  wallclock_time:
+  - 1.0271622620057315
+  - 1.3172933509922586
+  working_directory:
+  - /0/wd/workdir-49
+  - /1/wd/workdir-49
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/20ad29a9.smt2
+  dsoes_wallclock_time:
+  - 0.385511385
+  - 0.380917634
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-29/stderr.log.txt
+  - /1/wd/workdir-29/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-29/stdout.log.txt
+  - /1/wd/workdir-29/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.05
+  user_cpu_time:
+  - 0.41
+  - 0.38
+  wallclock_time:
+  - 1.1308815879747272
+  - 1.2436184050166048
+  working_directory:
+  - /0/wd/workdir-29
+  - /1/wd/workdir-29
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/2137a85e.smt2
+  dsoes_wallclock_time:
+  - 0.395189196
+  - 0.397651778
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-59/stderr.log.txt
+  - /1/wd/workdir-59/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-59/stdout.log.txt
+  - /1/wd/workdir-59/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.2558819889673032
+  - 1.3954243910266086
+  working_directory:
+  - /0/wd/workdir-59
+  - /1/wd/workdir-59
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/256ebcb6.smt2
+  dsoes_wallclock_time:
+  - 0.403353944
+  - 0.405452626
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-44/stderr.log.txt
+  - /1/wd/workdir-44/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-44/stdout.log.txt
+  - /1/wd/workdir-44/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.04
+  user_cpu_time:
+  - 0.37
+  - 0.4
+  wallclock_time:
+  - 1.4052215720294043
+  - 1.2993656899780035
+  working_directory:
+  - /0/wd/workdir-44
+  - /1/wd/workdir-44
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/258ad19e.smt2
+  dsoes_wallclock_time:
+  - 0.37328614
+  - 0.381223547
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-34/stderr.log.txt
+  - /1/wd/workdir-34/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-34/stdout.log.txt
+  - /1/wd/workdir-34/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.37
+  wallclock_time:
+  - 1.4154960240121
+  - 1.207119346014224
+  working_directory:
+  - /0/wd/workdir-34
+  - /1/wd/workdir-34
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/27559300.smt2
+  dsoes_wallclock_time:
+  - 0.400934247
+  - 0.374029793
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-52/stderr.log.txt
+  - /1/wd/workdir-52/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-52/stdout.log.txt
+  - /1/wd/workdir-52/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.36
+  wallclock_time:
+  - 1.184083060012199
+  - 1.2143023710232228
+  working_directory:
+  - /0/wd/workdir-52
+  - /1/wd/workdir-52
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/3be94f8d.smt2
+  dsoes_wallclock_time:
+  - 0.389629517
+  - 0.382646732
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-57/stderr.log.txt
+  - /1/wd/workdir-57/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-57/stdout.log.txt
+  - /1/wd/workdir-57/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.36
+  wallclock_time:
+  - 1.2209335539955646
+  - 1.309296377003193
+  working_directory:
+  - /0/wd/workdir-57
+  - /1/wd/workdir-57
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/401ce1d6.smt2
+  dsoes_wallclock_time:
+  - 0.409479956
+  - 0.412584932
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-42/stderr.log.txt
+  - /1/wd/workdir-42/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-42/stdout.log.txt
+  - /1/wd/workdir-42/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.41
+  - 0.4
+  wallclock_time:
+  - 1.299908732995391
+  - 1.3437753629987128
+  working_directory:
+  - /0/wd/workdir-42
+  - /1/wd/workdir-42
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/4277f91d.smt2
+  dsoes_wallclock_time:
+  - 0.367092273
+  - 0.389058988
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-39/stderr.log.txt
+  - /1/wd/workdir-39/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-39/stdout.log.txt
+  - /1/wd/workdir-39/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.36
+  - 0.37
+  wallclock_time:
+  - 1.1795412250212394
+  - 1.0221906420192681
+  working_directory:
+  - /0/wd/workdir-39
+  - /1/wd/workdir-39
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/48576ff4.smt2
+  dsoes_wallclock_time:
+  - 0.392348212
+  - 0.395797224
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-62/stderr.log.txt
+  - /1/wd/workdir-62/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-62/stdout.log.txt
+  - /1/wd/workdir-62/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.39
+  wallclock_time:
+  - 1.259565555024892
+  - 1.1126658070134
+  working_directory:
+  - /0/wd/workdir-62
+  - /1/wd/workdir-62
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/4e876fa1.smt2
+  dsoes_wallclock_time:
+  - 0.406109751
+  - 0.391702398
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-58/stderr.log.txt
+  - /1/wd/workdir-58/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-58/stdout.log.txt
+  - /1/wd/workdir-58/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.02
+  user_cpu_time:
+  - 0.4
+  - 0.4
+  wallclock_time:
+  - 1.2337909570196643
+  - 1.1664518989855424
+  working_directory:
+  - /0/wd/workdir-58
+  - /1/wd/workdir-58
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/4f1b844f.smt2
+  dsoes_wallclock_time:
+  - 0.395276327
+  - 0.39108952
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-55/stderr.log.txt
+  - /1/wd/workdir-55/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-55/stdout.log.txt
+  - /1/wd/workdir-55/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.07
+  user_cpu_time:
+  - 0.38
+  - 0.36
+  wallclock_time:
+  - 1.1407301659928635
+  - 1.2021274709841236
+  working_directory:
+  - /0/wd/workdir-55
+  - /1/wd/workdir-55
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/522e9701.smt2
+  dsoes_wallclock_time:
+  - 0.377586723
+  - 0.383136672
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-48/stderr.log.txt
+  - /1/wd/workdir-48/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-48/stdout.log.txt
+  - /1/wd/workdir-48/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.37
+  - 0.38
+  wallclock_time:
+  - 1.249027332989499
+  - 1.511341663019266
+  working_directory:
+  - /0/wd/workdir-48
+  - /1/wd/workdir-48
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/54c417ee.smt2
+  dsoes_wallclock_time:
+  - 0.374070141
+  - 0.397358898
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-38/stderr.log.txt
+  - /1/wd/workdir-38/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-38/stdout.log.txt
+  - /1/wd/workdir-38/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.38
+  wallclock_time:
+  - 1.2091537020169199
+  - 1.1098225869936869
+  working_directory:
+  - /0/wd/workdir-38
+  - /1/wd/workdir-38
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/5d16872d.smt2
+  dsoes_wallclock_time:
+  - 0.378075379
+  - 0.40018079
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-64/stderr.log.txt
+  - /1/wd/workdir-64/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-64/stdout.log.txt
+  - /1/wd/workdir-64/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 0.36
+  - 0.39
+  wallclock_time:
+  - 1.0146505070151761
+  - 1.2186650480143726
+  working_directory:
+  - /0/wd/workdir-64
+  - /1/wd/workdir-64
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/5f531060.smt2
+  dsoes_wallclock_time:
+  - 0.390968213
+  - 0.388036044
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-31/stderr.log.txt
+  - /1/wd/workdir-31/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-31/stdout.log.txt
+  - /1/wd/workdir-31/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.36
+  wallclock_time:
+  - 1.105212674010545
+  - 1.1574462830321863
+  working_directory:
+  - /0/wd/workdir-31
+  - /1/wd/workdir-31
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/6b5ad0b8.smt2
+  dsoes_wallclock_time:
+  - 0.396627209
+  - 0.3913156
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-51/stderr.log.txt
+  - /1/wd/workdir-51/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-51/stdout.log.txt
+  - /1/wd/workdir-51/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.352581052982714
+  - 1.1702764290384948
+  working_directory:
+  - /0/wd/workdir-51
+  - /1/wd/workdir-51
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/6d71ca58.smt2
+  dsoes_wallclock_time:
+  - 0.360315199
+  - 0.382803529
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-45/stderr.log.txt
+  - /1/wd/workdir-45/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-45/stdout.log.txt
+  - /1/wd/workdir-45/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.36
+  - 0.38
+  wallclock_time:
+  - 1.1650972440256737
+  - 1.306420042004902
+  working_directory:
+  - /0/wd/workdir-45
+  - /1/wd/workdir-45
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/71dc23bb.smt2
+  dsoes_wallclock_time:
+  - 0.380261589
+  - 0.402901555
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-27/stderr.log.txt
+  - /1/wd/workdir-27/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-27/stdout.log.txt
+  - /1/wd/workdir-27/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.38
+  wallclock_time:
+  - 0.9911775270011276
+  - 1.0818108459934592
+  working_directory:
+  - /0/wd/workdir-27
+  - /1/wd/workdir-27
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/71f7ce43.smt2
+  dsoes_wallclock_time:
+  - 0.39271785
+  - 0.381302732
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-28/stderr.log.txt
+  - /1/wd/workdir-28/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-28/stdout.log.txt
+  - /1/wd/workdir-28/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.4
+  - 0.36
+  wallclock_time:
+  - 1.4782426540041342
+  - 1.172627475054469
+  working_directory:
+  - /0/wd/workdir-28
+  - /1/wd/workdir-28
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/7475e081.smt2
+  dsoes_wallclock_time:
+  - 0.399711509
+  - 0.38700957
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-56/stderr.log.txt
+  - /1/wd/workdir-56/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-56/stdout.log.txt
+  - /1/wd/workdir-56/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.38
+  wallclock_time:
+  - 1.2276501929736696
+  - 1.179247862950433
+  working_directory:
+  - /0/wd/workdir-56
+  - /1/wd/workdir-56
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/7db277d0.smt2
+  dsoes_wallclock_time:
+  - 0.377532178
+  - 0.401394197
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-37/stderr.log.txt
+  - /1/wd/workdir-37/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-37/stdout.log.txt
+  - /1/wd/workdir-37/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.37
+  - 0.4
+  wallclock_time:
+  - 1.2807383520412259
+  - 1.1168882220517844
+  working_directory:
+  - /0/wd/workdir-37
+  - /1/wd/workdir-37
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/87e8f851.smt2
+  dsoes_wallclock_time:
+  - 0.377217285
+  - 0.342053347
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-54/stderr.log.txt
+  - /1/wd/workdir-54/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-54/stdout.log.txt
+  - /1/wd/workdir-54/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.38
+  - 0.34
+  wallclock_time:
+  - 1.1564726600190625
+  - 0.9842523339902982
+  working_directory:
+  - /0/wd/workdir-54
+  - /1/wd/workdir-54
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/88c6b3ae.smt2
+  dsoes_wallclock_time:
+  - 0.395860116
+  - 0.405536004
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-67/stderr.log.txt
+  - /1/wd/workdir-67/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-67/stdout.log.txt
+  - /1/wd/workdir-67/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.04
+  user_cpu_time:
+  - 0.35
+  - 0.42
+  wallclock_time:
+  - 1.132989589998033
+  - 1.169843629002571
+  working_directory:
+  - /0/wd/workdir-67
+  - /1/wd/workdir-67
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/9212e93c.smt2
+  dsoes_wallclock_time:
+  - 0.385233203
+  - 0.373593585
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-40/stderr.log.txt
+  - /1/wd/workdir-40/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-40/stdout.log.txt
+  - /1/wd/workdir-40/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.1780899339937605
+  - 1.1003046740079299
+  working_directory:
+  - /0/wd/workdir-40
+  - /1/wd/workdir-40
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/967afe84.smt2
+  dsoes_wallclock_time:
+  - 0.388569726
+  - 0.362255042
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-50/stderr.log.txt
+  - /1/wd/workdir-50/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-50/stdout.log.txt
+  - /1/wd/workdir-50/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.37
+  wallclock_time:
+  - 1.3211347649921663
+  - 1.1536902530351654
+  working_directory:
+  - /0/wd/workdir-50
+  - /1/wd/workdir-50
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/b045cfdb.smt2
+  dsoes_wallclock_time:
+  - 0.400420623
+  - 0.401266009
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-60/stderr.log.txt
+  - /1/wd/workdir-60/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-60/stdout.log.txt
+  - /1/wd/workdir-60/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.41
+  - 0.4
+  wallclock_time:
+  - 1.3244816859951243
+  - 1.3722503809840418
+  working_directory:
+  - /0/wd/workdir-60
+  - /1/wd/workdir-60
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/b1a376ae.smt2
+  dsoes_wallclock_time:
+  - 0.382267335
+  - 0.397173042
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-33/stderr.log.txt
+  - /1/wd/workdir-33/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-33/stdout.log.txt
+  - /1/wd/workdir-33/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.4
+  wallclock_time:
+  - 1.1243009470053948
+  - 1.0740803789813071
+  working_directory:
+  - /0/wd/workdir-33
+  - /1/wd/workdir-33
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/b5d01232.smt2
+  dsoes_wallclock_time:
+  - 0.378345158
+  - 0.390565425
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-35/stderr.log.txt
+  - /1/wd/workdir-35/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-35/stdout.log.txt
+  - /1/wd/workdir-35/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.236730512988288
+  - 1.1839918949990533
+  working_directory:
+  - /0/wd/workdir-35
+  - /1/wd/workdir-35
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/bc0d3950.smt2
+  dsoes_wallclock_time:
+  - 0.405478782
+  - 0.415501053
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-68/stderr.log.txt
+  - /1/wd/workdir-68/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-68/stdout.log.txt
+  - /1/wd/workdir-68/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.41
+  - 0.4
+  wallclock_time:
+  - 1.1770267940009944
+  - 1.0619655140326358
+  working_directory:
+  - /0/wd/workdir-68
+  - /1/wd/workdir-68
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/c7df0882.smt2
+  dsoes_wallclock_time:
+  - 0.377557753
+  - 0.383744602
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-70/stderr.log.txt
+  - /1/wd/workdir-70/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-70/stdout.log.txt
+  - /1/wd/workdir-70/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.36
+  - 0.4
+  wallclock_time:
+  - 1.0612821920076385
+  - 1.201074477052316
+  working_directory:
+  - /0/wd/workdir-70
+  - /1/wd/workdir-70
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/cea35ecc.smt2
+  dsoes_wallclock_time:
+  - 0.391790288
+  - 0.421613428
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-32/stderr.log.txt
+  - /1/wd/workdir-32/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-32/stdout.log.txt
+  - /1/wd/workdir-32/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.4
+  - 0.4
+  wallclock_time:
+  - 1.2418390699895099
+  - 1.2264050350058824
+  working_directory:
+  - /0/wd/workdir-32
+  - /1/wd/workdir-32
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/d24aa31a.smt2
+  dsoes_wallclock_time:
+  - 0.411275432
+  - 0.403782541
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-61/stderr.log.txt
+  - /1/wd/workdir-61/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-61/stdout.log.txt
+  - /1/wd/workdir-61/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.41
+  - 0.39
+  wallclock_time:
+  - 1.1265132729895413
+  - 1.3130884499987587
+  working_directory:
+  - /0/wd/workdir-61
+  - /1/wd/workdir-61
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/d6353b82.smt2
+  dsoes_wallclock_time:
+  - 0.383935734
+  - 0.397670929
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-65/stderr.log.txt
+  - /1/wd/workdir-65/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-65/stdout.log.txt
+  - /1/wd/workdir-65/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.0503890119725838
+  - 1.4463492169743404
+  working_directory:
+  - /0/wd/workdir-65
+  - /1/wd/workdir-65
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/ddbee7f5.smt2
+  dsoes_wallclock_time:
+  - 0.410002894
+  - 0.398049955
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-30/stderr.log.txt
+  - /1/wd/workdir-30/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-30/stdout.log.txt
+  - /1/wd/workdir-30/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.41
+  - 0.39
+  wallclock_time:
+  - 1.2122416910133325
+  - 1.0706773020210676
+  working_directory:
+  - /0/wd/workdir-30
+  - /1/wd/workdir-30
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/dee2ffe1.smt2
+  dsoes_wallclock_time:
+  - 0.398559978
+  - 0.357023579
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-47/stderr.log.txt
+  - /1/wd/workdir-47/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-47/stdout.log.txt
+  - /1/wd/workdir-47/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.35
+  wallclock_time:
+  - 1.235157365037594
+  - 1.4554932700120844
+  working_directory:
+  - /0/wd/workdir-47
+  - /1/wd/workdir-47
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/e606329c.smt2
+  dsoes_wallclock_time:
+  - 0.397271455
+  - 0.381071599
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-72/stderr.log.txt
+  - /1/wd/workdir-72/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-72/stdout.log.txt
+  - /1/wd/workdir-72/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.08
+  user_cpu_time:
+  - 0.41
+  - 0.35
+  wallclock_time:
+  - 1.267180344031658
+  - 1.2673678200226277
+  working_directory:
+  - /0/wd/workdir-72
+  - /1/wd/workdir-72
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/e7d25d08.smt2
+  dsoes_wallclock_time:
+  - 0.383149732
+  - 0.398686623
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-41/stderr.log.txt
+  - /1/wd/workdir-41/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-41/stdout.log.txt
+  - /1/wd/workdir-41/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.05
+  user_cpu_time:
+  - 0.36
+  - 0.4
+  wallclock_time:
+  - 1.1861468349816278
+  - 1.3456364970188588
+  working_directory:
+  - /0/wd/workdir-41
+  - /1/wd/workdir-41
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/ec0eea5c.smt2
+  dsoes_wallclock_time:
+  - 0.399584762
+  - 0.392805944
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-63/stderr.log.txt
+  - /1/wd/workdir-63/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-63/stdout.log.txt
+  - /1/wd/workdir-63/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.03
+  user_cpu_time:
+  - 0.4
+  - 0.42
+  wallclock_time:
+  - 1.22189733304549
+  - 1.1733759199851193
+  working_directory:
+  - /0/wd/workdir-63
+  - /1/wd/workdir-63
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/edf48133.smt2
+  dsoes_wallclock_time:
+  - 0.401945739
+  - 0.381226311
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-71/stderr.log.txt
+  - /1/wd/workdir-71/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-71/stdout.log.txt
+  - /1/wd/workdir-71/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.4
+  - 0.36
+  wallclock_time:
+  - 1.5019203419797122
+  - 1.1601543339784257
+  working_directory:
+  - /0/wd/workdir-71
+  - /1/wd/workdir-71
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/f77f6f95.smt2
+  dsoes_wallclock_time:
+  - 0.379741804
+  - 0.391706248
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-46/stderr.log.txt
+  - /1/wd/workdir-46/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-46/stdout.log.txt
+  - /1/wd/workdir-46/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.39
+  wallclock_time:
+  - 1.5759862400009297
+  - 1.01630047702929
+  working_directory:
+  - /0/wd/workdir-46
+  - /1/wd/workdir-46
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/f94ab5a1.smt2
+  dsoes_wallclock_time:
+  - 0.388759333
+  - 0.387146436
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-53/stderr.log.txt
+  - /1/wd/workdir-53/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-53/stdout.log.txt
+  - /1/wd/workdir-53/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.37
+  wallclock_time:
+  - 1.2134447120479308
+  - 1.0554124619811773
+  working_directory:
+  - /0/wd/workdir-53
+  - /1/wd/workdir-53
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/f96438f1.smt2
+  dsoes_wallclock_time:
+  - 0.384724266
+  - 0.383227975
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-69/stderr.log.txt
+  - /1/wd/workdir-69/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-69/stdout.log.txt
+  - /1/wd/workdir-69/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.1863632359891199
+  - 1.1861112920450978
+  working_directory:
+  - /0/wd/workdir-69
+  - /1/wd/workdir-69
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Aerospace_C/fa09d75d.smt2
+  dsoes_wallclock_time:
+  - 0.387553276
+  - 0.380777767
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-26/stderr.log.txt
+  - /1/wd/workdir-26/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-26/stdout.log.txt
+  - /1/wd/workdir-26/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.36
+  wallclock_time:
+  - 1.1470242910436355
+  - 1.2410783049999736
+  working_directory:
+  - /0/wd/workdir-26
+  - /1/wd/workdir-26
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/027f2c4d.smt2
+  dsoes_wallclock_time:
+  - 0.44125979
+  - 0.392821828
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-104/stderr.log.txt
+  - /1/wd/workdir-104/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-104/stdout.log.txt
+  - /1/wd/workdir-104/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.42
+  - 0.4
+  wallclock_time:
+  - 1.145491197006777
+  - 1.2282659790362231
+  working_directory:
+  - /0/wd/workdir-104
+  - /1/wd/workdir-104
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/16527595.smt2
+  dsoes_wallclock_time:
+  - 0.396792332
+  - 0.393982632
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-95/stderr.log.txt
+  - /1/wd/workdir-95/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-95/stdout.log.txt
+  - /1/wd/workdir-95/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.37
+  wallclock_time:
+  - 1.2348432560102083
+  - 1.1908920950372703
+  working_directory:
+  - /0/wd/workdir-95
+  - /1/wd/workdir-95
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/1a59ab1c.smt2
+  dsoes_wallclock_time:
+  - 0.400037035
+  - 0.403175946
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-100/stderr.log.txt
+  - /1/wd/workdir-100/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-100/stdout.log.txt
+  - /1/wd/workdir-100/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.4
+  wallclock_time:
+  - 1.1246074219816364
+  - 1.2329671190236695
+  working_directory:
+  - /0/wd/workdir-100
+  - /1/wd/workdir-100
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/1de5c35a.smt2
+  dsoes_wallclock_time:
+  - 0.393661839
+  - 0.395009357
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-93/stderr.log.txt
+  - /1/wd/workdir-93/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-93/stdout.log.txt
+  - /1/wd/workdir-93/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.4
+  wallclock_time:
+  - 1.2647388759651221
+  - 1.3827122729853727
+  working_directory:
+  - /0/wd/workdir-93
+  - /1/wd/workdir-93
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/25fc47d6.smt2
+  dsoes_wallclock_time:
+  - 0.401374677
+  - 0.359193861
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-101/stderr.log.txt
+  - /1/wd/workdir-101/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-101/stdout.log.txt
+  - /1/wd/workdir-101/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.36
+  wallclock_time:
+  - 1.0684270830242895
+  - 1.1906092170393094
+  working_directory:
+  - /0/wd/workdir-101
+  - /1/wd/workdir-101
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/407a0d9b.smt2
+  dsoes_wallclock_time:
+  - 0.405601683
+  - 0.378650448
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-102/stderr.log.txt
+  - /1/wd/workdir-102/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-102/stdout.log.txt
+  - /1/wd/workdir-102/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.37
+  wallclock_time:
+  - 1.1936357770464383
+  - 1.3482635710388422
+  working_directory:
+  - /0/wd/workdir-102
+  - /1/wd/workdir-102
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/4560eee1.smt2
+  dsoes_wallclock_time:
+  - 0.404589406
+  - 0.396419485
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-92/stderr.log.txt
+  - /1/wd/workdir-92/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-92/stdout.log.txt
+  - /1/wd/workdir-92/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.4
+  - 0.4
+  wallclock_time:
+  - 1.3549776249565184
+  - 1.1520452199620195
+  working_directory:
+  - /0/wd/workdir-92
+  - /1/wd/workdir-92
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/5dbd40d9.smt2
+  dsoes_wallclock_time:
+  - 0.417603001
+  - 0.424372673
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-91/stderr.log.txt
+  - /1/wd/workdir-91/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-91/stdout.log.txt
+  - /1/wd/workdir-91/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.41
+  - 0.42
+  wallclock_time:
+  - 1.3199095139862038
+  - 1.2791282610269263
+  working_directory:
+  - /0/wd/workdir-91
+  - /1/wd/workdir-91
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/900f6695.smt2
+  dsoes_wallclock_time:
+  - 0.431153506
+  - 0.40863957
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-98/stderr.log.txt
+  - /1/wd/workdir-98/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-98/stdout.log.txt
+  - /1/wd/workdir-98/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.03
+  user_cpu_time:
+  - 0.41
+  - 0.42
+  wallclock_time:
+  - 1.1304794930038042
+  - 1.2317569879814982
+  working_directory:
+  - /0/wd/workdir-98
+  - /1/wd/workdir-98
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/94474154.smt2
+  dsoes_wallclock_time:
+  - 0.427599755
+  - 0.401236327
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-103/stderr.log.txt
+  - /1/wd/workdir-103/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-103/stdout.log.txt
+  - /1/wd/workdir-103/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.02
+  user_cpu_time:
+  - 0.41
+  - 0.4
+  wallclock_time:
+  - 1.1571685620001517
+  - 1.3962479920010082
+  working_directory:
+  - /0/wd/workdir-103
+  - /1/wd/workdir-103
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/a0802d5d.smt2
+  dsoes_wallclock_time:
+  - 0.392959724
+  - 0.398640742
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-96/stderr.log.txt
+  - /1/wd/workdir-96/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-96/stdout.log.txt
+  - /1/wd/workdir-96/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.04
+  user_cpu_time:
+  - 0.36
+  - 0.4
+  wallclock_time:
+  - 1.1645564549835399
+  - 1.3700158830033615
+  working_directory:
+  - /0/wd/workdir-96
+  - /1/wd/workdir-96
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/b2ee114d.smt2
+  dsoes_wallclock_time:
+  - 0.386378827
+  - 0.414456672
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-94/stderr.log.txt
+  - /1/wd/workdir-94/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-94/stdout.log.txt
+  - /1/wd/workdir-94/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.2597784179961309
+  - 1.2160626859986223
+  working_directory:
+  - /0/wd/workdir-94
+  - /1/wd/workdir-94
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/df445454.smt2
+  dsoes_wallclock_time:
+  - 0.391613939
+  - 0.392065674
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-97/stderr.log.txt
+  - /1/wd/workdir-97/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-97/stdout.log.txt
+  - /1/wd/workdir-97/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.39
+  - 0.39
+  wallclock_time:
+  - 1.1458754040068015
+  - 1.237329978030175
+  working_directory:
+  - /0/wd/workdir-97
+  - /1/wd/workdir-97
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Automotive_C/eba05d37.smt2
+  dsoes_wallclock_time:
+  - 0.393449883
+  - 0.392609875
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-99/stderr.log.txt
+  - /1/wd/workdir-99/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-99/stdout.log.txt
+  - /1/wd/workdir-99/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 1.1186058649909683
+  - 1.3080114869517274
+  working_directory:
+  - /0/wd/workdir-99
+  - /1/wd/workdir-99
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/015b094d.smt2
+  dsoes_wallclock_time:
+  - 0.375481132
+  - 0.398596318
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-79/stderr.log.txt
+  - /1/wd/workdir-79/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-79/stdout.log.txt
+  - /1/wd/workdir-79/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.36
+  - 0.4
+  wallclock_time:
+  - 1.0983395659714006
+  - 1.1608497920096852
+  working_directory:
+  - /0/wd/workdir-79
+  - /1/wd/workdir-79
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/04453243.smt2
+  dsoes_wallclock_time:
+  - 0.416624528
+  - 0.403222101
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-74/stderr.log.txt
+  - /1/wd/workdir-74/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-74/stdout.log.txt
+  - /1/wd/workdir-74/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.02
+  user_cpu_time:
+  - 0.44
+  - 0.42
+  wallclock_time:
+  - 1.3246395769529045
+  - 1.143965568044223
+  working_directory:
+  - /0/wd/workdir-74
+  - /1/wd/workdir-74
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/15845779.smt2
+  dsoes_wallclock_time:
+  - 0.386178271
+  - 0.392509248
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-83/stderr.log.txt
+  - /1/wd/workdir-83/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-83/stdout.log.txt
+  - /1/wd/workdir-83/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.05
+  user_cpu_time:
+  - 0.39
+  - 0.39
+  wallclock_time:
+  - 1.484663454000838
+  - 1.1160401480155997
+  working_directory:
+  - /0/wd/workdir-83
+  - /1/wd/workdir-83
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/1822afb1.smt2
+  dsoes_wallclock_time:
+  - 0.378361212
+  - 0.380385075
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-84/stderr.log.txt
+  - /1/wd/workdir-84/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-84/stdout.log.txt
+  - /1/wd/workdir-84/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.03
+  user_cpu_time:
+  - 0.37
+  - 0.39
+  wallclock_time:
+  - 1.3336807480081916
+  - 1.5451551420264877
+  working_directory:
+  - /0/wd/workdir-84
+  - /1/wd/workdir-84
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/1d805d54.smt2
+  dsoes_wallclock_time:
+  - 0.385765154
+  - 0.392077646
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-87/stderr.log.txt
+  - /1/wd/workdir-87/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-87/stdout.log.txt
+  - /1/wd/workdir-87/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.36
+  - 0.39
+  wallclock_time:
+  - 1.20246112102177
+  - 1.5112661710008979
+  working_directory:
+  - /0/wd/workdir-87
+  - /1/wd/workdir-87
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/28a8cae6.smt2
+  dsoes_wallclock_time:
+  - 0.395196464
+  - 0.401421391
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-82/stderr.log.txt
+  - /1/wd/workdir-82/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-82/stdout.log.txt
+  - /1/wd/workdir-82/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.4
+  wallclock_time:
+  - 1.2683625710196793
+  - 1.2376944799907506
+  working_directory:
+  - /0/wd/workdir-82
+  - /1/wd/workdir-82
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/3054578f.smt2
+  dsoes_wallclock_time:
+  - 0.39841659
+  - 0.408704075
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-75/stderr.log.txt
+  - /1/wd/workdir-75/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-75/stdout.log.txt
+  - /1/wd/workdir-75/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.2538659520214424
+  - 1.3120388119714335
+  working_directory:
+  - /0/wd/workdir-75
+  - /1/wd/workdir-75
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/59645890.smt2
+  dsoes_wallclock_time:
+  - 0.392720621
+  - 0.408574893
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-77/stderr.log.txt
+  - /1/wd/workdir-77/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-77/stdout.log.txt
+  - /1/wd/workdir-77/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.0007353010005318
+  - 1.0958410250023007
+  working_directory:
+  - /0/wd/workdir-77
+  - /1/wd/workdir-77
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/65c01688.smt2
+  dsoes_wallclock_time:
+  - 0.379342555
+  - 0.410624929
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-85/stderr.log.txt
+  - /1/wd/workdir-85/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-85/stdout.log.txt
+  - /1/wd/workdir-85/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.07
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.3005787320435047
+  - 1.4051260510459542
+  working_directory:
+  - /0/wd/workdir-85
+  - /1/wd/workdir-85
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/7e8cd122.smt2
+  dsoes_wallclock_time:
+  - 0.37818855
+  - 0.37663851
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-73/stderr.log.txt
+  - /1/wd/workdir-73/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-73/stdout.log.txt
+  - /1/wd/workdir-73/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.36
+  wallclock_time:
+  - 1.1901336339651607
+  - 1.2319326130091213
+  working_directory:
+  - /0/wd/workdir-73
+  - /1/wd/workdir-73
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/9705db3a.smt2
+  dsoes_wallclock_time:
+  - 0.389261005
+  - 0.39655165
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-80/stderr.log.txt
+  - /1/wd/workdir-80/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-80/stdout.log.txt
+  - /1/wd/workdir-80/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.06
+  user_cpu_time:
+  - 0.39
+  - 0.38
+  wallclock_time:
+  - 1.4134486030088738
+  - 0.9552752270246856
+  working_directory:
+  - /0/wd/workdir-80
+  - /1/wd/workdir-80
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/a31a6e5e.smt2
+  dsoes_wallclock_time:
+  - 0.423043508
+  - 0.451184214
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-78/stderr.log.txt
+  - /1/wd/workdir-78/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-78/stdout.log.txt
+  - /1/wd/workdir-78/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 0.41
+  - 0.43
+  wallclock_time:
+  - 1.2191652769688517
+  - 1.17727189703146
+  working_directory:
+  - /0/wd/workdir-78
+  - /1/wd/workdir-78
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/b375167e.smt2
+  dsoes_wallclock_time:
+  - 0.375039357
+  - 0.410017309
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-81/stderr.log.txt
+  - /1/wd/workdir-81/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-81/stdout.log.txt
+  - /1/wd/workdir-81/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.08
+  user_cpu_time:
+  - 0.36
+  - 0.39
+  wallclock_time:
+  - 1.2571747209876776
+  - 1.251925840973854
+  working_directory:
+  - /0/wd/workdir-81
+  - /1/wd/workdir-81
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/cfa0460f.smt2
+  dsoes_wallclock_time:
+  - 0.392558522
+  - 0.374675975
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-86/stderr.log.txt
+  - /1/wd/workdir-86/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-86/stdout.log.txt
+  - /1/wd/workdir-86/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.39
+  - 0.36
+  wallclock_time:
+  - 0.9662482409621589
+  - 1.3906374969519675
+  working_directory:
+  - /0/wd/workdir-86
+  - /1/wd/workdir-86
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Industrial_Control_C/ff84c43c.smt2
+  dsoes_wallclock_time:
+  - 0.396530194
+  - 0.383930084
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-76/stderr.log.txt
+  - /1/wd/workdir-76/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-76/stdout.log.txt
+  - /1/wd/workdir-76/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.05
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 1.3683946170494892
+  - 1.280345268023666
+  working_directory:
+  - /0/wd/workdir-76
+  - /1/wd/workdir-76
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/29e21932.smt2
+  dsoes_wallclock_time:
+  - 0.391362047
+  - 0.385297332
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-110/stderr.log.txt
+  - /1/wd/workdir-110/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-110/stdout.log.txt
+  - /1/wd/workdir-110/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.05
+  user_cpu_time:
+  - 0.37
+  - 0.37
+  wallclock_time:
+  - 1.0505716929910704
+  - 1.2250040079816245
+  working_directory:
+  - /0/wd/workdir-110
+  - /1/wd/workdir-110
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/2c556790.smt2
+  dsoes_wallclock_time:
+  - 0.391816429
+  - 0.384757247
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-108/stderr.log.txt
+  - /1/wd/workdir-108/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-108/stdout.log.txt
+  - /1/wd/workdir-108/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.37
+  wallclock_time:
+  - 1.1987312489654869
+  - 0.979717189038638
+  working_directory:
+  - /0/wd/workdir-108
+  - /1/wd/workdir-108
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/40f50c70.smt2
+  dsoes_wallclock_time:
+  - 0.446366846
+  - 0.409436984
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-107/stderr.log.txt
+  - /1/wd/workdir-107/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-107/stdout.log.txt
+  - /1/wd/workdir-107/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.42
+  - 0.42
+  wallclock_time:
+  - 1.1233077049837448
+  - 1.1493215169757605
+  working_directory:
+  - /0/wd/workdir-107
+  - /1/wd/workdir-107
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/694fecf2.smt2
+  dsoes_wallclock_time:
+  - 0.40354741
+  - 0.385073676
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-115/stderr.log.txt
+  - /1/wd/workdir-115/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-115/stdout.log.txt
+  - /1/wd/workdir-115/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 1.1670456129941158
+  - 1.3811431160429493
+  working_directory:
+  - /0/wd/workdir-115
+  - /1/wd/workdir-115
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/6cdcd6b3.smt2
+  dsoes_wallclock_time:
+  - 0.403594079
+  - 0.393202531
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-111/stderr.log.txt
+  - /1/wd/workdir-111/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-111/stdout.log.txt
+  - /1/wd/workdir-111/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.05
+  user_cpu_time:
+  - 0.36
+  - 0.39
+  wallclock_time:
+  - 1.1706304340041243
+  - 1.1342842829762958
+  working_directory:
+  - /0/wd/workdir-111
+  - /1/wd/workdir-111
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/9fda8040.smt2
+  dsoes_wallclock_time:
+  - 0.392873452
+  - 0.378072391
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-112/stderr.log.txt
+  - /1/wd/workdir-112/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-112/stdout.log.txt
+  - /1/wd/workdir-112/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.39
+  - 0.38
+  wallclock_time:
+  - 1.1095926320413128
+  - 1.178436694026459
+  working_directory:
+  - /0/wd/workdir-112
+  - /1/wd/workdir-112
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/a4996fd8.smt2
+  dsoes_wallclock_time:
+  - 0.396609152
+  - 0.395492301
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-105/stderr.log.txt
+  - /1/wd/workdir-105/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-105/stdout.log.txt
+  - /1/wd/workdir-105/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.06
+  user_cpu_time:
+  - 0.38
+  - 0.39
+  wallclock_time:
+  - 1.0955461640260182
+  - 1.1393134690006264
+  working_directory:
+  - /0/wd/workdir-105
+  - /1/wd/workdir-105
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/cec84439.smt2
+  dsoes_wallclock_time:
+  - 0.368242578
+  - 0.38119994
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-109/stderr.log.txt
+  - /1/wd/workdir-109/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-109/stdout.log.txt
+  - /1/wd/workdir-109/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.35
+  - 0.38
+  wallclock_time:
+  - 1.1264850560110062
+  - 1.172184453054797
+  working_directory:
+  - /0/wd/workdir-109
+  - /1/wd/workdir-109
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/e8c80b80.smt2
+  dsoes_wallclock_time:
+  - 0.410645862
+  - 0.401931353
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-114/stderr.log.txt
+  - /1/wd/workdir-114/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-114/stdout.log.txt
+  - /1/wd/workdir-114/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 0.41
+  - 0.38
+  wallclock_time:
+  - 1.3486231080023572
+  - 1.1718525339965709
+  working_directory:
+  - /0/wd/workdir-114
+  - /1/wd/workdir-114
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/ecea15f1.smt2
+  dsoes_wallclock_time:
+  - 0.383221554
+  - 0.433429938
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-113/stderr.log.txt
+  - /1/wd/workdir-113/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-113/stdout.log.txt
+  - /1/wd/workdir-113/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.41
+  wallclock_time:
+  - 1.1059785209945403
+  - 1.2026855940348469
+  working_directory:
+  - /0/wd/workdir-113
+  - /1/wd/workdir-113
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/f0ea15fd.smt2
+  dsoes_wallclock_time:
+  - 0.38434318
+  - 0.397420644
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-116/stderr.log.txt
+  - /1/wd/workdir-116/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-116/stdout.log.txt
+  - /1/wd/workdir-116/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 0.37
+  - 0.38
+  wallclock_time:
+  - 1.1732900710194372
+  - 1.3259111160296015
+  working_directory:
+  - /0/wd/workdir-116
+  - /1/wd/workdir-116
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/RTOS_C/f1016306.smt2
+  dsoes_wallclock_time:
+  - 0.384983916
+  - 0.40443232
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-106/stderr.log.txt
+  - /1/wd/workdir-106/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-106/stdout.log.txt
+  - /1/wd/workdir-106/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.37
+  - 0.4
+  wallclock_time:
+  - 1.043438441993203
+  - 1.1831037669908255
+  working_directory:
+  - /0/wd/workdir-106
+  - /1/wd/workdir-106
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Railway_C/406b3443.smt2
+  dsoes_wallclock_time:
+  - 0.419534034
+  - 0.383527061
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-90/stderr.log.txt
+  - /1/wd/workdir-90/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-90/stdout.log.txt
+  - /1/wd/workdir-90/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.03
+  user_cpu_time:
+  - 0.4
+  - 0.4
+  wallclock_time:
+  - 1.3601060189539567
+  - 0.9868266659905203
+  working_directory:
+  - /0/wd/workdir-90
+  - /1/wd/workdir-90
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Railway_C/54c1fdea.smt2
+  dsoes_wallclock_time:
+  - 0.397097408
+  - 0.385107342
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-89/stderr.log.txt
+  - /1/wd/workdir-89/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-89/stdout.log.txt
+  - /1/wd/workdir-89/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.03
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.1388616590411402
+  - 1.2024690589751117
+  working_directory:
+  - /0/wd/workdir-89
+  - /1/wd/workdir-89
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20210211-Vector/Robotics_C/632feaff.smt2
+  dsoes_wallclock_time:
+  - 0.418959644
+  - 0.412608378
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-88/stderr.log.txt
+  - /1/wd/workdir-88/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-88/stdout.log.txt
+  - /1/wd/workdir-88/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.03
+  user_cpu_time:
+  - 0.42
+  - 0.41
+  wallclock_time:
+  - 1.2607089370139875
+  - 1.252607649017591
+  working_directory:
+  - /0/wd/workdir-88
+  - /1/wd/workdir-88
+- backend_timeout:
+  - false
+  - false
+  benchmark: 20230321-UltimateAutomizerSvcomp2023/double_req_bl_0870b.c_9.smt2
+  dsoes_wallclock_time:
+  - 0.397157427
+  - 0.402965856
+  event_tag:
+  - colibri_parser_error_unknown_character
+  - colibri_parser_error_unknown_character
+  exit_code:
+  - 2
+  - 2
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-117/stderr.log.txt
+  - /1/wd/workdir-117/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-117/stdout.log.txt
+  - /1/wd/workdir-117/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.39
+  - 0.4
+  wallclock_time:
+  - 1.1627303159912117
+  - 1.3092810499947518
+  working_directory:
+  - /0/wd/workdir-117
+  - /1/wd/workdir-117
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.666100478
+  - 0.669961174
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-259/stderr.log.txt
+  - /1/wd/workdir-259/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-259/stdout.log.txt
+  - /1/wd/workdir-259/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.64
+  - 0.67
+  wallclock_time:
+  - 1.2432375859934837
+  - 1.260537252004724
+  working_directory:
+  - /0/wd/workdir-259
+  - /1/wd/workdir-259
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.20.smt2
+  dsoes_wallclock_time:
+  - 1.080268571
+  - 1.071155271
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-200/stderr.log.txt
+  - /1/wd/workdir-200/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-200/stdout.log.txt
+  - /1/wd/workdir-200/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.07
+  user_cpu_time:
+  - 1.08
+  - 1.05
+  wallclock_time:
+  - 1.664673232997302
+  - 1.5990361329750158
+  working_directory:
+  - /0/wd/workdir-200
+  - /1/wd/workdir-200
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.3.smt2
+  dsoes_wallclock_time:
+  - 0.442468629
+  - 0.462969576
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-245/stderr.log.txt
+  - /1/wd/workdir-245/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-245/stdout.log.txt
+  - /1/wd/workdir-245/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.44
+  - 0.48
+  wallclock_time:
+  - 1.0331002920283936
+  - 1.044591059035156
+  working_directory:
+  - /0/wd/workdir-245
+  - /1/wd/workdir-245
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.30.smt2
+  dsoes_wallclock_time:
+  - 1.785528321
+  - 1.85721735
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-148/stderr.log.txt
+  - /1/wd/workdir-148/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-148/stdout.log.txt
+  - /1/wd/workdir-148/stdout.log.txt
+  sys_cpu_time:
+  - 0.09
+  - 0.1
+  user_cpu_time:
+  - 1.74
+  - 1.8
+  wallclock_time:
+  - 2.519895714998711
+  - 2.6044587030191906
+  working_directory:
+  - /0/wd/workdir-148
+  - /1/wd/workdir-148
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.40.smt2
+  dsoes_wallclock_time:
+  - 3.222526838
+  - 3.316826221
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-180/stderr.log.txt
+  - /1/wd/workdir-180/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-180/stdout.log.txt
+  - /1/wd/workdir-180/stdout.log.txt
+  sys_cpu_time:
+  - 0.12
+  - 0.2
+  user_cpu_time:
+  - 3.11
+  - 3.14
+  wallclock_time:
+  - 3.7770583310048096
+  - 3.937050736974925
+  working_directory:
+  - /0/wd/workdir-180
+  - /1/wd/workdir-180
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div.c.50.smt2
+  dsoes_wallclock_time:
+  - 5.412706811
+  - 5.73490904
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-161/stderr.log.txt
+  - /1/wd/workdir-161/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-161/stdout.log.txt
+  - /1/wd/workdir-161/stdout.log.txt
+  sys_cpu_time:
+  - 0.24
+  - 0.27
+  user_cpu_time:
+  - 5.2
+  - 5.49
+  wallclock_time:
+  - 5.993878774985205
+  - 6.303903705964331
+  working_directory:
+  - /0/wd/workdir-161
+  - /1/wd/workdir-161
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.770382723
+  - 0.791400407
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-165/stderr.log.txt
+  - /1/wd/workdir-165/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-165/stdout.log.txt
+  - /1/wd/workdir-165/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.06
+  user_cpu_time:
+  - 0.78
+  - 0.78
+  wallclock_time:
+  - 1.3420038699987344
+  - 1.4211830259882845
+  working_directory:
+  - /0/wd/workdir-165
+  - /1/wd/workdir-165
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.20.smt2
+  dsoes_wallclock_time:
+  - 1.618730325
+  - 1.665451984
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-219/stderr.log.txt
+  - /1/wd/workdir-219/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-219/stdout.log.txt
+  - /1/wd/workdir-219/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 1.61
+  - 1.65
+  wallclock_time:
+  - 2.178321678948123
+  - 2.2169371640193276
+  working_directory:
+  - /0/wd/workdir-219
+  - /1/wd/workdir-219
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.3.smt2
+  dsoes_wallclock_time:
+  - 0.480853418
+  - 0.473159067
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-119/stderr.log.txt
+  - /1/wd/workdir-119/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-119/stdout.log.txt
+  - /1/wd/workdir-119/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.08
+  user_cpu_time:
+  - 0.47
+  - 0.46
+  wallclock_time:
+  - 1.202022202021908
+  - 1.3925825050100684
+  working_directory:
+  - /0/wd/workdir-119
+  - /1/wd/workdir-119
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.30.smt2
+  dsoes_wallclock_time:
+  - 3.001331212
+  - 3.243914108
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-137/stderr.log.txt
+  - /1/wd/workdir-137/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-137/stdout.log.txt
+  - /1/wd/workdir-137/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.08
+  user_cpu_time:
+  - 2.96
+  - 3.21
+  wallclock_time:
+  - 3.653031070018187
+  - 3.994578494981397
+  working_directory:
+  - /0/wd/workdir-137
+  - /1/wd/workdir-137
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.40.smt2
+  dsoes_wallclock_time:
+  - 4.955705995
+  - 5.132351965
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-225/stderr.log.txt
+  - /1/wd/workdir-225/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-225/stdout.log.txt
+  - /1/wd/workdir-225/stdout.log.txt
+  sys_cpu_time:
+  - 0.12
+  - 0.09
+  user_cpu_time:
+  - 4.86
+  - 5.06
+  wallclock_time:
+  - 5.5409155010129325
+  - 5.708605885971338
+  working_directory:
+  - /0/wd/workdir-225
+  - /1/wd/workdir-225
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div2.c.50.smt2
+  dsoes_wallclock_time:
+  - 7.915541539
+  - 8.323396126
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-231/stderr.log.txt
+  - /1/wd/workdir-231/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-231/stdout.log.txt
+  - /1/wd/workdir-231/stdout.log.txt
+  sys_cpu_time:
+  - 0.12
+  - 0.16
+  user_cpu_time:
+  - 7.78
+  - 8.18
+  wallclock_time:
+  - 8.452282459998969
+  - 8.873415943991859
+  working_directory:
+  - /0/wd/workdir-231
+  - /1/wd/workdir-231
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.620462126
+  - 0.661584115
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-153/stderr.log.txt
+  - /1/wd/workdir-153/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-153/stdout.log.txt
+  - /1/wd/workdir-153/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.61
+  - 0.67
+  wallclock_time:
+  - 1.196531712950673
+  - 1.211136993020773
+  working_directory:
+  - /0/wd/workdir-153
+  - /1/wd/workdir-153
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.20.smt2
+  dsoes_wallclock_time:
+  - 0.988437563
+  - 1.00663749
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-152/stderr.log.txt
+  - /1/wd/workdir-152/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-152/stdout.log.txt
+  - /1/wd/workdir-152/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.06
+  user_cpu_time:
+  - 0.95
+  - 0.98
+  wallclock_time:
+  - 1.5895999320200644
+  - 1.5709946349961683
+  working_directory:
+  - /0/wd/workdir-152
+  - /1/wd/workdir-152
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.3.smt2
+  dsoes_wallclock_time:
+  - 0.438159978
+  - 0.481603802
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-170/stderr.log.txt
+  - /1/wd/workdir-170/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-170/stdout.log.txt
+  - /1/wd/workdir-170/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.44
+  - 0.48
+  wallclock_time:
+  - 1.0440680300234817
+  - 1.0803751299972646
+  working_directory:
+  - /0/wd/workdir-170
+  - /1/wd/workdir-170
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.30.smt2
+  dsoes_wallclock_time:
+  - 1.638479749
+  - 1.649919391
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-193/stderr.log.txt
+  - /1/wd/workdir-193/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-193/stdout.log.txt
+  - /1/wd/workdir-193/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 1.62
+  - 1.6
+  wallclock_time:
+  - 2.2005204029846936
+  - 2.2706991239683703
+  working_directory:
+  - /0/wd/workdir-193
+  - /1/wd/workdir-193
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.40.smt2
+  dsoes_wallclock_time:
+  - 2.699452094
+  - 2.80478084
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-187/stderr.log.txt
+  - /1/wd/workdir-187/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-187/stdout.log.txt
+  - /1/wd/workdir-187/stdout.log.txt
+  sys_cpu_time:
+  - 0.11
+  - 0.13
+  user_cpu_time:
+  - 2.62
+  - 2.7
+  wallclock_time:
+  - 3.288797420973424
+  - 3.4340777560137212
+  working_directory:
+  - /0/wd/workdir-187
+  - /1/wd/workdir-187
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/div3.c.50.smt2
+  dsoes_wallclock_time:
+  - 4.528525161
+  - 4.871055373
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-127/stderr.log.txt
+  - /1/wd/workdir-127/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-127/stdout.log.txt
+  - /1/wd/workdir-127/stdout.log.txt
+  sys_cpu_time:
+  - 0.24
+  - 0.19
+  user_cpu_time:
+  - 4.3
+  - 4.71
+  wallclock_time:
+  - 5.117572072020266
+  - 5.454347386024892
+  working_directory:
+  - /0/wd/workdir-127
+  - /1/wd/workdir-127
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e1.c.smt2
+  dsoes_wallclock_time:
+  - 0.401332892
+  - 0.427899409
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-118/stderr.log.txt
+  - /1/wd/workdir-118/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-118/stdout.log.txt
+  - /1/wd/workdir-118/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.38
+  - 0.44
+  wallclock_time:
+  - 1.1941633770475164
+  - 1.2241073820041493
+  working_directory:
+  - /0/wd/workdir-118
+  - /1/wd/workdir-118
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e1_1.c.smt2
+  dsoes_wallclock_time:
+  - 0.421449939
+  - 0.413001165
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-122/stderr.log.txt
+  - /1/wd/workdir-122/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-122/stdout.log.txt
+  - /1/wd/workdir-122/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.03
+  user_cpu_time:
+  - 0.42
+  - 0.42
+  wallclock_time:
+  - 1.030722126015462
+  - 1.0049352099886164
+  working_directory:
+  - /0/wd/workdir-122
+  - /1/wd/workdir-122
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e1_2.c.smt2
+  dsoes_wallclock_time:
+  - 0.390544724
+  - 0.412303981
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-167/stderr.log.txt
+  - /1/wd/workdir-167/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-167/stdout.log.txt
+  - /1/wd/workdir-167/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.06
+  user_cpu_time:
+  - 0.4
+  - 0.41
+  wallclock_time:
+  - 0.9876016039634123
+  - 1.0056466449750587
+  working_directory:
+  - /0/wd/workdir-167
+  - /1/wd/workdir-167
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2.c.smt2
+  dsoes_wallclock_time:
+  - 0.511342873
+  - 0.544250169
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-209/stderr.log.txt
+  - /1/wd/workdir-209/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-209/stdout.log.txt
+  - /1/wd/workdir-209/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.5
+  - 0.55
+  wallclock_time:
+  - 1.0842192230047658
+  - 1.0977312210015953
+  working_directory:
+  - /0/wd/workdir-209
+  - /1/wd/workdir-209
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2_1.c.smt2
+  dsoes_wallclock_time:
+  - 0.438969832
+  - 0.466583296
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-134/stderr.log.txt
+  - /1/wd/workdir-134/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-134/stdout.log.txt
+  - /1/wd/workdir-134/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.44
+  - 0.46
+  wallclock_time:
+  - 1.138135141984094
+  - 1.076191405998543
+  working_directory:
+  - /0/wd/workdir-134
+  - /1/wd/workdir-134
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2_2.c.smt2
+  dsoes_wallclock_time:
+  - 0.445904467
+  - 0.488184385
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-175/stderr.log.txt
+  - /1/wd/workdir-175/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-175/stdout.log.txt
+  - /1/wd/workdir-175/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.46
+  - 0.5
+  wallclock_time:
+  - 1.0342044699937105
+  - 1.0700218910351396
+  working_directory:
+  - /0/wd/workdir-175
+  - /1/wd/workdir-175
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2_3.c.smt2
+  dsoes_wallclock_time:
+  - 0.429288284
+  - 0.459759963
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-126/stderr.log.txt
+  - /1/wd/workdir-126/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-126/stdout.log.txt
+  - /1/wd/workdir-126/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.03
+  user_cpu_time:
+  - 0.44
+  - 0.46
+  wallclock_time:
+  - 0.9984167279908434
+  - 1.0603034839732572
+  working_directory:
+  - /0/wd/workdir-126
+  - /1/wd/workdir-126
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2a_1.c.smt2
+  dsoes_wallclock_time:
+  - 0.423420944
+  - 0.432881268
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-228/stderr.log.txt
+  - /1/wd/workdir-228/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-228/stdout.log.txt
+  - /1/wd/workdir-228/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.4
+  - 0.43
+  wallclock_time:
+  - 0.9801634179893881
+  - 0.9996416519861668
+  working_directory:
+  - /0/wd/workdir-228
+  - /1/wd/workdir-228
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2a_2.c.smt2
+  dsoes_wallclock_time:
+  - 0.430318743
+  - 0.427867226
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-199/stderr.log.txt
+  - /1/wd/workdir-199/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-199/stdout.log.txt
+  - /1/wd/workdir-199/stdout.log.txt
+  sys_cpu_time:
+  - 0.02
+  - 0.04
+  user_cpu_time:
+  - 0.44
+  - 0.43
+  wallclock_time:
+  - 1.0634249559952877
+  - 0.9649126380099915
+  working_directory:
+  - /0/wd/workdir-199
+  - /1/wd/workdir-199
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e2a_3.c.smt2
+  dsoes_wallclock_time:
+  - 0.390920602
+  - 0.425387223
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-147/stderr.log.txt
+  - /1/wd/workdir-147/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-147/stdout.log.txt
+  - /1/wd/workdir-147/stdout.log.txt
+  sys_cpu_time:
+  - 0.02
+  - 0.04
+  user_cpu_time:
+  - 0.41
+  - 0.42
+  wallclock_time:
+  - 1.0722868459997699
+  - 1.2982522870297544
+  working_directory:
+  - /0/wd/workdir-147
+  - /1/wd/workdir-147
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/e3_1.c.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-146/stderr.log.txt
+  - /1/wd/workdir-146/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-146/stdout.log.txt
+  - /1/wd/workdir-146/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41770087502664
+  - 60.38084344699746
+  working_directory:
+  - /0/wd/workdir-146
+  - /1/wd/workdir-146
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/e3_2.c.smt2
+  dsoes_wallclock_time:
+  - 0.503108496
+  - 0.545005828
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-247/stderr.log.txt
+  - /1/wd/workdir-247/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-247/stdout.log.txt
+  - /1/wd/workdir-247/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.03
+  user_cpu_time:
+  - 0.5
+  - 0.56
+  wallclock_time:
+  - 1.1025910169701092
+  - 1.1610546379815787
+  working_directory:
+  - /0/wd/workdir-247
+  - /1/wd/workdir-247
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/f23.smt2
+  dsoes_wallclock_time:
+  - 29.277378809
+  - 29.701770009
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-166/stderr.log.txt
+  - /1/wd/workdir-166/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-166/stdout.log.txt
+  - /1/wd/workdir-166/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.08
+  user_cpu_time:
+  - 29.18
+  - 29.62
+  wallclock_time:
+  - 29.84757472499041
+  - 30.2683319550124
+  working_directory:
+  - /0/wd/workdir-166
+  - /1/wd/workdir-166
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/gaussian.c.125.smt2
+  dsoes_wallclock_time:
+  - 26.209922768
+  - 27.703545861
+  event_tag:
+  - colibri_generic_unknown
+  - colibri_generic_unknown
+  exit_code:
+  - 3
+  - 3
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-251/stderr.log.txt
+  - /1/wd/workdir-251/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-251/stdout.log.txt
+  - /1/wd/workdir-251/stdout.log.txt
+  sys_cpu_time:
+  - 1.21
+  - 1.05
+  user_cpu_time:
+  - 24.69
+  - 26.32
+  wallclock_time:
+  - 26.74026730301557
+  - 28.26322933897609
+  working_directory:
+  - /0/wd/workdir-251
+  - /1/wd/workdir-251
+- backend_timeout:
+  - false
+  - true
+  benchmark: griggio/fmcad12/gaussian.c.175.smt2
+  dsoes_wallclock_time:
+  - 58.130226372
+  - null
+  event_tag:
+  - colibri_generic_unknown
+  - timeout
+  exit_code:
+  - 3
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-163/stderr.log.txt
+  - /1/wd/workdir-163/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-163/stdout.log.txt
+  - /1/wd/workdir-163/stdout.log.txt
+  sys_cpu_time:
+  - 1.51
+  - null
+  user_cpu_time:
+  - 56.16
+  - null
+  wallclock_time:
+  - 58.70529183896724
+  - 60.396507950965315
+  working_directory:
+  - /0/wd/workdir-163
+  - /1/wd/workdir-163
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/gaussian.c.25.smt2
+  dsoes_wallclock_time:
+  - 11.52291561
+  - 11.940952276
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-221/stderr.log.txt
+  - /1/wd/workdir-221/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-221/stdout.log.txt
+  - /1/wd/workdir-221/stdout.log.txt
+  sys_cpu_time:
+  - 0.13
+  - 0.12
+  user_cpu_time:
+  - 11.42
+  - 11.86
+  wallclock_time:
+  - 12.091986769984942
+  - 12.49115391401574
+  working_directory:
+  - /0/wd/workdir-221
+  - /1/wd/workdir-221
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/gaussian.c.75.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-217/stderr.log.txt
+  - /1/wd/workdir-217/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-217/stdout.log.txt
+  - /1/wd/workdir-217/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.3725539650186
+  - 60.33875503396848
+  working_directory:
+  - /0/wd/workdir-217
+  - /1/wd/workdir-217
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/mul_000003_30000_1.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-220/stderr.log.txt
+  - /1/wd/workdir-220/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-220/stdout.log.txt
+  - /1/wd/workdir-220/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.39715873100795
+  - 60.36246439703973
+  working_directory:
+  - /0/wd/workdir-220
+  - /1/wd/workdir-220
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/mul_03_3000_1.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-129/stderr.log.txt
+  - /1/wd/workdir-129/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-129/stdout.log.txt
+  - /1/wd/workdir-129/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41456553601893
+  - 60.41390482895076
+  working_directory:
+  - /0/wd/workdir-129
+  - /1/wd/workdir-129
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mul_03_3_1.smt2
+  dsoes_wallclock_time:
+  - 0.768021428
+  - 0.837346068
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-215/stderr.log.txt
+  - /1/wd/workdir-215/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-215/stdout.log.txt
+  - /1/wd/workdir-215/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.05
+  user_cpu_time:
+  - 0.76
+  - 0.83
+  wallclock_time:
+  - 1.3277917939703912
+  - 1.4652234460227191
+  working_directory:
+  - /0/wd/workdir-215
+  - /1/wd/workdir-215
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.579189854
+  - 0.65009187
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-241/stderr.log.txt
+  - /1/wd/workdir-241/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-241/stdout.log.txt
+  - /1/wd/workdir-241/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.56
+  - 0.65
+  wallclock_time:
+  - 1.1560708510223776
+  - 1.2600306699750945
+  working_directory:
+  - /0/wd/workdir-241
+  - /1/wd/workdir-241
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.20.smt2
+  dsoes_wallclock_time:
+  - 0.940094152
+  - 0.929233466
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-154/stderr.log.txt
+  - /1/wd/workdir-154/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-154/stdout.log.txt
+  - /1/wd/workdir-154/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.05
+  user_cpu_time:
+  - 0.9
+  - 0.92
+  wallclock_time:
+  - 1.5068091950379312
+  - 1.5082873840001412
+  working_directory:
+  - /0/wd/workdir-154
+  - /1/wd/workdir-154
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.3.smt2
+  dsoes_wallclock_time:
+  - 0.472567326
+  - 0.474414447
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-145/stderr.log.txt
+  - /1/wd/workdir-145/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-145/stdout.log.txt
+  - /1/wd/workdir-145/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.48
+  - 0.48
+  wallclock_time:
+  - 1.0588377239764668
+  - 1.1170423949952237
+  working_directory:
+  - /0/wd/workdir-145
+  - /1/wd/workdir-145
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.30.smt2
+  dsoes_wallclock_time:
+  - 1.461043947
+  - 1.5110681
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-250/stderr.log.txt
+  - /1/wd/workdir-250/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-250/stdout.log.txt
+  - /1/wd/workdir-250/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 1.44
+  - 1.49
+  wallclock_time:
+  - 2.0411590919829905
+  - 2.2394053780008107
+  working_directory:
+  - /0/wd/workdir-250
+  - /1/wd/workdir-250
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.40.smt2
+  dsoes_wallclock_time:
+  - 2.476717068
+  - 2.630205406
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-189/stderr.log.txt
+  - /1/wd/workdir-189/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-189/stdout.log.txt
+  - /1/wd/workdir-189/stdout.log.txt
+  sys_cpu_time:
+  - 0.11
+  - 0.13
+  user_cpu_time:
+  - 2.4
+  - 2.53
+  wallclock_time:
+  - 3.0379754519672133
+  - 3.2848232100368477
+  working_directory:
+  - /0/wd/workdir-189
+  - /1/wd/workdir-189
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult1.c.50.smt2
+  dsoes_wallclock_time:
+  - 4.215449321
+  - 4.174143468
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-156/stderr.log.txt
+  - /1/wd/workdir-156/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-156/stdout.log.txt
+  - /1/wd/workdir-156/stdout.log.txt
+  sys_cpu_time:
+  - 0.16
+  - 0.22
+  user_cpu_time:
+  - 4.06
+  - 3.97
+  wallclock_time:
+  - 4.785621299990453
+  - 4.736291944049299
+  working_directory:
+  - /0/wd/workdir-156
+  - /1/wd/workdir-156
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.635170463
+  - 0.696561066
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-236/stderr.log.txt
+  - /1/wd/workdir-236/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-236/stdout.log.txt
+  - /1/wd/workdir-236/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.63
+  - 0.7
+  wallclock_time:
+  - 1.1991349749732763
+  - 1.2903215929982252
+  working_directory:
+  - /0/wd/workdir-236
+  - /1/wd/workdir-236
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.20.smt2
+  dsoes_wallclock_time:
+  - 1.178496184
+  - 1.130786823
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-265/stderr.log.txt
+  - /1/wd/workdir-265/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-265/stdout.log.txt
+  - /1/wd/workdir-265/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 1.17
+  - 1.13
+  wallclock_time:
+  - 1.7444976880215108
+  - 1.7281292739789933
+  working_directory:
+  - /0/wd/workdir-265
+  - /1/wd/workdir-265
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.3.smt2
+  dsoes_wallclock_time:
+  - 0.477816604
+  - 0.407616075
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-179/stderr.log.txt
+  - /1/wd/workdir-179/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-179/stdout.log.txt
+  - /1/wd/workdir-179/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.46
+  - 0.4
+  wallclock_time:
+  - 1.1537904199794866
+  - 1.053144608042203
+  working_directory:
+  - /0/wd/workdir-179
+  - /1/wd/workdir-179
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.30.smt2
+  dsoes_wallclock_time:
+  - 1.934269239
+  - 2.059633126
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-135/stderr.log.txt
+  - /1/wd/workdir-135/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-135/stdout.log.txt
+  - /1/wd/workdir-135/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.07
+  user_cpu_time:
+  - 1.9
+  - 2.02
+  wallclock_time:
+  - 2.5377081700135022
+  - 2.7667925729765557
+  working_directory:
+  - /0/wd/workdir-135
+  - /1/wd/workdir-135
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.40.smt2
+  dsoes_wallclock_time:
+  - 3.373764062
+  - 3.519100457
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-188/stderr.log.txt
+  - /1/wd/workdir-188/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-188/stdout.log.txt
+  - /1/wd/workdir-188/stdout.log.txt
+  sys_cpu_time:
+  - 0.09
+  - 0.14
+  user_cpu_time:
+  - 3.31
+  - 3.42
+  wallclock_time:
+  - 4.0131754240137525
+  - 4.295856455981266
+  working_directory:
+  - /0/wd/workdir-188
+  - /1/wd/workdir-188
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/mult2.c.50.smt2
+  dsoes_wallclock_time:
+  - 5.860174659
+  - 5.9011596
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-224/stderr.log.txt
+  - /1/wd/workdir-224/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-224/stdout.log.txt
+  - /1/wd/workdir-224/stdout.log.txt
+  sys_cpu_time:
+  - 0.26
+  - 0.19
+  user_cpu_time:
+  - 5.62
+  - 5.71
+  wallclock_time:
+  - 6.453663746011443
+  - 6.450866368017159
+  working_directory:
+  - /0/wd/workdir-224
+  - /1/wd/workdir-224
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.1.2.i.smt2
+  dsoes_wallclock_time:
+  - 0.722881916
+  - 0.707478636
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-151/stderr.log.txt
+  - /1/wd/workdir-151/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-151/stdout.log.txt
+  - /1/wd/workdir-151/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.08
+  user_cpu_time:
+  - 0.71
+  - 0.68
+  wallclock_time:
+  - 1.3061496279551648
+  - 1.2864535039989278
+  working_directory:
+  - /0/wd/workdir-151
+  - /1/wd/workdir-151
+- backend_timeout:
+  - true
+  - false
+  benchmark: griggio/fmcad12/newton.1.3.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - 59.263906851
+  event_tag:
+  - timeout
+  - unsat_but_expected_sat
+  exit_code:
+  - null
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-262/stderr.log.txt
+  - /1/wd/workdir-262/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-262/stdout.log.txt
+  - /1/wd/workdir-262/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - 0.15
+  user_cpu_time:
+  - null
+  - 59.02
+  wallclock_time:
+  - 60.350044112012256
+  - 59.800869669998065
+  working_directory:
+  - /0/wd/workdir-262
+  - /1/wd/workdir-262
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.2.2.i.smt2
+  dsoes_wallclock_time:
+  - 10.693264397
+  - 11.045860075
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-197/stderr.log.txt
+  - /1/wd/workdir-197/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-197/stdout.log.txt
+  - /1/wd/workdir-197/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.09
+  user_cpu_time:
+  - 10.68
+  - 10.99
+  wallclock_time:
+  - 11.282400119991507
+  - 11.616822301992215
+  working_directory:
+  - /0/wd/workdir-197
+  - /1/wd/workdir-197
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/newton.2.3.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-206/stderr.log.txt
+  - /1/wd/workdir-206/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-206/stdout.log.txt
+  - /1/wd/workdir-206/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.3744396760012
+  - 60.39248462498654
+  working_directory:
+  - /0/wd/workdir-206
+  - /1/wd/workdir-206
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.3.1.i.smt2
+  dsoes_wallclock_time:
+  - 2.109353983
+  - 2.155182448
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-198/stderr.log.txt
+  - /1/wd/workdir-198/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-198/stdout.log.txt
+  - /1/wd/workdir-198/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 2.1
+  - 2.14
+  wallclock_time:
+  - 2.6869674419867806
+  - 2.669243177981116
+  working_directory:
+  - /0/wd/workdir-198
+  - /1/wd/workdir-198
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.3.2.i.smt2
+  dsoes_wallclock_time:
+  - 32.071910051
+  - 32.771140711
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-157/stderr.log.txt
+  - /1/wd/workdir-157/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-157/stdout.log.txt
+  - /1/wd/workdir-157/stdout.log.txt
+  sys_cpu_time:
+  - 0.14
+  - 0.15
+  user_cpu_time:
+  - 31.94
+  - 32.58
+  wallclock_time:
+  - 32.66204742004629
+  - 33.36031734297285
+  working_directory:
+  - /0/wd/workdir-157
+  - /1/wd/workdir-157
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/newton.3.3.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-142/stderr.log.txt
+  - /1/wd/workdir-142/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-142/stdout.log.txt
+  - /1/wd/workdir-142/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41077434195904
+  - 60.3854487700155
+  working_directory:
+  - /0/wd/workdir-142
+  - /1/wd/workdir-142
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.4.1.i.smt2
+  dsoes_wallclock_time:
+  - 2.455221602
+  - 2.524050616
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-169/stderr.log.txt
+  - /1/wd/workdir-169/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-169/stdout.log.txt
+  - /1/wd/workdir-169/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 2.43
+  - 2.52
+  wallclock_time:
+  - 3.1449138219468296
+  - 3.1155773859936744
+  working_directory:
+  - /0/wd/workdir-169
+  - /1/wd/workdir-169
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.4.2.i.smt2
+  dsoes_wallclock_time:
+  - 44.718682011
+  - 44.609618364
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-192/stderr.log.txt
+  - /1/wd/workdir-192/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-192/stdout.log.txt
+  - /1/wd/workdir-192/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.15
+  user_cpu_time:
+  - 44.59
+  - 44.43
+  wallclock_time:
+  - 45.28806509095011
+  - 45.15261895698495
+  working_directory:
+  - /0/wd/workdir-192
+  - /1/wd/workdir-192
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/newton.4.3.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-256/stderr.log.txt
+  - /1/wd/workdir-256/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-256/stdout.log.txt
+  - /1/wd/workdir-256/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.420986046025064
+  - 60.39685783197638
+  working_directory:
+  - /0/wd/workdir-256
+  - /1/wd/workdir-256
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.5.1.i.smt2
+  dsoes_wallclock_time:
+  - 2.848575302
+  - 2.890873309
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-144/stderr.log.txt
+  - /1/wd/workdir-144/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-144/stdout.log.txt
+  - /1/wd/workdir-144/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.05
+  user_cpu_time:
+  - 2.82
+  - 2.88
+  wallclock_time:
+  - 3.4086573609965853
+  - 3.440242576994933
+  working_directory:
+  - /0/wd/workdir-144
+  - /1/wd/workdir-144
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/newton.5.2.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-162/stderr.log.txt
+  - /1/wd/workdir-162/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-162/stdout.log.txt
+  - /1/wd/workdir-162/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.37451568903634
+  - 60.40822951798327
+  working_directory:
+  - /0/wd/workdir-162
+  - /1/wd/workdir-162
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/newton.5.3.i.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-194/stderr.log.txt
+  - /1/wd/workdir-194/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-194/stdout.log.txt
+  - /1/wd/workdir-194/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.402424933970906
+  - 60.408332466031425
+  working_directory:
+  - /0/wd/workdir-194
+  - /1/wd/workdir-194
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.6.1.i.smt2
+  dsoes_wallclock_time:
+  - 2.659658429
+  - 2.749287316
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-254/stderr.log.txt
+  - /1/wd/workdir-254/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-254/stdout.log.txt
+  - /1/wd/workdir-254/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 2.66
+  - 2.73
+  wallclock_time:
+  - 3.2801210390171036
+  - 3.2965333680040203
+  working_directory:
+  - /0/wd/workdir-254
+  - /1/wd/workdir-254
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.6.2.i.smt2
+  dsoes_wallclock_time:
+  - 1.82040991
+  - 1.865258251
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-133/stderr.log.txt
+  - /1/wd/workdir-133/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-133/stdout.log.txt
+  - /1/wd/workdir-133/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.07
+  user_cpu_time:
+  - 1.82
+  - 1.83
+  wallclock_time:
+  - 2.424048665969167
+  - 2.414958317007404
+  working_directory:
+  - /0/wd/workdir-133
+  - /1/wd/workdir-133
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.6.3.i.smt2
+  dsoes_wallclock_time:
+  - 2.159160814
+  - 2.247993534
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-150/stderr.log.txt
+  - /1/wd/workdir-150/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-150/stdout.log.txt
+  - /1/wd/workdir-150/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.05
+  user_cpu_time:
+  - 2.14
+  - 2.24
+  wallclock_time:
+  - 2.75953042996116
+  - 2.7840025649638847
+  working_directory:
+  - /0/wd/workdir-150
+  - /1/wd/workdir-150
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.7.1.i.smt2
+  dsoes_wallclock_time:
+  - 3.716591595
+  - 3.802913386
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-160/stderr.log.txt
+  - /1/wd/workdir-160/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-160/stdout.log.txt
+  - /1/wd/workdir-160/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 3.7
+  - 3.77
+  wallclock_time:
+  - 4.28346153703751
+  - 4.375844030000735
+  working_directory:
+  - /0/wd/workdir-160
+  - /1/wd/workdir-160
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.7.2.i.smt2
+  dsoes_wallclock_time:
+  - 7.134240659
+  - 7.234231799
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-204/stderr.log.txt
+  - /1/wd/workdir-204/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-204/stdout.log.txt
+  - /1/wd/workdir-204/stdout.log.txt
+  sys_cpu_time:
+  - 0.08
+  - 0.06
+  user_cpu_time:
+  - 7.08
+  - 7.2
+  wallclock_time:
+  - 7.737558397988323
+  - 7.774440419045277
+  working_directory:
+  - /0/wd/workdir-204
+  - /1/wd/workdir-204
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.7.3.i.smt2
+  dsoes_wallclock_time:
+  - 15.888312253
+  - 16.058457132
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-233/stderr.log.txt
+  - /1/wd/workdir-233/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-233/stdout.log.txt
+  - /1/wd/workdir-233/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.09
+  user_cpu_time:
+  - 15.8
+  - 16.0
+  wallclock_time:
+  - 16.439475513005164
+  - 16.589262838999275
+  working_directory:
+  - /0/wd/workdir-233
+  - /1/wd/workdir-233
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.8.1.i.smt2
+  dsoes_wallclock_time:
+  - 1.035082213
+  - 1.186975839
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-171/stderr.log.txt
+  - /1/wd/workdir-171/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-171/stdout.log.txt
+  - /1/wd/workdir-171/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 1.02
+  - 1.17
+  wallclock_time:
+  - 1.5533804209553637
+  - 1.772777809004765
+  working_directory:
+  - /0/wd/workdir-171
+  - /1/wd/workdir-171
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.8.2.i.smt2
+  dsoes_wallclock_time:
+  - 1.401814894
+  - 1.384223395
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-242/stderr.log.txt
+  - /1/wd/workdir-242/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-242/stdout.log.txt
+  - /1/wd/workdir-242/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 1.41
+  - 1.4
+  wallclock_time:
+  - 1.9312799950130284
+  - 1.945484793977812
+  working_directory:
+  - /0/wd/workdir-242
+  - /1/wd/workdir-242
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/newton.8.3.i.smt2
+  dsoes_wallclock_time:
+  - 1.706776377
+  - 1.748611732
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-260/stderr.log.txt
+  - /1/wd/workdir-260/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-260/stdout.log.txt
+  - /1/wd/workdir-260/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 1.71
+  - 1.72
+  wallclock_time:
+  - 2.2827975979889743
+  - 2.3025900470092893
+  working_directory:
+  - /0/wd/workdir-260
+  - /1/wd/workdir-260
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/qurt.c.20.smt2
+  dsoes_wallclock_time:
+  - 5.846787872
+  - 6.200035849
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-235/stderr.log.txt
+  - /1/wd/workdir-235/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-235/stdout.log.txt
+  - /1/wd/workdir-235/stdout.log.txt
+  sys_cpu_time:
+  - 0.18
+  - 0.18
+  user_cpu_time:
+  - 5.69
+  - 6.02
+  wallclock_time:
+  - 6.443777205015067
+  - 6.804604556993581
+  working_directory:
+  - /0/wd/workdir-235
+  - /1/wd/workdir-235
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/qurt.c.25.smt2
+  dsoes_wallclock_time:
+  - 5.968039292
+  - 6.395071375
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-212/stderr.log.txt
+  - /1/wd/workdir-212/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-212/stdout.log.txt
+  - /1/wd/workdir-212/stdout.log.txt
+  sys_cpu_time:
+  - 0.2
+  - 0.18
+  user_cpu_time:
+  - 5.76
+  - 6.22
+  wallclock_time:
+  - 6.485901722975541
+  - 6.962285779998638
+  working_directory:
+  - /0/wd/workdir-212
+  - /1/wd/workdir-212
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin.c.125.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-249/stderr.log.txt
+  - /1/wd/workdir-249/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-249/stdout.log.txt
+  - /1/wd/workdir-249/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.54345281503629
+  - 60.52480265003396
+  working_directory:
+  - /0/wd/workdir-249
+  - /1/wd/workdir-249
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin.c.175.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-130/stderr.log.txt
+  - /1/wd/workdir-130/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-130/stdout.log.txt
+  - /1/wd/workdir-130/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.3739727960201
+  - 60.41962836001767
+  working_directory:
+  - /0/wd/workdir-130
+  - /1/wd/workdir-130
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin.c.25.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-230/stderr.log.txt
+  - /1/wd/workdir-230/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-230/stdout.log.txt
+  - /1/wd/workdir-230/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.421397220983636
+  - 60.39669878000859
+  working_directory:
+  - /0/wd/workdir-230
+  - /1/wd/workdir-230
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin.c.75.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-176/stderr.log.txt
+  - /1/wd/workdir-176/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-176/stdout.log.txt
+  - /1/wd/workdir-176/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.385127855988685
+  - 60.41709390899632
+  working_directory:
+  - /0/wd/workdir-176
+  - /1/wd/workdir-176
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.10.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-243/stderr.log.txt
+  - /1/wd/workdir-243/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-243/stdout.log.txt
+  - /1/wd/workdir-243/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.42041464400245
+  - 60.38729469903046
+  working_directory:
+  - /0/wd/workdir-243
+  - /1/wd/workdir-243
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.125.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-234/stderr.log.txt
+  - /1/wd/workdir-234/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-234/stdout.log.txt
+  - /1/wd/workdir-234/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.34953514696099
+  - 60.41733548504999
+  working_directory:
+  - /0/wd/workdir-234
+  - /1/wd/workdir-234
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.15.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-132/stderr.log.txt
+  - /1/wd/workdir-132/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-132/stdout.log.txt
+  - /1/wd/workdir-132/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.418337232025806
+  - 60.4275828669779
+  working_directory:
+  - /0/wd/workdir-132
+  - /1/wd/workdir-132
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.175.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-211/stderr.log.txt
+  - /1/wd/workdir-211/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-211/stdout.log.txt
+  - /1/wd/workdir-211/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.36024060298223
+  - 60.353528070030734
+  working_directory:
+  - /0/wd/workdir-211
+  - /1/wd/workdir-211
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.2.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-257/stderr.log.txt
+  - /1/wd/workdir-257/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-257/stdout.log.txt
+  - /1/wd/workdir-257/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.384209267038386
+  - 60.40222702099709
+  working_directory:
+  - /0/wd/workdir-257
+  - /1/wd/workdir-257
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.20.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-239/stderr.log.txt
+  - /1/wd/workdir-239/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-239/stdout.log.txt
+  - /1/wd/workdir-239/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.42843982798513
+  - 60.42375074099982
+  working_directory:
+  - /0/wd/workdir-239
+  - /1/wd/workdir-239
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.25.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-140/stderr.log.txt
+  - /1/wd/workdir-140/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-140/stdout.log.txt
+  - /1/wd/workdir-140/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.33994711498963
+  - 60.38838126504561
+  working_directory:
+  - /0/wd/workdir-140
+  - /1/wd/workdir-140
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sin2.c.5.smt2
+  dsoes_wallclock_time:
+  - 4.898473428
+  - 5.00454411
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-261/stderr.log.txt
+  - /1/wd/workdir-261/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-261/stdout.log.txt
+  - /1/wd/workdir-261/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.06
+  user_cpu_time:
+  - 4.88
+  - 4.97
+  wallclock_time:
+  - 5.690217718016356
+  - 5.585749142977875
+  working_directory:
+  - /0/wd/workdir-261
+  - /1/wd/workdir-261
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/sin2.c.75.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-263/stderr.log.txt
+  - /1/wd/workdir-263/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-263/stdout.log.txt
+  - /1/wd/workdir-263/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.343940738996025
+  - 60.333979002025444
+  working_directory:
+  - /0/wd/workdir-263
+  - /1/wd/workdir-263
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sine.1.0.i.smt2
+  dsoes_wallclock_time:
+  - 0.604334495
+  - 0.631811561
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-183/stderr.log.txt
+  - /1/wd/workdir-183/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-183/stdout.log.txt
+  - /1/wd/workdir-183/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.07
+  user_cpu_time:
+  - 0.6
+  - 0.62
+  wallclock_time:
+  - 1.212144389981404
+  - 1.2493728430126794
+  working_directory:
+  - /0/wd/workdir-183
+  - /1/wd/workdir-183
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.10.smt2
+  dsoes_wallclock_time:
+  - 0.98342464
+  - 1.030427522
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-232/stderr.log.txt
+  - /1/wd/workdir-232/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-232/stdout.log.txt
+  - /1/wd/workdir-232/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.97
+  - 1.02
+  wallclock_time:
+  - 1.4886797840008512
+  - 1.6028707919758745
+  working_directory:
+  - /0/wd/workdir-232
+  - /1/wd/workdir-232
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.15.smt2
+  dsoes_wallclock_time:
+  - 1.318782818
+  - 1.393672136
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-181/stderr.log.txt
+  - /1/wd/workdir-181/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-181/stdout.log.txt
+  - /1/wd/workdir-181/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 1.3
+  - 1.38
+  wallclock_time:
+  - 1.8868477689684369
+  - 2.012366541021038
+  working_directory:
+  - /0/wd/workdir-181
+  - /1/wd/workdir-181
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.2.smt2
+  dsoes_wallclock_time:
+  - 0.747515083
+  - 0.783859742
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-237/stderr.log.txt
+  - /1/wd/workdir-237/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-237/stdout.log.txt
+  - /1/wd/workdir-237/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 0.74
+  - 0.79
+  wallclock_time:
+  - 1.3073352719657123
+  - 1.3530126610421576
+  working_directory:
+  - /0/wd/workdir-237
+  - /1/wd/workdir-237
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.20.smt2
+  dsoes_wallclock_time:
+  - 2.456047486
+  - 2.57390713
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-208/stderr.log.txt
+  - /1/wd/workdir-208/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-208/stdout.log.txt
+  - /1/wd/workdir-208/stdout.log.txt
+  sys_cpu_time:
+  - 0.14
+  - 0.09
+  user_cpu_time:
+  - 2.36
+  - 2.51
+  wallclock_time:
+  - 3.0309705680119805
+  - 3.141184126958251
+  working_directory:
+  - /0/wd/workdir-208
+  - /1/wd/workdir-208
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.25.smt2
+  dsoes_wallclock_time:
+  - 2.535909751
+  - 2.478153824
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-258/stderr.log.txt
+  - /1/wd/workdir-258/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-258/stdout.log.txt
+  - /1/wd/workdir-258/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.09
+  user_cpu_time:
+  - 2.49
+  - 2.43
+  wallclock_time:
+  - 3.1369321569800377
+  - 3.058642874995712
+  working_directory:
+  - /0/wd/workdir-258
+  - /1/wd/workdir-258
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/sqrt.c.5.smt2
+  dsoes_wallclock_time:
+  - 0.679555395
+  - 0.694149038
+  event_tag:
+  - unsat_but_expected_sat
+  - unsat_but_expected_sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unsat
+  - unsat
+  stderr_log_file:
+  - /0/wd/workdir-201/stderr.log.txt
+  - /1/wd/workdir-201/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-201/stdout.log.txt
+  - /1/wd/workdir-201/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 0.66
+  - 0.69
+  wallclock_time:
+  - 1.2717500700382516
+  - 1.2797627809923142
+  working_directory:
+  - /0/wd/workdir-201
+  - /1/wd/workdir-201
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/square_and_power_inverse.smt2
+  dsoes_wallclock_time:
+  - 0.398363873
+  - 0.418800133
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-186/stderr.log.txt
+  - /1/wd/workdir-186/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-186/stdout.log.txt
+  - /1/wd/workdir-186/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.06
+  user_cpu_time:
+  - 0.42
+  - 0.4
+  wallclock_time:
+  - 0.9803337930352427
+  - 1.0105175159987994
+  working_directory:
+  - /0/wd/workdir-186
+  - /1/wd/workdir-186
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr10_c1_s14052.smt2
+  dsoes_wallclock_time:
+  - 0.512209844
+  - 0.571583992
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-255/stderr.log.txt
+  - /1/wd/workdir-255/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-255/stdout.log.txt
+  - /1/wd/workdir-255/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.05
+  user_cpu_time:
+  - 0.49
+  - 0.56
+  wallclock_time:
+  - 1.0576050280360505
+  - 1.149079144001007
+  working_directory:
+  - /0/wd/workdir-255
+  - /1/wd/workdir-255
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr10_c1_s24300.smt2
+  dsoes_wallclock_time:
+  - 0.621082887
+  - 0.645881626
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-158/stderr.log.txt
+  - /1/wd/workdir-158/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-158/stdout.log.txt
+  - /1/wd/workdir-158/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.07
+  user_cpu_time:
+  - 0.6
+  - 0.62
+  wallclock_time:
+  - 1.177981551969424
+  - 1.2414421130088158
+  working_directory:
+  - /0/wd/workdir-158
+  - /1/wd/workdir-158
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr10_c1_s29304.smt2
+  dsoes_wallclock_time:
+  - 0.576635082
+  - 0.590035545
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-155/stderr.log.txt
+  - /1/wd/workdir-155/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-155/stdout.log.txt
+  - /1/wd/workdir-155/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.57
+  - 0.59
+  wallclock_time:
+  - 1.177789817971643
+  - 1.2052386799477972
+  working_directory:
+  - /0/wd/workdir-155
+  - /1/wd/workdir-155
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr1_c1_s10392.smt2
+  dsoes_wallclock_time:
+  - 0.538532675
+  - 0.580822109
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-172/stderr.log.txt
+  - /1/wd/workdir-172/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-172/stdout.log.txt
+  - /1/wd/workdir-172/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 0.53
+  - 0.56
+  wallclock_time:
+  - 1.1554739109706134
+  - 1.1351866270415485
+  working_directory:
+  - /0/wd/workdir-172
+  - /1/wd/workdir-172
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr5_c1_s16641.smt2
+  dsoes_wallclock_time:
+  - 0.481942233
+  - 0.482304343
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-218/stderr.log.txt
+  - /1/wd/workdir-218/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-218/stdout.log.txt
+  - /1/wd/workdir-218/stdout.log.txt
+  sys_cpu_time:
+  - 0.05
+  - 0.04
+  user_cpu_time:
+  - 0.48
+  - 0.49
+  wallclock_time:
+  - 1.064914097019937
+  - 1.0316261959960684
+  working_directory:
+  - /0/wd/workdir-218
+  - /1/wd/workdir-218
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr5_c1_s16867.smt2
+  dsoes_wallclock_time:
+  - 0.485899817
+  - 0.5086637
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-139/stderr.log.txt
+  - /1/wd/workdir-139/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-139/stdout.log.txt
+  - /1/wd/workdir-139/stdout.log.txt
+  sys_cpu_time:
+  - 0.03
+  - 0.04
+  user_cpu_time:
+  - 0.47
+  - 0.51
+  wallclock_time:
+  - 1.111628135025967
+  - 1.0858832210069522
+  working_directory:
+  - /0/wd/workdir-139
+  - /1/wd/workdir-139
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r3_vr5_c1_s26769.smt2
+  dsoes_wallclock_time:
+  - 0.518687976
+  - 0.495148113
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-229/stderr.log.txt
+  - /1/wd/workdir-229/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-229/stdout.log.txt
+  - /1/wd/workdir-229/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 0.52
+  - 0.5
+  wallclock_time:
+  - 1.1106523770140484
+  - 1.084434176038485
+  working_directory:
+  - /0/wd/workdir-229
+  - /1/wd/workdir-229
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v3_r8_vr10_c1_s5590.smt2
+  dsoes_wallclock_time:
+  - 13.530296347
+  - 13.612001475
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-124/stderr.log.txt
+  - /1/wd/workdir-124/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-124/stdout.log.txt
+  - /1/wd/workdir-124/stdout.log.txt
+  sys_cpu_time:
+  - 0.14
+  - 0.14
+  user_cpu_time:
+  - 13.42
+  - 13.49
+  wallclock_time:
+  - 14.099672958021984
+  - 14.184952307026833
+  working_directory:
+  - /0/wd/workdir-124
+  - /1/wd/workdir-124
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r10_vr10_c1_s15708.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-149/stderr.log.txt
+  - /1/wd/workdir-149/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-149/stdout.log.txt
+  - /1/wd/workdir-149/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.5346462589805
+  - 60.56356310698902
+  working_directory:
+  - /0/wd/workdir-149
+  - /1/wd/workdir-149
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r10_vr10_c1_s7608.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-174/stderr.log.txt
+  - /1/wd/workdir-174/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-174/stdout.log.txt
+  - /1/wd/workdir-174/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41303102398524
+  - 60.401269597001374
+  working_directory:
+  - /0/wd/workdir-174
+  - /1/wd/workdir-174
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r10_vr1_c1_s13516.smt2
+  dsoes_wallclock_time:
+  - 5.253280047
+  - 5.460736052
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-128/stderr.log.txt
+  - /1/wd/workdir-128/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-128/stdout.log.txt
+  - /1/wd/workdir-128/stdout.log.txt
+  sys_cpu_time:
+  - 0.11
+  - 0.11
+  user_cpu_time:
+  - 5.16
+  - 5.39
+  wallclock_time:
+  - 5.864227493002545
+  - 6.073010148014873
+  working_directory:
+  - /0/wd/workdir-128
+  - /1/wd/workdir-128
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r10_vr1_c1_s19145.smt2
+  dsoes_wallclock_time:
+  - 8.684857653
+  - 8.779285602
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-120/stderr.log.txt
+  - /1/wd/workdir-120/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-120/stdout.log.txt
+  - /1/wd/workdir-120/stdout.log.txt
+  sys_cpu_time:
+  - 0.13
+  - 0.13
+  user_cpu_time:
+  - 8.6
+  - 8.65
+  wallclock_time:
+  - 9.50388540897984
+  - 9.358067925961222
+  working_directory:
+  - /0/wd/workdir-120
+  - /1/wd/workdir-120
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r10_vr5_c1_s13195.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-210/stderr.log.txt
+  - /1/wd/workdir-210/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-210/stdout.log.txt
+  - /1/wd/workdir-210/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.35191281698644
+  - 60.321482172003016
+  working_directory:
+  - /0/wd/workdir-210
+  - /1/wd/workdir-210
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r10_vr5_c1_s13679.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-121/stderr.log.txt
+  - /1/wd/workdir-121/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-121/stdout.log.txt
+  - /1/wd/workdir-121/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.51069321500836
+  - 60.501639646012336
+  working_directory:
+  - /0/wd/workdir-121
+  - /1/wd/workdir-121
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r15_vr10_c1_s11127.smt2
+  dsoes_wallclock_time:
+  - 0.384139568
+  - 0.384030849
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-203/stderr.log.txt
+  - /1/wd/workdir-203/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-203/stdout.log.txt
+  - /1/wd/workdir-203/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.03
+  user_cpu_time:
+  - 0.38
+  - 0.38
+  wallclock_time:
+  - 0.9889025250449777
+  - 0.9389598080306314
+  working_directory:
+  - /0/wd/workdir-203
+  - /1/wd/workdir-203
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r15_vr10_c1_s14516.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-196/stderr.log.txt
+  - /1/wd/workdir-196/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-196/stdout.log.txt
+  - /1/wd/workdir-196/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.402120404993184
+  - 60.42518951499369
+  working_directory:
+  - /0/wd/workdir-196
+  - /1/wd/workdir-196
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v5_r15_vr10_c1_s25268.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-138/stderr.log.txt
+  - /1/wd/workdir-138/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-138/stdout.log.txt
+  - /1/wd/workdir-138/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.31057894899277
+  - 60.4626465520123
+  working_directory:
+  - /0/wd/workdir-138
+  - /1/wd/workdir-138
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr10_c1_s5379.smt2
+  dsoes_wallclock_time:
+  - 2.183047492
+  - 2.225884942
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-159/stderr.log.txt
+  - /1/wd/workdir-159/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-159/stdout.log.txt
+  - /1/wd/workdir-159/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.04
+  user_cpu_time:
+  - 2.16
+  - 2.22
+  wallclock_time:
+  - 2.7384771479992196
+  - 2.790549836005084
+  working_directory:
+  - /0/wd/workdir-159
+  - /1/wd/workdir-159
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr10_c1_s5996.smt2
+  dsoes_wallclock_time:
+  - 1.063001029
+  - 1.123171327
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-125/stderr.log.txt
+  - /1/wd/workdir-125/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-125/stdout.log.txt
+  - /1/wd/workdir-125/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.05
+  user_cpu_time:
+  - 1.05
+  - 1.1
+  wallclock_time:
+  - 1.6839296650141478
+  - 1.674875856959261
+  working_directory:
+  - /0/wd/workdir-125
+  - /1/wd/workdir-125
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr10_c1_s7194.smt2
+  dsoes_wallclock_time:
+  - 14.826467625
+  - 15.082747152
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-178/stderr.log.txt
+  - /1/wd/workdir-178/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-178/stdout.log.txt
+  - /1/wd/workdir-178/stdout.log.txt
+  sys_cpu_time:
+  - 0.14
+  - 0.18
+  user_cpu_time:
+  - 14.7
+  - 14.91
+  wallclock_time:
+  - 15.427848327963147
+  - 15.67093887302326
+  working_directory:
+  - /0/wd/workdir-178
+  - /1/wd/workdir-178
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr1_c1_s14623.smt2
+  dsoes_wallclock_time:
+  - 4.980220469
+  - 5.070389739
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-246/stderr.log.txt
+  - /1/wd/workdir-246/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-246/stdout.log.txt
+  - /1/wd/workdir-246/stdout.log.txt
+  sys_cpu_time:
+  - 0.1
+  - 0.09
+  user_cpu_time:
+  - 4.91
+  - 5.03
+  wallclock_time:
+  - 5.539230940979905
+  - 5.618968254013453
+  working_directory:
+  - /0/wd/workdir-246
+  - /1/wd/workdir-246
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr1_c1_s15604.smt2
+  dsoes_wallclock_time:
+  - 4.181736605
+  - 4.175689521
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-190/stderr.log.txt
+  - /1/wd/workdir-190/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-190/stdout.log.txt
+  - /1/wd/workdir-190/stdout.log.txt
+  sys_cpu_time:
+  - 0.04
+  - 0.09
+  user_cpu_time:
+  - 4.15
+  - 4.11
+  wallclock_time:
+  - 4.778031728987116
+  - 4.7498359339660965
+  working_directory:
+  - /0/wd/workdir-190
+  - /1/wd/workdir-190
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr1_c1_s16138.smt2
+  dsoes_wallclock_time:
+  - 2.203885482
+  - 2.265340621
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-136/stderr.log.txt
+  - /1/wd/workdir-136/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-136/stdout.log.txt
+  - /1/wd/workdir-136/stdout.log.txt
+  sys_cpu_time:
+  - 0.09
+  - 0.04
+  user_cpu_time:
+  - 2.16
+  - 2.26
+  wallclock_time:
+  - 2.862384986015968
+  - 2.8851789309992455
+  working_directory:
+  - /0/wd/workdir-136
+  - /1/wd/workdir-136
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr5_c1_s24018.smt2
+  dsoes_wallclock_time:
+  - 2.572246823
+  - 2.666244198
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-238/stderr.log.txt
+  - /1/wd/workdir-238/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-238/stdout.log.txt
+  - /1/wd/workdir-238/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.08
+  user_cpu_time:
+  - 2.54
+  - 2.62
+  wallclock_time:
+  - 3.125962096033618
+  - 3.342878448020201
+  working_directory:
+  - /0/wd/workdir-238
+  - /1/wd/workdir-238
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr5_c1_s2800.smt2
+  dsoes_wallclock_time:
+  - 2.982716189
+  - 3.11936436
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-177/stderr.log.txt
+  - /1/wd/workdir-177/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-177/stdout.log.txt
+  - /1/wd/workdir-177/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.06
+  user_cpu_time:
+  - 2.96
+  - 3.1
+  wallclock_time:
+  - 3.5936883660033345
+  - 3.714160526986234
+  working_directory:
+  - /0/wd/workdir-177
+  - /1/wd/workdir-177
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v5_r5_vr5_c1_s9855.smt2
+  dsoes_wallclock_time:
+  - 3.065474825
+  - 3.123623059
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-248/stderr.log.txt
+  - /1/wd/workdir-248/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-248/stdout.log.txt
+  - /1/wd/workdir-248/stdout.log.txt
+  sys_cpu_time:
+  - 0.07
+  - 0.05
+  user_cpu_time:
+  - 3.02
+  - 3.12
+  wallclock_time:
+  - 3.7392847330193035
+  - 3.7217987760086544
+  working_directory:
+  - /0/wd/workdir-248
+  - /1/wd/workdir-248
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr10_c1_s15994.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-240/stderr.log.txt
+  - /1/wd/workdir-240/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-240/stdout.log.txt
+  - /1/wd/workdir-240/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.4024093549815
+  - 60.382937425980344
+  working_directory:
+  - /0/wd/workdir-240
+  - /1/wd/workdir-240
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr10_c1_s18160.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-213/stderr.log.txt
+  - /1/wd/workdir-213/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-213/stdout.log.txt
+  - /1/wd/workdir-213/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.35876803100109
+  - 60.39741379400948
+  working_directory:
+  - /0/wd/workdir-213
+  - /1/wd/workdir-213
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr10_c1_s30410.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-216/stderr.log.txt
+  - /1/wd/workdir-216/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-216/stdout.log.txt
+  - /1/wd/workdir-216/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.34848517400678
+  - 60.40366655000253
+  working_directory:
+  - /0/wd/workdir-216
+  - /1/wd/workdir-216
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr1_c1_s10576.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-205/stderr.log.txt
+  - /1/wd/workdir-205/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-205/stdout.log.txt
+  - /1/wd/workdir-205/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.40737116895616
+  - 60.380008497973904
+  working_directory:
+  - /0/wd/workdir-205
+  - /1/wd/workdir-205
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr1_c1_s22787.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-143/stderr.log.txt
+  - /1/wd/workdir-143/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-143/stdout.log.txt
+  - /1/wd/workdir-143/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.40255687304307
+  - 60.42649880098179
+  working_directory:
+  - /0/wd/workdir-143
+  - /1/wd/workdir-143
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr1_c1_s703.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-227/stderr.log.txt
+  - /1/wd/workdir-227/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-227/stdout.log.txt
+  - /1/wd/workdir-227/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.35389915300766
+  - 60.36705219303258
+  working_directory:
+  - /0/wd/workdir-227
+  - /1/wd/workdir-227
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr5_c1_s14336.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-164/stderr.log.txt
+  - /1/wd/workdir-164/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-164/stdout.log.txt
+  - /1/wd/workdir-164/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.40857146703638
+  - 60.369955989997834
+  working_directory:
+  - /0/wd/workdir-164
+  - /1/wd/workdir-164
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr5_c1_s29826.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-131/stderr.log.txt
+  - /1/wd/workdir-131/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-131/stdout.log.txt
+  - /1/wd/workdir-131/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.391185017011594
+  - 60.366317066014744
+  working_directory:
+  - /0/wd/workdir-131
+  - /1/wd/workdir-131
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r12_vr5_c1_s8938.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-195/stderr.log.txt
+  - /1/wd/workdir-195/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-195/stdout.log.txt
+  - /1/wd/workdir-195/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.39439983398188
+  - 60.36683357495349
+  working_directory:
+  - /0/wd/workdir-195
+  - /1/wd/workdir-195
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr10_c1_s18654.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-168/stderr.log.txt
+  - /1/wd/workdir-168/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-168/stdout.log.txt
+  - /1/wd/workdir-168/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.40924669901142
+  - 60.38826048799092
+  working_directory:
+  - /0/wd/workdir-168
+  - /1/wd/workdir-168
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr10_c1_s3680.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-253/stderr.log.txt
+  - /1/wd/workdir-253/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-253/stdout.log.txt
+  - /1/wd/workdir-253/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.40853742300533
+  - 60.41094755398808
+  working_directory:
+  - /0/wd/workdir-253
+  - /1/wd/workdir-253
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr10_c1_s8773.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-244/stderr.log.txt
+  - /1/wd/workdir-244/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-244/stdout.log.txt
+  - /1/wd/workdir-244/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.38988114398671
+  - 60.4248513969942
+  working_directory:
+  - /0/wd/workdir-244
+  - /1/wd/workdir-244
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr1_c1_s23882.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-141/stderr.log.txt
+  - /1/wd/workdir-141/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-141/stdout.log.txt
+  - /1/wd/workdir-141/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41840764001245
+  - 60.437724052986596
+  working_directory:
+  - /0/wd/workdir-141
+  - /1/wd/workdir-141
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr1_c1_s24331.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-191/stderr.log.txt
+  - /1/wd/workdir-191/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-191/stdout.log.txt
+  - /1/wd/workdir-191/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.41183913400164
+  - 60.418105720949825
+  working_directory:
+  - /0/wd/workdir-191
+  - /1/wd/workdir-191
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr1_c1_s30331.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-123/stderr.log.txt
+  - /1/wd/workdir-123/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-123/stdout.log.txt
+  - /1/wd/workdir-123/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.38923045701813
+  - 60.3519581379951
+  working_directory:
+  - /0/wd/workdir-123
+  - /1/wd/workdir-123
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr5_c1_s25451.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-173/stderr.log.txt
+  - /1/wd/workdir-173/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-173/stdout.log.txt
+  - /1/wd/workdir-173/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.386923801968805
+  - 60.34873276302824
+  working_directory:
+  - /0/wd/workdir-173
+  - /1/wd/workdir-173
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr5_c1_s2807.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-202/stderr.log.txt
+  - /1/wd/workdir-202/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-202/stdout.log.txt
+  - /1/wd/workdir-202/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.37385457003256
+  - 60.40120122599183
+  working_directory:
+  - /0/wd/workdir-202
+  - /1/wd/workdir-202
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r17_vr5_c1_s4772.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-207/stderr.log.txt
+  - /1/wd/workdir-207/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-207/stdout.log.txt
+  - /1/wd/workdir-207/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.39835182199022
+  - 60.39242657099385
+  working_directory:
+  - /0/wd/workdir-207
+  - /1/wd/workdir-207
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r7_vr10_c1_s10625.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-226/stderr.log.txt
+  - /1/wd/workdir-226/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-226/stdout.log.txt
+  - /1/wd/workdir-226/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.38898796401918
+  - 60.38333361200057
+  working_directory:
+  - /0/wd/workdir-226
+  - /1/wd/workdir-226
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v7_r7_vr10_c1_s24535.smt2
+  dsoes_wallclock_time:
+  - 4.380815595
+  - 4.36938883
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-184/stderr.log.txt
+  - /1/wd/workdir-184/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-184/stdout.log.txt
+  - /1/wd/workdir-184/stdout.log.txt
+  sys_cpu_time:
+  - 0.15
+  - 0.09
+  user_cpu_time:
+  - 4.26
+  - 4.32
+  wallclock_time:
+  - 5.031408874958288
+  - 4.99809676600853
+  working_directory:
+  - /0/wd/workdir-184
+  - /1/wd/workdir-184
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v7_r7_vr10_c1_s32506.smt2
+  dsoes_wallclock_time:
+  - 48.896380859
+  - 49.08307079
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-223/stderr.log.txt
+  - /1/wd/workdir-223/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-223/stdout.log.txt
+  - /1/wd/workdir-223/stdout.log.txt
+  sys_cpu_time:
+  - 0.42
+  - 0.39
+  user_cpu_time:
+  - 48.42
+  - 48.62
+  wallclock_time:
+  - 49.48188979900442
+  - 49.611268061969895
+  working_directory:
+  - /0/wd/workdir-223
+  - /1/wd/workdir-223
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v7_r7_vr1_c1_s22845.smt2
+  dsoes_wallclock_time:
+  - 4.859985358
+  - 4.920271964
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-264/stderr.log.txt
+  - /1/wd/workdir-264/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-264/stdout.log.txt
+  - /1/wd/workdir-264/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.04
+  user_cpu_time:
+  - 4.83
+  - 4.92
+  wallclock_time:
+  - 5.426809796015732
+  - 5.461509606044274
+  working_directory:
+  - /0/wd/workdir-264
+  - /1/wd/workdir-264
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r7_vr1_c1_s24449.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-185/stderr.log.txt
+  - /1/wd/workdir-185/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-185/stdout.log.txt
+  - /1/wd/workdir-185/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.38629649800714
+  - 60.418007335974835
+  working_directory:
+  - /0/wd/workdir-185
+  - /1/wd/workdir-185
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r7_vr1_c1_s4574.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-214/stderr.log.txt
+  - /1/wd/workdir-214/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-214/stdout.log.txt
+  - /1/wd/workdir-214/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.42270615894813
+  - 60.36057854403043
+  working_directory:
+  - /0/wd/workdir-214
+  - /1/wd/workdir-214
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v7_r7_vr5_c1_s14675.smt2
+  dsoes_wallclock_time:
+  - 27.826355893
+  - 27.82659501
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-182/stderr.log.txt
+  - /1/wd/workdir-182/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-182/stdout.log.txt
+  - /1/wd/workdir-182/stdout.log.txt
+  sys_cpu_time:
+  - 0.32
+  - 0.41
+  user_cpu_time:
+  - 27.43
+  - 27.36
+  wallclock_time:
+  - 28.369270285998937
+  - 28.38890524499584
+  working_directory:
+  - /0/wd/workdir-182
+  - /1/wd/workdir-182
+- backend_timeout:
+  - true
+  - true
+  benchmark: griggio/fmcad12/test_v7_r7_vr5_c1_s19694.smt2
+  dsoes_wallclock_time:
+  - null
+  - null
+  event_tag:
+  - timeout
+  - timeout
+  exit_code:
+  - null
+  - null
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - unknown
+  - unknown
+  stderr_log_file:
+  - /0/wd/workdir-252/stderr.log.txt
+  - /1/wd/workdir-252/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-252/stdout.log.txt
+  - /1/wd/workdir-252/stdout.log.txt
+  sys_cpu_time:
+  - null
+  - null
+  user_cpu_time:
+  - null
+  - null
+  wallclock_time:
+  - 60.35290093399817
+  - 60.4001975049614
+  working_directory:
+  - /0/wd/workdir-252
+  - /1/wd/workdir-252
+- backend_timeout:
+  - false
+  - false
+  benchmark: griggio/fmcad12/test_v7_r7_vr5_c1_s3582.smt2
+  dsoes_wallclock_time:
+  - 5.11269085
+  - 5.24229176
+  event_tag:
+  - sat
+  - sat
+  exit_code:
+  - 0
+  - 0
+  expected_sat: sat
+  is_trivial: false
+  out_of_memory:
+  - false
+  - false
+  sat:
+  - sat
+  - sat
+  stderr_log_file:
+  - /0/wd/workdir-222/stderr.log.txt
+  - /1/wd/workdir-222/stderr.log.txt
+  stdout_log_file:
+  - /0/wd/workdir-222/stdout.log.txt
+  - /1/wd/workdir-222/stdout.log.txt
+  sys_cpu_time:
+  - 0.06
+  - 0.07
+  user_cpu_time:
+  - 5.09
+  - 5.21
+  wallclock_time:
+  - 5.678965784027241
+  - 5.81084433500655
+  working_directory:
+  - /0/wd/workdir-222
+  - /1/wd/workdir-222
+schema_version: 0

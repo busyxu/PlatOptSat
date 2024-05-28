@@ -13,18 +13,18 @@ class goSATException(Exception):
         self.msg = msg
 
 
-class goSAT(RunnerBaseClass):
+class optSAT(RunnerBaseClass):
     def __init__(self, invocationInfo, workingDirectory, rc, ctx):
         # pylint: disable=too-many-branches
         _logger.debug('Initialising {}'.format(invocationInfo['benchmark']))
-        super(goSAT, self).__init__(invocationInfo, workingDirectory, rc, ctx)
+        super(optSAT, self).__init__(invocationInfo, workingDirectory, rc, ctx)
 
     @property
     def name(self):
-        return "goSAT"
+        return "optSAT"
 
     def getResults(self):
-        r = super(goSAT, self).getResults()
+        r = super(optSAT, self).getResults()
         return r
 
     def run(self):
@@ -39,4 +39,4 @@ class goSAT(RunnerBaseClass):
         if backendResult.outOfTime:
             _logger.warning('Hard timeout hit')
 def get():
-    return goSAT
+    return optSAT
