@@ -3,7 +3,10 @@ import yaml
 
 def find_smt2_files(directory):
     smt2_files = []
-    for root, _, files in os.walk(directory):
+    for root, dirs, files in os.walk(directory):
+
+        dirs[:] = [d for d in dirs if d not in exclude_dirs]
+
         for file in files:
             if file.endswith('.smt2'):
                 file_path = os.path.relpath(os.path.join(root, file), start=directory)
@@ -29,6 +32,7 @@ def write_to_yaml(file_list, output_file):
 # Replace 'nounsat_QF_FP' with the path to your directory
 source_directory = '/home/aaa/PlatOptSat/data/benchmarks/nounsat_QF_FP'
 output_yaml_file = 'QF_FP_final_2.yml'
+exclude_dirs = ['ramalho', 'schanda', 'witersteiger']
 
 smt2_files = find_smt2_files(source_directory)
 write_to_yaml(smt2_files, output_yaml_file)

@@ -22,3 +22,10 @@ to the Colibri solver not being able to parse many of the benchmarks in the
 ## QF_FP
 
 Quantifier free floating-point. These are in the `QF_FP` directory.
+
+## selected_smtlib2
+
+Program benchmark needs to be decompressed.
+```
+unrar x selected_smtlib2.rar
+```
