@@ -37,10 +37,9 @@ fi
 # Benchmark sets to use.
 # See `get_invocation_info()` for valid benchmark sets.
 #bsets=(qf_fp qf_bvfp qf_bv)
-#bsets=(qf_fp qf_bvfp qf_program_bfs)
+#bsets=(qf_fp qf_bvfp program_qf_fp)
 #bsets=(qf_fp)
-#bsets=(qf_fp qf_program_bfs)
-#bsets=(qf_program_bfs)
+#bsets=(qf_fp program_qf_fp)
 #bsets=(qf_bvfp)
 #bsets=(QF_FP_20170501-Heizmann-UltimateAutomizer \
 #        QF_FP_20190429-UltimateAutomizerSvcomp2019 \
@@ -49,7 +48,8 @@ fi
 #        QF_FP_griggio \
 #        QF_FP_ramalho \
 #        QF_FP_schanda)
-bsets=(QF_FP_final)
+#bsets=(smtlib_qf_fp)
+bsets=(program_qf_fp)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
@@ -59,7 +59,8 @@ ns=(0 1 2 3)
 
 SCRIPT_DIR="$( cd ${BASH_SOURCE[0]%/*} ; echo $PWD )"
 #INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling"
-INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP"
+#INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks/smtlib_qf_fp"
+INVOCATIONS_DIR="${SCRIPT_DIR}/../benchmarks"
 
 # NOTE: We use more generic configurations for experiment reproduction.
 # The commented out path points to the solver configurations actually used for experiments.
@@ -83,10 +84,16 @@ MERGED_DIR="${SCRIPT_DIR}/merged${RUNS_DIR_SUFFIX}"
 function get_benchmark_base() {
   bset="$1"
 #  base_dir="${SCRIPT_DIR}/../benchmarks/3-stratified-random-sampling/benchmarks/"
-   base_dir="${SCRIPT_DIR}/../benchmarks/nounsat_QF_FP/"
+   base_dir="${SCRIPT_DIR}/../benchmarks"
    case "${bset}" in
-     qf_fp|qf_bv|qf_program_bfs|QF_FP_*)
+     qf_fp|qf_bv|QF_FP_*)
        echo "${base_dir}"
+     ;;
+     program_qf_fp)
+       echo "${base_dir}/program_qf_fp"
+     ;;
+     smtlib_qf_fp)
+       echo "${base_dir}/smtlib_qf_fp"
      ;;
      qf_bvfp)
        # We used a patched set to workaround bugs in Colibri's SMT-LIB parser
@@ -112,8 +119,8 @@ function get_invocation_info() {
     qf_bv)
       echo "${INVOCATIONS_DIR}/qf_bv_filtered_final_ii.yml"
     ;;
-    qf_program_bfs)
-      echo "${INVOCATIONS_DIR}/qf_program_filtered_final.yml"
+    program_qf_fp)
+      echo "${INVOCATIONS_DIR}/program_qf_fp/program_filtered_final.yml"
     ;;
     QF_FP_20170501-Heizmann-UltimateAutomizer)
         echo "${INVOCATIONS_DIR}/QF_FP_20170501-Heizmann-UltimateAutomizer.yml"
@@ -136,8 +143,8 @@ function get_invocation_info() {
     QF_FP_schanda)
         echo "${INVOCATIONS_DIR}/QF_FP_schanda.yml"
       ;;
-    QF_FP_final)
-        echo "${INVOCATIONS_DIR}/QF_FP_final_2.yml"
+    smtlib_qf_fp)
+        echo "${INVOCATIONS_DIR}/smtlib_qf_fp/smtlib_qf_fp.yml"
       ;;
     *)
       echo "Unrecognised bset \"${bset}\""
@@ -170,7 +177,7 @@ function get_solver_config() {
         qf_bv)
           echo "${CONFIG_ROOT}/mathsat5_qf_bv_docker_generic.yml"
         ;;
-        qf_bvfp|qf_fp|qf_program_bfs|QF_FP_*)
+        qf_bvfp|qf_fp|program_qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/mathsat5_qf_fp_qf_bvfp_docker_generic.yml"
         ;;
         *)
@@ -209,11 +216,11 @@ function get_solver_config() {
     ;;
     xsat)
       case "${bset}" in
-        qf_bv|qf_bvfp|qf_program_bfs)
+        qf_bv|qf_bvfp|program_qf_fp)
           # Not supported by XSat.
           echo "SKIP"
         ;;
-        qf_fp|QF_FP_*)
+        qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/xsat_docker_generic.yml"
         ;;
         *)
@@ -227,7 +234,7 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+        qf_fp|qf_bvfp|program_qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/gosat_docker_generic.yml"
         ;;
         *)
@@ -241,7 +248,7 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+        qf_fp|qf_bvfp|program_qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/optsat_docker_generic.yml"
         ;;
         *)
@@ -255,7 +262,7 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+        qf_fp|qf_bvfp|program_qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/ol1v3r_docker_generic.yml"
         ;;
         *)
@@ -269,7 +276,7 @@ function get_solver_config() {
           # Not supported by goSAT.
           echo "SKIP"
         ;;
-        qf_fp|qf_bvfp|qf_program_bfs|QF_FP_*)
+        qf_fp|qf_bvfp|program_qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/optsatBitwuzla_docker_generic.yml"
         ;;
         *)
@@ -279,11 +286,11 @@ function get_solver_config() {
     ;;
     coral_pso)
       case "${bset}" in
-        qf_bv|qf_bvfp|qf_program_bfs)
+        qf_bv|qf_bvfp|program_qf_fp)
           # Not supported by Coral.
           echo "SKIP"
         ;;
-        qf_fp|QF_FP_*)
+        qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/coral_pso_docker_generic.yml"
         ;;
         *)
@@ -293,11 +300,11 @@ function get_solver_config() {
     ;;
     coral_avm)
       case "${bset}" in
-        qf_bv|qf_bvfp|qf_program_bfs)
+        qf_bv|qf_bvfp|program_qf_fp)
           # Not supported by Coral.
           echo "SKIP"
         ;;
-        qf_fp|QF_FP_*)
+        qf_fp|smtlib_qf_fp|QF_FP_*)
           echo "${CONFIG_ROOT}/coral_avm_docker_generic.yml"
         ;;
         *)
@@ -350,8 +357,8 @@ function get_solver_name() {
     ol1v3r)
       echo "OL1V3R"
     ;;
-    portfolio_jfs_mathsat5)
-      echo "JFS+MathSAT5"
+    portfolio_optsat_bitwuzla)
+      echo "QSat+Bitwuzla"
     ;;
     *)
       echo "Unrecognised solver \"${1}\""
