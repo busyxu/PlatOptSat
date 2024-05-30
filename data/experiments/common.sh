@@ -53,7 +53,7 @@ bsets=(program_qf_fp)
 
 # List of runs to perform.
 # It is assumed that the list is a list of integers.
-ns=(0 1 2 3)
+ns=(0 1 2 3 4)
 #ns=(0 1)
 #ns=(0)
 
