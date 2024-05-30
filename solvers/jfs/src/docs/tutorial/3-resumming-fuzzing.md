@@ -1,3 +1,0 @@
-# Resumming fuzzing
-
-TODO
