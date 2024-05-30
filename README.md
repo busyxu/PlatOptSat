@@ -1,7 +1,5 @@
 # QSat paper artifact
 
-**NOTE: A version of the paper artifact is also available on [figshare](https://figshare.com/articles/Just_Fuzz_It_Solving_Floating-point_Constraints_Using_Coverage-guided_Fuzzing/8427044).**
-
 This directory contains files that supplement the QSat
 paper by describing our data in more detail.
 
